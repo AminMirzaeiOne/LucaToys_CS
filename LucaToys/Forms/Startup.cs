@@ -6,6 +6,7 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -46,13 +47,16 @@ namespace LucaToys.Forms
 
         private void btnMinimize_Click(object sender, EventArgs e)
         {
-            this.WindowState = FormWindowState.Minimized;
+            this.WindowState = FormWindowState.Minimized
         }
 
         private void Startup_Load(object sender, EventArgs e)
         {
             this.soundPlayer.Stream = soundLocation;
             soundPlayer.Play();
+            
+            
+
         }
     }
 }
