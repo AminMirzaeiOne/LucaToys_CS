@@ -38,6 +38,7 @@
             this.btnMinimize = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -60,6 +61,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.tableLayoutPanel2);
             this.panel1.Controls.Add(this.btnControl);
             this.panel1.Controls.Add(this.btnMinimize);
@@ -91,7 +93,9 @@
             // radioButton3
             // 
             this.radioButton3.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.radioButton3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.radioButton3.FlatAppearance.BorderSize = 0;
             this.radioButton3.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
             this.radioButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.radioButton3.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
@@ -107,7 +111,9 @@
             // radioButton2
             // 
             this.radioButton2.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.radioButton2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.radioButton2.FlatAppearance.BorderSize = 0;
             this.radioButton2.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
             this.radioButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.radioButton2.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
@@ -124,7 +130,9 @@
             // 
             this.radioButton1.Appearance = System.Windows.Forms.Appearance.Button;
             this.radioButton1.Checked = true;
+            this.radioButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.radioButton1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.radioButton1.FlatAppearance.BorderSize = 0;
             this.radioButton1.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
             this.radioButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.radioButton1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
@@ -181,6 +189,7 @@
             this.btnExit.TabIndex = 15;
             this.btnExit.Text = "";
             this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // label1
             // 
@@ -194,6 +203,16 @@
             this.label1.Size = new System.Drawing.Size(494, 36);
             this.label1.TabIndex = 12;
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.Color.Plum;
+            this.label2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.label2.Location = new System.Drawing.Point(0, 526);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(494, 3);
+            this.label2.TabIndex = 17;
+            this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // About
             // 
@@ -225,5 +244,6 @@
         private System.Windows.Forms.Button btnMinimize;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
