@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace LucaToys.Data
 {
-    internal class Constants
+    public class Constants
     {
+        public static LucaToys.Forms.Startup startup = new LucaToys.Forms.Startup();
     }
 }
