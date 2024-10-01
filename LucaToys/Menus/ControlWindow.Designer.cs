@@ -179,6 +179,7 @@
             this.btnExit.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnExit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // btnHelp
             // 
