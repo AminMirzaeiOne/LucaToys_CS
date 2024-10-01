@@ -31,6 +31,7 @@
             this.picLogo = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnExit = new System.Windows.Forms.Button();
+            this.lineProgress = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -67,11 +68,21 @@
             this.btnExit.Text = "";
             this.btnExit.UseVisualStyleBackColor = false;
             // 
+            // lineProgress
+            // 
+            this.lineProgress.BackColor = System.Drawing.Color.Transparent;
+            this.lineProgress.Location = new System.Drawing.Point(204, 346);
+            this.lineProgress.Name = "lineProgress";
+            this.lineProgress.Size = new System.Drawing.Size(380, 18);
+            this.lineProgress.TabIndex = 3;
+            this.lineProgress.Paint += new System.Windows.Forms.PaintEventHandler(this.lineProgress_Paint);
+            // 
             // Startup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.ClientSize = new System.Drawing.Size(800, 500);
+            this.Controls.Add(this.lineProgress);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.picLogo);
@@ -89,5 +100,6 @@
         private System.Windows.Forms.PictureBox picLogo;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Label lineProgress;
     }
 }

@@ -16,5 +16,10 @@ namespace LucaToys.Forms
         {
             InitializeComponent();
         }
+
+        private void lineProgress_Paint(object sender, PaintEventArgs e)
+        {
+            e.Graphics.DrawRectangle(new Pen(Color.Plum, 2), e.ClipRectangle);
+        }
     }
 }
