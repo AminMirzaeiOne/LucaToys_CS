@@ -38,6 +38,7 @@
             this.lblVersion = new System.Windows.Forms.Label();
             this.lblDeveloper = new System.Windows.Forms.Label();
             this.timerProgress = new System.Windows.Forms.Timer(this.components);
+            this.btnMinimize = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -59,7 +60,7 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(800, 35);
+            this.label1.Size = new System.Drawing.Size(800, 36);
             this.label1.TabIndex = 1;
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -70,12 +71,13 @@
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExit.Font = new System.Drawing.Font("Segoe MDL2 Assets", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.ForeColor = System.Drawing.Color.Plum;
-            this.btnExit.Location = new System.Drawing.Point(768, 4);
+            this.btnExit.Location = new System.Drawing.Point(768, 5);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(25, 25);
             this.btnExit.TabIndex = 2;
             this.btnExit.Text = "";
             this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // lineProgress
             // 
@@ -137,6 +139,21 @@
             this.timerProgress.Interval = 20;
             this.timerProgress.Tick += new System.EventHandler(this.timerProgress_Tick);
             // 
+            // btnMinimize
+            // 
+            this.btnMinimize.BackColor = System.Drawing.Color.White;
+            this.btnMinimize.FlatAppearance.BorderSize = 0;
+            this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMinimize.Font = new System.Drawing.Font("Segoe MDL2 Assets", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMinimize.ForeColor = System.Drawing.Color.Plum;
+            this.btnMinimize.Location = new System.Drawing.Point(734, 5);
+            this.btnMinimize.Name = "btnMinimize";
+            this.btnMinimize.Size = new System.Drawing.Size(25, 25);
+            this.btnMinimize.TabIndex = 2;
+            this.btnMinimize.Text = "";
+            this.btnMinimize.UseVisualStyleBackColor = false;
+            this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
+            // 
             // Startup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
@@ -147,6 +164,7 @@
             this.Controls.Add(this.lblVersion);
             this.Controls.Add(this.lblChannel);
             this.Controls.Add(this.lineProgress);
+            this.Controls.Add(this.btnMinimize);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.picLogo);
@@ -170,5 +188,6 @@
         private System.Windows.Forms.Label lblVersion;
         private System.Windows.Forms.Label lblDeveloper;
         private System.Windows.Forms.Timer timerProgress;
+        private System.Windows.Forms.Button btnMinimize;
     }
 }
