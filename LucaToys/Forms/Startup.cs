@@ -21,7 +21,8 @@ namespace LucaToys.Forms
 
         private System.IO.MemoryStream soundLocation = new MemoryStream(Properties.Sounds.CSSound);
         private System.Media.SoundPlayer soundPlayer = new System.Media.SoundPlayer();
-
+        private bool mouseDown;
+        private Point lastLocation;
 
         private void lineProgress_Paint(object sender, PaintEventArgs e)
         {
@@ -47,7 +48,7 @@ namespace LucaToys.Forms
 
         private void btnMinimize_Click(object sender, EventArgs e)
         {
-            this.WindowState = FormWindowState.Minimized
+            this.WindowState = FormWindowState.Minimized;
         }
 
         private void Startup_Load(object sender, EventArgs e)
@@ -57,6 +58,28 @@ namespace LucaToys.Forms
             
             
 
+        }
+
+        private void label1_MouseUp(object sender, MouseEventArgs e)
+        {
+            this.mouseDown = false;
+        }
+
+        private void label1_MouseDown(object sender, MouseEventArgs e)
+        {
+            this.mouseDown = true;
+            this.lastLocation = e.Location;
+        }
+
+        private void label1_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (this.mouseDown == true)
+            {
+                this.Location = new Point(
+                (this.Location.X - this.lastLocation.X) + e.X, (this.Location.Y - this.lastLocation.Y) + e.Y);
+
+                this.Update();
+            }
         }
     }
 }

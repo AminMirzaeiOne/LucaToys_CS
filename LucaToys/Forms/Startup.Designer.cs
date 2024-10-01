@@ -56,9 +56,9 @@
             // 
             // btnMinimize
             // 
-            resources.ApplyResources(this.btnMinimize, "btnMinimize");
             this.btnMinimize.BackColor = System.Drawing.Color.White;
             this.btnMinimize.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.btnMinimize, "btnMinimize");
             this.btnMinimize.ForeColor = System.Drawing.Color.Plum;
             this.btnMinimize.Name = "btnMinimize";
             this.toolTip1.SetToolTip(this.btnMinimize, resources.GetString("btnMinimize.ToolTip"));
@@ -67,9 +67,9 @@
             // 
             // btnExit
             // 
-            resources.ApplyResources(this.btnExit, "btnExit");
             this.btnExit.BackColor = System.Drawing.Color.White;
             this.btnExit.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.btnExit, "btnExit");
             this.btnExit.ForeColor = System.Drawing.Color.Plum;
             this.btnExit.Name = "btnExit";
             this.toolTip1.SetToolTip(this.btnExit, resources.GetString("btnExit.ToolTip"));
@@ -78,16 +78,15 @@
             // 
             // tableLayoutPanel1
             // 
-            resources.ApplyResources(this.tableLayoutPanel1, "tableLayoutPanel1");
             this.tableLayoutPanel1.BackColor = System.Drawing.Color.Plum;
+            resources.ApplyResources(this.tableLayoutPanel1, "tableLayoutPanel1");
             this.tableLayoutPanel1.Controls.Add(this.panel1, 0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.toolTip1.SetToolTip(this.tableLayoutPanel1, resources.GetString("tableLayoutPanel1.ToolTip"));
             // 
             // panel1
             // 
-            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.BackgroundImage = global::LucaToys.Properties.Resources.MainBackground;
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Controls.Add(this.makeProgress);
             this.panel1.Controls.Add(this.lblDeveloper);
             this.panel1.Controls.Add(this.lblVersion);
@@ -98,63 +97,58 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.picLogo);
             this.panel1.Name = "panel1";
-            this.toolTip1.SetToolTip(this.panel1, resources.GetString("panel1.ToolTip"));
             // 
             // makeProgress
             // 
-            resources.ApplyResources(this.makeProgress, "makeProgress");
             this.makeProgress.BackColor = System.Drawing.Color.Plum;
+            resources.ApplyResources(this.makeProgress, "makeProgress");
             this.makeProgress.Name = "makeProgress";
-            this.toolTip1.SetToolTip(this.makeProgress, resources.GetString("makeProgress.ToolTip"));
             // 
             // lblDeveloper
             // 
-            resources.ApplyResources(this.lblDeveloper, "lblDeveloper");
             this.lblDeveloper.BackColor = System.Drawing.Color.Plum;
+            resources.ApplyResources(this.lblDeveloper, "lblDeveloper");
             this.lblDeveloper.ForeColor = System.Drawing.Color.White;
             this.lblDeveloper.Name = "lblDeveloper";
-            this.toolTip1.SetToolTip(this.lblDeveloper, resources.GetString("lblDeveloper.ToolTip"));
             // 
             // lblVersion
             // 
-            resources.ApplyResources(this.lblVersion, "lblVersion");
             this.lblVersion.BackColor = System.Drawing.Color.Plum;
+            resources.ApplyResources(this.lblVersion, "lblVersion");
             this.lblVersion.ForeColor = System.Drawing.Color.White;
             this.lblVersion.Name = "lblVersion";
-            this.toolTip1.SetToolTip(this.lblVersion, resources.GetString("lblVersion.ToolTip"));
             // 
             // lblChannel
             // 
-            resources.ApplyResources(this.lblChannel, "lblChannel");
             this.lblChannel.BackColor = System.Drawing.Color.Plum;
+            resources.ApplyResources(this.lblChannel, "lblChannel");
             this.lblChannel.ForeColor = System.Drawing.Color.White;
             this.lblChannel.Name = "lblChannel";
-            this.toolTip1.SetToolTip(this.lblChannel, resources.GetString("lblChannel.ToolTip"));
             // 
             // lineProgress
             // 
-            resources.ApplyResources(this.lineProgress, "lineProgress");
             this.lineProgress.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.lineProgress, "lineProgress");
             this.lineProgress.Name = "lineProgress";
-            this.toolTip1.SetToolTip(this.lineProgress, resources.GetString("lineProgress.ToolTip"));
             this.lineProgress.Paint += new System.Windows.Forms.PaintEventHandler(this.lineProgress_Paint);
             // 
             // label1
             // 
-            resources.ApplyResources(this.label1, "label1");
             this.label1.BackColor = System.Drawing.Color.Plum;
+            resources.ApplyResources(this.label1, "label1");
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Name = "label1";
-            this.toolTip1.SetToolTip(this.label1, resources.GetString("label1.ToolTip"));
+            this.label1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.label1_MouseDown);
+            this.label1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label1_MouseMove);
+            this.label1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.label1_MouseUp);
             // 
             // picLogo
             // 
-            resources.ApplyResources(this.picLogo, "picLogo");
             this.picLogo.BackColor = System.Drawing.Color.Transparent;
             this.picLogo.Image = global::LucaToys.Properties.Resources.LucaLogo;
+            resources.ApplyResources(this.picLogo, "picLogo");
             this.picLogo.Name = "picLogo";
             this.picLogo.TabStop = false;
-            this.toolTip1.SetToolTip(this.picLogo, resources.GetString("picLogo.ToolTip"));
             // 
             // Startup
             // 
@@ -164,7 +158,6 @@
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Startup";
-            this.toolTip1.SetToolTip(this, resources.GetString("$this.ToolTip"));
             this.Load += new System.EventHandler(this.Startup_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
