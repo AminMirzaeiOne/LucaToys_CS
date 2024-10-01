@@ -75,6 +75,7 @@
     <Folder Include="Data\" />
     <Folder Include="Forms\" />
     <Folder Include="Logic\" />
+    <Folder Include="Pages\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
