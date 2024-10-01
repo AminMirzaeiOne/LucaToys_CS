@@ -77,6 +77,12 @@
     <Compile Include="Pages\DeveloperPage.Designer.cs">
       <DependentUpon>DeveloperPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\FeedbackPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\FeedbackPage.Designer.cs">
+      <DependentUpon>FeedbackPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pages\VersionPage.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -113,6 +119,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\DeveloperPage.resx">
       <DependentUpon>DeveloperPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\FeedbackPage.resx">
+      <DependentUpon>FeedbackPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\VersionPage.fa.resx">
       <DependentUpon>VersionPage.cs</DependentUpon>
