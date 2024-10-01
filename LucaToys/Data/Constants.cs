@@ -9,5 +9,6 @@ namespace LucaToys.Data
     public static class Constants
     {
         public static LucaToys.Forms.Startup startup;
+        public static LucaToys.Forms.About about;
     }
 }
