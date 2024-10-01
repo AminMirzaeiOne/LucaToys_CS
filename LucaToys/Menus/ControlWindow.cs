@@ -45,6 +45,8 @@ namespace LucaToys.Menus
         [Category("Buttons Enable")]
         public System.Boolean RestartEnable { get { return this.btnRestart.Enabled; } set { this.btnRestart.Enabled = value; } }
 
+        public System.Windows.Forms.Form Window { get; set; }
+
         private void btnExit_Click(object sender, EventArgs e)
         {
             System.Windows.Forms.Application.Exit();
@@ -53,6 +55,40 @@ namespace LucaToys.Menus
         private void btnRestart_Click(object sender, EventArgs e)
         {
             System.Windows.Forms.Application.Restart();
+        }
+
+        private void btnAbout_Click(object sender, EventArgs e)
+        {
+            LucaToys.Forms.About about = new Forms.About();
+            about.ShowDialog();
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            if (this.Window != null)
+                this.Window.Close();
+        }
+
+        private void btnMaxRes_Click(object sender, EventArgs e)
+        {
+            if (this.Window != null)
+            {
+                if (this.Window.WindowState == FormWindowState.Normal)
+                {
+                    this.Window.WindowState = FormWindowState.Maximized;
+                }
+                else if (this.Window.WindowState == FormWindowState.Maximized)
+                {
+                    this.Window.WindowState = FormWindowState.Normal;
+                }
+            }
+
+        }
+
+        private void btnMinimize_Click(object sender, EventArgs e)
+        {
+            if (this.Window != null)
+                this.Window.WindowState = FormWindowState.Minimized;
         }
     }
 }

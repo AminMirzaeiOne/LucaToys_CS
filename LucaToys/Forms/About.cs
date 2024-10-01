@@ -16,6 +16,8 @@ namespace LucaToys.Forms
         public About()
         {
             InitializeComponent();
+            this.controlWindow.AboutEnable = false;
+            this.controlWindow.Window = this;
             xTool = new XDropDown.XToolStripDropDown(this.controlWindow);
         }
         XDropDown.XToolStripDropDown xTool;
