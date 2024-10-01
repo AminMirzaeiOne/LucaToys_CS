@@ -39,6 +39,7 @@
             this.lblDeveloper = new System.Windows.Forms.Label();
             this.timerProgress = new System.Windows.Forms.Timer(this.components);
             this.btnMinimize = new System.Windows.Forms.Button();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -76,6 +77,7 @@
             this.btnExit.Size = new System.Drawing.Size(25, 25);
             this.btnExit.TabIndex = 2;
             this.btnExit.Text = "";
+            this.toolTip1.SetToolTip(this.btnExit, "بستن برنامه");
             this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
@@ -151,6 +153,7 @@
             this.btnMinimize.Size = new System.Drawing.Size(25, 25);
             this.btnMinimize.TabIndex = 2;
             this.btnMinimize.Text = "";
+            this.toolTip1.SetToolTip(this.btnMinimize, "کوچک نمایی");
             this.btnMinimize.UseVisualStyleBackColor = false;
             this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
             // 
@@ -189,5 +192,6 @@
         private System.Windows.Forms.Label lblDeveloper;
         private System.Windows.Forms.Timer timerProgress;
         private System.Windows.Forms.Button btnMinimize;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }
