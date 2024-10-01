@@ -32,6 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(About));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
@@ -42,7 +43,6 @@
             this.btnExit = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.panel2 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -68,6 +68,13 @@
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Transparent;
+            this.panel2.BackgroundImage = global::LucaToys.Properties.Resources.MainBackground;
+            resources.ApplyResources(this.panel2, "panel2");
+            this.panel2.Name = "panel2";
+            // 
             // label2
             // 
             this.label2.BackColor = System.Drawing.Color.Plum;
@@ -91,6 +98,7 @@
             this.radioButton3.ForeColor = System.Drawing.Color.Black;
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.UseVisualStyleBackColor = true;
+            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
             // 
             // radioButton2
             // 
@@ -158,13 +166,6 @@
             this.label1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.label1_MouseDown);
             this.label1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label1_MouseMove);
             this.label1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.label1_MouseUp);
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.Transparent;
-            this.panel2.BackgroundImage = global::LucaToys.Properties.Resources.MainBackground;
-            resources.ApplyResources(this.panel2, "panel2");
-            this.panel2.Name = "panel2";
             // 
             // About
             // 

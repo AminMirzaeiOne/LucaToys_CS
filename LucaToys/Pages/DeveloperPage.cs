@@ -16,5 +16,16 @@ namespace LucaToys.Pages
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/AminMirzaeiOne");
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.instagram.com/amin.reals/");
+
+        }
     }
 }

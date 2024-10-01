@@ -38,33 +38,37 @@
             // 
             // label2
             // 
-            resources.ApplyResources(this.label2, "label2");
             this.label2.BackColor = System.Drawing.Color.Plum;
+            this.label2.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.label2, "label2");
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Image = global::LucaToys.Properties.Resources.icons8_instagram_48__1_;
             this.label2.Name = "label2";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 
-            resources.ApplyResources(this.label1, "label1");
             this.label1.BackColor = System.Drawing.Color.Plum;
+            this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.label1, "label1");
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Image = global::LucaToys.Properties.Resources.icons8_github_48__1_;
             this.label1.Name = "label1";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // lblChannel
             // 
-            resources.ApplyResources(this.lblChannel, "lblChannel");
             this.lblChannel.BackColor = System.Drawing.Color.Plum;
+            resources.ApplyResources(this.lblChannel, "lblChannel");
             this.lblChannel.ForeColor = System.Drawing.Color.White;
             this.lblChannel.Image = global::LucaToys.Properties.Resources.icons8_name_48;
             this.lblChannel.Name = "lblChannel";
             // 
             // pictureBox1
             // 
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox1.Image = global::LucaToys.Properties.Resources.NewProfile;
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
             // 

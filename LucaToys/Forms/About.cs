@@ -20,14 +20,17 @@ namespace LucaToys.Forms
             this.controlWindow.Window = this;
             this.panel2.Controls.Add(this.versionPage);
             this.panel2.Controls.Add(this.developerPage);
+            this.panel2.Controls.Add(this.feedbackPage);
             this.versionPage.Dock = DockStyle.Fill;
             this.developerPage.Dock = DockStyle.Fill;
+            this.feedbackPage.Dock = DockStyle.Fill;
             xTool = new XDropDown.XToolStripDropDown(this.controlWindow);
             
         }
         XDropDown.XToolStripDropDown xTool;
         LucaToys.Pages.VersionPage versionPage = new Pages.VersionPage();
         LucaToys.Pages.DeveloperPage developerPage = new Pages.DeveloperPage();
+        LucaToys.Pages.FeedbackPage feedbackPage = new Pages.FeedbackPage();
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -81,6 +84,12 @@ namespace LucaToys.Forms
         {
             if (this.radioButton2.Checked)
                 this.developerPage.BringToFront();
+        }
+
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.radioButton3.Checked)
+                this.feedbackPage.BringToFront();
         }
     }
 }
