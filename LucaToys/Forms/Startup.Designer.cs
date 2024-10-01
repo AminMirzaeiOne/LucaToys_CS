@@ -32,6 +32,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnExit = new System.Windows.Forms.Button();
             this.lineProgress = new System.Windows.Forms.Label();
+            this.makeProgress = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -77,11 +78,21 @@
             this.lineProgress.TabIndex = 3;
             this.lineProgress.Paint += new System.Windows.Forms.PaintEventHandler(this.lineProgress_Paint);
             // 
+            // makeProgress
+            // 
+            this.makeProgress.BackColor = System.Drawing.Color.Plum;
+            this.makeProgress.Location = new System.Drawing.Point(204, 346);
+            this.makeProgress.Name = "makeProgress";
+            this.makeProgress.Size = new System.Drawing.Size(10, 18);
+            this.makeProgress.TabIndex = 3;
+            this.makeProgress.Paint += new System.Windows.Forms.PaintEventHandler(this.lineProgress_Paint);
+            // 
             // Startup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.ClientSize = new System.Drawing.Size(800, 500);
+            this.Controls.Add(this.makeProgress);
             this.Controls.Add(this.lineProgress);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.label1);
@@ -101,5 +112,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Label lineProgress;
+        private System.Windows.Forms.Label makeProgress;
     }
 }
