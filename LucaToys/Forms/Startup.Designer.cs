@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.picLogo = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnExit = new System.Windows.Forms.Button();
@@ -36,6 +37,7 @@
             this.lblChannel = new System.Windows.Forms.Label();
             this.lblVersion = new System.Windows.Forms.Label();
             this.lblDeveloper = new System.Windows.Forms.Label();
+            this.timerProgress = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -161,5 +163,6 @@
         private System.Windows.Forms.Label lblChannel;
         private System.Windows.Forms.Label lblVersion;
         private System.Windows.Forms.Label lblDeveloper;
+        private System.Windows.Forms.Timer timerProgress;
     }
 }
