@@ -91,7 +91,7 @@
             this.makeProgress.BackColor = System.Drawing.Color.Plum;
             this.makeProgress.Location = new System.Drawing.Point(204, 346);
             this.makeProgress.Name = "makeProgress";
-            this.makeProgress.Size = new System.Drawing.Size(10, 18);
+            this.makeProgress.Size = new System.Drawing.Size(0, 18);
             this.makeProgress.TabIndex = 3;
             this.makeProgress.Paint += new System.Windows.Forms.PaintEventHandler(this.lineProgress_Paint);
             // 
@@ -130,6 +130,12 @@
             this.lblDeveloper.TabIndex = 3;
             this.lblDeveloper.Text = "From : Amin Mirzaei";
             this.lblDeveloper.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // timerProgress
+            // 
+            this.timerProgress.Enabled = true;
+            this.timerProgress.Interval = 20;
+            this.timerProgress.Tick += new System.EventHandler(this.timerProgress_Tick);
             // 
             // Startup
             // 

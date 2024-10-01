@@ -21,5 +21,17 @@ namespace LucaToys.Forms
         {
             e.Graphics.DrawRectangle(new Pen(Color.Plum, 2), e.ClipRectangle);
         }
+
+        private void timerProgress_Tick(object sender, EventArgs e)
+        {
+            if (this.makeProgress.Size.Width < this.lineProgress.Size.Width)
+            {
+                this.makeProgress.Size = new Size(this.makeProgress.Size.Width + 5, this.makeProgress.Size.Height);
+            }
+            else
+            {
+                this.timerProgress.Stop();
+            }
+        }
     }
 }
