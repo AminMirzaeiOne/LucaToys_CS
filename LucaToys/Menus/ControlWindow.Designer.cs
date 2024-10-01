@@ -113,6 +113,7 @@
             this.btnRestart.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnRestart.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnRestart.UseVisualStyleBackColor = false;
+            this.btnRestart.Click += new System.EventHandler(this.btnRestart_Click);
             // 
             // btnAbout
             // 

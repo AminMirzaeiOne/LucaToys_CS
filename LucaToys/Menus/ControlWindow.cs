@@ -21,5 +21,10 @@ namespace LucaToys.Menus
         {
             System.Windows.Forms.Application.Exit();
         }
+
+        private void btnRestart_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Application.Restart();
+        }
     }
 }
