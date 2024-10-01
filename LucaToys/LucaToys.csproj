@@ -49,7 +49,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controls\LTButton.cs" />
+    <Compile Include="Controls\LTButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Data\Constants.cs" />
     <Compile Include="Forms\About.cs">
       <SubType>Form</SubType>
