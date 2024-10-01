@@ -16,7 +16,8 @@ namespace LucaToys
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LucaToys.Forms.Startup());
+            LucaToys.Data.Constants.startup = new Forms.Startup();
+            Application.Run(LucaToys.Data.Constants.startup);
         }
     }
 }
