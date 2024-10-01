@@ -59,11 +59,11 @@
     <Compile Include="Forms\Startup.Designer.cs">
       <DependentUpon>Startup.cs</DependentUpon>
     </Compile>
-    <Compile Include="Menus\AboutMenus.cs">
+    <Compile Include="Menus\ControlWindow.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Menus\AboutMenus.Designer.cs">
-      <DependentUpon>AboutMenus.cs</DependentUpon>
+    <Compile Include="Menus\ControlWindow.Designer.cs">
+      <DependentUpon>ControlWindow.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -80,6 +80,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Startup.resx">
       <DependentUpon>Startup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menus\ControlWindow.resx">
+      <DependentUpon>ControlWindow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

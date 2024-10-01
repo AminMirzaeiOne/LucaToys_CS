@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace LucaToys.Menus
 {
-    public partial class AboutMenus : UserControl
+    public partial class ControlWindow : UserControl
     {
-        public AboutMenus()
+        public ControlWindow()
         {
             InitializeComponent();
         }
