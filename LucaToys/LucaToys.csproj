@@ -102,6 +102,9 @@
     <EmbeddedResource Include="Menus\ControlWindow.resx">
       <DependentUpon>ControlWindow.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pages\VersionPage.fa.resx">
+      <DependentUpon>VersionPage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Pages\VersionPage.resx">
       <DependentUpon>VersionPage.cs</DependentUpon>
     </EmbeddedResource>

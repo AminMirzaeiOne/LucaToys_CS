@@ -18,9 +18,12 @@ namespace LucaToys.Forms
             InitializeComponent();
             this.controlWindow.AboutEnable = false;
             this.controlWindow.Window = this;
+            this.panel2.Controls.Add(this.versionPage);
+            this.versionPage.Dock = DockStyle.Fill;
             xTool = new XDropDown.XToolStripDropDown(this.controlWindow);
         }
         XDropDown.XToolStripDropDown xTool;
+        LucaToys.Pages.VersionPage versionPage = new Pages.VersionPage();
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -36,7 +39,7 @@ namespace LucaToys.Forms
 
         private void btnControl_MouseDown(object sender, MouseEventArgs e)
         {
-            if(e.Button == MouseButtons.Left)
+            if (e.Button == MouseButtons.Left)
             {
                 this.xTool.Show(this.btnControl);
             }
@@ -66,7 +69,8 @@ namespace LucaToys.Forms
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
-
+            if (this.radioButton1.Checked)
+                this.versionPage.BringToFront();
         }
     }
 }
