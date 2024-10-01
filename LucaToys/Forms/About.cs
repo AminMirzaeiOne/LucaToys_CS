@@ -21,6 +21,7 @@ namespace LucaToys.Forms
             this.panel2.Controls.Add(this.versionPage);
             this.versionPage.Dock = DockStyle.Fill;
             xTool = new XDropDown.XToolStripDropDown(this.controlWindow);
+            
         }
         XDropDown.XToolStripDropDown xTool;
         LucaToys.Pages.VersionPage versionPage = new Pages.VersionPage();

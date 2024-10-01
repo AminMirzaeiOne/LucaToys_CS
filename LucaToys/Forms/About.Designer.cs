@@ -161,6 +161,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Transparent;
+            this.panel2.BackgroundImage = global::LucaToys.Properties.Resources.MainBackground;
             resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Name = "panel2";
             // 

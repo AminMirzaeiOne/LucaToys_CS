@@ -16,12 +16,7 @@ namespace LucaToys.Menus
         public ControlWindow()
         {
             InitializeComponent();
-            //for(int i = 0; i < 2; i++)
-            //{
-            //    this.Controls.Clear();
-            //    InitializeComponent();
-            //    Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("fa");
-            //}
+            
         }
 
         [Category("Buttons Enable")]
