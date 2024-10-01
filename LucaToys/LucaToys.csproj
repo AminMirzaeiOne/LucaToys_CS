@@ -105,6 +105,7 @@
   <ItemGroup>
     <Folder Include="Controls\" />
     <Folder Include="Logic\" />
+    <Folder Include="Menus\" />
     <Folder Include="Pages\" />
   </ItemGroup>
   <ItemGroup>
