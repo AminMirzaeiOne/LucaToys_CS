@@ -38,6 +38,11 @@ namespace LucaToys.Forms
             else
             {
                 this.timerProgress.Stop();
+                System.Threading.Thread.Sleep(300);
+                this.Hide();
+                System.Threading.Thread.Sleep(100);
+                LucaToys.Data.Constants.about = new About();
+                LucaToys.Data.Constants.about.Show();
             }
         }
 

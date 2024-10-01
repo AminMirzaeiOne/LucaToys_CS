@@ -29,10 +29,19 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VersionPage));
+            this.label1 = new System.Windows.Forms.Label();
             this.lblBuild = new System.Windows.Forms.Label();
             this.lblVersion = new System.Windows.Forms.Label();
             this.lblChannel = new System.Windows.Forms.Label();
             this.SuspendLayout();
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.BackColor = System.Drawing.Color.Plum;
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Image = global::LucaToys.Properties.Resources.icons8_licence_48;
+            this.label1.Name = "label1";
             // 
             // lblBuild
             // 
@@ -63,6 +72,7 @@
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.Transparent;
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lblBuild);
             this.Controls.Add(this.lblVersion);
             this.Controls.Add(this.lblChannel);
@@ -76,5 +86,6 @@
         private System.Windows.Forms.Label lblChannel;
         private System.Windows.Forms.Label lblVersion;
         private System.Windows.Forms.Label lblBuild;
+        private System.Windows.Forms.Label label1;
     }
 }
