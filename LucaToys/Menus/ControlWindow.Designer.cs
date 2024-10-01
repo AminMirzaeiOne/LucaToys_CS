@@ -32,6 +32,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
+            this.ltButton1 = new LucaToys.Controls.LTButton();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -53,6 +54,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.ltButton1);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.btnClose);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -102,6 +104,21 @@
             this.btnClose.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnClose.UseVisualStyleBackColor = true;
             // 
+            // ltButton1
+            // 
+            this.ltButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ltButton1.Location = new System.Drawing.Point(15, 191);
+            this.ltButton1.Name = "ltButton1";
+            this.ltButton1.Size = new System.Drawing.Size(231, 70);
+            this.ltButton1.SymbolColor = System.Drawing.Color.Plum;
+            this.ltButton1.SymbolHoverColor = System.Drawing.Color.White;
+            this.ltButton1.SymbolIcon = "";
+            this.ltButton1.SymbolSize = ((byte)(10));
+            this.ltButton1.SymbolStyle = System.Drawing.FontStyle.Bold;
+            this.ltButton1.TabIndex = 1;
+            this.ltButton1.Text = "ltButton1";
+            this.ltButton1.UseVisualStyleBackColor = true;
+            // 
             // ControlWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
@@ -122,5 +139,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Button button1;
+        private Controls.LTButton ltButton1;
     }
 }

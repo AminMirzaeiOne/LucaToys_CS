@@ -78,6 +78,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Sounds.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Forms\About.fa.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\About.resx">
       <DependentUpon>About.cs</DependentUpon>
     </EmbeddedResource>
