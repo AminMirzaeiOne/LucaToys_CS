@@ -33,6 +33,8 @@
             this.btnExit = new System.Windows.Forms.Button();
             this.lineProgress = new System.Windows.Forms.Label();
             this.makeProgress = new System.Windows.Forms.Label();
+            this.lblChannel = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -87,12 +89,38 @@
             this.makeProgress.TabIndex = 3;
             this.makeProgress.Paint += new System.Windows.Forms.PaintEventHandler(this.lineProgress_Paint);
             // 
+            // lblChannel
+            // 
+            this.lblChannel.BackColor = System.Drawing.Color.Plum;
+            this.lblChannel.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.lblChannel.ForeColor = System.Drawing.Color.White;
+            this.lblChannel.Location = new System.Drawing.Point(25, 434);
+            this.lblChannel.Name = "lblChannel";
+            this.lblChannel.Size = new System.Drawing.Size(185, 55);
+            this.lblChannel.TabIndex = 3;
+            this.lblChannel.Text = "Channel : Stable";
+            this.lblChannel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label3
+            // 
+            this.label3.BackColor = System.Drawing.Color.Plum;
+            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(239, 434);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(185, 55);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Channel : Stable";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Startup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.ClientSize = new System.Drawing.Size(800, 500);
             this.Controls.Add(this.makeProgress);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lblChannel);
             this.Controls.Add(this.lineProgress);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.label1);
@@ -113,5 +141,7 @@
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Label lineProgress;
         private System.Windows.Forms.Label makeProgress;
+        private System.Windows.Forms.Label lblChannel;
+        private System.Windows.Forms.Label label3;
     }
 }
