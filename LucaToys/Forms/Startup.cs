@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,6 +17,10 @@ namespace LucaToys.Forms
         {
             InitializeComponent();
         }
+
+        private System.IO.MemoryStream soundLocation = new MemoryStream(Properties.Sounds.CSSound);
+        private System.Media.SoundPlayer soundPlayer = new System.Media.SoundPlayer();
+
 
         private void lineProgress_Paint(object sender, PaintEventArgs e)
         {
@@ -42,6 +47,12 @@ namespace LucaToys.Forms
         private void btnMinimize_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void Startup_Load(object sender, EventArgs e)
+        {
+            this.soundPlayer.Stream = soundLocation;
+            soundPlayer.Play();
         }
     }
 }
