@@ -174,6 +174,7 @@
             this.btnMinimize.TabIndex = 14;
             this.btnMinimize.Text = "";
             this.btnMinimize.UseVisualStyleBackColor = false;
+            this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
             // 
             // btnExit
             // 
