@@ -71,6 +71,12 @@
     <Compile Include="Menus\ControlWindow.Designer.cs">
       <DependentUpon>ControlWindow.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\DeveloperPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\DeveloperPage.Designer.cs">
+      <DependentUpon>DeveloperPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pages\VersionPage.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -101,6 +107,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Menus\ControlWindow.resx">
       <DependentUpon>ControlWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\DeveloperPage.resx">
+      <DependentUpon>DeveloperPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\VersionPage.fa.resx">
       <DependentUpon>VersionPage.cs</DependentUpon>
@@ -191,6 +200,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-date-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20231109_012446_638.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewProfile.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-name-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-github-48 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-instagram-48 %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
