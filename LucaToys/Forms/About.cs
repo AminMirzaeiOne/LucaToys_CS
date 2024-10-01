@@ -15,8 +15,9 @@ namespace LucaToys.Forms
         public About()
         {
             InitializeComponent();
+            xTool = new XDropDown.XToolStripDropDown(this.controlWindow);
         }
-
+        XDropDown.XToolStripDropDown xTool;
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -25,6 +26,14 @@ namespace LucaToys.Forms
         private void btnMinimize_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+        }
+        private LucaToys.Menus.ControlWindow controlWindow = new Menus.ControlWindow();
+        private void btnControl_MouseDown(object sender, MouseEventArgs e)
+        {
+            if(e.Button == MouseButtons.Left)
+            {
+                this.xTool.Show(this.btnControl);
+            }
         }
     }
 }

@@ -49,6 +49,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controls\LTButton.cs" />
     <Compile Include="Data\Constants.cs" />
     <Compile Include="Forms\About.cs">
       <SubType>Form</SubType>
@@ -115,7 +116,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Controls\" />
     <Folder Include="Logic\" />
     <Folder Include="Pages\" />
   </ItemGroup>

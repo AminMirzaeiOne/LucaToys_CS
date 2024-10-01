@@ -159,6 +159,7 @@
             this.btnControl.TabIndex = 13;
             this.btnControl.Text = "";
             this.btnControl.UseVisualStyleBackColor = false;
+            this.btnControl.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btnControl_MouseDown);
             // 
             // btnMinimize
             // 
