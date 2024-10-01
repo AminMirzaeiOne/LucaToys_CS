@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\Startup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Startup.Designer.cs">
+      <DependentUpon>Startup.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -73,7 +79,6 @@
   <ItemGroup>
     <Folder Include="Controls\" />
     <Folder Include="Data\" />
-    <Folder Include="Forms\" />
     <Folder Include="Logic\" />
     <Folder Include="Pages\" />
   </ItemGroup>
