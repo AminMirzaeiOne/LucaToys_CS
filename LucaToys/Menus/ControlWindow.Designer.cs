@@ -31,8 +31,11 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btnRestart = new System.Windows.Forms.Button();
             this.btnAbout = new System.Windows.Forms.Button();
             this.btnMinimize = new System.Windows.Forms.Button();
+            this.btnExit = new System.Windows.Forms.Button();
             this.btnHelp = new System.Windows.Forms.Button();
             this.btnMaxRes = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
@@ -51,15 +54,18 @@
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(270, 527);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(270, 670);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.btnRestart);
             this.panel1.Controls.Add(this.btnAbout);
             this.panel1.Controls.Add(this.btnMinimize);
+            this.panel1.Controls.Add(this.btnExit);
             this.panel1.Controls.Add(this.btnHelp);
             this.panel1.Controls.Add(this.btnMaxRes);
             this.panel1.Controls.Add(this.btnClose);
@@ -67,7 +73,7 @@
             this.panel1.Location = new System.Drawing.Point(2, 2);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(266, 523);
+            this.panel1.Size = new System.Drawing.Size(266, 666);
             this.panel1.TabIndex = 0;
             // 
             // label1
@@ -77,6 +83,36 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(266, 3);
             this.label1.TabIndex = 1;
+            // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.Color.Plum;
+            this.label2.Location = new System.Drawing.Point(0, 469);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(266, 3);
+            this.label2.TabIndex = 2;
+            // 
+            // btnRestart
+            // 
+            this.btnRestart.BackColor = System.Drawing.Color.Plum;
+            this.btnRestart.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRestart.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
+            this.btnRestart.FlatAppearance.BorderSize = 2;
+            this.btnRestart.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Orchid;
+            this.btnRestart.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
+            this.btnRestart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRestart.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.btnRestart.ForeColor = System.Drawing.Color.White;
+            this.btnRestart.Image = global::LucaToys.Properties.Resources.icons8_restart_48;
+            this.btnRestart.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnRestart.Location = new System.Drawing.Point(15, 580);
+            this.btnRestart.Name = "btnRestart";
+            this.btnRestart.Size = new System.Drawing.Size(231, 64);
+            this.btnRestart.TabIndex = 0;
+            this.btnRestart.Text = "Restart App";
+            this.btnRestart.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnRestart.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnRestart.UseVisualStyleBackColor = false;
             // 
             // btnAbout
             // 
@@ -91,7 +127,7 @@
             this.btnAbout.ForeColor = System.Drawing.Color.White;
             this.btnAbout.Image = global::LucaToys.Properties.Resources.icons8_about_48__1_;
             this.btnAbout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAbout.Location = new System.Drawing.Point(15, 382);
+            this.btnAbout.Location = new System.Drawing.Point(15, 381);
             this.btnAbout.Name = "btnAbout";
             this.btnAbout.Size = new System.Drawing.Size(231, 64);
             this.btnAbout.TabIndex = 0;
@@ -122,6 +158,28 @@
             this.btnMinimize.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnMinimize.UseVisualStyleBackColor = false;
             // 
+            // btnExit
+            // 
+            this.btnExit.BackColor = System.Drawing.Color.Plum;
+            this.btnExit.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnExit.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
+            this.btnExit.FlatAppearance.BorderSize = 2;
+            this.btnExit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Orchid;
+            this.btnExit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
+            this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExit.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.btnExit.ForeColor = System.Drawing.Color.White;
+            this.btnExit.Image = global::LucaToys.Properties.Resources.icons8_exit_48__1_;
+            this.btnExit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnExit.Location = new System.Drawing.Point(15, 497);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(231, 64);
+            this.btnExit.TabIndex = 0;
+            this.btnExit.Text = "Exit App";
+            this.btnExit.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnExit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnExit.UseVisualStyleBackColor = false;
+            // 
             // btnHelp
             // 
             this.btnHelp.BackColor = System.Drawing.Color.Plum;
@@ -135,7 +193,7 @@
             this.btnHelp.ForeColor = System.Drawing.Color.White;
             this.btnHelp.Image = global::LucaToys.Properties.Resources.icons8_help_48;
             this.btnHelp.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHelp.Location = new System.Drawing.Point(15, 299);
+            this.btnHelp.Location = new System.Drawing.Point(15, 298);
             this.btnHelp.Name = "btnHelp";
             this.btnHelp.Size = new System.Drawing.Size(231, 64);
             this.btnHelp.TabIndex = 0;
@@ -194,7 +252,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "ControlWindow";
-            this.Size = new System.Drawing.Size(270, 527);
+            this.Size = new System.Drawing.Size(270, 670);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -211,5 +269,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnAbout;
         private System.Windows.Forms.Button btnHelp;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnRestart;
+        private System.Windows.Forms.Button btnExit;
     }
 }
