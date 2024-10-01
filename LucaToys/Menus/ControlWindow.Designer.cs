@@ -30,7 +30,10 @@
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnAbout = new System.Windows.Forms.Button();
             this.btnMinimize = new System.Windows.Forms.Button();
+            this.btnHelp = new System.Windows.Forms.Button();
             this.btnMaxRes = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
@@ -48,21 +51,54 @@
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(270, 355);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(270, 527);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.btnAbout);
             this.panel1.Controls.Add(this.btnMinimize);
+            this.panel1.Controls.Add(this.btnHelp);
             this.panel1.Controls.Add(this.btnMaxRes);
             this.panel1.Controls.Add(this.btnClose);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(2, 2);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(266, 351);
+            this.panel1.Size = new System.Drawing.Size(266, 523);
             this.panel1.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.Plum;
+            this.label1.Location = new System.Drawing.Point(0, 270);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(266, 3);
+            this.label1.TabIndex = 1;
+            // 
+            // btnAbout
+            // 
+            this.btnAbout.BackColor = System.Drawing.Color.Plum;
+            this.btnAbout.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAbout.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
+            this.btnAbout.FlatAppearance.BorderSize = 2;
+            this.btnAbout.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Orchid;
+            this.btnAbout.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
+            this.btnAbout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAbout.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.btnAbout.ForeColor = System.Drawing.Color.White;
+            this.btnAbout.Image = global::LucaToys.Properties.Resources.icons8_about_48__1_;
+            this.btnAbout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAbout.Location = new System.Drawing.Point(15, 382);
+            this.btnAbout.Name = "btnAbout";
+            this.btnAbout.Size = new System.Drawing.Size(231, 64);
+            this.btnAbout.TabIndex = 0;
+            this.btnAbout.Text = "About App";
+            this.btnAbout.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnAbout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnAbout.UseVisualStyleBackColor = false;
             // 
             // btnMinimize
             // 
@@ -85,6 +121,28 @@
             this.btnMinimize.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnMinimize.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnMinimize.UseVisualStyleBackColor = false;
+            // 
+            // btnHelp
+            // 
+            this.btnHelp.BackColor = System.Drawing.Color.Plum;
+            this.btnHelp.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnHelp.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
+            this.btnHelp.FlatAppearance.BorderSize = 2;
+            this.btnHelp.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Orchid;
+            this.btnHelp.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
+            this.btnHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHelp.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.btnHelp.ForeColor = System.Drawing.Color.White;
+            this.btnHelp.Image = global::LucaToys.Properties.Resources.icons8_help_48;
+            this.btnHelp.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnHelp.Location = new System.Drawing.Point(15, 299);
+            this.btnHelp.Name = "btnHelp";
+            this.btnHelp.Size = new System.Drawing.Size(231, 64);
+            this.btnHelp.TabIndex = 0;
+            this.btnHelp.Text = "Help App";
+            this.btnHelp.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnHelp.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnHelp.UseVisualStyleBackColor = false;
             // 
             // btnMaxRes
             // 
@@ -136,7 +194,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "ControlWindow";
-            this.Size = new System.Drawing.Size(270, 355);
+            this.Size = new System.Drawing.Size(270, 527);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -150,5 +208,8 @@
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Button btnMaxRes;
         private System.Windows.Forms.Button btnMinimize;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnAbout;
+        private System.Windows.Forms.Button btnHelp;
     }
 }
