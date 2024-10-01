@@ -35,6 +35,7 @@
             this.makeProgress = new System.Windows.Forms.Label();
             this.lblChannel = new System.Windows.Forms.Label();
             this.lblVersion = new System.Windows.Forms.Label();
+            this.lblDeveloper = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -52,10 +53,13 @@
             // 
             this.label1.BackColor = System.Drawing.Color.Plum;
             this.label1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(800, 35);
             this.label1.TabIndex = 1;
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // btnExit
             // 
@@ -94,9 +98,9 @@
             this.lblChannel.BackColor = System.Drawing.Color.Plum;
             this.lblChannel.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
             this.lblChannel.ForeColor = System.Drawing.Color.White;
-            this.lblChannel.Location = new System.Drawing.Point(25, 434);
+            this.lblChannel.Location = new System.Drawing.Point(285, 434);
             this.lblChannel.Name = "lblChannel";
-            this.lblChannel.Size = new System.Drawing.Size(185, 55);
+            this.lblChannel.Size = new System.Drawing.Size(230, 55);
             this.lblChannel.TabIndex = 3;
             this.lblChannel.Text = "Channel : Stable";
             this.lblChannel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -106,12 +110,24 @@
             this.lblVersion.BackColor = System.Drawing.Color.Plum;
             this.lblVersion.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
             this.lblVersion.ForeColor = System.Drawing.Color.White;
-            this.lblVersion.Location = new System.Drawing.Point(239, 434);
+            this.lblVersion.Location = new System.Drawing.Point(541, 434);
             this.lblVersion.Name = "lblVersion";
-            this.lblVersion.Size = new System.Drawing.Size(185, 55);
+            this.lblVersion.Size = new System.Drawing.Size(230, 55);
             this.lblVersion.TabIndex = 3;
             this.lblVersion.Text = "Version : 1.0.0";
             this.lblVersion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblDeveloper
+            // 
+            this.lblDeveloper.BackColor = System.Drawing.Color.Plum;
+            this.lblDeveloper.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.lblDeveloper.ForeColor = System.Drawing.Color.White;
+            this.lblDeveloper.Location = new System.Drawing.Point(30, 434);
+            this.lblDeveloper.Name = "lblDeveloper";
+            this.lblDeveloper.Size = new System.Drawing.Size(230, 55);
+            this.lblDeveloper.TabIndex = 3;
+            this.lblDeveloper.Text = "From : Amin Mirzaei";
+            this.lblDeveloper.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Startup
             // 
@@ -119,6 +135,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.ClientSize = new System.Drawing.Size(800, 500);
             this.Controls.Add(this.makeProgress);
+            this.Controls.Add(this.lblDeveloper);
             this.Controls.Add(this.lblVersion);
             this.Controls.Add(this.lblChannel);
             this.Controls.Add(this.lineProgress);
@@ -143,5 +160,6 @@
         private System.Windows.Forms.Label makeProgress;
         private System.Windows.Forms.Label lblChannel;
         private System.Windows.Forms.Label lblVersion;
+        private System.Windows.Forms.Label lblDeveloper;
     }
 }
