@@ -89,5 +89,20 @@
   <ItemGroup>
     <None Include="Resources\LucaLogo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\31958689_v904-nunny-026-g.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\787.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GradiantBack.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12188699_4930496.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainBackground.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

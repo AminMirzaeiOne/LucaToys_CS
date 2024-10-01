@@ -19,7 +19,7 @@ namespace LucaToys.Forms
 
         private void lineProgress_Paint(object sender, PaintEventArgs e)
         {
-            e.Graphics.DrawRectangle(new Pen(Color.Plum, 2), e.ClipRectangle);
+            e.Graphics.DrawRectangle(new Pen(Color.Plum, 4), e.ClipRectangle);
         }
 
         private void timerProgress_Tick(object sender, EventArgs e)
