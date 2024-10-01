@@ -90,6 +90,9 @@
     <EmbeddedResource Include="Forms\Startup.resx">
       <DependentUpon>Startup.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Menus\ControlWindow.fa.resx">
+      <DependentUpon>ControlWindow.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Menus\ControlWindow.resx">
       <DependentUpon>ControlWindow.cs</DependentUpon>
     </EmbeddedResource>
