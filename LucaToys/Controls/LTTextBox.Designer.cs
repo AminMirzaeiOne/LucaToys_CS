@@ -32,10 +32,11 @@
             // 
             // LTTextBox
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.BackColor = System.Drawing.Color.White;
             this.Name = "LTTextBox";
-            this.Size = new System.Drawing.Size(333, 215);
+            this.Size = new System.Drawing.Size(250, 30);
             this.ResumeLayout(false);
 
         }
