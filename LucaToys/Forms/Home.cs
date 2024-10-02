@@ -40,10 +40,12 @@ namespace LucaToys.Forms
             if(this.WindowState == FormWindowState.Normal)
             {
                 this.WindowState = FormWindowState.Maximized;
+                this.btnMaximize.Text = "";
             }
             else if(this.WindowState == FormWindowState.Maximized)
             {
                 this.WindowState = FormWindowState.Normal;
+                this.btnMaximize.Text = "";
             }
         }
 
