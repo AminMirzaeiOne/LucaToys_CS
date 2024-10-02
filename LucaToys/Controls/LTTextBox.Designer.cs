@@ -30,8 +30,8 @@
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.btnClear = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -64,6 +64,18 @@
             this.panel1.Size = new System.Drawing.Size(246, 26);
             this.panel1.TabIndex = 0;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.label1.ForeColor = System.Drawing.Color.Gray;
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(87, 25);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Enter Text";
+            // 
             // textBox1
             // 
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
@@ -81,18 +93,6 @@
             this.textBox1.MouseEnter += new System.EventHandler(this.textBox1_MouseEnter);
             this.textBox1.MouseLeave += new System.EventHandler(this.textBox1_MouseLeave);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.label1.ForeColor = System.Drawing.Color.Gray;
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(87, 25);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Enter Text";
-            // 
             // btnClear
             // 
             this.btnClear.Dock = System.Windows.Forms.DockStyle.Right;
@@ -106,6 +106,7 @@
             this.btnClear.TabIndex = 3;
             this.btnClear.Text = "";
             this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Visible = false;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // LTTextBox

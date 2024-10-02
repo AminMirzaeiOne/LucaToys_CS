@@ -21,6 +21,12 @@ namespace LucaToys.Controls
         private System.Drawing.Color borderColor = Color.Plum;
         private System.Boolean focused = false;
 
+        public System.Boolean EnableClearButton
+        {
+            get { return this.btnClear.Visible; }
+            set { this.btnClear.Visible = value; }
+        }
+
         public override Font Font
         {
             get { return this.textBox1.Font; }
@@ -80,12 +86,14 @@ namespace LucaToys.Controls
             if (this.textBox1.TextLength > 0)
             {
                 this.label1.Visible = false;
-                this.btnClear.Visible = true;
+                if (this.EnableClearButton)
+                    this.btnClear.Visible = true;
             }
             else
             {
                 this.label1.Visible = true;
-                this.btnClear.Visible = false;
+                if (this.EnableClearButton)
+                    this.btnClear.Visible = false;
             }
         }
 
