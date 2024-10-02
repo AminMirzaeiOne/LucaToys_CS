@@ -4,6 +4,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace LucaToys.Controls
 {
@@ -17,5 +18,19 @@ namespace LucaToys.Controls
         private bool _mouseOver = false;
         private bool _mouseDown = false;
         private bool _expandBorderThickness = false;
+
+        // Construction/Initialization
+
+        /// Constructor</summary>
+        public LTCheckBox()
+        {
+            SetStyle(ControlStyles.UserPaint, true);
+            SetStyle(ControlStyles.AllPaintingInWmPaint, true);
+            SetStyle(ControlStyles.OptimizedDoubleBuffer, true);
+            SetStyle(ControlStyles.SupportsTransparentBackColor, true);
+            SetStyle(ControlStyles.ResizeRedraw, true);
+        }
+
+        // ------------------------------------------------------------------------
     }
 }
