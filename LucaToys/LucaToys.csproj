@@ -159,6 +159,9 @@
     <EmbeddedResource Include="Pages\FeedbackPage.resx">
       <DependentUpon>FeedbackPage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pages\ForgetPage.fa.resx">
+      <DependentUpon>ForgetPage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Pages\ForgetPage.resx">
       <DependentUpon>ForgetPage.cs</DependentUpon>
     </EmbeddedResource>

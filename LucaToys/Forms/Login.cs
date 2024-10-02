@@ -15,7 +15,15 @@ namespace LucaToys.Forms
         public Login()
         {
             InitializeComponent();
+            this.panel2.Controls.Add(this.loginPage);
+            this.panel2.Controls.Add(this.foregetPage);
+            this.loginPage.Dock = DockStyle.Fill;
+            this.foregetPage.Dock = DockStyle.Fill;
+            this.foregetPage.BringToFront();
         }
+
+        private LucaToys.Pages.LoginPage loginPage = new Pages.LoginPage();
+        private LucaToys.Pages.ForgetPage foregetPage = new Pages.ForgetPage();
 
         private void btnExit_Click(object sender, EventArgs e)
         {
