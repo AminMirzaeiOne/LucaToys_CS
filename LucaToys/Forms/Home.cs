@@ -12,6 +12,9 @@ namespace LucaToys.Forms
 {
     public partial class Home : Form
     {
+        private bool mouseDown;
+        private Point lastLocation;
+
         public Home()
         {
             InitializeComponent();
@@ -20,6 +23,50 @@ namespace LucaToys.Forms
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnMinimize_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void btnMaximize_Click(object sender, EventArgs e)
+        {
+            if(this.WindowState == FormWindowState.Normal)
+            {
+                this.WindowState = FormWindowState.Maximized;
+            }
+            else if(this.WindowState == FormWindowState.Maximized)
+            {
+                this.WindowState = FormWindowState.Normal;
+            }
+        }
+
+        private void label1_MouseDown(object sender, MouseEventArgs e)
+        {
+            this.mouseDown = true;
+            this.lastLocation = e.Location;
+        }
+
+        private void label1_MouseUp(object sender, MouseEventArgs e)
+        {
+            this.mouseDown = false;
+        }
+
+        private void label1_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (this.mouseDown == true)
+            {
+                this.Location = new Point(
+                (this.Location.X - this.lastLocation.X) + e.X, (this.Location.Y - this.lastLocation.Y) + e.Y);
+
+                this.Update();
+            }
         }
     }
 }
