@@ -52,6 +52,7 @@
     <Compile Include="Controls\LTButton.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Controls\LTCheckBox.cs" />
     <Compile Include="Controls\LTMenuItem.cs">
       <SubType>UserControl</SubType>
     </Compile>
