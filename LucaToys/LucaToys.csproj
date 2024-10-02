@@ -52,6 +52,12 @@
     <Compile Include="Controls\LTButton.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Controls\LTMenuItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\LTMenuItem.Designer.cs">
+      <DependentUpon>LTMenuItem.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controls\LTRadioButton.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -135,6 +141,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Sounds.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Controls\LTMenuItem.resx">
+      <DependentUpon>LTMenuItem.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Controls\LTTextBox.resx">
       <DependentUpon>LTTextBox.cs</DependentUpon>
     </EmbeddedResource>
