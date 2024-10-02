@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace LucaToys.Controls
 {
-    public class LTCheckBox:System.Windows.Forms.CheckBox
+    public class LTCheckBox : System.Windows.Forms.CheckBox
     {
         // Fields
 
@@ -58,7 +58,7 @@ namespace LucaToys.Controls
 
 
         [Category("Appearance")]
-        public System.Drawing.Color CheckedColor { get; set; } = Color.Plum;
+        public System.Drawing.Color CheckedColor { get; set; } = Color.White;
 
 
         [Category("Appearance")]
@@ -66,6 +66,9 @@ namespace LucaToys.Controls
 
         [Category("Appearance")]
         public System.Drawing.Color BackgroundColor { get; set; } = Color.White;
+
+        [Category("Appearance")]
+        public System.Drawing.Color CheckedBackColor { get; set; } = Color.Plum;
 
         // ------------------------------------------------------------------------
         // Methods
@@ -87,7 +90,11 @@ namespace LucaToys.Controls
 
             // Draw the inside of the check. We do this first so that the checkbox can just sit on top and we can avoid worrying
             // about the thickness
-            Color interiorColor = Color.White;
+            Color interiorColor = Color.Black;
+            if (!this.Checked)
+                interiorColor = this.BackgroundColor;
+            else
+                interiorColor = this.CheckedBackColor;
             Rectangle interiorRect = new Rectangle(checkRect.Left + boxThickness - 1, checkRect.Top + boxThickness - 1, checkRect.Width - boxThickness - boxThickness + 2, checkRect.Height - boxThickness - boxThickness + 2);
             using (Brush interiorBrush = new SolidBrush(interiorColor))
             {
@@ -95,7 +102,7 @@ namespace LucaToys.Controls
             }
 
             // Will draw the box in the highlight color if mouse over or if we have focus
-            Color boxColor = Enabled ? (_mouseOver || Focused ? Color.Plum : ForeColor) : Color.Red;
+            Color boxColor = Enabled ? (_mouseOver || Focused ? this.CheckedBorderColor : ForeColor) : Color.Red;
             using (Pen boxPen = new Pen(boxColor, boxThickness))
             {
                 e.Graphics.DrawRectangle(boxPen, checkRect);
@@ -107,7 +114,7 @@ namespace LucaToys.Controls
             {
                 // Scale the line thickness based on the size of the box
                 float thickness = (float)interiorRect.Width / 11f;
-                Color checkColor = Color.Plum;
+                Color checkColor = this.CheckedColor;
                 using (Pen boxPen = new Pen(checkColor, thickness))
                 {
                     float tailStartX = (float)interiorRect.Left + (float)interiorRect.Width * 2f / 11f;
