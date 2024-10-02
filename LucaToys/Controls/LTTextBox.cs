@@ -27,7 +27,7 @@ namespace LucaToys.Controls
             set { this.btnClear.Visible = value; }
         }
 
-        public override Font Font
+        public Font FontOptions
         {
             get { return this.textBox1.Font; }
             set
