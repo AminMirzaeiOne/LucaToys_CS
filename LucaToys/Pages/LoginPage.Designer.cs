@@ -30,10 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginPage));
             this.button1 = new System.Windows.Forms.Button();
-            this.ltTextBox2 = new LucaToys.Controls.LTTextBox();
-            this.ltTextBox1 = new LucaToys.Controls.LTTextBox();
             this.btnLogin = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.ltTextBox2 = new LucaToys.Controls.LTTextBox();
+            this.ltTextBox1 = new LucaToys.Controls.LTTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -46,6 +46,27 @@
             this.button1.ForeColor = System.Drawing.Color.Violet;
             this.button1.Name = "button1";
             this.button1.UseVisualStyleBackColor = false;
+            // 
+            // btnLogin
+            // 
+            resources.ApplyResources(this.btnLogin, "btnLogin");
+            this.btnLogin.BackColor = System.Drawing.Color.Plum;
+            this.btnLogin.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.btnLogin.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
+            this.btnLogin.FlatAppearance.BorderSize = 2;
+            this.btnLogin.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Orchid;
+            this.btnLogin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
+            this.btnLogin.ForeColor = System.Drawing.Color.White;
+            this.btnLogin.Image = global::LucaToys.Properties.Resources.icons8_login_38;
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox1
+            // 
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Image = global::LucaToys.Properties.Resources.icons8_manager_96;
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
             // 
             // ltTextBox2
             // 
@@ -76,27 +97,6 @@
             this.ltTextBox1.HolderTextContent = "Enter Username";
             this.ltTextBox1.HolderTextFont = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ltTextBox1.Name = "ltTextBox1";
-            // 
-            // btnLogin
-            // 
-            resources.ApplyResources(this.btnLogin, "btnLogin");
-            this.btnLogin.BackColor = System.Drawing.Color.Plum;
-            this.btnLogin.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.btnLogin.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
-            this.btnLogin.FlatAppearance.BorderSize = 2;
-            this.btnLogin.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Orchid;
-            this.btnLogin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
-            this.btnLogin.ForeColor = System.Drawing.Color.White;
-            this.btnLogin.Image = global::LucaToys.Properties.Resources.icons8_login_38;
-            this.btnLogin.Name = "btnLogin";
-            this.btnLogin.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox1
-            // 
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
-            this.pictureBox1.Image = global::LucaToys.Properties.Resources.icons8_manager_96;
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.TabStop = false;
             // 
             // LoginPage
             // 
