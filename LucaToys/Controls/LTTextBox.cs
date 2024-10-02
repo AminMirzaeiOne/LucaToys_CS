@@ -18,11 +18,12 @@ namespace LucaToys.Controls
         }
 
         private System.Drawing.Color borderColor = Color.Plum;
+        private System.Boolean focused = false;
 
         [Category("Border Appearance")]
         public System.Byte BorderSize
         {
-            get { return (byte) this.panel1.Margin.All; }
+            get { return (byte)this.panel1.Margin.All; }
             set
             {
                 this.panel1.Margin = new Padding(value);
@@ -56,7 +57,7 @@ namespace LucaToys.Controls
         [Category("Hoder Appearance")]
         public System.Drawing.Font HolderTextFont
         {
-            get { return  this.label1.Font; }
+            get { return this.label1.Font; }
             set { this.label1.Font = value; }
         }
 
@@ -78,11 +79,25 @@ namespace LucaToys.Controls
 
         private void textBox1_MouseEnter(object sender, EventArgs e)
         {
-            this.tableLayoutPanel1.BackColor = this.BorderHoverColor;
+            if (!this.focused)
+                this.tableLayoutPanel1.BackColor = this.BorderHoverColor;
         }
 
         private void textBox1_MouseLeave(object sender, EventArgs e)
         {
+            if (!this.focused)
+                this.tableLayoutPanel1.BackColor = this.BorderColor;
+        }
+
+        private void textBox1_Enter(object sender, EventArgs e)
+        {
+            this.focused = true;
+            this.tableLayoutPanel1.BackColor = this.BorderDownColor;
+        }
+
+        private void textBox1_Leave(object sender, EventArgs e)
+        {
+            this.focused = false;
             this.tableLayoutPanel1.BackColor = this.BorderColor;
         }
     }
