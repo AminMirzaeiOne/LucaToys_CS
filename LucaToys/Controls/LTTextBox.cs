@@ -70,10 +70,12 @@ namespace LucaToys.Controls
             if (this.textBox1.TextLength > 0)
             {
                 this.label1.Visible = false;
+                this.btnClear.Visible = true;
             }
             else
             {
                 this.label1.Visible = true;
+                this.btnClear.Visible = false;
             }
         }
 
@@ -99,6 +101,11 @@ namespace LucaToys.Controls
         {
             this.focused = false;
             this.tableLayoutPanel1.BackColor = this.BorderColor;
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            this.textBox1.Text = string.Empty;
         }
     }
 }
