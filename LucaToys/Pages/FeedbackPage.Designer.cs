@@ -63,9 +63,9 @@
             this.ltTextBox1.HolderTextColor = System.Drawing.Color.Gray;
             this.ltTextBox1.HolderTextContent = "Enter Text";
             this.ltTextBox1.HolderTextFont = new System.Drawing.Font("Segoe UI", 9F);
-            this.ltTextBox1.Location = new System.Drawing.Point(158, 131);
+            this.ltTextBox1.Location = new System.Drawing.Point(64, 136);
             this.ltTextBox1.Name = "ltTextBox1";
-            this.ltTextBox1.Size = new System.Drawing.Size(250, 30);
+            this.ltTextBox1.Size = new System.Drawing.Size(401, 44);
             this.ltTextBox1.TabIndex = 2;
             // 
             // FeedbackPage

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,6 +20,15 @@ namespace LucaToys.Controls
 
         private System.Drawing.Color borderColor = Color.Plum;
         private System.Boolean focused = false;
+
+        public override Font Font
+        {
+            get { return this.textBox1.Font; }
+            set
+            {
+                this.textBox1.Font = value;
+            }
+        }
 
         [Category("Border Appearance")]
         public System.Byte BorderSize
