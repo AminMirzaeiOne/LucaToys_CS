@@ -20,10 +20,10 @@ namespace LucaToys.Controls
         [Category("Border Appearance")]
         public System.Byte BorderSize
         {
-            get { return (byte) this.textBox1.Margin.All; }
+            get { return (byte) this.panel1.Margin.All; }
             set
             {
-                this.textBox1.Margin = new Padding(value);
+                this.panel1.Margin = new Padding(value);
             }
         }
 
