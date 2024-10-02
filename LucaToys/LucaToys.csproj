@@ -52,6 +52,9 @@
     <Compile Include="Controls\LTButton.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Controls\LTRadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Controls\LTTextBox.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -239,6 +242,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-licence-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-title-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-page-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-send-48 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-send-28.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
