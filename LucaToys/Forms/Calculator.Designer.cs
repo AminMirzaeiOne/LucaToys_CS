@@ -63,6 +63,8 @@
             this.button22 = new System.Windows.Forms.Button();
             this.button23 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
+            this.ltMenuItem1 = new LucaToys.Controls.LTMenuItem();
+            this.ltMenuItem2 = new LucaToys.Controls.LTMenuItem();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -85,6 +87,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.ltMenuItem2);
+            this.panel1.Controls.Add(this.ltMenuItem1);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.tableLayoutPanel2);
             this.panel1.Controls.Add(this.label3);
@@ -788,6 +792,22 @@
             this.label4.TabIndex = 26;
             this.label4.Text = "Calculator Window";
             // 
+            // ltMenuItem1
+            // 
+            this.ltMenuItem1.BackColor = System.Drawing.Color.White;
+            this.ltMenuItem1.Location = new System.Drawing.Point(96, 66);
+            this.ltMenuItem1.Name = "ltMenuItem1";
+            this.ltMenuItem1.Size = new System.Drawing.Size(200, 40);
+            this.ltMenuItem1.TabIndex = 27;
+            // 
+            // ltMenuItem2
+            // 
+            this.ltMenuItem2.BackColor = System.Drawing.Color.White;
+            this.ltMenuItem2.Location = new System.Drawing.Point(96, 112);
+            this.ltMenuItem2.Name = "ltMenuItem2";
+            this.ltMenuItem2.Size = new System.Drawing.Size(200, 40);
+            this.ltMenuItem2.TabIndex = 27;
+            // 
             // Calculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
@@ -844,5 +864,7 @@
         private System.Windows.Forms.Button button22;
         private System.Windows.Forms.Button button23;
         private System.Windows.Forms.Label label4;
+        private Controls.LTMenuItem ltMenuItem1;
+        private Controls.LTMenuItem ltMenuItem2;
     }
 }
