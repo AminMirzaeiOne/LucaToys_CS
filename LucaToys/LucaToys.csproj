@@ -98,6 +98,12 @@
     <Compile Include="Pages\FeedbackPage.Designer.cs">
       <DependentUpon>FeedbackPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\ForgetPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\ForgetPage.Designer.cs">
+      <DependentUpon>ForgetPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pages\LoginPage.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -152,6 +158,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\FeedbackPage.resx">
       <DependentUpon>FeedbackPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\ForgetPage.resx">
+      <DependentUpon>ForgetPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\LoginPage.resx">
       <DependentUpon>LoginPage.cs</DependentUpon>
