@@ -64,6 +64,9 @@ namespace LucaToys.Controls
         [Category("Appearance")]
         public System.Drawing.Color CheckedBorderColor { get; set; } = Color.Plum;
 
+        [Category("Appearance")]
+        public System.Drawing.Color BackgroundColor { get; set; } = Color.White;
+
         // ------------------------------------------------------------------------
         // Methods
 
