@@ -21,11 +21,7 @@ namespace LucaToys.Controls
         private System.Drawing.Color borderColor = Color.Plum;
         private System.Boolean focused = false;
 
-        public System.Boolean EnableClearButton
-        {
-            get { return this.btnClear.Visible; }
-            set { this.btnClear.Visible = value; }
-        }
+        public System.Boolean EnableClearButton { get; set; } = true;
 
         public Font FontOptions
         {
