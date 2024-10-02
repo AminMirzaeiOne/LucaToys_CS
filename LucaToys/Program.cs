@@ -17,8 +17,8 @@ namespace LucaToys
             SetProcessDPIAware();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            LucaToys.Data.Constants.about = new Forms.About();
-            Application.Run(LucaToys.Data.Constants.about);
+            LucaToys.Data.Constants.login = new Forms.Login();
+            Application.Run(LucaToys.Data.Constants.login);
         }
         [System.Runtime.InteropServices.DllImport("user32.dll")]
         private static extern bool SetProcessDPIAware();

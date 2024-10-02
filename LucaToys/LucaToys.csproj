@@ -98,6 +98,12 @@
     <Compile Include="Pages\FeedbackPage.Designer.cs">
       <DependentUpon>FeedbackPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\LoginPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\LoginPage.Designer.cs">
+      <DependentUpon>LoginPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pages\VersionPage.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -146,6 +152,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\FeedbackPage.resx">
       <DependentUpon>FeedbackPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\LoginPage.resx">
+      <DependentUpon>LoginPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\VersionPage.fa.resx">
       <DependentUpon>VersionPage.cs</DependentUpon>
@@ -266,6 +275,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-send-28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-manager-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-login-46.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-login-38.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

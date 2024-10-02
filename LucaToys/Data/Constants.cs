@@ -10,5 +10,6 @@ namespace LucaToys.Data
     {
         public static LucaToys.Forms.Startup startup;
         public static LucaToys.Forms.About about;
+        public static LucaToys.Forms.Login login;
     }
 }

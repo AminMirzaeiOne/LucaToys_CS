@@ -34,6 +34,8 @@
             this.btnMinimize = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -55,6 +57,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.panel2);
+            this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.btnControl);
             this.panel1.Controls.Add(this.btnMinimize);
             this.panel1.Controls.Add(this.btnExit);
@@ -124,6 +128,26 @@
             this.label1.TabIndex = 20;
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Plum;
+            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(38, 4);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(133, 25);
+            this.label2.TabIndex = 25;
+            this.label2.Text = "Login Window";
+            // 
+            // panel2
+            // 
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Location = new System.Drawing.Point(0, 36);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(408, 408);
+            this.panel2.TabIndex = 26;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
@@ -138,6 +162,7 @@
             this.Text = "Login";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -150,5 +175,7 @@
         private System.Windows.Forms.Button btnMinimize;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel panel2;
     }
 }
