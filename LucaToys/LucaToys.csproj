@@ -53,7 +53,10 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Controls\LTTextBox.cs">
-      <SubType>Component</SubType>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\LTTextBox.Designer.cs">
+      <DependentUpon>LTTextBox.cs</DependentUpon>
     </Compile>
     <Compile Include="Data\Constants.cs" />
     <Compile Include="Forms\About.cs">
@@ -99,6 +102,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Sounds.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Controls\LTTextBox.resx">
+      <DependentUpon>LTTextBox.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\About.fa.resx">
       <DependentUpon>About.cs</DependentUpon>
     </EmbeddedResource>
