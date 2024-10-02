@@ -165,6 +165,9 @@
     <EmbeddedResource Include="Pages\ForgetPage.resx">
       <DependentUpon>ForgetPage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pages\LoginPage.fa.resx">
+      <DependentUpon>LoginPage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Pages\LoginPage.resx">
       <DependentUpon>LoginPage.cs</DependentUpon>
     </EmbeddedResource>
