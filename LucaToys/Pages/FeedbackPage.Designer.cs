@@ -56,6 +56,13 @@
             // ltTextBox1
             // 
             this.ltTextBox1.BackColor = System.Drawing.Color.White;
+            this.ltTextBox1.BorderColor = System.Drawing.Color.Plum;
+            this.ltTextBox1.BorderDownColor = System.Drawing.Color.Orchid;
+            this.ltTextBox1.BorderHoverColor = System.Drawing.Color.Violet;
+            this.ltTextBox1.BorderSize = ((byte)(2));
+            this.ltTextBox1.HolderTextColor = System.Drawing.Color.Gray;
+            this.ltTextBox1.HolderTextContent = "Enter Text";
+            this.ltTextBox1.HolderTextFont = new System.Drawing.Font("Segoe UI", 9F);
             this.ltTextBox1.Location = new System.Drawing.Point(158, 131);
             this.ltTextBox1.Name = "ltTextBox1";
             this.ltTextBox1.Size = new System.Drawing.Size(250, 30);

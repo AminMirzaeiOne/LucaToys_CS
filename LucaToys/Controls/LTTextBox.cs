@@ -17,6 +17,8 @@ namespace LucaToys.Controls
             InitializeComponent();
         }
 
+        private System.Drawing.Color borderColor = Color.Plum;
+
         [Category("Border Appearance")]
         public System.Byte BorderSize
         {
@@ -30,9 +32,10 @@ namespace LucaToys.Controls
         [Category("Border Appearance")]
         public System.Drawing.Color BorderColor
         {
-            get { return this.tableLayoutPanel1.BackColor; }
+            get { return this.borderColor; }
             set
             {
+                this.borderColor = value;
                 this.tableLayoutPanel1.BackColor = value;
             }
         }
@@ -71,6 +74,16 @@ namespace LucaToys.Controls
             {
                 this.label1.Visible = true;
             }
+        }
+
+        private void textBox1_MouseEnter(object sender, EventArgs e)
+        {
+            this.tableLayoutPanel1.BackColor = this.BorderHoverColor;
+        }
+
+        private void textBox1_MouseLeave(object sender, EventArgs e)
+        {
+            this.tableLayoutPanel1.BackColor = this.BorderColor;
         }
     }
 }
