@@ -61,6 +61,9 @@
     <Compile Include="Controls\LTRadioButton.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Controls\LTSmallMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Controls\LTTextBox.cs">
       <SubType>UserControl</SubType>
     </Compile>

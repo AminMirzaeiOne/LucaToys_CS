@@ -20,6 +20,8 @@ namespace LucaToys.Controls
         private void label4_MouseEnter(object sender, EventArgs e)
         {
             this.timerShow.Start();
+            this.label3.ForeColor = Color.PaleVioletRed;
+            this.label4.ForeColor = Color.PaleVioletRed;
         }
 
         private void timerShow_Tick(object sender, EventArgs e)
@@ -42,6 +44,24 @@ namespace LucaToys.Controls
         {
             this.timerShow.Stop();
             this.timerHide.Start();
+            this.label3.ForeColor = Color.Black;
+            this.label4.ForeColor = Color.Black;
+        }
+
+        private void label4_MouseDown(object sender, MouseEventArgs e)
+        {
+            this.label3.BackColor = Color.Plum;
+            this.label4.BackColor = Color.Plum;
+            this.label3.ForeColor = Color.White;
+            this.label4.ForeColor = Color.White;
+        }
+
+        private void label4_MouseUp(object sender, MouseEventArgs e)
+        {
+            this.label3.BackColor = Color.Transparent;
+            this.label4.BackColor = Color.Transparent;
+            this.label3.ForeColor = Color.PaleVioletRed;
+            this.label4.ForeColor = Color.PaleVioletRed;
         }
     }
 }

@@ -57,8 +57,10 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.label4_MouseDown);
             this.label3.MouseEnter += new System.EventHandler(this.label4_MouseEnter);
             this.label3.MouseLeave += new System.EventHandler(this.label4_MouseLeave);
+            this.label3.MouseUp += new System.Windows.Forms.MouseEventHandler(this.label4_MouseUp);
             // 
             // label4
             // 
@@ -71,17 +73,19 @@
             this.label4.TabIndex = 3;
             this.label4.Text = "Menu Item One";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.label4_MouseDown);
             this.label4.MouseEnter += new System.EventHandler(this.label4_MouseEnter);
             this.label4.MouseLeave += new System.EventHandler(this.label4_MouseLeave);
+            this.label4.MouseUp += new System.Windows.Forms.MouseEventHandler(this.label4_MouseUp);
             // 
             // timerShow
             // 
-            this.timerShow.Interval = 10;
+            this.timerShow.Interval = 15;
             this.timerShow.Tick += new System.EventHandler(this.timerShow_Tick);
             // 
             // timerHide
             // 
-            this.timerHide.Interval = 10;
+            this.timerHide.Interval = 15;
             this.timerHide.Tick += new System.EventHandler(this.timerHide_Tick);
             // 
             // LTMenuItem
