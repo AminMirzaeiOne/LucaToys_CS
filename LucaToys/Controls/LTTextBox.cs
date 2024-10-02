@@ -16,5 +16,33 @@ namespace LucaToys.Controls
         {
             InitializeComponent();
         }
+
+        [Category("Border Appearance")]
+        public System.Byte BorderSize
+        {
+            get { return (byte) this.textBox1.Margin.All; }
+            set
+            {
+                this.textBox1.Margin = new Padding(value);
+            }
+        }
+
+        [Category("Border Appearance")]
+        public System.Drawing.Color BorderColor
+        {
+            get { return this.tableLayoutPanel1.BackColor; }
+            set
+            {
+                this.tableLayoutPanel1.BackColor = value;
+            }
+        }
+
+        [Category("Border Appearance")]
+        public System.Drawing.Color BorderHoverColor { get; set; } = Color.Violet;
+
+        [Category("Border Appearance")]
+        public System.Drawing.Color BorderDownColor { get; set; } = Color.Orchid;
+
+
     }
 }

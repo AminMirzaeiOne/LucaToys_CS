@@ -30,6 +30,7 @@
         {
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.ltTextBox1 = new LucaToys.Controls.LTTextBox();
             this.SuspendLayout();
             // 
             // textBox1
@@ -52,11 +53,20 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Subject";
             // 
+            // ltTextBox1
+            // 
+            this.ltTextBox1.BackColor = System.Drawing.Color.White;
+            this.ltTextBox1.Location = new System.Drawing.Point(158, 131);
+            this.ltTextBox1.Name = "ltTextBox1";
+            this.ltTextBox1.Size = new System.Drawing.Size(250, 30);
+            this.ltTextBox1.TabIndex = 2;
+            // 
             // FeedbackPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
+            this.Controls.Add(this.ltTextBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Name = "FeedbackPage";
@@ -70,5 +80,6 @@
 
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
+        private Controls.LTTextBox ltTextBox1;
     }
 }
