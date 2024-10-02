@@ -43,6 +43,16 @@ namespace LucaToys.Controls
         [Category("Border Appearance")]
         public System.Drawing.Color BorderDownColor { get; set; } = Color.Orchid;
 
-
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            if (this.textBox1.TextLength > 0)
+            {
+                this.label1.Visible = false;
+            }
+            else
+            {
+                this.label1.Visible = true;
+            }
+        }
     }
 }
