@@ -43,6 +43,24 @@ namespace LucaToys.Controls
         [Category("Border Appearance")]
         public System.Drawing.Color BorderDownColor { get; set; } = Color.Orchid;
 
+        [Category("Hoder Appearance")]
+        public System.Drawing.Color HolderTextColor
+        {
+            get { return this.label1.ForeColor; }
+            set { this.label1.ForeColor = value; }
+        }
+
+        [Category("Hoder Appearance")]
+        public System.Drawing.Font HolderTextFont
+        {
+            get { return  this.label1.Font; }
+            set { this.label1.Font = value; }
+        }
+
+        [Category("Hoder Appearance")]
+        public System.String HolderTextContent { get { return this.label1.Text; } set { this.label1.Text = value; } }
+
+
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             if (this.textBox1.TextLength > 0)
