@@ -177,6 +177,12 @@
     <Compile Include="Submenus\AccountingSubmenu.Designer.cs">
       <DependentUpon>AccountingSubmenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Submenus\ExportSubmenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Submenus\ExportSubmenu.Designer.cs">
+      <DependentUpon>ExportSubmenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Submenus\ProductsSubmenu.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -304,6 +310,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Submenus\AccountingSubmenu.resx">
       <DependentUpon>AccountingSubmenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Submenus\ExportSubmenu.resx">
+      <DependentUpon>ExportSubmenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Submenus\ProductsSubmenu.resx">
       <DependentUpon>ProductsSubmenu.cs</DependentUpon>

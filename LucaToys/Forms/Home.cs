@@ -29,6 +29,7 @@ namespace LucaToys.Forms
             itemRemoveWidget.Text = "Remove Widgets";
             this.ltSmallMenu1.Items.Add(itemBackground);
             this.ltSmallMenu1.Items.Add(itemRemoveWidget);
+            this.ltSmallMenu1.AddSeparator();
 
         }
         XDropDown.XToolStripDropDown xTool;

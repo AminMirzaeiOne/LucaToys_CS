@@ -222,6 +222,15 @@ namespace LucaToys.Controls
             this.borderPanel.Size = new Size(this.borderPanel.Size.Width, height+4);
         }
 
+        public void AddSeparator()
+        {
+            SeparatorMenuItem separator = new SeparatorMenuItem(200, 3, DockStyle.Top);
+            separator.Dock = DockStyle.Top;
+            separator.BackColor = Color.Plum;
+            this.panel.Controls.Add(separator);
+            separator.BringToFront();
+        }
+
         private void MenuItem_Clicked(object sender,EventArgs e)
         {
             this.xTool.Close();
