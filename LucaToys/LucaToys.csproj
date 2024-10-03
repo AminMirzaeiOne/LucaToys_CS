@@ -198,6 +198,9 @@
     <EmbeddedResource Include="Menus\HomeTopMenu.resx">
       <DependentUpon>HomeTopMenu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Messages\ExitMessage.resx">
+      <DependentUpon>ExitMessage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Pages\DeveloperPage.fa.resx">
       <DependentUpon>DeveloperPage.cs</DependentUpon>
     </EmbeddedResource>
@@ -356,6 +359,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-get-38.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-open-door-96.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
