@@ -516,5 +516,35 @@
   <ItemGroup>
     <None Include="Resources\icons8-doll-50.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-clock-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-digital-clock-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-calendar-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-afternoon-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-hardware-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-puzzle-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-currency-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-pc-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-math-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-note-48 %281%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
