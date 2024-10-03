@@ -462,5 +462,17 @@
   <ItemGroup>
     <None Include="Resources\icons8-denied-skin-type-7-48.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-user-male-skin-type-7-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-update-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-female-user-update-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asset 2.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -23,7 +23,6 @@ namespace LucaToys.Forms
         }
         XDropDown.XToolStripDropDown xTool;
         private LucaToys.Menus.ControlWindow controlWindow = new Menus.ControlWindow();
-
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 

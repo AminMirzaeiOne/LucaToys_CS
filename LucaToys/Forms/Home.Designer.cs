@@ -35,8 +35,11 @@
             this.btnMaximize = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.usersSubmenu1 = new LucaToys.Submenus.UsersSubmenu();
+            this.label2 = new System.Windows.Forms.Label();
+            this.homeStatus1 = new LucaToys.Menus.HomeStatus();
             this.homeTopMenu1 = new LucaToys.Menus.HomeTopMenu();
+            this.ltSmallMenu1 = new LucaToys.Controls.LTSmallMenu();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -59,7 +62,9 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
             this.panel1.BackgroundImage = global::LucaToys.Properties.Resources.MainBackground;
-            this.panel1.Controls.Add(this.usersSubmenu1);
+            this.panel1.Controls.Add(this.panel2);
+            this.panel1.Controls.Add(this.homeStatus1);
+            this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.homeTopMenu1);
             this.panel1.Controls.Add(this.btnControl);
             this.panel1.Controls.Add(this.btnMinimize);
@@ -156,12 +161,27 @@
             this.label1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label1_MouseMove);
             this.label1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.label1_MouseUp);
             // 
-            // usersSubmenu1
+            // label2
             // 
-            this.usersSubmenu1.Location = new System.Drawing.Point(9, 186);
-            this.usersSubmenu1.Name = "usersSubmenu1";
-            this.usersSubmenu1.Size = new System.Drawing.Size(250, 357);
-            this.usersSubmenu1.TabIndex = 20;
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Plum;
+            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.label2.Location = new System.Drawing.Point(41, 4);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(136, 25);
+            this.label2.TabIndex = 26;
+            this.label2.Text = "Home Window";
+            // 
+            // homeStatus1
+            // 
+            this.homeStatus1.BackColor = System.Drawing.Color.White;
+            this.homeStatus1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.homeStatus1.Location = new System.Drawing.Point(0, 644);
+            this.homeStatus1.Name = "homeStatus1";
+            this.homeStatus1.Size = new System.Drawing.Size(1344, 50);
+            this.homeStatus1.TabIndex = 27;
             // 
             // homeTopMenu1
             // 
@@ -171,6 +191,27 @@
             this.homeTopMenu1.Name = "homeTopMenu1";
             this.homeTopMenu1.Size = new System.Drawing.Size(1344, 128);
             this.homeTopMenu1.TabIndex = 19;
+            // 
+            // ltSmallMenu1
+            // 
+            this.ltSmallMenu1.BackColor = System.Drawing.Color.White;
+            this.ltSmallMenu1.DownBackColor = System.Drawing.Color.Plum;
+            this.ltSmallMenu1.DownForeColor = System.Drawing.Color.White;
+            this.ltSmallMenu1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.ltSmallMenu1.ForeColor = System.Drawing.Color.Black;
+            this.ltSmallMenu1.HoverForeColor = System.Drawing.Color.Plum;
+            this.ltSmallMenu1.LineColor = System.Drawing.Color.Plum;
+            this.ltSmallMenu1.SymbolSize = ((byte)(8));
+            this.ltSmallMenu1.SymbolWidth = ((byte)(40));
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Transparent;
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Location = new System.Drawing.Point(0, 164);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1344, 480);
+            this.panel2.TabIndex = 28;
             // 
             // Home
             // 
@@ -185,6 +226,7 @@
             this.Text = "Home";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -199,6 +241,9 @@
         private System.Windows.Forms.Button btnMaximize;
         private System.Windows.Forms.Button btnClose;
         private Menus.HomeTopMenu homeTopMenu1;
-        private Submenus.UsersSubmenu usersSubmenu1;
+        private Controls.LTSmallMenu ltSmallMenu1;
+        private System.Windows.Forms.Label label2;
+        private Menus.HomeStatus homeStatus1;
+        private System.Windows.Forms.Panel panel2;
     }
 }
