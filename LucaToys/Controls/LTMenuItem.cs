@@ -17,6 +17,8 @@ namespace LucaToys.Controls
             InitializeComponent();
         }
 
+        private System.Drawing.Color baseBackColor = Color.White;
+
         public event EventHandler Clicked;
 
         [Category("Appearance")]
@@ -33,6 +35,27 @@ namespace LucaToys.Controls
         {
             get { return this.label1.BackColor; }
             set { this.label1.BackColor = value; }
+        }
+
+        [Category("Symbol Options")]
+        public System.String SymbolIcon
+        {
+            get { return this.label3.Text; }
+            set { this.label3.Text = value; }
+        }
+
+        [Category("Symbol Options")]
+        public System.Byte SymbolSize
+        {
+            get { return (byte) this.label3.Font.Size; }
+            set { this.label3.Font = new Font(this.label3.Font.FontFamily,value,this.label3.Font.Style); }
+        }
+
+        [Category("Symbol Options")]
+        public System.Byte SymbolWidth
+        {
+            get { return (byte)this.label3.Size.Width; }
+            set { this.label3.Size = new Size(value,this.label3.Size.Height); }
         }
 
 
@@ -70,6 +93,7 @@ namespace LucaToys.Controls
 
         private void label4_MouseDown(object sender, MouseEventArgs e)
         {
+            this.baseBackColor = this.BackColor;
             this.label3.BackColor = this.DownBackColor;
             this.label4.BackColor = this.DownBackColor;
             this.label3.ForeColor = this.DownForeColor;
@@ -78,8 +102,8 @@ namespace LucaToys.Controls
 
         private void label4_MouseUp(object sender, MouseEventArgs e)
         {
-            this.label3.BackColor = Color.Transparent;
-            this.label4.BackColor = Color.Transparent;
+            this.label3.BackColor = this.baseBackColor;
+            this.label4.BackColor = this.baseBackColor;
             this.label3.ForeColor = this.HoverForeColor;
             this.label4.ForeColor = this.HoverForeColor;
         }

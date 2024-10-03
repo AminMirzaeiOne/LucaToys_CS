@@ -45,7 +45,7 @@ namespace LucaToys.Controls
         public void Show()
         {
             this.UpdateItems();
-            xTool.Show(this.Control);
+            xTool.Show(Cursor.Position);
         }
 
         private void Control_Down(object sender, MouseEventArgs e)
