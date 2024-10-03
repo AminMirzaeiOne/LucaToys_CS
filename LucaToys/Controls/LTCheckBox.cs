@@ -102,7 +102,7 @@ namespace LucaToys.Controls
             }
 
             // Will draw the box in the highlight color if mouse over or if we have focus
-            Color boxColor = Enabled ? (_mouseOver || Focused ? this.CheckedBorderColor : ForeColor) : Color.Red;
+            Color boxColor = this.CheckedBorderColor;
             using (Pen boxPen = new Pen(boxColor, boxThickness))
             {
                 e.Graphics.DrawRectangle(boxPen, checkRect);

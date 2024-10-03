@@ -19,6 +19,12 @@ namespace LucaToys.Forms
         public Calculator()
         {
             InitializeComponent();
+            LucaToys.Controls.LTMenuItem item = new Controls.LTMenuItem();
+            LucaToys.Controls.LTMenuItem item2 = new Controls.LTMenuItem();
+            LucaToys.Controls.LTMenuItem item3 = new Controls.LTMenuItem();
+            this.ltSmallMenu1.Items.Add(item);
+            this.ltSmallMenu1.Items.Add(item2);
+            this.ltSmallMenu1.Items.Add(item3);
         }
 
         private void label1_MouseDown(object sender, MouseEventArgs e)

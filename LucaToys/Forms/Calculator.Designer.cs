@@ -63,10 +63,7 @@
             this.btnMaximize = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.ltCheckBox1 = new LucaToys.Controls.LTCheckBox();
-            this.ltMenuItem2 = new LucaToys.Controls.LTMenuItem();
-            this.ltMenuItem1 = new LucaToys.Controls.LTMenuItem();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.ltSmallMenu1 = new LucaToys.Controls.LTSmallMenu();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -89,10 +86,6 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.checkBox1);
-            this.panel1.Controls.Add(this.ltCheckBox1);
-            this.panel1.Controls.Add(this.ltMenuItem2);
-            this.panel1.Controls.Add(this.ltMenuItem1);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.tableLayoutPanel2);
             this.panel1.Controls.Add(this.label3);
@@ -796,42 +789,9 @@
             this.label1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label1_MouseMove);
             this.label1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.label1_MouseUp);
             // 
-            // ltCheckBox1
+            // ltSmallMenu1
             // 
-            this.ltCheckBox1.AutoSize = true;
-            this.ltCheckBox1.ExpandBorderThickness = false;
-            this.ltCheckBox1.Location = new System.Drawing.Point(285, 57);
-            this.ltCheckBox1.Name = "ltCheckBox1";
-            this.ltCheckBox1.Size = new System.Drawing.Size(134, 29);
-            this.ltCheckBox1.TabIndex = 28;
-            this.ltCheckBox1.Text = "ltCheckBox1";
-            this.ltCheckBox1.UseVisualStyleBackColor = true;
-            // 
-            // ltMenuItem2
-            // 
-            this.ltMenuItem2.BackColor = System.Drawing.Color.White;
-            this.ltMenuItem2.Location = new System.Drawing.Point(96, 112);
-            this.ltMenuItem2.Name = "ltMenuItem2";
-            this.ltMenuItem2.Size = new System.Drawing.Size(200, 40);
-            this.ltMenuItem2.TabIndex = 27;
-            // 
-            // ltMenuItem1
-            // 
-            this.ltMenuItem1.BackColor = System.Drawing.Color.White;
-            this.ltMenuItem1.Location = new System.Drawing.Point(96, 66);
-            this.ltMenuItem1.Name = "ltMenuItem1";
-            this.ltMenuItem1.Size = new System.Drawing.Size(200, 40);
-            this.ltMenuItem1.TabIndex = 27;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(285, 112);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(121, 29);
-            this.checkBox1.TabIndex = 29;
-            this.checkBox1.Text = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.ltSmallMenu1.Control = this.label2;
             // 
             // Calculator
             // 
@@ -889,9 +849,6 @@
         private System.Windows.Forms.Button button22;
         private System.Windows.Forms.Button button23;
         private System.Windows.Forms.Label label4;
-        private Controls.LTMenuItem ltMenuItem1;
-        private Controls.LTMenuItem ltMenuItem2;
-        private Controls.LTCheckBox ltCheckBox1;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private Controls.LTSmallMenu ltSmallMenu1;
     }
 }

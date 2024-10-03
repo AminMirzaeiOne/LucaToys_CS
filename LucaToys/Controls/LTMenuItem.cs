@@ -17,6 +17,8 @@ namespace LucaToys.Controls
             InitializeComponent();
         }
 
+        public event EventHandler Clicked;
+
         private void label4_MouseEnter(object sender, EventArgs e)
         {
             this.timerShow.Start();
@@ -62,6 +64,11 @@ namespace LucaToys.Controls
             this.label4.BackColor = Color.Transparent;
             this.label3.ForeColor = Color.PaleVioletRed;
             this.label4.ForeColor = Color.PaleVioletRed;
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            this.Clicked(sender, e);
         }
     }
 }
