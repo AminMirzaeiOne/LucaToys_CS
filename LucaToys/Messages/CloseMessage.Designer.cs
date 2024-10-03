@@ -42,6 +42,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.ltSmallMenu1 = new LucaToys.Controls.LTSmallMenu();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -250,6 +251,19 @@
             this.pictureBox1.TabIndex = 31;
             this.pictureBox1.TabStop = false;
             // 
+            // ltSmallMenu1
+            // 
+            this.ltSmallMenu1.BackColor = System.Drawing.Color.White;
+            this.ltSmallMenu1.Control = this.label3;
+            this.ltSmallMenu1.DownBackColor = System.Drawing.Color.Plum;
+            this.ltSmallMenu1.DownForeColor = System.Drawing.Color.White;
+            this.ltSmallMenu1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.ltSmallMenu1.ForeColor = System.Drawing.Color.Black;
+            this.ltSmallMenu1.HoverForeColor = System.Drawing.Color.Plum;
+            this.ltSmallMenu1.LineColor = System.Drawing.Color.Plum;
+            this.ltSmallMenu1.SymbolSize = ((byte)(10));
+            this.ltSmallMenu1.SymbolWidth = ((byte)(40));
+            // 
             // CloseMessage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
@@ -289,5 +303,6 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
+        private Controls.LTSmallMenu ltSmallMenu1;
     }
 }

@@ -18,7 +18,7 @@ namespace LucaToys
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             LucaToys.Data.Constants.calculator = new Forms.Calculator();
-            Application.Run(new Messages.ExitMessage());
+            Application.Run(new Messages.CloseMessage());
         }
         [System.Runtime.InteropServices.DllImport("user32.dll")]
         private static extern bool SetProcessDPIAware();

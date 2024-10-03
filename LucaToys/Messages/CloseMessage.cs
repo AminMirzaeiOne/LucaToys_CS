@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using LucaToys.Controls;
 
 namespace LucaToys.Messages
 {
@@ -18,6 +19,11 @@ namespace LucaToys.Messages
         public CloseMessage()
         {
             InitializeComponent();
+            LTMenuItem itemCopy = new LTMenuItem();
+            itemCopy.Text = "Copy Text";
+            itemCopy.SymbolIcon = "";
+            itemCopy.Clicked += new EventHandler(this.ItemCopy_Clicked);
+            this.ltSmallMenu1.Items.Add(itemCopy);
         }
 
         private void btnClose_Click(object sender, EventArgs e)
@@ -27,7 +33,8 @@ namespace LucaToys.Messages
 
         private void btnMaxRes_Click(object sender, EventArgs e)
         {
-            this.Owner.Close();
+            if (this.Owner != null)
+                this.Owner.Close();
         }
 
         private void label1_MouseDown(object sender, MouseEventArgs e)
@@ -50,6 +57,11 @@ namespace LucaToys.Messages
         private void label1_MouseUp(object sender, MouseEventArgs e)
         {
             this.mouseDown = false;
+        }
+
+        private void ItemCopy_Clicked(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Clipboard.SetText(this.label3.Text);
         }
     }
 }
