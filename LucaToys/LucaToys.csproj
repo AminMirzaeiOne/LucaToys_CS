@@ -189,6 +189,12 @@
     <Compile Include="Submenus\UsersSubmenu.Designer.cs">
       <DependentUpon>UsersSubmenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Submenus\WidgetsSubmenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Submenus\WidgetsSubmenu.Designer.cs">
+      <DependentUpon>WidgetsSubmenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Widgets\AnalogClock.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -304,6 +310,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Submenus\UsersSubmenu.resx">
       <DependentUpon>UsersSubmenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Submenus\WidgetsSubmenu.resx">
+      <DependentUpon>WidgetsSubmenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Widgets\AnalogClock.resx">
       <DependentUpon>AnalogClock.cs</DependentUpon>
