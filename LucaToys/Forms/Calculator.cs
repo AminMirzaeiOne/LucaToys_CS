@@ -22,9 +22,17 @@ namespace LucaToys.Forms
             LucaToys.Controls.LTMenuItem item = new Controls.LTMenuItem();
             LucaToys.Controls.LTMenuItem item2 = new Controls.LTMenuItem();
             LucaToys.Controls.LTMenuItem item3 = new Controls.LTMenuItem();
+            LucaToys.Controls.LTMenuItem item4 = new Controls.LTMenuItem();
+            LucaToys.Controls.LTMenuItem item5 = new Controls.LTMenuItem();
+            LucaToys.Controls.LTMenuItem item6 = new Controls.LTMenuItem();
+            LucaToys.Controls.LTMenuItem item7 = new Controls.LTMenuItem();
             this.ltSmallMenu1.Items.Add(item);
             this.ltSmallMenu1.Items.Add(item2);
             this.ltSmallMenu1.Items.Add(item3);
+            this.ltSmallMenu1.Items.Add(item4);
+            this.ltSmallMenu1.Items.Add(item5);
+            this.ltSmallMenu1.Items.Add(item6);
+            this.ltSmallMenu1.Items.Add(item7);
         }
 
         private void label1_MouseDown(object sender, MouseEventArgs e)

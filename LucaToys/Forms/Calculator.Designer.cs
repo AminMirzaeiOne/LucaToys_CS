@@ -791,7 +791,16 @@
             // 
             // ltSmallMenu1
             // 
-            this.ltSmallMenu1.Control = this.label2;
+            this.ltSmallMenu1.BackColor = System.Drawing.Color.White;
+            this.ltSmallMenu1.Control = this.label3;
+            this.ltSmallMenu1.DownBackColor = System.Drawing.Color.Crimson;
+            this.ltSmallMenu1.DownForeColor = System.Drawing.Color.White;
+            this.ltSmallMenu1.Font = new System.Drawing.Font("Segoe UI", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ltSmallMenu1.ForeColor = System.Drawing.Color.Coral;
+            this.ltSmallMenu1.HoverForeColor = System.Drawing.Color.DeepPink;
+            this.ltSmallMenu1.LineColor = System.Drawing.Color.Crimson;
+            this.ltSmallMenu1.SymbolSize = ((byte)(10));
+            this.ltSmallMenu1.SymbolWidth = ((byte)(50));
             // 
             // Calculator
             // 

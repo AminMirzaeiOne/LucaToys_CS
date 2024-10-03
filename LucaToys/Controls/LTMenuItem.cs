@@ -18,6 +18,7 @@ namespace LucaToys.Controls
         }
 
         private System.Drawing.Color baseBackColor = Color.White;
+        private System.Drawing.Color baseForeColor = Color.Black;
 
         public event EventHandler Clicked;
 
@@ -58,11 +59,42 @@ namespace LucaToys.Controls
             set { this.label3.Size = new Size(value,this.label3.Size.Height); }
         }
 
+        public System.String Text
+        {
+            get { return this.label4.Text; }
+            set
+            {
+                this.label4.Text = value;
+            }
+        }
+
+        public override Font Font
+        {
+            get { return base.Font; }
+            set 
+            {
+                base.Font = value;
+                this.label4.Font = value;
+            }
+        }
+
+        public override Color ForeColor
+        {
+            get { return base.ForeColor; }
+            set
+            {
+                base.ForeColor = value;
+                this.label3.ForeColor = value;
+                this.label4.ForeColor = value;
+            }
+        }
+
 
 
         private void label4_MouseEnter(object sender, EventArgs e)
         {
             this.timerShow.Start();
+            this.baseForeColor = this.ForeColor;
             this.label3.ForeColor = this.HoverForeColor;
             this.label4.ForeColor = this.HoverForeColor;
         }
@@ -87,8 +119,8 @@ namespace LucaToys.Controls
         {
             this.timerShow.Stop();
             this.timerHide.Start();
-            this.label3.ForeColor = Color.Black;
-            this.label4.ForeColor = Color.Black;
+            this.label3.ForeColor = this.baseForeColor;
+            this.label4.ForeColor = this.baseForeColor;
         }
 
         private void label4_MouseDown(object sender, MouseEventArgs e)
