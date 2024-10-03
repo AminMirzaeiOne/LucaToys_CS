@@ -171,6 +171,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Sounds.resx</DependentUpon>
     </Compile>
+    <Compile Include="Submenus\UsersSubmenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Submenus\UsersSubmenu.Designer.cs">
+      <DependentUpon>UsersSubmenu.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Controls\LTMenuItem.resx">
       <DependentUpon>LTMenuItem.cs</DependentUpon>
     </EmbeddedResource>
@@ -281,7 +287,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Logic\" />
-    <Folder Include="Submenus\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\LucaLogo.png" />
