@@ -44,7 +44,8 @@ namespace LucaToys.Menus
 
         private void btnExit_Click(object sender, EventArgs e)
         {
-            System.Windows.Forms.Application.Exit();
+            Messages.ExitMessage exitMessage = new Messages.ExitMessage();
+            exitMessage.ShowDialog();
         }
 
         private void btnRestart_Click(object sender, EventArgs e)
@@ -60,8 +61,9 @@ namespace LucaToys.Menus
 
         private void btnClose_Click(object sender, EventArgs e)
         {
-            if (this.Window != null)
-                this.Window.Close();
+            Messages.CloseMessage closeMessage = new Messages.CloseMessage(this.Window);
+            closeMessage.ShowDialog();
+              
         }
 
         private void btnMaxRes_Click(object sender, EventArgs e)

@@ -18,7 +18,11 @@ namespace LucaToys.Forms
         public Home()
         {
             InitializeComponent();
+            this.controlWindow.Window = this;
+            this.xTool = new XDropDown.XToolStripDropDown(this.controlWindow);
         }
+        XDropDown.XToolStripDropDown xTool;
+        private LucaToys.Menus.ControlWindow controlWindow = new Menus.ControlWindow();
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
@@ -69,6 +73,14 @@ namespace LucaToys.Forms
                 (this.Location.X - this.lastLocation.X) + e.X, (this.Location.Y - this.lastLocation.Y) + e.Y);
 
                 this.Update();
+            }
+        }
+
+        private void btnControl_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                this.xTool.Show(this.btnControl);
             }
         }
     }

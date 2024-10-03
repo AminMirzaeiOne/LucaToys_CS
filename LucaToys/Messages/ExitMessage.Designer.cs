@@ -34,15 +34,15 @@
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.btnMaxRes = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.btnControl = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.ltSmallMenu1 = new LucaToys.Controls.LTSmallMenu();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -89,6 +89,12 @@
             resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
             // 
+            // label5
+            // 
+            this.label5.BackColor = System.Drawing.Color.Plum;
+            resources.ApplyResources(this.label5, "label5");
+            this.label5.Name = "label5";
+            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.WhiteSmoke;
@@ -122,13 +128,6 @@
             this.btnMaxRes.Name = "btnMaxRes";
             this.btnMaxRes.UseVisualStyleBackColor = false;
             this.btnMaxRes.Click += new System.EventHandler(this.btnMaxRes_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::LucaToys.Properties.Resources.icons8_open_door_96;
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.TabStop = false;
             // 
             // label4
             // 
@@ -166,11 +165,12 @@
             this.label1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label1_MouseMove);
             this.label1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.label1_MouseUp);
             // 
-            // label5
+            // pictureBox1
             // 
-            this.label5.BackColor = System.Drawing.Color.Plum;
-            resources.ApplyResources(this.label5, "label5");
-            this.label5.Name = "label5";
+            this.pictureBox1.Image = global::LucaToys.Properties.Resources.icons8_open_door_96;
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
             // 
             // ltSmallMenu1
             // 

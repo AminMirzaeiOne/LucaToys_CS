@@ -390,5 +390,41 @@
   <ItemGroup>
     <None Include="Resources\icons8-delete-document-96.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-male-female-user-group-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-male-female-user-group-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-basket-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-male-female-user-group-501.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-about-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-question-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-settings-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-tools-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-widgets-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-accounting-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-open-box-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-budget-49.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

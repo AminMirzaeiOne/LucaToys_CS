@@ -35,6 +35,7 @@
             this.btnMaximize = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.homeTopMenu1 = new LucaToys.Menus.HomeTopMenu();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -57,6 +58,7 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
             this.panel1.BackgroundImage = global::LucaToys.Properties.Resources.MainBackground;
+            this.panel1.Controls.Add(this.homeTopMenu1);
             this.panel1.Controls.Add(this.btnControl);
             this.panel1.Controls.Add(this.btnMinimize);
             this.panel1.Controls.Add(this.btnMaximize);
@@ -83,6 +85,7 @@
             this.btnControl.TabIndex = 16;
             this.btnControl.Text = "";
             this.btnControl.UseVisualStyleBackColor = false;
+            this.btnControl.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btnControl_MouseDown);
             // 
             // btnMinimize
             // 
@@ -151,6 +154,15 @@
             this.label1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label1_MouseMove);
             this.label1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.label1_MouseUp);
             // 
+            // homeTopMenu1
+            // 
+            this.homeTopMenu1.BackColor = System.Drawing.Color.White;
+            this.homeTopMenu1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.homeTopMenu1.Location = new System.Drawing.Point(0, 36);
+            this.homeTopMenu1.Name = "homeTopMenu1";
+            this.homeTopMenu1.Size = new System.Drawing.Size(996, 128);
+            this.homeTopMenu1.TabIndex = 19;
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
@@ -177,5 +189,6 @@
         private System.Windows.Forms.Button btnMinimize;
         private System.Windows.Forms.Button btnMaximize;
         private System.Windows.Forms.Button btnClose;
+        private Menus.HomeTopMenu homeTopMenu1;
     }
 }
