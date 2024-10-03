@@ -12,9 +12,44 @@ namespace LucaToys.Messages
 {
     public partial class CloseMessage : System.Windows.Forms.Form
     {
+        private bool mouseDown;
+        private Point lastLocation;
+
         public CloseMessage()
         {
             InitializeComponent();
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnMaxRes_Click(object sender, EventArgs e)
+        {
+            this.Owner.Close();
+        }
+
+        private void label1_MouseDown(object sender, MouseEventArgs e)
+        {
+            this.mouseDown = true;
+            this.lastLocation = e.Location;
+        }
+
+        private void label1_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (this.mouseDown == true)
+            {
+                this.Location = new Point(
+                (this.Location.X - this.lastLocation.X) + e.X, (this.Location.Y - this.lastLocation.Y) + e.Y);
+
+                this.Update();
+            }
+        }
+
+        private void label1_MouseUp(object sender, MouseEventArgs e)
+        {
+            this.mouseDown = false;
         }
     }
 }
