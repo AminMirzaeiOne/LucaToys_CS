@@ -110,6 +110,12 @@
     <Compile Include="Menus\ControlWindow.Designer.cs">
       <DependentUpon>ControlWindow.cs</DependentUpon>
     </Compile>
+    <Compile Include="Menus\HomeStatus.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Menus\HomeStatus.Designer.cs">
+      <DependentUpon>HomeStatus.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menus\HomeTopMenu.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -200,6 +206,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Menus\ControlWindow.resx">
       <DependentUpon>ControlWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menus\HomeStatus.resx">
+      <DependentUpon>HomeStatus.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menus\HomeTopMenu.resx">
       <DependentUpon>HomeTopMenu.cs</DependentUpon>
@@ -377,6 +386,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-exit-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-delete-document-96.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

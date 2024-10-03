@@ -15,10 +15,12 @@ namespace LucaToys.Messages
     {
         private bool mouseDown;
         private Point lastLocation;
+        private System.Windows.Forms.Form window;
 
-        public CloseMessage()
+        public CloseMessage(System.Windows.Forms.Form Window)
         {
             InitializeComponent();
+            this.window = Window;
             LTMenuItem itemCopy = new LTMenuItem();
             itemCopy.Text = "Copy Text";
             itemCopy.SymbolIcon = "";
@@ -33,8 +35,7 @@ namespace LucaToys.Messages
 
         private void btnMaxRes_Click(object sender, EventArgs e)
         {
-            if (this.Owner != null)
-                this.Owner.Close();
+            this.window.Close();
         }
 
         private void label1_MouseDown(object sender, MouseEventArgs e)

@@ -27,7 +27,8 @@ namespace LucaToys.Forms
 
         private void btnClose_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Messages.CloseMessage closeMessage = new Messages.CloseMessage(this);
+            closeMessage.ShowDialog();
         }
 
         private void btnMinimize_Click(object sender, EventArgs e)
