@@ -588,5 +588,23 @@
   <ItemGroup>
     <None Include="Resources\icons8-google-groups-48.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-version-48 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-working-with-a-laptop-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-paper-plane-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-github-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-instagram-old-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-certification-48.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
