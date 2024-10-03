@@ -1,6 +1,6 @@
 ﻿namespace LucaToys.Widgets
 {
-    partial class AnalogClock
+    partial class Widget
     {
         /// <summary> 
         /// Required designer variable.
@@ -30,12 +30,12 @@
         {
             this.SuspendLayout();
             // 
-            // AnalogClock
+            // Widget
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Name = "AnalogClock";
-            this.Size = new System.Drawing.Size(295, 267);
+            this.Name = "Widget";
+            this.Size = new System.Drawing.Size(242, 220);
             this.ResumeLayout(false);
 
         }

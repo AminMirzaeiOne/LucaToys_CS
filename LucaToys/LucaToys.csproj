@@ -183,6 +183,12 @@
     <Compile Include="Widgets\AnalogClock.Designer.cs">
       <DependentUpon>AnalogClock.cs</DependentUpon>
     </Compile>
+    <Compile Include="Widgets\Widget.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Widgets\Widget.Designer.cs">
+      <DependentUpon>Widget.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Controls\LTMenuItem.resx">
       <DependentUpon>LTMenuItem.cs</DependentUpon>
     </EmbeddedResource>
@@ -280,6 +286,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Submenus\UsersSubmenu.resx">
       <DependentUpon>UsersSubmenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\AnalogClock.resx">
+      <DependentUpon>AnalogClock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\Widget.resx">
+      <DependentUpon>Widget.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

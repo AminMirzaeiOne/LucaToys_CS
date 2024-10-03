@@ -30,13 +30,13 @@
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.homeTopMenu1 = new LucaToys.Menus.HomeTopMenu();
             this.btnControl = new System.Windows.Forms.Button();
             this.btnMinimize = new System.Windows.Forms.Button();
             this.btnMaximize = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.usersSubmenu1 = new LucaToys.Submenus.UsersSubmenu();
+            this.homeTopMenu1 = new LucaToys.Menus.HomeTopMenu();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -52,7 +52,7 @@
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1002, 589);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1350, 700);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // panel1
@@ -69,18 +69,9 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(996, 583);
+            this.panel1.Size = new System.Drawing.Size(1344, 694);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
-            // 
-            // homeTopMenu1
-            // 
-            this.homeTopMenu1.BackColor = System.Drawing.Color.White;
-            this.homeTopMenu1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.homeTopMenu1.Location = new System.Drawing.Point(0, 36);
-            this.homeTopMenu1.Name = "homeTopMenu1";
-            this.homeTopMenu1.Size = new System.Drawing.Size(996, 128);
-            this.homeTopMenu1.TabIndex = 19;
             // 
             // btnControl
             // 
@@ -107,7 +98,7 @@
             this.btnMinimize.Font = new System.Drawing.Font("Segoe MDL2 Assets", 6F, System.Drawing.FontStyle.Bold);
             this.btnMinimize.ForeColor = System.Drawing.Color.Plum;
             this.btnMinimize.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnMinimize.Location = new System.Drawing.Point(899, 4);
+            this.btnMinimize.Location = new System.Drawing.Point(1247, 4);
             this.btnMinimize.Name = "btnMinimize";
             this.btnMinimize.Size = new System.Drawing.Size(25, 25);
             this.btnMinimize.TabIndex = 17;
@@ -124,7 +115,7 @@
             this.btnMaximize.Font = new System.Drawing.Font("Segoe MDL2 Assets", 6F, System.Drawing.FontStyle.Bold);
             this.btnMaximize.ForeColor = System.Drawing.Color.Plum;
             this.btnMaximize.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnMaximize.Location = new System.Drawing.Point(933, 4);
+            this.btnMaximize.Location = new System.Drawing.Point(1281, 4);
             this.btnMaximize.Name = "btnMaximize";
             this.btnMaximize.Size = new System.Drawing.Size(25, 25);
             this.btnMaximize.TabIndex = 17;
@@ -141,7 +132,7 @@
             this.btnClose.Font = new System.Drawing.Font("Segoe MDL2 Assets", 6F, System.Drawing.FontStyle.Bold);
             this.btnClose.ForeColor = System.Drawing.Color.Plum;
             this.btnClose.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnClose.Location = new System.Drawing.Point(967, 4);
+            this.btnClose.Location = new System.Drawing.Point(1315, 4);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(25, 25);
             this.btnClose.TabIndex = 18;
@@ -158,7 +149,7 @@
             this.label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(996, 36);
+            this.label1.Size = new System.Drawing.Size(1344, 36);
             this.label1.TabIndex = 13;
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.label1_MouseDown);
@@ -172,12 +163,21 @@
             this.usersSubmenu1.Size = new System.Drawing.Size(250, 357);
             this.usersSubmenu1.TabIndex = 20;
             // 
+            // homeTopMenu1
+            // 
+            this.homeTopMenu1.BackColor = System.Drawing.Color.White;
+            this.homeTopMenu1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.homeTopMenu1.Location = new System.Drawing.Point(0, 36);
+            this.homeTopMenu1.Name = "homeTopMenu1";
+            this.homeTopMenu1.Size = new System.Drawing.Size(1344, 128);
+            this.homeTopMenu1.TabIndex = 19;
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1002, 589);
+            this.ClientSize = new System.Drawing.Size(1350, 700);
             this.Controls.Add(this.tableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Home";
