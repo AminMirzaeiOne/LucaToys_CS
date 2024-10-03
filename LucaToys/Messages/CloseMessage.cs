@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace LucaToys.Messages
 {
-    public partial class CloseMessage : Form
+    public partial class CloseMessage : System.Windows.Forms.Form
     {
         public CloseMessage()
         {
