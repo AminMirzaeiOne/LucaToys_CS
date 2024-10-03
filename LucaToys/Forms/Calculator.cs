@@ -19,21 +19,22 @@ namespace LucaToys.Forms
         public Calculator()
         {
             InitializeComponent();
-            LucaToys.Controls.LTMenuItem item = new Controls.LTMenuItem();
-            LucaToys.Controls.LTMenuItem item2 = new Controls.LTMenuItem();
-            LucaToys.Controls.LTMenuItem item3 = new Controls.LTMenuItem();
-            LucaToys.Controls.LTMenuItem item4 = new Controls.LTMenuItem();
-            LucaToys.Controls.LTMenuItem item5 = new Controls.LTMenuItem();
-            LucaToys.Controls.LTMenuItem item6 = new Controls.LTMenuItem();
-            LucaToys.Controls.LTMenuItem item7 = new Controls.LTMenuItem();
-            this.ltSmallMenu1.Items.Add(item);
-            this.ltSmallMenu1.Items.Add(item2);
-            this.ltSmallMenu1.Items.Add(item3);
-            this.ltSmallMenu1.Items.Add(item4);
-            this.ltSmallMenu1.Items.Add(item5);
-            this.ltSmallMenu1.Items.Add(item6);
-            this.ltSmallMenu1.Items.Add(item7);
+            LucaToys.Controls.LTMenuItem itemCopy = new Controls.LTMenuItem();
+            LucaToys.Controls.LTMenuItem itemDelete = new Controls.LTMenuItem();
+            itemCopy.SymbolIcon = "";
+            itemDelete.SymbolIcon = "";
+            itemCopy.Text = "Copy Result";
+            itemDelete.Text = "Delete Result";
+            itemCopy.Clicked += new EventHandler(this.ItemCopy_Clicked);
+            itemDelete.Clicked += new EventHandler(this.button21_Click);
+            this.ltSmallMenu1.Items.Add(itemDelete);
+            this.ltSmallMenu1.Items.Add(itemCopy);
+            this.controlWindow.Window = this;
+            this.xTool = new XDropDown.XToolStripDropDown(this.controlWindow);
         }
+
+        private LucaToys.Menus.ControlWindow controlWindow = new Menus.ControlWindow();
+        XDropDown.XToolStripDropDown xTool;
 
         private void label1_MouseDown(object sender, MouseEventArgs e)
         {
@@ -132,7 +133,7 @@ namespace LucaToys.Forms
 
         private void button21_Click(object sender, EventArgs e)
         {
-            this.label3.Text = string.Empty;
+            this.label3.Text = "0";
         }
 
         private void button14_Click(object sender, EventArgs e)
@@ -165,6 +166,19 @@ namespace LucaToys.Forms
 
             }
             this.label2.Text = "0";
+        }
+
+        private void btnControl_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                this.xTool.Show(this.btnControl);
+            }
+        }
+
+        private void ItemCopy_Clicked(object sender,EventArgs e)
+        {
+            System.Windows.Forms.Clipboard.SetText(this.label3.Text);
         }
     }
 }
