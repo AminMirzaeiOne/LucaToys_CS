@@ -146,4 +146,23 @@ namespace LucaToys.Controls
                 this.Clicked(sender, e);
         }
     }
+
+    public class SeparatorMenuItem : System.Windows.Forms.Label
+    {
+        public SeparatorMenuItem(System.Byte width = 100 ,System.Byte height = 3)
+        {
+            this.AutoSize = false;
+            this.Text = string.Empty;
+            this.BackColor = Color.PaleVioletRed;
+            this.Size = new Size(width, height);
+        }
+
+        public SeparatorMenuItem(System.Byte width = 100, System.Byte height = 3,DockStyle dock = DockStyle.Top)
+        {
+            this.AutoSize = false;
+            this.Text = string.Empty;
+            this.BackColor = Color.PaleVioletRed;
+            this.Size = new Size(width, height);
+        }
+    }
 }

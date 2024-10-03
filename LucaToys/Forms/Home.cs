@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using LucaToys.Controls;
 
 namespace LucaToys.Forms
 {
@@ -20,6 +21,15 @@ namespace LucaToys.Forms
             InitializeComponent();
             this.controlWindow.Window = this;
             this.xTool = new XDropDown.XToolStripDropDown(this.controlWindow);
+            LTMenuItem itemBackground = new LTMenuItem();
+            LTMenuItem itemRemoveWidget = new LTMenuItem();
+            itemBackground.SymbolIcon = "";
+            itemRemoveWidget.SymbolIcon = "";
+            itemBackground.Text = "Change Background";
+            itemRemoveWidget.Text = "Remove Widgets";
+            this.ltSmallMenu1.Items.Add(itemBackground);
+            this.ltSmallMenu1.Items.Add(itemRemoveWidget);
+
         }
         XDropDown.XToolStripDropDown xTool;
         private LucaToys.Menus.ControlWindow controlWindow = new Menus.ControlWindow();

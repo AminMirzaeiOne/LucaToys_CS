@@ -137,6 +137,15 @@ namespace LucaToys.Controls
             }
         }
 
+        public System.Byte Width
+        {
+            get { return (byte) this.borderPanel.Size.Width; }
+            set
+            {
+                this.borderPanel.Size = new Size(value, this.borderPanel.Size.Height);
+            }
+        }
+
         public System.Drawing.Font Font
         {
             get { return this.font; }
