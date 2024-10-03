@@ -290,6 +290,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Logic\" />
+    <Folder Include="Widgets\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\LucaLogo.png" />
@@ -434,6 +435,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-budget-49.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-customers-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-user-group-woman-man-skin-type-7-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-denied-skin-type-7-48.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

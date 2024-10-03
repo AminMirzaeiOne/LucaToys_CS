@@ -133,6 +133,16 @@ namespace LucaToys.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_add_user_group_woman_man_skin_type_7_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-add-user-group-woman-man-skin-type-7-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_admin_settings_male_96 {
             get {
                 object obj = ResourceManager.GetObject("icons8-admin-settings-male-96", resourceCulture);
@@ -183,6 +193,16 @@ namespace LucaToys.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_customers_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-customers-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_date_48 {
             get {
                 object obj = ResourceManager.GetObject("icons8-date-48", resourceCulture);
@@ -196,6 +216,16 @@ namespace LucaToys.Properties {
         internal static System.Drawing.Bitmap icons8_delete_document_96 {
             get {
                 object obj = ResourceManager.GetObject("icons8-delete-document-96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_denied_skin_type_7_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-denied-skin-type-7-48", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -30,12 +30,13 @@
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.homeTopMenu1 = new LucaToys.Menus.HomeTopMenu();
             this.btnControl = new System.Windows.Forms.Button();
             this.btnMinimize = new System.Windows.Forms.Button();
             this.btnMaximize = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.homeTopMenu1 = new LucaToys.Menus.HomeTopMenu();
+            this.usersSubmenu1 = new LucaToys.Submenus.UsersSubmenu();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -58,6 +59,7 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
             this.panel1.BackgroundImage = global::LucaToys.Properties.Resources.MainBackground;
+            this.panel1.Controls.Add(this.usersSubmenu1);
             this.panel1.Controls.Add(this.homeTopMenu1);
             this.panel1.Controls.Add(this.btnControl);
             this.panel1.Controls.Add(this.btnMinimize);
@@ -70,6 +72,15 @@
             this.panel1.Size = new System.Drawing.Size(996, 583);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // homeTopMenu1
+            // 
+            this.homeTopMenu1.BackColor = System.Drawing.Color.White;
+            this.homeTopMenu1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.homeTopMenu1.Location = new System.Drawing.Point(0, 36);
+            this.homeTopMenu1.Name = "homeTopMenu1";
+            this.homeTopMenu1.Size = new System.Drawing.Size(996, 128);
+            this.homeTopMenu1.TabIndex = 19;
             // 
             // btnControl
             // 
@@ -154,14 +165,12 @@
             this.label1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label1_MouseMove);
             this.label1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.label1_MouseUp);
             // 
-            // homeTopMenu1
+            // usersSubmenu1
             // 
-            this.homeTopMenu1.BackColor = System.Drawing.Color.White;
-            this.homeTopMenu1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.homeTopMenu1.Location = new System.Drawing.Point(0, 36);
-            this.homeTopMenu1.Name = "homeTopMenu1";
-            this.homeTopMenu1.Size = new System.Drawing.Size(996, 128);
-            this.homeTopMenu1.TabIndex = 19;
+            this.usersSubmenu1.Location = new System.Drawing.Point(9, 186);
+            this.usersSubmenu1.Name = "usersSubmenu1";
+            this.usersSubmenu1.Size = new System.Drawing.Size(250, 357);
+            this.usersSubmenu1.TabIndex = 20;
             // 
             // Home
             // 
@@ -190,5 +199,6 @@
         private System.Windows.Forms.Button btnMaximize;
         private System.Windows.Forms.Button btnClose;
         private Menus.HomeTopMenu homeTopMenu1;
+        private Submenus.UsersSubmenu usersSubmenu1;
     }
 }

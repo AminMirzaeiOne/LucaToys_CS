@@ -30,7 +30,10 @@
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btnMaxRes = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -44,18 +47,66 @@
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(210, 357);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(250, 357);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.btnMaxRes);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(2, 2);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(206, 353);
+            this.panel1.Size = new System.Drawing.Size(246, 353);
             this.panel1.TabIndex = 0;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Orchid;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.Image = global::LucaToys.Properties.Resources.icons8_denied_skin_type_7_48;
+            this.button1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button1.Location = new System.Drawing.Point(0, 65);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(246, 65);
+            this.button1.TabIndex = 4;
+            this.button1.Text = " Remove Seller";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // btnMaxRes
+            // 
+            this.btnMaxRes.BackColor = System.Drawing.Color.White;
+            this.btnMaxRes.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.btnMaxRes.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnMaxRes.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
+            this.btnMaxRes.FlatAppearance.BorderSize = 0;
+            this.btnMaxRes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Orchid;
+            this.btnMaxRes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
+            this.btnMaxRes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMaxRes.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
+            this.btnMaxRes.ForeColor = System.Drawing.Color.Black;
+            this.btnMaxRes.Image = global::LucaToys.Properties.Resources.icons8_add_user_group_woman_man_skin_type_7_50;
+            this.btnMaxRes.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.btnMaxRes.Location = new System.Drawing.Point(0, 0);
+            this.btnMaxRes.Name = "btnMaxRes";
+            this.btnMaxRes.Size = new System.Drawing.Size(246, 65);
+            this.btnMaxRes.TabIndex = 3;
+            this.btnMaxRes.Text = " Add Customers";
+            this.btnMaxRes.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnMaxRes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnMaxRes.UseVisualStyleBackColor = false;
             // 
             // UsersSubmenu
             // 
@@ -63,8 +114,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "UsersSubmenu";
-            this.Size = new System.Drawing.Size(210, 357);
+            this.Size = new System.Drawing.Size(250, 357);
             this.tableLayoutPanel1.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -73,5 +125,7 @@
 
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button btnMaxRes;
+        private System.Windows.Forms.Button button1;
     }
 }
