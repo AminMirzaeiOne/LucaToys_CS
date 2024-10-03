@@ -615,5 +615,11 @@
   <ItemGroup>
     <None Include="Resources\icons8-certification-48.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-settings-48 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-manager-48 %281%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
