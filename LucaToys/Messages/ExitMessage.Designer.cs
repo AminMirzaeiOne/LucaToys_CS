@@ -37,11 +37,12 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.btnMaxRes = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.btnControl = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.ltSmallMenu1 = new LucaToys.Controls.LTSmallMenu();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -52,22 +53,23 @@
             // 
             // tableLayoutPanel1
             // 
-            resources.ApplyResources(this.tableLayoutPanel1, "tableLayoutPanel1");
             this.tableLayoutPanel1.BackColor = System.Drawing.Color.Plum;
+            resources.ApplyResources(this.tableLayoutPanel1, "tableLayoutPanel1");
             this.tableLayoutPanel1.Controls.Add(this.panel1, 0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             // 
             // panel1
             // 
-            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.Controls.Add(this.tableLayoutPanel2);
+            this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.btnControl);
             this.panel1.Controls.Add(this.btnClose);
             this.panel1.Controls.Add(this.label1);
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
             // 
             // tableLayoutPanel2
@@ -89,19 +91,19 @@
             // 
             // panel2
             // 
-            resources.ApplyResources(this.panel2, "panel2");
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.panel2.BackColor = System.Drawing.Color.WhiteSmoke;
             this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.btnMaxRes);
+            resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Name = "panel2";
             // 
             // button1
             // 
-            resources.ApplyResources(this.button1, "button1");
             this.button1.BackColor = System.Drawing.Color.White;
             this.button1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
             this.button1.FlatAppearance.BorderSize = 2;
+            resources.ApplyResources(this.button1, "button1");
             this.button1.ForeColor = System.Drawing.Color.Plum;
             this.button1.Name = "button1";
             this.button1.UseVisualStyleBackColor = false;
@@ -109,17 +111,24 @@
             // 
             // btnMaxRes
             // 
-            resources.ApplyResources(this.btnMaxRes, "btnMaxRes");
             this.btnMaxRes.BackColor = System.Drawing.Color.Plum;
             this.btnMaxRes.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.btnMaxRes.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
             this.btnMaxRes.FlatAppearance.BorderSize = 2;
             this.btnMaxRes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Orchid;
             this.btnMaxRes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
+            resources.ApplyResources(this.btnMaxRes, "btnMaxRes");
             this.btnMaxRes.ForeColor = System.Drawing.Color.White;
             this.btnMaxRes.Name = "btnMaxRes";
             this.btnMaxRes.UseVisualStyleBackColor = false;
             this.btnMaxRes.Click += new System.EventHandler(this.btnMaxRes_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::LucaToys.Properties.Resources.icons8_open_door_96;
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
             // 
             // label4
             // 
@@ -130,9 +139,9 @@
             // 
             // btnControl
             // 
-            resources.ApplyResources(this.btnControl, "btnControl");
             this.btnControl.BackColor = System.Drawing.Color.White;
             this.btnControl.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.btnControl, "btnControl");
             this.btnControl.ForeColor = System.Drawing.Color.Plum;
             this.btnControl.Name = "btnControl";
             this.btnControl.UseVisualStyleBackColor = false;
@@ -149,20 +158,19 @@
             // 
             // label1
             // 
-            resources.ApplyResources(this.label1, "label1");
             this.label1.BackColor = System.Drawing.Color.Plum;
+            resources.ApplyResources(this.label1, "label1");
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Name = "label1";
             this.label1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.label1_MouseDown);
             this.label1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label1_MouseMove);
             this.label1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.label1_MouseUp);
             // 
-            // pictureBox1
+            // label5
             // 
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
-            this.pictureBox1.Image = global::LucaToys.Properties.Resources.icons8_open_door_96;
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.TabStop = false;
+            this.label5.BackColor = System.Drawing.Color.Plum;
+            resources.ApplyResources(this.label5, "label5");
+            this.label5.Name = "label5";
             // 
             // ltSmallMenu1
             // 
@@ -211,5 +219,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private Controls.LTSmallMenu ltSmallMenu1;
+        private System.Windows.Forms.Label label5;
     }
 }

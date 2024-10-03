@@ -116,6 +116,12 @@
     <Compile Include="Menus\HomeTopMenu.Designer.cs">
       <DependentUpon>HomeTopMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Messages\CloseMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Messages\CloseMessage.Designer.cs">
+      <DependentUpon>CloseMessage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Messages\ExitMessage.cs">
       <SubType>Form</SubType>
     </Compile>

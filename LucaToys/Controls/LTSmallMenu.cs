@@ -207,9 +207,15 @@ namespace LucaToys.Controls
                 item.Font = this.Font;
                 item.BackColor = this.BackColor;
                 item.ForeColor = this.ForeColor;
+                item.Clicked += new EventHandler(this.MenuItem_Clicked);
             }
 
             this.borderPanel.Size = new Size(this.borderPanel.Size.Width, height+4);
+        }
+
+        private void MenuItem_Clicked(object sender,EventArgs e)
+        {
+            this.xTool.Close();
         }
     }
 }
