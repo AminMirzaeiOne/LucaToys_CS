@@ -21,6 +21,7 @@ namespace LucaToys.Menus
             this.aboutSubmenu = new Submenus.AboutSubmenu(this.button19);
             this.helpSubmenu = new Submenus.HelpSubmenu(this.button17);
             this.exportSubmenu = new Submenus.ExportSubmenu(this.button9);
+            this.toolsSubmenu = new Submenus.ToolsSubmenu(this.button13);
         }
         private LucaToys.Submenus.UsersSubmenu usersSubmenu;
         private LucaToys.Submenus.ProductsSubmenu productsSubmenu;
@@ -28,6 +29,7 @@ namespace LucaToys.Menus
         private LucaToys.Submenus.ExportSubmenu exportSubmenu;
         private LucaToys.Submenus.AboutSubmenu aboutSubmenu;
         private LucaToys.Submenus.HelpSubmenu helpSubmenu;
+        private LucaToys.Submenus.ToolsSubmenu toolsSubmenu;
 
     }
 }

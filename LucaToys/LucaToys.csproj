@@ -630,5 +630,26 @@
   <ItemGroup>
     <None Include="Resources\icons8-manager-48 %281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-calculator-48 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-paint-48 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-note-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-translate-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-web-design-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-convert-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-start-48.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
