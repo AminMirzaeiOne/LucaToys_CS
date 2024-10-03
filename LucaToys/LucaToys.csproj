@@ -198,6 +198,9 @@
     <EmbeddedResource Include="Menus\HomeTopMenu.resx">
       <DependentUpon>HomeTopMenu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Messages\ExitMessage.fa.resx">
+      <DependentUpon>ExitMessage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Messages\ExitMessage.resx">
       <DependentUpon>ExitMessage.cs</DependentUpon>
     </EmbeddedResource>
