@@ -771,7 +771,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
             this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Image = global::LucaToys.Properties.Resources.icons8_basket_50;
+            this.button2.Image = global::LucaToys.Properties.Resources.icons8_doll_50;
             this.button2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.button2.Location = new System.Drawing.Point(0, 0);
             this.button2.Name = "button2";

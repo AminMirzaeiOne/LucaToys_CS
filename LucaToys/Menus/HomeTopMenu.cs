@@ -16,8 +16,10 @@ namespace LucaToys.Menus
         {
             InitializeComponent();
             this.usersSubmenu = new Submenus.UsersSubmenu(this.button1);
+            this.productsSubmenu = new Submenus.ProductsSubmenu(this.button3);
         }
         private LucaToys.Submenus.UsersSubmenu usersSubmenu;
+        private LucaToys.Submenus.ProductsSubmenu productsSubmenu;
 
     }
 }

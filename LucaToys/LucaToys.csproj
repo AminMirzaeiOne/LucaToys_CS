@@ -171,6 +171,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Sounds.resx</DependentUpon>
     </Compile>
+    <Compile Include="Submenus\ProductsSubmenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Submenus\ProductsSubmenu.Designer.cs">
+      <DependentUpon>ProductsSubmenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Submenus\UsersSubmenu.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -283,6 +289,9 @@
     <EmbeddedResource Include="Properties\Sounds.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Sounds.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Submenus\ProductsSubmenu.resx">
+      <DependentUpon>ProductsSubmenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Submenus\UsersSubmenu.resx">
       <DependentUpon>UsersSubmenu.cs</DependentUpon>
@@ -473,6 +482,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Asset 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-search-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-basket-50 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-basket-501.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-update-50 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-doll-50.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
