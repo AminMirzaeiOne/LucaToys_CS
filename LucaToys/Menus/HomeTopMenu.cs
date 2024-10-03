@@ -20,6 +20,7 @@ namespace LucaToys.Menus
             this.widgetsSubmenu = new Submenus.WidgetsSubmenu(this.button11);
             this.aboutSubmenu = new Submenus.AboutSubmenu(this.button19);
             this.helpSubmenu = new Submenus.HelpSubmenu(this.button17);
+            this.exportSubmenu = new Submenus.ExportSubmenu(this.button9);
         }
         private LucaToys.Submenus.UsersSubmenu usersSubmenu;
         private LucaToys.Submenus.ProductsSubmenu productsSubmenu;
