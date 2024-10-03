@@ -19,11 +19,29 @@ namespace LucaToys.Controls
 
         public event EventHandler Clicked;
 
+        [Category("Appearance")]
+        public System.Drawing.Color HoverForeColor { get; set; } = Color.DodgerBlue;
+
+        [Category("Appearance")]
+        public System.Drawing.Color DownForeColor { get; set; } = Color.White;
+
+        [Category("Appearance")]
+        public System.Drawing.Color DownBackColor { get; set; } = Color.DodgerBlue;
+
+        [Category("Appearance")]
+        public System.Drawing.Color LineColor
+        {
+            get { return this.label1.BackColor; }
+            set { this.label1.BackColor = value; }
+        }
+
+
+
         private void label4_MouseEnter(object sender, EventArgs e)
         {
             this.timerShow.Start();
-            this.label3.ForeColor = Color.PaleVioletRed;
-            this.label4.ForeColor = Color.PaleVioletRed;
+            this.label3.ForeColor = this.HoverForeColor;
+            this.label4.ForeColor = this.HoverForeColor;
         }
 
         private void timerShow_Tick(object sender, EventArgs e)
@@ -52,23 +70,24 @@ namespace LucaToys.Controls
 
         private void label4_MouseDown(object sender, MouseEventArgs e)
         {
-            this.label3.BackColor = Color.Plum;
-            this.label4.BackColor = Color.Plum;
-            this.label3.ForeColor = Color.White;
-            this.label4.ForeColor = Color.White;
+            this.label3.BackColor = this.DownBackColor;
+            this.label4.BackColor = this.DownBackColor;
+            this.label3.ForeColor = this.DownForeColor;
+            this.label4.ForeColor = this.DownForeColor;
         }
 
         private void label4_MouseUp(object sender, MouseEventArgs e)
         {
             this.label3.BackColor = Color.Transparent;
             this.label4.BackColor = Color.Transparent;
-            this.label3.ForeColor = Color.PaleVioletRed;
-            this.label4.ForeColor = Color.PaleVioletRed;
+            this.label3.ForeColor = this.HoverForeColor;
+            this.label4.ForeColor = this.HoverForeColor;
         }
 
         private void label4_Click(object sender, EventArgs e)
         {
-            this.Clicked(sender, e);
+            if (this.Clicked != null)
+                this.Clicked(sender, e);
         }
     }
 }
