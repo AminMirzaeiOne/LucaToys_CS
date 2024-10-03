@@ -171,6 +171,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Sounds.resx</DependentUpon>
     </Compile>
+    <Compile Include="Submenus\AccountingSubmenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Submenus\AccountingSubmenu.Designer.cs">
+      <DependentUpon>AccountingSubmenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Submenus\ProductsSubmenu.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -289,6 +295,9 @@
     <EmbeddedResource Include="Properties\Sounds.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Sounds.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Submenus\AccountingSubmenu.resx">
+      <DependentUpon>AccountingSubmenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Submenus\ProductsSubmenu.resx">
       <DependentUpon>ProductsSubmenu.cs</DependentUpon>
