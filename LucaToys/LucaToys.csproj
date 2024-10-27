@@ -45,7 +45,7 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="XDropDown">
-      <HintPath>..\..\..\Library\WindowsForms\XDropDown\XDropDown\bin\Debug\XDropDown.dll</HintPath>
+      <HintPath>C:\Users\Amin\Downloads\XDropDown.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
