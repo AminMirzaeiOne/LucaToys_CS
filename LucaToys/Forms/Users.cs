@@ -80,7 +80,13 @@ namespace LucaToys.Forms
 
         private void button3_Click(object sender, EventArgs e)
         {
-            var query = from P in lucatoysdat.Product select P;
+            
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.radioButton1.Checked)
+                this.dataGridView1.DataSource = LucaToys.Data.Constants.LucaToysDB.Customers;
         }
     }
 }

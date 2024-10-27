@@ -13,5 +13,7 @@ namespace LucaToys.Data
         public static LucaToys.Forms.Login login;
         public static LucaToys.Forms.Home home;
         public static LucaToys.Forms.Calculator calculator;
+        public static LucaToysLinqDataContext LucaToysDB = new LucaToysLinqDataContext();
+
     }
 }
