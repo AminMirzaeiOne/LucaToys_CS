@@ -302,8 +302,9 @@
             this.ltTextBox1.BorderSize = ((byte)(2));
             this.ltTextBox1.EnableClearButton = true;
             this.ltTextBox1.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ltTextBox1.ForeColor = System.Drawing.Color.White;
             this.ltTextBox1.HolderTextColor = System.Drawing.Color.Gray;
-            this.ltTextBox1.HolderTextContent = "Enter Text";
+            this.ltTextBox1.HolderTextContent = "Search Users";
             this.ltTextBox1.HolderTextFont = new System.Drawing.Font("Segoe UI", 9F);
             this.ltTextBox1.Location = new System.Drawing.Point(19, 10);
             this.ltTextBox1.Name = "ltTextBox1";

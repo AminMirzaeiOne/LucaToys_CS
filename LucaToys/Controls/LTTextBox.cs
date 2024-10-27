@@ -44,6 +44,18 @@ namespace LucaToys.Controls
             }
         }
 
+        public override Color ForeColor
+        {
+            get { return base.ForeColor; }
+            set
+            {
+                base.ForeColor = value;
+                this.textBox1.ForeColor = value;
+            }
+        }
+
+
+
         [Category("Border Appearance")]
         public System.Byte BorderSize
         {
