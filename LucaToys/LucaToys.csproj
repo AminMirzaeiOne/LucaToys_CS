@@ -273,6 +273,9 @@
     <EmbeddedResource Include="Forms\Startup.resx">
       <DependentUpon>Startup.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Users.resx">
+      <DependentUpon>Users.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Menus\ControlWindow.fa.resx">
       <DependentUpon>ControlWindow.cs</DependentUpon>
     </EmbeddedResource>
