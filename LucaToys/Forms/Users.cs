@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace LucaToys.Pages
+namespace LucaToys.Forms
 {
-    public partial class UsersPage : UserControl
+    public partial class Users : Form
     {
-        public UsersPage()
+        public Users()
         {
             InitializeComponent();
         }

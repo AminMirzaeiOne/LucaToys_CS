@@ -104,6 +104,12 @@
     <Compile Include="Forms\Startup.Designer.cs">
       <DependentUpon>Startup.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Users.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Users.Designer.cs">
+      <DependentUpon>Users.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menus\ControlWindow.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -157,12 +163,6 @@
     </Compile>
     <Compile Include="Pages\LoginPage.Designer.cs">
       <DependentUpon>LoginPage.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\UsersPage.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Pages\UsersPage.Designer.cs">
-      <DependentUpon>UsersPage.cs</DependentUpon>
     </Compile>
     <Compile Include="Pages\VersionPage.cs">
       <SubType>UserControl</SubType>
