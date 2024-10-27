@@ -32,6 +32,18 @@ namespace LucaToys.Controls
             }
         }
 
+        public override Color BackColor
+        {
+            get { return base.BackColor; }
+            set
+            {
+                base.BackColor = value;
+                this.textBox1.BackColor = value;
+                this.label1.BackColor = value;
+                this.btnClear.BackColor = value;
+            }
+        }
+
         [Category("Border Appearance")]
         public System.Byte BorderSize
         {

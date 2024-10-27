@@ -41,9 +41,13 @@
             this.label3 = new System.Windows.Forms.Label();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.ltTextBox1 = new LucaToys.Controls.LTTextBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -63,6 +67,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.tableLayoutPanel2);
             this.panel1.Controls.Add(this.label2);
@@ -195,6 +201,7 @@
             this.radioButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.radioButton1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.radioButton1.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.radioButton1.FlatAppearance.BorderSize = 0;
             this.radioButton1.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
             this.radioButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.radioButton1.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -226,6 +233,7 @@
             this.radioButton2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.radioButton2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.radioButton2.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.radioButton2.FlatAppearance.BorderSize = 0;
             this.radioButton2.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
             this.radioButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.radioButton2.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -249,6 +257,7 @@
             this.radioButton3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.radioButton3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.radioButton3.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.radioButton3.FlatAppearance.BorderSize = 0;
             this.radioButton3.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
             this.radioButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.radioButton3.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -265,6 +274,42 @@
             this.radioButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.radioButton3.UseVisualStyleBackColor = true;
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.panel2.Controls.Add(this.ltTextBox1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(203, 36);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(771, 50);
+            this.panel2.TabIndex = 41;
+            // 
+            // label4
+            // 
+            this.label4.BackColor = System.Drawing.Color.Plum;
+            this.label4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label4.Location = new System.Drawing.Point(203, 86);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(771, 3);
+            this.label4.TabIndex = 42;
+            // 
+            // ltTextBox1
+            // 
+            this.ltTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.ltTextBox1.BorderColor = System.Drawing.Color.Plum;
+            this.ltTextBox1.BorderDownColor = System.Drawing.Color.Orchid;
+            this.ltTextBox1.BorderHoverColor = System.Drawing.Color.Violet;
+            this.ltTextBox1.BorderSize = ((byte)(2));
+            this.ltTextBox1.EnableClearButton = true;
+            this.ltTextBox1.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ltTextBox1.HolderTextColor = System.Drawing.Color.Gray;
+            this.ltTextBox1.HolderTextContent = "Enter Text";
+            this.ltTextBox1.HolderTextFont = new System.Drawing.Font("Segoe UI", 9F);
+            this.ltTextBox1.Location = new System.Drawing.Point(19, 10);
+            this.ltTextBox1.Name = "ltTextBox1";
+            this.ltTextBox1.Size = new System.Drawing.Size(250, 30);
+            this.ltTextBox1.TabIndex = 0;
+            // 
             // Users
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
@@ -280,6 +325,7 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.tableLayoutPanel2.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -299,5 +345,8 @@
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Panel panel2;
+        private Controls.LTTextBox ltTextBox1;
     }
 }
