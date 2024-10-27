@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="LucaToysLinq">
+  <DataContextMoniker Name="/LucaToysLinqDataContext" />
+  <nestedChildShapes>
+    <classShape Id="76813a32-7aff-4985-a85c-c2d1d80374de" absoluteBounds="1.5, 0.75, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/LucaToysLinqDataContext/Customer" />
+      <nestedChildShapes>
+        <elementListCompartment Id="100b2e70-3305-4e50-99d9-0f4f6594c445" absoluteBounds="1.5150000000000001, 1.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

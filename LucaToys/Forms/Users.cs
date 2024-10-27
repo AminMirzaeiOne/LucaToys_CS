@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.Remoting.Contexts;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -75,6 +76,11 @@ namespace LucaToys.Forms
         private void button2_Click(object sender, EventArgs e)
         {
             btnClose_Click(null,null);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            var query = from P in lucatoysdat.Product select P;
         }
     }
 }
