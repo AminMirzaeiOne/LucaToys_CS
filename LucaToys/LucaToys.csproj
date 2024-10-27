@@ -158,6 +158,12 @@
     <Compile Include="Pages\LoginPage.Designer.cs">
       <DependentUpon>LoginPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\UsersPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\UsersPage.Designer.cs">
+      <DependentUpon>UsersPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pages\VersionPage.cs">
       <SubType>UserControl</SubType>
     </Compile>
