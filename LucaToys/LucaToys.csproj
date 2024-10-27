@@ -71,12 +71,6 @@
     <Compile Include="Controls\LTCheckBox.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Controls\LTDataGridView.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Controls\LTDataGridView.Designer.cs">
-      <DependentUpon>LTDataGridView.cs</DependentUpon>
-    </Compile>
     <Compile Include="Controls\LTMenuItem.cs">
       <SubType>UserControl</SubType>
     </Compile>
