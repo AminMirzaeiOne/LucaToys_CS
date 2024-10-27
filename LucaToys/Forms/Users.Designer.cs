@@ -112,6 +112,7 @@
             this.btnMinimize.TabIndex = 34;
             this.btnMinimize.Text = "";
             this.btnMinimize.UseVisualStyleBackColor = false;
+            this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
             // 
             // btnMaximize
             // 
