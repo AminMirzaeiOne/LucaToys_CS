@@ -71,5 +71,10 @@ namespace LucaToys.Forms
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            btnClose_Click(null,null);
+        }
     }
 }
