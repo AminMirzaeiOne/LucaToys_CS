@@ -47,6 +47,9 @@ namespace LucaToys.Forms
 
             this.BackColor = System.Drawing.Color.Black;
             this.TransparencyKey = System.Drawing.Color.Black;
+
+            this.tableLayoutPanel1.Visible = false;
+            this.animator1.Show(this.tableLayoutPanel1);
         }
 
         private void btnClose_Click(object sender, EventArgs e)

@@ -28,6 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            WFAnimations.Animation animation1 = new WFAnimations.Animation();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddUser));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -50,6 +53,7 @@
             this.btnMaximize = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.animator1 = new WFAnimations.Animator(this.components);
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -63,6 +67,7 @@
             this.tableLayoutPanel1.ColumnCount = 1;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.Controls.Add(this.panel1, 0, 0);
+            this.animator1.SetDecoration(this.tableLayoutPanel1, WFAnimations.DecorationType.None);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -85,6 +90,7 @@
             this.panel1.Controls.Add(this.btnMaximize);
             this.panel1.Controls.Add(this.btnClose);
             this.panel1.Controls.Add(this.label1);
+            this.animator1.SetDecoration(this.panel1, WFAnimations.DecorationType.None);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
@@ -94,6 +100,7 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.Transparent;
+            this.animator1.SetDecoration(this.panel4, WFAnimations.DecorationType.None);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel4.Location = new System.Drawing.Point(0, 112);
             this.panel4.Name = "panel4";
@@ -103,6 +110,7 @@
             // label3
             // 
             this.label3.BackColor = System.Drawing.Color.Plum;
+            this.animator1.SetDecoration(this.label3, WFAnimations.DecorationType.None);
             this.label3.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label3.Location = new System.Drawing.Point(0, 581);
             this.label3.Name = "label3";
@@ -117,6 +125,7 @@
             this.panel3.Controls.Add(this.button5);
             this.panel3.Controls.Add(this.button3);
             this.panel3.Controls.Add(this.button2);
+            this.animator1.SetDecoration(this.panel3, WFAnimations.DecorationType.None);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel3.Location = new System.Drawing.Point(0, 584);
             this.panel3.Name = "panel3";
@@ -127,6 +136,7 @@
             // 
             this.button7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.animator1.SetDecoration(this.button7, WFAnimations.DecorationType.None);
             this.button7.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -143,6 +153,7 @@
             // 
             this.button6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.animator1.SetDecoration(this.button6, WFAnimations.DecorationType.None);
             this.button6.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -159,6 +170,7 @@
             // 
             this.button5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.animator1.SetDecoration(this.button5, WFAnimations.DecorationType.None);
             this.button5.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -175,6 +187,7 @@
             // 
             this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.animator1.SetDecoration(this.button3, WFAnimations.DecorationType.None);
             this.button3.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -191,6 +204,7 @@
             // 
             this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button2.BackColor = System.Drawing.Color.Plum;
+            this.animator1.SetDecoration(this.button2, WFAnimations.DecorationType.None);
             this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -206,6 +220,7 @@
             // label4
             // 
             this.label4.BackColor = System.Drawing.Color.Plum;
+            this.animator1.SetDecoration(this.label4, WFAnimations.DecorationType.None);
             this.label4.Dock = System.Windows.Forms.DockStyle.Top;
             this.label4.Location = new System.Drawing.Point(0, 109);
             this.label4.Name = "label4";
@@ -216,6 +231,7 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.panel2.Controls.Add(this.tableLayoutPanel2);
+            this.animator1.SetDecoration(this.panel2, WFAnimations.DecorationType.None);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 36);
             this.panel2.Name = "panel2";
@@ -231,6 +247,7 @@
             this.tableLayoutPanel2.Controls.Add(this.radioButton2, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.radioButton3, 2, 0);
             this.tableLayoutPanel2.Controls.Add(this.radioButton1, 0, 0);
+            this.animator1.SetDecoration(this.tableLayoutPanel2, WFAnimations.DecorationType.None);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
@@ -244,6 +261,7 @@
             this.radioButton2.Appearance = System.Windows.Forms.Appearance.Button;
             this.radioButton2.Checked = true;
             this.radioButton2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.animator1.SetDecoration(this.radioButton2, WFAnimations.DecorationType.None);
             this.radioButton2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.radioButton2.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
             this.radioButton2.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
@@ -266,6 +284,7 @@
             // 
             this.radioButton3.Appearance = System.Windows.Forms.Appearance.Button;
             this.radioButton3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.animator1.SetDecoration(this.radioButton3, WFAnimations.DecorationType.None);
             this.radioButton3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.radioButton3.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
             this.radioButton3.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
@@ -287,6 +306,7 @@
             // 
             this.radioButton1.Appearance = System.Windows.Forms.Appearance.Button;
             this.radioButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.animator1.SetDecoration(this.radioButton1, WFAnimations.DecorationType.None);
             this.radioButton1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.radioButton1.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
             this.radioButton1.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
@@ -308,6 +328,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Plum;
+            this.animator1.SetDecoration(this.label2, WFAnimations.DecorationType.None);
             this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -320,6 +341,7 @@
             // btnControl
             // 
             this.btnControl.BackColor = System.Drawing.Color.White;
+            this.animator1.SetDecoration(this.btnControl, WFAnimations.DecorationType.None);
             this.btnControl.FlatAppearance.BorderSize = 0;
             this.btnControl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnControl.Font = new System.Drawing.Font("Segoe MDL2 Assets", 7F, System.Drawing.FontStyle.Bold);
@@ -336,6 +358,7 @@
             // 
             this.btnMinimize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMinimize.BackColor = System.Drawing.Color.White;
+            this.animator1.SetDecoration(this.btnMinimize, WFAnimations.DecorationType.None);
             this.btnMinimize.FlatAppearance.BorderSize = 0;
             this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMinimize.Font = new System.Drawing.Font("Segoe MDL2 Assets", 6F, System.Drawing.FontStyle.Bold);
@@ -353,6 +376,7 @@
             // 
             this.btnMaximize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMaximize.BackColor = System.Drawing.Color.White;
+            this.animator1.SetDecoration(this.btnMaximize, WFAnimations.DecorationType.None);
             this.btnMaximize.FlatAppearance.BorderSize = 0;
             this.btnMaximize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMaximize.Font = new System.Drawing.Font("Segoe MDL2 Assets", 6F, System.Drawing.FontStyle.Bold);
@@ -370,6 +394,7 @@
             // 
             this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnClose.BackColor = System.Drawing.Color.White;
+            this.animator1.SetDecoration(this.btnClose, WFAnimations.DecorationType.None);
             this.btnClose.FlatAppearance.BorderSize = 0;
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClose.Font = new System.Drawing.Font("Segoe MDL2 Assets", 6F, System.Drawing.FontStyle.Bold);
@@ -386,6 +411,7 @@
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.Plum;
+            this.animator1.SetDecoration(this.label1, WFAnimations.DecorationType.None);
             this.label1.Dock = System.Windows.Forms.DockStyle.Top;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.label1.ForeColor = System.Drawing.Color.White;
@@ -399,6 +425,28 @@
             this.label1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label1_MouseMove);
             this.label1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.label1_MouseUp);
             // 
+            // animator1
+            // 
+            this.animator1.AnimationType = WFAnimations.AnimationType.HorizSlide;
+            this.animator1.Cursor = null;
+            animation1.AnimateOnlyDifferences = true;
+            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
+            animation1.LeafCoeff = 0F;
+            animation1.MaxTime = 1F;
+            animation1.MinTime = 0F;
+            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
+            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
+            animation1.MosaicSize = 0;
+            animation1.Padding = new System.Windows.Forms.Padding(0, 0, 0, 0);
+            animation1.RotateCoeff = 0F;
+            animation1.RotateLimit = 0F;
+            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
+            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
+            animation1.TimeCoeff = 0F;
+            animation1.TransparencyCoeff = 0F;
+            this.animator1.DefaultAnimation = animation1;
+            this.animator1.Upside = false;
+            // 
             // AddUser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
@@ -406,11 +454,12 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
             this.ClientSize = new System.Drawing.Size(1030, 650);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.animator1.SetDecoration(this, WFAnimations.DecorationType.None);
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "AddUser";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AddUser";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
@@ -446,5 +495,6 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Panel panel4;
+        private WFAnimations.Animator animator1;
     }
 }
