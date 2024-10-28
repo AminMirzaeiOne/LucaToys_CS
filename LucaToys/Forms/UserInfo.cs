@@ -41,5 +41,11 @@ namespace LucaToys.Forms
         {
             this.mouseDown = false;
         }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            Messages.CloseMessage closeMessage = new Messages.CloseMessage(this);
+            closeMessage.ShowDialog();
+        }
     }
 }
