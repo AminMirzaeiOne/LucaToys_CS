@@ -1,6 +1,6 @@
 ﻿namespace LucaToys.Pages
 {
-    partial class AddManager
+    partial class AddSeller
     {
         /// <summary> 
         /// Required designer variable.
@@ -28,11 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.ltTextBox3 = new LucaToys.Controls.LTTextBox();
-            this.ltTextBox2 = new LucaToys.Controls.LTTextBox();
-            this.ltTextBox1 = new LucaToys.Controls.LTTextBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.ltTextBox9 = new LucaToys.Controls.LTTextBox();
             this.ltTextBox6 = new LucaToys.Controls.LTTextBox();
             this.ltTextBox8 = new LucaToys.Controls.LTTextBox();
@@ -40,105 +39,73 @@
             this.ltTextBox7 = new LucaToys.Controls.LTTextBox();
             this.ltTextBox5 = new LucaToys.Controls.LTTextBox();
             this.ltTextBox4 = new LucaToys.Controls.LTTextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.ltTextBox3 = new LucaToys.Controls.LTTextBox();
+            this.ltTextBox2 = new LucaToys.Controls.LTTextBox();
+            this.ltTextBox1 = new LucaToys.Controls.LTTextBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.groupBox2.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             this.panel4.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // groupBox2
+            // button4
             // 
-            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox2.Controls.Add(this.ltTextBox3);
-            this.groupBox2.Controls.Add(this.ltTextBox2);
-            this.groupBox2.Controls.Add(this.ltTextBox1);
-            this.groupBox2.Font = new System.Drawing.Font("Segoe MDL2 Assets", 12F, System.Drawing.FontStyle.Bold);
-            this.groupBox2.ForeColor = System.Drawing.Color.Plum;
-            this.groupBox2.Location = new System.Drawing.Point(199, 11);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(809, 103);
-            this.groupBox2.TabIndex = 59;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = " Security";
+            this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button4.BackColor = System.Drawing.Color.Plum;
+            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Location = new System.Drawing.Point(12, 415);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(160, 45);
+            this.button4.TabIndex = 46;
+            this.button4.Text = "Change 2";
+            this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button4.UseVisualStyleBackColor = false;
             // 
-            // ltTextBox3
+            // button1
             // 
-            this.ltTextBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
-            this.ltTextBox3.BorderColor = System.Drawing.Color.Plum;
-            this.ltTextBox3.BorderDownColor = System.Drawing.Color.Orchid;
-            this.ltTextBox3.BorderHoverColor = System.Drawing.Color.Violet;
-            this.ltTextBox3.BorderSize = ((byte)(2));
-            this.ltTextBox3.EnableClearButton = true;
-            this.ltTextBox3.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltTextBox3.HolderTextColor = System.Drawing.Color.Gray;
-            this.ltTextBox3.HolderTextContent = "Enter Gmail";
-            this.ltTextBox3.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
-            this.ltTextBox3.Location = new System.Drawing.Point(544, 42);
-            this.ltTextBox3.Name = "ltTextBox3";
-            this.ltTextBox3.Size = new System.Drawing.Size(250, 37);
-            this.ltTextBox3.TabIndex = 0;
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.BackColor = System.Drawing.Color.Plum;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(12, 187);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(160, 45);
+            this.button1.TabIndex = 46;
+            this.button1.Text = "Change";
+            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button1.UseVisualStyleBackColor = false;
             // 
-            // ltTextBox2
+            // label5
             // 
-            this.ltTextBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
-            this.ltTextBox2.BorderColor = System.Drawing.Color.Plum;
-            this.ltTextBox2.BorderDownColor = System.Drawing.Color.Orchid;
-            this.ltTextBox2.BorderHoverColor = System.Drawing.Color.Violet;
-            this.ltTextBox2.BorderSize = ((byte)(2));
-            this.ltTextBox2.EnableClearButton = true;
-            this.ltTextBox2.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltTextBox2.HolderTextColor = System.Drawing.Color.Gray;
-            this.ltTextBox2.HolderTextContent = "Enter Password";
-            this.ltTextBox2.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
-            this.ltTextBox2.Location = new System.Drawing.Point(279, 42);
-            this.ltTextBox2.Name = "ltTextBox2";
-            this.ltTextBox2.Size = new System.Drawing.Size(250, 37);
-            this.ltTextBox2.TabIndex = 0;
+            this.label5.BackColor = System.Drawing.Color.Plum;
+            this.label5.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label5.Location = new System.Drawing.Point(185, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(3, 469);
+            this.label5.TabIndex = 62;
             // 
-            // ltTextBox1
+            // panel4
             // 
-            this.ltTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
-            this.ltTextBox1.BorderColor = System.Drawing.Color.Plum;
-            this.ltTextBox1.BorderDownColor = System.Drawing.Color.Orchid;
-            this.ltTextBox1.BorderHoverColor = System.Drawing.Color.Violet;
-            this.ltTextBox1.BorderSize = ((byte)(2));
-            this.ltTextBox1.EnableClearButton = true;
-            this.ltTextBox1.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltTextBox1.HolderTextColor = System.Drawing.Color.Gray;
-            this.ltTextBox1.HolderTextContent = "Enter Username";
-            this.ltTextBox1.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
-            this.ltTextBox1.Location = new System.Drawing.Point(14, 42);
-            this.ltTextBox1.Name = "ltTextBox1";
-            this.ltTextBox1.Size = new System.Drawing.Size(250, 37);
-            this.ltTextBox1.TabIndex = 0;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox1.Controls.Add(this.ltTextBox9);
-            this.groupBox1.Controls.Add(this.ltTextBox6);
-            this.groupBox1.Controls.Add(this.ltTextBox8);
-            this.groupBox1.Controls.Add(this.ltTextBox10);
-            this.groupBox1.Controls.Add(this.ltTextBox7);
-            this.groupBox1.Controls.Add(this.ltTextBox5);
-            this.groupBox1.Controls.Add(this.ltTextBox4);
-            this.groupBox1.Font = new System.Drawing.Font("Segoe MDL2 Assets", 12F, System.Drawing.FontStyle.Bold);
-            this.groupBox1.ForeColor = System.Drawing.Color.Plum;
-            this.groupBox1.Location = new System.Drawing.Point(199, 120);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(809, 340);
-            this.groupBox1.TabIndex = 60;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = " General ";
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.panel4.Controls.Add(this.pictureBox1);
+            this.panel4.Controls.Add(this.button4);
+            this.panel4.Controls.Add(this.pictureBox2);
+            this.panel4.Controls.Add(this.button1);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(185, 469);
+            this.panel4.TabIndex = 61;
             // 
             // ltTextBox9
             // 
@@ -259,63 +226,97 @@
             this.ltTextBox4.Size = new System.Drawing.Size(250, 37);
             this.ltTextBox4.TabIndex = 0;
             // 
-            // label5
+            // groupBox1
             // 
-            this.label5.BackColor = System.Drawing.Color.Plum;
-            this.label5.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label5.Location = new System.Drawing.Point(185, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(3, 469);
-            this.label5.TabIndex = 58;
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox1.Controls.Add(this.ltTextBox9);
+            this.groupBox1.Controls.Add(this.ltTextBox6);
+            this.groupBox1.Controls.Add(this.ltTextBox8);
+            this.groupBox1.Controls.Add(this.ltTextBox10);
+            this.groupBox1.Controls.Add(this.ltTextBox7);
+            this.groupBox1.Controls.Add(this.ltTextBox5);
+            this.groupBox1.Controls.Add(this.ltTextBox4);
+            this.groupBox1.Font = new System.Drawing.Font("Segoe MDL2 Assets", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox1.ForeColor = System.Drawing.Color.Plum;
+            this.groupBox1.Location = new System.Drawing.Point(207, 120);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(809, 340);
+            this.groupBox1.TabIndex = 64;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = " General ";
             // 
-            // panel4
+            // ltTextBox3
             // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.panel4.Controls.Add(this.pictureBox1);
-            this.panel4.Controls.Add(this.button4);
-            this.panel4.Controls.Add(this.pictureBox2);
-            this.panel4.Controls.Add(this.button1);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(185, 469);
-            this.panel4.TabIndex = 57;
+            this.ltTextBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.ltTextBox3.BorderColor = System.Drawing.Color.Plum;
+            this.ltTextBox3.BorderDownColor = System.Drawing.Color.Orchid;
+            this.ltTextBox3.BorderHoverColor = System.Drawing.Color.Violet;
+            this.ltTextBox3.BorderSize = ((byte)(2));
+            this.ltTextBox3.EnableClearButton = true;
+            this.ltTextBox3.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ltTextBox3.HolderTextColor = System.Drawing.Color.Gray;
+            this.ltTextBox3.HolderTextContent = "Enter Gmail";
+            this.ltTextBox3.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
+            this.ltTextBox3.Location = new System.Drawing.Point(544, 42);
+            this.ltTextBox3.Name = "ltTextBox3";
+            this.ltTextBox3.Size = new System.Drawing.Size(250, 37);
+            this.ltTextBox3.TabIndex = 0;
             // 
-            // button4
+            // ltTextBox2
             // 
-            this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button4.BackColor = System.Drawing.Color.Plum;
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(12, 415);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(160, 45);
-            this.button4.TabIndex = 46;
-            this.button4.Text = "Change 2";
-            this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button4.UseVisualStyleBackColor = false;
+            this.ltTextBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.ltTextBox2.BorderColor = System.Drawing.Color.Plum;
+            this.ltTextBox2.BorderDownColor = System.Drawing.Color.Orchid;
+            this.ltTextBox2.BorderHoverColor = System.Drawing.Color.Violet;
+            this.ltTextBox2.BorderSize = ((byte)(2));
+            this.ltTextBox2.EnableClearButton = true;
+            this.ltTextBox2.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ltTextBox2.HolderTextColor = System.Drawing.Color.Gray;
+            this.ltTextBox2.HolderTextContent = "Enter Password";
+            this.ltTextBox2.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
+            this.ltTextBox2.Location = new System.Drawing.Point(279, 42);
+            this.ltTextBox2.Name = "ltTextBox2";
+            this.ltTextBox2.Size = new System.Drawing.Size(250, 37);
+            this.ltTextBox2.TabIndex = 0;
             // 
-            // button1
+            // ltTextBox1
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.BackColor = System.Drawing.Color.Plum;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(12, 187);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(160, 45);
-            this.button1.TabIndex = 46;
-            this.button1.Text = "Change";
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button1.UseVisualStyleBackColor = false;
+            this.ltTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.ltTextBox1.BorderColor = System.Drawing.Color.Plum;
+            this.ltTextBox1.BorderDownColor = System.Drawing.Color.Orchid;
+            this.ltTextBox1.BorderHoverColor = System.Drawing.Color.Violet;
+            this.ltTextBox1.BorderSize = ((byte)(2));
+            this.ltTextBox1.EnableClearButton = true;
+            this.ltTextBox1.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ltTextBox1.HolderTextColor = System.Drawing.Color.Gray;
+            this.ltTextBox1.HolderTextContent = "Enter Username";
+            this.ltTextBox1.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
+            this.ltTextBox1.Location = new System.Drawing.Point(14, 42);
+            this.ltTextBox1.Name = "ltTextBox1";
+            this.ltTextBox1.Size = new System.Drawing.Size(250, 37);
+            this.ltTextBox1.TabIndex = 0;
+            this.ltTextBox1.Load += new System.EventHandler(this.ltTextBox1_Load);
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox2.Controls.Add(this.ltTextBox3);
+            this.groupBox2.Controls.Add(this.ltTextBox2);
+            this.groupBox2.Controls.Add(this.ltTextBox1);
+            this.groupBox2.Font = new System.Drawing.Font("Segoe MDL2 Assets", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox2.ForeColor = System.Drawing.Color.Plum;
+            this.groupBox2.Location = new System.Drawing.Point(207, 11);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(809, 103);
+            this.groupBox2.TabIndex = 63;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = " Security";
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImage = global::LucaToys.Properties.Resources.icons8_admin_settings_male_96;
+            this.pictureBox1.BackgroundImage = global::LucaToys.Properties.Resources.icons8_manager_96;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox1.Location = new System.Drawing.Point(12, 239);
@@ -326,7 +327,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackgroundImage = global::LucaToys.Properties.Resources.icons8_admin_settings_male_96;
+            this.pictureBox2.BackgroundImage = global::LucaToys.Properties.Resources.icons8_manager_96;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox2.Location = new System.Drawing.Point(12, 11);
@@ -335,20 +336,20 @@
             this.pictureBox2.TabIndex = 51;
             this.pictureBox2.TabStop = false;
             // 
-            // AddManager
+            // AddSeller
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.panel4);
-            this.Name = "AddManager";
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.groupBox2);
+            this.Name = "AddSeller";
             this.Size = new System.Drawing.Size(1024, 469);
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
@@ -357,11 +358,12 @@
 
         #endregion
 
-        private System.Windows.Forms.GroupBox groupBox2;
-        private Controls.LTTextBox ltTextBox3;
-        private Controls.LTTextBox ltTextBox2;
-        private Controls.LTTextBox ltTextBox1;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.PictureBox pictureBox1;
         private Controls.LTTextBox ltTextBox9;
         private Controls.LTTextBox ltTextBox6;
         private Controls.LTTextBox ltTextBox8;
@@ -369,11 +371,10 @@
         private Controls.LTTextBox ltTextBox7;
         private Controls.LTTextBox ltTextBox5;
         private Controls.LTTextBox ltTextBox4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private Controls.LTTextBox ltTextBox3;
+        private Controls.LTTextBox ltTextBox2;
+        private Controls.LTTextBox ltTextBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
     }
 }

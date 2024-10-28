@@ -14,10 +14,12 @@ namespace LucaToys.Forms
     {
         private bool mouseDown;
         private Point lastLocation;
-
+        private LucaToys.Pages.AddManager addManager = new Pages.AddManager();
         public AddUser()
         {
             InitializeComponent();
+            this.panel4.Controls.Add(this.addManager);
+            this.addManager.Dock = DockStyle.Fill;
         }
 
         private void btnClose_Click(object sender, EventArgs e)
@@ -69,6 +71,13 @@ namespace LucaToys.Forms
 
         private void groupBox1_Enter(object sender, EventArgs e)
         {
+
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.radioButton2.Checked)
+                this.addManager.BringToFront();
 
         }
     }
