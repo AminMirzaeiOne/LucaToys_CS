@@ -769,6 +769,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>LucaToysData.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\icons8-delete-28.png" />
+    <None Include="Resources\icons8-update-28.png" />
+    <None Include="Resources\icons8-update-24.png" />
     <None Include="Resources\icons8-info-48.png" />
   </ItemGroup>
   <ItemGroup>
