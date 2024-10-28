@@ -12,12 +12,16 @@ namespace LucaToys.Forms
 {
     public partial class AddUser : Form
     {
+        public enum CheckedUserTypes
+        {
+            Manager, Seller, Customer
+        }
         private bool mouseDown;
         private Point lastLocation;
         private LucaToys.Pages.AddManager addManager = new Pages.AddManager();
         private LucaToys.Pages.AddSeller addSeller = new Pages.AddSeller();
         private LucaToys.Pages.AddCustomer addCustomer = new Pages.AddCustomer();
-        public AddUser()
+        public AddUser(CheckedUserTypes usertype = CheckedUserTypes.Manager)
         {
             InitializeComponent();
             this.panel4.Controls.Add(this.addManager);
@@ -27,6 +31,19 @@ namespace LucaToys.Forms
             this.addManager.Dock = DockStyle.Fill;
             this.addSeller.Dock = DockStyle.Fill;
             this.addCustomer.Dock = DockStyle.Fill;
+
+            switch (usertype)
+            {
+                case CheckedUserTypes.Manager:
+                    this.radioButton2.Checked = true;
+                    break;
+                case CheckedUserTypes.Seller:
+                    this.radioButton1.Checked = true;
+                    break;
+                case CheckedUserTypes.Customer:
+                    this.radioButton3.Checked = true;
+                    break;
+            }
         }
 
         private void btnClose_Click(object sender, EventArgs e)

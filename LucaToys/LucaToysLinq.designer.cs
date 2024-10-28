@@ -33,6 +33,12 @@ namespace LucaToys
     partial void InsertCustomer(Customer instance);
     partial void UpdateCustomer(Customer instance);
     partial void DeleteCustomer(Customer instance);
+    partial void InsertManager(Manager instance);
+    partial void UpdateManager(Manager instance);
+    partial void DeleteManager(Manager instance);
+    partial void InsertSeller(Seller instance);
+    partial void UpdateSeller(Seller instance);
+    partial void DeleteSeller(Seller instance);
     #endregion
 		
 		public LucaToysLinqDataContext() : 
@@ -70,6 +76,22 @@ namespace LucaToys
 			get
 			{
 				return this.GetTable<Customer>();
+			}
+		}
+		
+		public System.Data.Linq.Table<Manager> Managers
+		{
+			get
+			{
+				return this.GetTable<Manager>();
+			}
+		}
+		
+		public System.Data.Linq.Table<Seller> Sellers
+		{
+			get
+			{
+				return this.GetTable<Seller>();
 			}
 		}
 	}
@@ -279,6 +301,442 @@ namespace LucaToys
 					this._gmail = value;
 					this.SendPropertyChanged("gmail");
 					this.OngmailChanged();
+				}
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.Managers")]
+	public partial class Manager : INotifyPropertyChanging, INotifyPropertyChanged
+	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+		
+		private int _usercode;
+		
+		private string _username;
+		
+		private string _password;
+		
+		private string _gmail;
+		
+		private string _phone;
+		
+		private string _name;
+		
+		private string _family;
+		
+		private string _address;
+		
+		private string _instagram;
+		
+    #region Extensibility Method Definitions
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnusercodeChanging(int value);
+    partial void OnusercodeChanged();
+    partial void OnusernameChanging(string value);
+    partial void OnusernameChanged();
+    partial void OnpasswordChanging(string value);
+    partial void OnpasswordChanged();
+    partial void OngmailChanging(string value);
+    partial void OngmailChanged();
+    partial void OnphoneChanging(string value);
+    partial void OnphoneChanged();
+    partial void OnnameChanging(string value);
+    partial void OnnameChanged();
+    partial void OnfamilyChanging(string value);
+    partial void OnfamilyChanged();
+    partial void OnaddressChanging(string value);
+    partial void OnaddressChanged();
+    partial void OninstagramChanging(string value);
+    partial void OninstagramChanged();
+    #endregion
+		
+		public Manager()
+		{
+			OnCreated();
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_usercode", DbType="Int NOT NULL", IsPrimaryKey=true)]
+		public int usercode
+		{
+			get
+			{
+				return this._usercode;
+			}
+			set
+			{
+				if ((this._usercode != value))
+				{
+					this.OnusercodeChanging(value);
+					this.SendPropertyChanging();
+					this._usercode = value;
+					this.SendPropertyChanged("usercode");
+					this.OnusercodeChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_username", DbType="NVarChar(20) NOT NULL", CanBeNull=false)]
+		public string username
+		{
+			get
+			{
+				return this._username;
+			}
+			set
+			{
+				if ((this._username != value))
+				{
+					this.OnusernameChanging(value);
+					this.SendPropertyChanging();
+					this._username = value;
+					this.SendPropertyChanged("username");
+					this.OnusernameChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_password", DbType="NChar(20) NOT NULL", CanBeNull=false)]
+		public string password
+		{
+			get
+			{
+				return this._password;
+			}
+			set
+			{
+				if ((this._password != value))
+				{
+					this.OnpasswordChanging(value);
+					this.SendPropertyChanging();
+					this._password = value;
+					this.SendPropertyChanged("password");
+					this.OnpasswordChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_gmail", DbType="NChar(50) NOT NULL", CanBeNull=false)]
+		public string gmail
+		{
+			get
+			{
+				return this._gmail;
+			}
+			set
+			{
+				if ((this._gmail != value))
+				{
+					this.OngmailChanging(value);
+					this.SendPropertyChanging();
+					this._gmail = value;
+					this.SendPropertyChanged("gmail");
+					this.OngmailChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_phone", DbType="NChar(15)")]
+		public string phone
+		{
+			get
+			{
+				return this._phone;
+			}
+			set
+			{
+				if ((this._phone != value))
+				{
+					this.OnphoneChanging(value);
+					this.SendPropertyChanging();
+					this._phone = value;
+					this.SendPropertyChanged("phone");
+					this.OnphoneChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_name", DbType="NVarChar(50)")]
+		public string name
+		{
+			get
+			{
+				return this._name;
+			}
+			set
+			{
+				if ((this._name != value))
+				{
+					this.OnnameChanging(value);
+					this.SendPropertyChanging();
+					this._name = value;
+					this.SendPropertyChanged("name");
+					this.OnnameChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_family", DbType="NVarChar(100) NOT NULL", CanBeNull=false)]
+		public string family
+		{
+			get
+			{
+				return this._family;
+			}
+			set
+			{
+				if ((this._family != value))
+				{
+					this.OnfamilyChanging(value);
+					this.SendPropertyChanging();
+					this._family = value;
+					this.SendPropertyChanged("family");
+					this.OnfamilyChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_address", DbType="NVarChar(250)")]
+		public string address
+		{
+			get
+			{
+				return this._address;
+			}
+			set
+			{
+				if ((this._address != value))
+				{
+					this.OnaddressChanging(value);
+					this.SendPropertyChanging();
+					this._address = value;
+					this.SendPropertyChanged("address");
+					this.OnaddressChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_instagram", DbType="NVarChar(50)")]
+		public string instagram
+		{
+			get
+			{
+				return this._instagram;
+			}
+			set
+			{
+				if ((this._instagram != value))
+				{
+					this.OninstagramChanging(value);
+					this.SendPropertyChanging();
+					this._instagram = value;
+					this.SendPropertyChanged("instagram");
+					this.OninstagramChanged();
+				}
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.Sellers")]
+	public partial class Seller : INotifyPropertyChanging, INotifyPropertyChanged
+	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+		
+		private int _usercode;
+		
+		private string _name;
+		
+		private string _family;
+		
+		private string _gmail;
+		
+		private string _address;
+		
+		private string _phone;
+		
+    #region Extensibility Method Definitions
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnusercodeChanging(int value);
+    partial void OnusercodeChanged();
+    partial void OnnameChanging(string value);
+    partial void OnnameChanged();
+    partial void OnfamilyChanging(string value);
+    partial void OnfamilyChanged();
+    partial void OngmailChanging(string value);
+    partial void OngmailChanged();
+    partial void OnaddressChanging(string value);
+    partial void OnaddressChanged();
+    partial void OnphoneChanging(string value);
+    partial void OnphoneChanged();
+    #endregion
+		
+		public Seller()
+		{
+			OnCreated();
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_usercode", DbType="Int NOT NULL", IsPrimaryKey=true)]
+		public int usercode
+		{
+			get
+			{
+				return this._usercode;
+			}
+			set
+			{
+				if ((this._usercode != value))
+				{
+					this.OnusercodeChanging(value);
+					this.SendPropertyChanging();
+					this._usercode = value;
+					this.SendPropertyChanged("usercode");
+					this.OnusercodeChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_name", DbType="NVarChar(50)")]
+		public string name
+		{
+			get
+			{
+				return this._name;
+			}
+			set
+			{
+				if ((this._name != value))
+				{
+					this.OnnameChanging(value);
+					this.SendPropertyChanging();
+					this._name = value;
+					this.SendPropertyChanged("name");
+					this.OnnameChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_family", DbType="NVarChar(100) NOT NULL", CanBeNull=false)]
+		public string family
+		{
+			get
+			{
+				return this._family;
+			}
+			set
+			{
+				if ((this._family != value))
+				{
+					this.OnfamilyChanging(value);
+					this.SendPropertyChanging();
+					this._family = value;
+					this.SendPropertyChanged("family");
+					this.OnfamilyChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_gmail", DbType="NVarChar(50)")]
+		public string gmail
+		{
+			get
+			{
+				return this._gmail;
+			}
+			set
+			{
+				if ((this._gmail != value))
+				{
+					this.OngmailChanging(value);
+					this.SendPropertyChanging();
+					this._gmail = value;
+					this.SendPropertyChanged("gmail");
+					this.OngmailChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_address", DbType="NVarChar(250)")]
+		public string address
+		{
+			get
+			{
+				return this._address;
+			}
+			set
+			{
+				if ((this._address != value))
+				{
+					this.OnaddressChanging(value);
+					this.SendPropertyChanging();
+					this._address = value;
+					this.SendPropertyChanged("address");
+					this.OnaddressChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_phone", DbType="NVarChar(15)")]
+		public string phone
+		{
+			get
+			{
+				return this._phone;
+			}
+			set
+			{
+				if ((this._phone != value))
+				{
+					this.OnphoneChanging(value);
+					this.SendPropertyChanging();
+					this._phone = value;
+					this.SendPropertyChanged("phone");
+					this.OnphoneChanged();
 				}
 			}
 		}

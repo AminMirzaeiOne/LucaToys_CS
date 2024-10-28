@@ -70,7 +70,8 @@ namespace LucaToys.Forms
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
-
+            if (this.radioButton2.Checked)
+                this.dataGridView1.DataSource = LucaToys.Data.Constants.LucaToysDB.Sellers;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -86,7 +87,26 @@ namespace LucaToys.Forms
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
             if (this.radioButton1.Checked)
+                this.dataGridView1.DataSource = LucaToys.Data.Constants.LucaToysDB.Managers;
+        }
+
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.radioButton3.Checked)
                 this.dataGridView1.DataSource = LucaToys.Data.Constants.LucaToysDB.Customers;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            AddUser.CheckedUserTypes type;
+            if (this.radioButton1.Checked)
+                type = AddUser.CheckedUserTypes.Manager;
+            else if (this.radioButton2.Checked)
+                type = AddUser.CheckedUserTypes.Seller;
+            else
+                type = AddUser.CheckedUserTypes.Customer;
+            LucaToys.Forms.AddUser addFrm = new AddUser(type);
+            addFrm.ShowDialog();
         }
     }
 }

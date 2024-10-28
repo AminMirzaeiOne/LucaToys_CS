@@ -8,5 +8,17 @@
         <elementListCompartment Id="100b2e70-3305-4e50-99d9-0f4f6594c445" absoluteBounds="1.5150000000000001, 1.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
+    <classShape Id="6acbf8fa-541b-4b72-b2f1-1200e5173e59" absoluteBounds="4.375, 0.875, 2, 2.5401025390625">
+      <DataClassMoniker Name="/LucaToysLinqDataContext/Manager" />
+      <nestedChildShapes>
+        <elementListCompartment Id="38d9fd41-7f80-4b36-a895-fa1d958d5cc2" absoluteBounds="4.39, 1.335, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8ff8eabc-f82b-408d-b3c5-c3f60506a95b" absoluteBounds="1.5, 3.75, 2, 1.9631982421875">
+      <DataClassMoniker Name="/LucaToysLinqDataContext/Seller" />
+      <nestedChildShapes>
+        <elementListCompartment Id="36787e38-91a3-4c16-ad63-f10d2a84b271" absoluteBounds="1.5149999999999997, 4.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
   </nestedChildShapes>
 </ordesignerObjectsDiagram>
