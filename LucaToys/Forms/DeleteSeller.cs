@@ -12,6 +12,9 @@ namespace LucaToys.Forms
 {
     public partial class DeleteSeller : Form
     {
+        private bool mouseDown;
+        private Point lastLocation;
+
         public DeleteSeller()
         {
             InitializeComponent();
@@ -45,6 +48,28 @@ namespace LucaToys.Forms
         private void btnMinimize_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void label1_MouseLeave(object sender, EventArgs e)
+        {
+            if (this.mouseDown == true)
+            {
+                this.Location = new Point(
+                (this.Location.X - this.lastLocation.X) + e.X, (this.Location.Y - this.lastLocation.Y) + e.Y);
+
+                this.Update();
+            }
+        }
+
+        private void label1_MouseDown(object sender, MouseEventArgs e)
+        {
+            this.mouseDown = true;
+            this.lastLocation = e.Location;
+        }
+
+        private void label1_MouseUp(object sender, MouseEventArgs e)
+        {
+            this.mouseDown = false;
         }
     }
 }
