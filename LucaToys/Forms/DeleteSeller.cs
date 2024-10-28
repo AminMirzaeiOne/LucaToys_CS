@@ -52,13 +52,7 @@ namespace LucaToys.Forms
 
         private void label1_MouseLeave(object sender, EventArgs e)
         {
-            if (this.mouseDown == true)
-            {
-                this.Location = new Point(
-                (this.Location.X - this.lastLocation.X) + e.X, (this.Location.Y - this.lastLocation.Y) + e.Y);
-
-                this.Update();
-            }
+            
         }
 
         private void label1_MouseDown(object sender, MouseEventArgs e)
@@ -70,6 +64,22 @@ namespace LucaToys.Forms
         private void label1_MouseUp(object sender, MouseEventArgs e)
         {
             this.mouseDown = false;
+        }
+
+        private void label1_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (this.mouseDown == true)
+            {
+                this.Location = new Point(
+                (this.Location.X - this.lastLocation.X) + e.X, (this.Location.Y - this.lastLocation.Y) + e.Y);
+
+                this.Update();
+            }
+        }
+
+        private void DeleteSeller_Load(object sender, EventArgs e)
+        {
+            this.dataGridView1.DataSource = LucaToys.Data.Constants.LucaToysDB.Sellers;
         }
     }
 }
