@@ -321,6 +321,9 @@
     <EmbeddedResource Include="Forms\Calculator.resx">
       <DependentUpon>Calculator.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DeleteSeller.resx">
+      <DependentUpon>DeleteSeller.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
