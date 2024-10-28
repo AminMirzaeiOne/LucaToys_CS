@@ -154,6 +154,7 @@
             this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // btnMaxRes
             // 
@@ -178,6 +179,7 @@
             this.btnMaxRes.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnMaxRes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnMaxRes.UseVisualStyleBackColor = false;
+            this.btnMaxRes.Click += new System.EventHandler(this.btnMaxRes_Click);
             // 
             // label1
             // 
@@ -211,6 +213,7 @@
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 

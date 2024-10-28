@@ -37,5 +37,23 @@ namespace LucaToys.Submenus
             LucaToys.Forms.AddUser addFrm = new Forms.AddUser(Forms.AddUser.CheckedUserTypes.Seller);
             addFrm.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            LucaToys.Forms.DeleteSeller deleteSellerFrm = new Forms.DeleteSeller();
+            deleteSellerFrm.Show();
+        }
+
+        private void btnMaxRes_Click(object sender, EventArgs e)
+        {
+            LucaToys.Forms.AddUser addFrm = new Forms.AddUser(Forms.AddUser.CheckedUserTypes.Customer);
+            addFrm.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            LucaToys.Forms.DeleteCustomer deleteCustomerFrm = new Forms.DeleteCustomer();
+            deleteCustomerFrm.Show();
+        }
     }
 }

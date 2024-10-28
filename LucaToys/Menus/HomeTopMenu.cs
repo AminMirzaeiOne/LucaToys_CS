@@ -31,5 +31,10 @@ namespace LucaToys.Menus
         private LucaToys.Submenus.HelpSubmenu helpSubmenu;
         private LucaToys.Submenus.ToolsSubmenu toolsSubmenu;
 
+        private void btnMaxRes_Click(object sender, EventArgs e)
+        {
+            LucaToys.Forms.Users users = new Forms.Users();
+            users.Show();
+        }
     }
 }
