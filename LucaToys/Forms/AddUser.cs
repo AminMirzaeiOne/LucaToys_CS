@@ -16,14 +16,17 @@ namespace LucaToys.Forms
         private Point lastLocation;
         private LucaToys.Pages.AddManager addManager = new Pages.AddManager();
         private LucaToys.Pages.AddSeller addSeller = new Pages.AddSeller();
+        private LucaToys.Pages.AddCustomer addCustomer = new Pages.AddCustomer();
         public AddUser()
         {
             InitializeComponent();
             this.panel4.Controls.Add(this.addManager);
             this.panel4.Controls.Add(this.addSeller);
+            this.panel4.Controls.Add(this.addCustomer);
 
             this.addManager.Dock = DockStyle.Fill;
             this.addSeller.Dock = DockStyle.Fill;
+            this.addCustomer.Dock = DockStyle.Fill;
         }
 
         private void btnClose_Click(object sender, EventArgs e)
@@ -89,6 +92,12 @@ namespace LucaToys.Forms
         {
             if (this.radioButton1.Checked)
                 this.addSeller.BringToFront();
+        }
+
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.radioButton3.Checked)
+                this.addCustomer.BringToFront();
         }
     }
 }

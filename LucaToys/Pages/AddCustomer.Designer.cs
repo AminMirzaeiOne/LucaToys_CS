@@ -34,6 +34,8 @@
             this.label5 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.ltTextBox9 = new LucaToys.Controls.LTTextBox();
             this.ltTextBox6 = new LucaToys.Controls.LTTextBox();
             this.ltTextBox8 = new LucaToys.Controls.LTTextBox();
@@ -41,11 +43,9 @@
             this.ltTextBox7 = new LucaToys.Controls.LTTextBox();
             this.ltTextBox5 = new LucaToys.Controls.LTTextBox();
             this.ltTextBox4 = new LucaToys.Controls.LTTextBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.ltTextBox3 = new LucaToys.Controls.LTTextBox();
             this.ltTextBox2 = new LucaToys.Controls.LTTextBox();
             this.ltTextBox1 = new LucaToys.Controls.LTTextBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -128,6 +128,42 @@
             this.pictureBox2.Size = new System.Drawing.Size(160, 160);
             this.pictureBox2.TabIndex = 51;
             this.pictureBox2.TabStop = false;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox1.Controls.Add(this.ltTextBox9);
+            this.groupBox1.Controls.Add(this.ltTextBox6);
+            this.groupBox1.Controls.Add(this.ltTextBox8);
+            this.groupBox1.Controls.Add(this.ltTextBox10);
+            this.groupBox1.Controls.Add(this.ltTextBox7);
+            this.groupBox1.Controls.Add(this.ltTextBox5);
+            this.groupBox1.Controls.Add(this.ltTextBox4);
+            this.groupBox1.Font = new System.Drawing.Font("Segoe MDL2 Assets", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox1.ForeColor = System.Drawing.Color.Plum;
+            this.groupBox1.Location = new System.Drawing.Point(199, 120);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(809, 340);
+            this.groupBox1.TabIndex = 64;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = " General ";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox2.Controls.Add(this.ltTextBox3);
+            this.groupBox2.Controls.Add(this.ltTextBox2);
+            this.groupBox2.Controls.Add(this.ltTextBox1);
+            this.groupBox2.Font = new System.Drawing.Font("Segoe MDL2 Assets", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox2.ForeColor = System.Drawing.Color.Plum;
+            this.groupBox2.Location = new System.Drawing.Point(199, 11);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(809, 103);
+            this.groupBox2.TabIndex = 63;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = " Important";
             // 
             // ltTextBox9
             // 
@@ -248,26 +284,6 @@
             this.ltTextBox4.Size = new System.Drawing.Size(250, 37);
             this.ltTextBox4.TabIndex = 0;
             // 
-            // groupBox1
-            // 
-            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox1.Controls.Add(this.ltTextBox9);
-            this.groupBox1.Controls.Add(this.ltTextBox6);
-            this.groupBox1.Controls.Add(this.ltTextBox8);
-            this.groupBox1.Controls.Add(this.ltTextBox10);
-            this.groupBox1.Controls.Add(this.ltTextBox7);
-            this.groupBox1.Controls.Add(this.ltTextBox5);
-            this.groupBox1.Controls.Add(this.ltTextBox4);
-            this.groupBox1.Font = new System.Drawing.Font("Segoe MDL2 Assets", 12F, System.Drawing.FontStyle.Bold);
-            this.groupBox1.ForeColor = System.Drawing.Color.Plum;
-            this.groupBox1.Location = new System.Drawing.Point(199, 120);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(809, 340);
-            this.groupBox1.TabIndex = 64;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = " General ";
-            // 
             // ltTextBox3
             // 
             this.ltTextBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
@@ -318,22 +334,6 @@
             this.ltTextBox1.Name = "ltTextBox1";
             this.ltTextBox1.Size = new System.Drawing.Size(250, 37);
             this.ltTextBox1.TabIndex = 0;
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox2.Controls.Add(this.ltTextBox3);
-            this.groupBox2.Controls.Add(this.ltTextBox2);
-            this.groupBox2.Controls.Add(this.ltTextBox1);
-            this.groupBox2.Font = new System.Drawing.Font("Segoe MDL2 Assets", 12F, System.Drawing.FontStyle.Bold);
-            this.groupBox2.ForeColor = System.Drawing.Color.Plum;
-            this.groupBox2.Location = new System.Drawing.Point(199, 11);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(809, 103);
-            this.groupBox2.TabIndex = 63;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = " Security";
             // 
             // AddCustomer
             // 
