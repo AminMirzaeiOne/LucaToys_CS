@@ -167,6 +167,12 @@
     <Compile Include="Messages\ExitMessage.Designer.cs">
       <DependentUpon>ExitMessage.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\AddCustomer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\AddCustomer.Designer.cs">
+      <DependentUpon>AddCustomer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pages\AddManager.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -338,6 +344,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Messages\ExitMessage.resx">
       <DependentUpon>ExitMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\AddCustomer.resx">
+      <DependentUpon>AddCustomer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\AddManager.resx">
       <DependentUpon>AddManager.cs</DependentUpon>
