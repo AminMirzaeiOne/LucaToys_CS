@@ -31,5 +31,11 @@ namespace LucaToys.Submenus
         {
             this.ShowSubmenu(this.ParentControl);
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            LucaToys.Forms.AddUser addFrm = new Forms.AddUser(Forms.AddUser.CheckedUserTypes.Seller);
+            addFrm.Show();
+        }
     }
 }

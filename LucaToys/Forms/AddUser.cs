@@ -44,6 +44,9 @@ namespace LucaToys.Forms
                     this.radioButton3.Checked = true;
                     break;
             }
+
+            this.BackColor = System.Drawing.Color.Black;
+            this.TransparencyKey = System.Drawing.Color.Black;
         }
 
         private void btnClose_Click(object sender, EventArgs e)
