@@ -108,5 +108,11 @@ namespace LucaToys.Forms
             LucaToys.Forms.AddUser addFrm = new AddUser(type);
             addFrm.ShowDialog();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            LucaToys.Forms.UserInfo userInfoFrm = new UserInfo();
+            userInfoFrm.Show();
+        }
     }
 }

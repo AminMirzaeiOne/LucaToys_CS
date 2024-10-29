@@ -35,31 +35,31 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.ltTextBox10 = new LucaToys.Controls.LTTextBox();
+            this.ltTextBox7 = new LucaToys.Controls.LTTextBox();
+            this.ltTextBox9 = new LucaToys.Controls.LTTextBox();
+            this.ltTextBox8 = new LucaToys.Controls.LTTextBox();
+            this.ltTextBox6 = new LucaToys.Controls.LTTextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.ltTextBox5 = new LucaToys.Controls.LTTextBox();
+            this.ltTextBox4 = new LucaToys.Controls.LTTextBox();
+            this.ltTextBox3 = new LucaToys.Controls.LTTextBox();
+            this.ltTextBox2 = new LucaToys.Controls.LTTextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label4 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.ltRadioButton3 = new LucaToys.Controls.LTRadioButton();
+            this.ltTextBox1 = new LucaToys.Controls.LTTextBox();
+            this.ltRadioButton2 = new LucaToys.Controls.LTRadioButton();
+            this.ltRadioButton1 = new LucaToys.Controls.LTRadioButton();
             this.label2 = new System.Windows.Forms.Label();
             this.btnControl = new System.Windows.Forms.Button();
             this.btnMinimize = new System.Windows.Forms.Button();
             this.btnMaximize = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.ltTextBox5 = new LucaToys.Controls.LTTextBox();
-            this.ltTextBox4 = new LucaToys.Controls.LTTextBox();
-            this.ltTextBox3 = new LucaToys.Controls.LTTextBox();
-            this.ltTextBox2 = new LucaToys.Controls.LTTextBox();
-            this.ltRadioButton3 = new LucaToys.Controls.LTRadioButton();
-            this.ltTextBox1 = new LucaToys.Controls.LTTextBox();
-            this.ltRadioButton2 = new LucaToys.Controls.LTRadioButton();
-            this.ltRadioButton1 = new LucaToys.Controls.LTRadioButton();
-            this.ltTextBox6 = new LucaToys.Controls.LTTextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.ltTextBox7 = new LucaToys.Controls.LTTextBox();
-            this.ltTextBox8 = new LucaToys.Controls.LTTextBox();
-            this.ltTextBox9 = new LucaToys.Controls.LTTextBox();
-            this.ltTextBox10 = new LucaToys.Controls.LTTextBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -182,6 +182,178 @@
             this.groupBox2.Text = " Information";
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
+            // ltTextBox10
+            // 
+            this.ltTextBox10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.ltTextBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.ltTextBox10.BorderColor = System.Drawing.Color.Plum;
+            this.ltTextBox10.BorderDownColor = System.Drawing.Color.Orchid;
+            this.ltTextBox10.BorderHoverColor = System.Drawing.Color.Violet;
+            this.ltTextBox10.BorderSize = ((byte)(2));
+            this.ltTextBox10.EnableClearButton = true;
+            this.ltTextBox10.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ltTextBox10.HolderTextColor = System.Drawing.Color.Gray;
+            this.ltTextBox10.HolderTextContent = "Address";
+            this.ltTextBox10.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
+            this.ltTextBox10.Location = new System.Drawing.Point(29, 268);
+            this.ltTextBox10.Name = "ltTextBox10";
+            this.ltTextBox10.Size = new System.Drawing.Size(511, 126);
+            this.ltTextBox10.TabIndex = 60;
+            // 
+            // ltTextBox7
+            // 
+            this.ltTextBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.ltTextBox7.BorderColor = System.Drawing.Color.Plum;
+            this.ltTextBox7.BorderDownColor = System.Drawing.Color.Orchid;
+            this.ltTextBox7.BorderHoverColor = System.Drawing.Color.Violet;
+            this.ltTextBox7.BorderSize = ((byte)(2));
+            this.ltTextBox7.EnableClearButton = true;
+            this.ltTextBox7.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ltTextBox7.HolderTextColor = System.Drawing.Color.Gray;
+            this.ltTextBox7.HolderTextContent = "Country";
+            this.ltTextBox7.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
+            this.ltTextBox7.Location = new System.Drawing.Point(363, 155);
+            this.ltTextBox7.Name = "ltTextBox7";
+            this.ltTextBox7.Size = new System.Drawing.Size(177, 37);
+            this.ltTextBox7.TabIndex = 59;
+            // 
+            // ltTextBox9
+            // 
+            this.ltTextBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.ltTextBox9.BorderColor = System.Drawing.Color.Plum;
+            this.ltTextBox9.BorderDownColor = System.Drawing.Color.Orchid;
+            this.ltTextBox9.BorderHoverColor = System.Drawing.Color.Violet;
+            this.ltTextBox9.BorderSize = ((byte)(2));
+            this.ltTextBox9.EnableClearButton = true;
+            this.ltTextBox9.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ltTextBox9.HolderTextColor = System.Drawing.Color.Gray;
+            this.ltTextBox9.HolderTextContent = "Instagram";
+            this.ltTextBox9.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
+            this.ltTextBox9.Location = new System.Drawing.Point(363, 209);
+            this.ltTextBox9.Name = "ltTextBox9";
+            this.ltTextBox9.Size = new System.Drawing.Size(177, 37);
+            this.ltTextBox9.TabIndex = 59;
+            // 
+            // ltTextBox8
+            // 
+            this.ltTextBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.ltTextBox8.BorderColor = System.Drawing.Color.Plum;
+            this.ltTextBox8.BorderDownColor = System.Drawing.Color.Orchid;
+            this.ltTextBox8.BorderHoverColor = System.Drawing.Color.Violet;
+            this.ltTextBox8.BorderSize = ((byte)(2));
+            this.ltTextBox8.EnableClearButton = true;
+            this.ltTextBox8.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ltTextBox8.HolderTextColor = System.Drawing.Color.Gray;
+            this.ltTextBox8.HolderTextContent = "Instagram";
+            this.ltTextBox8.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
+            this.ltTextBox8.Location = new System.Drawing.Point(161, 209);
+            this.ltTextBox8.Name = "ltTextBox8";
+            this.ltTextBox8.Size = new System.Drawing.Size(177, 37);
+            this.ltTextBox8.TabIndex = 59;
+            // 
+            // ltTextBox6
+            // 
+            this.ltTextBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.ltTextBox6.BorderColor = System.Drawing.Color.Plum;
+            this.ltTextBox6.BorderDownColor = System.Drawing.Color.Orchid;
+            this.ltTextBox6.BorderHoverColor = System.Drawing.Color.Violet;
+            this.ltTextBox6.BorderSize = ((byte)(2));
+            this.ltTextBox6.EnableClearButton = true;
+            this.ltTextBox6.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ltTextBox6.HolderTextColor = System.Drawing.Color.Gray;
+            this.ltTextBox6.HolderTextContent = "Gmail";
+            this.ltTextBox6.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
+            this.ltTextBox6.Location = new System.Drawing.Point(161, 155);
+            this.ltTextBox6.Name = "ltTextBox6";
+            this.ltTextBox6.Size = new System.Drawing.Size(177, 37);
+            this.ltTextBox6.TabIndex = 59;
+            // 
+            // button1
+            // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.BackColor = System.Drawing.Color.Plum;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(29, 169);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(110, 45);
+            this.button1.TabIndex = 48;
+            this.button1.Text = "Change";
+            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // ltTextBox5
+            // 
+            this.ltTextBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.ltTextBox5.BorderColor = System.Drawing.Color.Plum;
+            this.ltTextBox5.BorderDownColor = System.Drawing.Color.Orchid;
+            this.ltTextBox5.BorderHoverColor = System.Drawing.Color.Violet;
+            this.ltTextBox5.BorderSize = ((byte)(2));
+            this.ltTextBox5.EnableClearButton = true;
+            this.ltTextBox5.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ltTextBox5.HolderTextColor = System.Drawing.Color.Gray;
+            this.ltTextBox5.HolderTextContent = "Phone";
+            this.ltTextBox5.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
+            this.ltTextBox5.Location = new System.Drawing.Point(363, 96);
+            this.ltTextBox5.Name = "ltTextBox5";
+            this.ltTextBox5.Size = new System.Drawing.Size(177, 37);
+            this.ltTextBox5.TabIndex = 59;
+            // 
+            // ltTextBox4
+            // 
+            this.ltTextBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.ltTextBox4.BorderColor = System.Drawing.Color.Plum;
+            this.ltTextBox4.BorderDownColor = System.Drawing.Color.Orchid;
+            this.ltTextBox4.BorderHoverColor = System.Drawing.Color.Violet;
+            this.ltTextBox4.BorderSize = ((byte)(2));
+            this.ltTextBox4.EnableClearButton = true;
+            this.ltTextBox4.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ltTextBox4.HolderTextColor = System.Drawing.Color.Gray;
+            this.ltTextBox4.HolderTextContent = "Family";
+            this.ltTextBox4.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
+            this.ltTextBox4.Location = new System.Drawing.Point(161, 96);
+            this.ltTextBox4.Name = "ltTextBox4";
+            this.ltTextBox4.Size = new System.Drawing.Size(177, 37);
+            this.ltTextBox4.TabIndex = 59;
+            // 
+            // ltTextBox3
+            // 
+            this.ltTextBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.ltTextBox3.BorderColor = System.Drawing.Color.Plum;
+            this.ltTextBox3.BorderDownColor = System.Drawing.Color.Orchid;
+            this.ltTextBox3.BorderHoverColor = System.Drawing.Color.Violet;
+            this.ltTextBox3.BorderSize = ((byte)(2));
+            this.ltTextBox3.EnableClearButton = true;
+            this.ltTextBox3.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ltTextBox3.HolderTextColor = System.Drawing.Color.Gray;
+            this.ltTextBox3.HolderTextContent = "Name";
+            this.ltTextBox3.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
+            this.ltTextBox3.Location = new System.Drawing.Point(363, 41);
+            this.ltTextBox3.Name = "ltTextBox3";
+            this.ltTextBox3.Size = new System.Drawing.Size(177, 37);
+            this.ltTextBox3.TabIndex = 59;
+            // 
+            // ltTextBox2
+            // 
+            this.ltTextBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.ltTextBox2.BorderColor = System.Drawing.Color.Plum;
+            this.ltTextBox2.BorderDownColor = System.Drawing.Color.Orchid;
+            this.ltTextBox2.BorderHoverColor = System.Drawing.Color.Violet;
+            this.ltTextBox2.BorderSize = ((byte)(2));
+            this.ltTextBox2.EnableClearButton = true;
+            this.ltTextBox2.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ltTextBox2.HolderTextColor = System.Drawing.Color.Gray;
+            this.ltTextBox2.HolderTextContent = "Usercode";
+            this.ltTextBox2.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
+            this.ltTextBox2.Location = new System.Drawing.Point(161, 41);
+            this.ltTextBox2.Name = "ltTextBox2";
+            this.ltTextBox2.Size = new System.Drawing.Size(177, 37);
+            this.ltTextBox2.TabIndex = 59;
+            // 
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = global::LucaToys.Properties.Resources.icons8_manager_96;
@@ -241,6 +413,76 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1011, 84);
             this.panel2.TabIndex = 54;
+            // 
+            // ltRadioButton3
+            // 
+            this.ltRadioButton3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.ltRadioButton3.AutoSize = true;
+            this.ltRadioButton3.CheckedColor = System.Drawing.Color.Plum;
+            this.ltRadioButton3.ForeColor = System.Drawing.Color.White;
+            this.ltRadioButton3.Location = new System.Drawing.Point(879, 28);
+            this.ltRadioButton3.MinimumSize = new System.Drawing.Size(0, 21);
+            this.ltRadioButton3.Name = "ltRadioButton3";
+            this.ltRadioButton3.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.ltRadioButton3.Size = new System.Drawing.Size(121, 29);
+            this.ltRadioButton3.TabIndex = 51;
+            this.ltRadioButton3.Text = "Usercode";
+            this.ltRadioButton3.UnCheckedColor = System.Drawing.Color.Gray;
+            this.ltRadioButton3.UseVisualStyleBackColor = true;
+            // 
+            // ltTextBox1
+            // 
+            this.ltTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.ltTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.ltTextBox1.BorderColor = System.Drawing.Color.Plum;
+            this.ltTextBox1.BorderDownColor = System.Drawing.Color.Orchid;
+            this.ltTextBox1.BorderHoverColor = System.Drawing.Color.Violet;
+            this.ltTextBox1.BorderSize = ((byte)(2));
+            this.ltTextBox1.EnableClearButton = true;
+            this.ltTextBox1.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ltTextBox1.ForeColor = System.Drawing.Color.White;
+            this.ltTextBox1.HolderTextColor = System.Drawing.Color.Gray;
+            this.ltTextBox1.HolderTextContent = "Search Sellers";
+            this.ltTextBox1.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ltTextBox1.Location = new System.Drawing.Point(11, 23);
+            this.ltTextBox1.Name = "ltTextBox1";
+            this.ltTextBox1.Size = new System.Drawing.Size(641, 39);
+            this.ltTextBox1.TabIndex = 50;
+            // 
+            // ltRadioButton2
+            // 
+            this.ltRadioButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.ltRadioButton2.AutoSize = true;
+            this.ltRadioButton2.CheckedColor = System.Drawing.Color.Plum;
+            this.ltRadioButton2.ForeColor = System.Drawing.Color.White;
+            this.ltRadioButton2.Location = new System.Drawing.Point(775, 28);
+            this.ltRadioButton2.MinimumSize = new System.Drawing.Size(0, 21);
+            this.ltRadioButton2.Name = "ltRadioButton2";
+            this.ltRadioButton2.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.ltRadioButton2.Size = new System.Drawing.Size(97, 29);
+            this.ltRadioButton2.TabIndex = 52;
+            this.ltRadioButton2.Text = "Family";
+            this.ltRadioButton2.UnCheckedColor = System.Drawing.Color.Gray;
+            this.ltRadioButton2.UseVisualStyleBackColor = true;
+            // 
+            // ltRadioButton1
+            // 
+            this.ltRadioButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.ltRadioButton1.AutoSize = true;
+            this.ltRadioButton1.Checked = true;
+            this.ltRadioButton1.CheckedColor = System.Drawing.Color.Plum;
+            this.ltRadioButton1.ForeColor = System.Drawing.Color.White;
+            this.ltRadioButton1.Location = new System.Drawing.Point(670, 28);
+            this.ltRadioButton1.MinimumSize = new System.Drawing.Size(0, 21);
+            this.ltRadioButton1.Name = "ltRadioButton1";
+            this.ltRadioButton1.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.ltRadioButton1.Size = new System.Drawing.Size(94, 29);
+            this.ltRadioButton1.TabIndex = 53;
+            this.ltRadioButton1.TabStop = true;
+            this.ltRadioButton1.Text = "Name";
+            this.ltRadioButton1.UnCheckedColor = System.Drawing.Color.Gray;
+            this.ltRadioButton1.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -336,248 +578,6 @@
             this.label1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.label1_MouseDown);
             this.label1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label1_MouseMove);
             this.label1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.label1_MouseUp);
-            // 
-            // ltTextBox5
-            // 
-            this.ltTextBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.ltTextBox5.BorderColor = System.Drawing.Color.Plum;
-            this.ltTextBox5.BorderDownColor = System.Drawing.Color.Orchid;
-            this.ltTextBox5.BorderHoverColor = System.Drawing.Color.Violet;
-            this.ltTextBox5.BorderSize = ((byte)(2));
-            this.ltTextBox5.EnableClearButton = true;
-            this.ltTextBox5.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltTextBox5.HolderTextColor = System.Drawing.Color.Gray;
-            this.ltTextBox5.HolderTextContent = "Phone";
-            this.ltTextBox5.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
-            this.ltTextBox5.Location = new System.Drawing.Point(363, 96);
-            this.ltTextBox5.Name = "ltTextBox5";
-            this.ltTextBox5.Size = new System.Drawing.Size(177, 37);
-            this.ltTextBox5.TabIndex = 59;
-            // 
-            // ltTextBox4
-            // 
-            this.ltTextBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.ltTextBox4.BorderColor = System.Drawing.Color.Plum;
-            this.ltTextBox4.BorderDownColor = System.Drawing.Color.Orchid;
-            this.ltTextBox4.BorderHoverColor = System.Drawing.Color.Violet;
-            this.ltTextBox4.BorderSize = ((byte)(2));
-            this.ltTextBox4.EnableClearButton = true;
-            this.ltTextBox4.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltTextBox4.HolderTextColor = System.Drawing.Color.Gray;
-            this.ltTextBox4.HolderTextContent = "Family";
-            this.ltTextBox4.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
-            this.ltTextBox4.Location = new System.Drawing.Point(161, 96);
-            this.ltTextBox4.Name = "ltTextBox4";
-            this.ltTextBox4.Size = new System.Drawing.Size(177, 37);
-            this.ltTextBox4.TabIndex = 59;
-            // 
-            // ltTextBox3
-            // 
-            this.ltTextBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.ltTextBox3.BorderColor = System.Drawing.Color.Plum;
-            this.ltTextBox3.BorderDownColor = System.Drawing.Color.Orchid;
-            this.ltTextBox3.BorderHoverColor = System.Drawing.Color.Violet;
-            this.ltTextBox3.BorderSize = ((byte)(2));
-            this.ltTextBox3.EnableClearButton = true;
-            this.ltTextBox3.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltTextBox3.HolderTextColor = System.Drawing.Color.Gray;
-            this.ltTextBox3.HolderTextContent = "Name";
-            this.ltTextBox3.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
-            this.ltTextBox3.Location = new System.Drawing.Point(363, 41);
-            this.ltTextBox3.Name = "ltTextBox3";
-            this.ltTextBox3.Size = new System.Drawing.Size(177, 37);
-            this.ltTextBox3.TabIndex = 59;
-            // 
-            // ltTextBox2
-            // 
-            this.ltTextBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.ltTextBox2.BorderColor = System.Drawing.Color.Plum;
-            this.ltTextBox2.BorderDownColor = System.Drawing.Color.Orchid;
-            this.ltTextBox2.BorderHoverColor = System.Drawing.Color.Violet;
-            this.ltTextBox2.BorderSize = ((byte)(2));
-            this.ltTextBox2.EnableClearButton = true;
-            this.ltTextBox2.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltTextBox2.HolderTextColor = System.Drawing.Color.Gray;
-            this.ltTextBox2.HolderTextContent = "Usercode";
-            this.ltTextBox2.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
-            this.ltTextBox2.Location = new System.Drawing.Point(161, 41);
-            this.ltTextBox2.Name = "ltTextBox2";
-            this.ltTextBox2.Size = new System.Drawing.Size(177, 37);
-            this.ltTextBox2.TabIndex = 59;
-            // 
-            // ltRadioButton3
-            // 
-            this.ltRadioButton3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.ltRadioButton3.AutoSize = true;
-            this.ltRadioButton3.CheckedColor = System.Drawing.Color.Plum;
-            this.ltRadioButton3.ForeColor = System.Drawing.Color.White;
-            this.ltRadioButton3.Location = new System.Drawing.Point(879, 28);
-            this.ltRadioButton3.MinimumSize = new System.Drawing.Size(0, 21);
-            this.ltRadioButton3.Name = "ltRadioButton3";
-            this.ltRadioButton3.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.ltRadioButton3.Size = new System.Drawing.Size(121, 29);
-            this.ltRadioButton3.TabIndex = 51;
-            this.ltRadioButton3.Text = "Usercode";
-            this.ltRadioButton3.UnCheckedColor = System.Drawing.Color.Gray;
-            this.ltRadioButton3.UseVisualStyleBackColor = true;
-            // 
-            // ltTextBox1
-            // 
-            this.ltTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.ltTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.ltTextBox1.BorderColor = System.Drawing.Color.Plum;
-            this.ltTextBox1.BorderDownColor = System.Drawing.Color.Orchid;
-            this.ltTextBox1.BorderHoverColor = System.Drawing.Color.Violet;
-            this.ltTextBox1.BorderSize = ((byte)(2));
-            this.ltTextBox1.EnableClearButton = true;
-            this.ltTextBox1.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltTextBox1.ForeColor = System.Drawing.Color.White;
-            this.ltTextBox1.HolderTextColor = System.Drawing.Color.Gray;
-            this.ltTextBox1.HolderTextContent = "Search Sellers";
-            this.ltTextBox1.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltTextBox1.Location = new System.Drawing.Point(11, 23);
-            this.ltTextBox1.Name = "ltTextBox1";
-            this.ltTextBox1.Size = new System.Drawing.Size(641, 39);
-            this.ltTextBox1.TabIndex = 50;
-            // 
-            // ltRadioButton2
-            // 
-            this.ltRadioButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.ltRadioButton2.AutoSize = true;
-            this.ltRadioButton2.CheckedColor = System.Drawing.Color.Plum;
-            this.ltRadioButton2.ForeColor = System.Drawing.Color.White;
-            this.ltRadioButton2.Location = new System.Drawing.Point(775, 28);
-            this.ltRadioButton2.MinimumSize = new System.Drawing.Size(0, 21);
-            this.ltRadioButton2.Name = "ltRadioButton2";
-            this.ltRadioButton2.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.ltRadioButton2.Size = new System.Drawing.Size(97, 29);
-            this.ltRadioButton2.TabIndex = 52;
-            this.ltRadioButton2.Text = "Family";
-            this.ltRadioButton2.UnCheckedColor = System.Drawing.Color.Gray;
-            this.ltRadioButton2.UseVisualStyleBackColor = true;
-            // 
-            // ltRadioButton1
-            // 
-            this.ltRadioButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.ltRadioButton1.AutoSize = true;
-            this.ltRadioButton1.Checked = true;
-            this.ltRadioButton1.CheckedColor = System.Drawing.Color.Plum;
-            this.ltRadioButton1.ForeColor = System.Drawing.Color.White;
-            this.ltRadioButton1.Location = new System.Drawing.Point(670, 28);
-            this.ltRadioButton1.MinimumSize = new System.Drawing.Size(0, 21);
-            this.ltRadioButton1.Name = "ltRadioButton1";
-            this.ltRadioButton1.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.ltRadioButton1.Size = new System.Drawing.Size(94, 29);
-            this.ltRadioButton1.TabIndex = 53;
-            this.ltRadioButton1.TabStop = true;
-            this.ltRadioButton1.Text = "Name";
-            this.ltRadioButton1.UnCheckedColor = System.Drawing.Color.Gray;
-            this.ltRadioButton1.UseVisualStyleBackColor = true;
-            // 
-            // ltTextBox6
-            // 
-            this.ltTextBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.ltTextBox6.BorderColor = System.Drawing.Color.Plum;
-            this.ltTextBox6.BorderDownColor = System.Drawing.Color.Orchid;
-            this.ltTextBox6.BorderHoverColor = System.Drawing.Color.Violet;
-            this.ltTextBox6.BorderSize = ((byte)(2));
-            this.ltTextBox6.EnableClearButton = true;
-            this.ltTextBox6.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltTextBox6.HolderTextColor = System.Drawing.Color.Gray;
-            this.ltTextBox6.HolderTextContent = "Gmail";
-            this.ltTextBox6.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
-            this.ltTextBox6.Location = new System.Drawing.Point(161, 155);
-            this.ltTextBox6.Name = "ltTextBox6";
-            this.ltTextBox6.Size = new System.Drawing.Size(177, 37);
-            this.ltTextBox6.TabIndex = 59;
-            // 
-            // button1
-            // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.BackColor = System.Drawing.Color.Plum;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(29, 169);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(110, 45);
-            this.button1.TabIndex = 48;
-            this.button1.Text = "Change";
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // ltTextBox7
-            // 
-            this.ltTextBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.ltTextBox7.BorderColor = System.Drawing.Color.Plum;
-            this.ltTextBox7.BorderDownColor = System.Drawing.Color.Orchid;
-            this.ltTextBox7.BorderHoverColor = System.Drawing.Color.Violet;
-            this.ltTextBox7.BorderSize = ((byte)(2));
-            this.ltTextBox7.EnableClearButton = true;
-            this.ltTextBox7.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltTextBox7.HolderTextColor = System.Drawing.Color.Gray;
-            this.ltTextBox7.HolderTextContent = "Country";
-            this.ltTextBox7.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
-            this.ltTextBox7.Location = new System.Drawing.Point(363, 155);
-            this.ltTextBox7.Name = "ltTextBox7";
-            this.ltTextBox7.Size = new System.Drawing.Size(177, 37);
-            this.ltTextBox7.TabIndex = 59;
-            // 
-            // ltTextBox8
-            // 
-            this.ltTextBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.ltTextBox8.BorderColor = System.Drawing.Color.Plum;
-            this.ltTextBox8.BorderDownColor = System.Drawing.Color.Orchid;
-            this.ltTextBox8.BorderHoverColor = System.Drawing.Color.Violet;
-            this.ltTextBox8.BorderSize = ((byte)(2));
-            this.ltTextBox8.EnableClearButton = true;
-            this.ltTextBox8.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltTextBox8.HolderTextColor = System.Drawing.Color.Gray;
-            this.ltTextBox8.HolderTextContent = "Instagram";
-            this.ltTextBox8.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
-            this.ltTextBox8.Location = new System.Drawing.Point(161, 209);
-            this.ltTextBox8.Name = "ltTextBox8";
-            this.ltTextBox8.Size = new System.Drawing.Size(177, 37);
-            this.ltTextBox8.TabIndex = 59;
-            // 
-            // ltTextBox9
-            // 
-            this.ltTextBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.ltTextBox9.BorderColor = System.Drawing.Color.Plum;
-            this.ltTextBox9.BorderDownColor = System.Drawing.Color.Orchid;
-            this.ltTextBox9.BorderHoverColor = System.Drawing.Color.Violet;
-            this.ltTextBox9.BorderSize = ((byte)(2));
-            this.ltTextBox9.EnableClearButton = true;
-            this.ltTextBox9.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltTextBox9.HolderTextColor = System.Drawing.Color.Gray;
-            this.ltTextBox9.HolderTextContent = "Instagram";
-            this.ltTextBox9.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
-            this.ltTextBox9.Location = new System.Drawing.Point(363, 209);
-            this.ltTextBox9.Name = "ltTextBox9";
-            this.ltTextBox9.Size = new System.Drawing.Size(177, 37);
-            this.ltTextBox9.TabIndex = 59;
-            // 
-            // ltTextBox10
-            // 
-            this.ltTextBox10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.ltTextBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
-            this.ltTextBox10.BorderColor = System.Drawing.Color.Plum;
-            this.ltTextBox10.BorderDownColor = System.Drawing.Color.Orchid;
-            this.ltTextBox10.BorderHoverColor = System.Drawing.Color.Violet;
-            this.ltTextBox10.BorderSize = ((byte)(2));
-            this.ltTextBox10.EnableClearButton = true;
-            this.ltTextBox10.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltTextBox10.HolderTextColor = System.Drawing.Color.Gray;
-            this.ltTextBox10.HolderTextContent = "Address";
-            this.ltTextBox10.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
-            this.ltTextBox10.Location = new System.Drawing.Point(29, 268);
-            this.ltTextBox10.Name = "ltTextBox10";
-            this.ltTextBox10.Size = new System.Drawing.Size(511, 126);
-            this.ltTextBox10.TabIndex = 60;
             // 
             // UpdateSeller
             // 

@@ -45,7 +45,11 @@
             this.button2 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.ltRadioButton3 = new LucaToys.Controls.LTRadioButton();
+            this.ltRadioButton2 = new LucaToys.Controls.LTRadioButton();
+            this.ltRadioButton1 = new LucaToys.Controls.LTRadioButton();
             this.button1 = new System.Windows.Forms.Button();
+            this.ltTextBox1 = new LucaToys.Controls.LTTextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
@@ -57,10 +61,6 @@
             this.btnMaximize = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.ltRadioButton3 = new LucaToys.Controls.LTRadioButton();
-            this.ltRadioButton2 = new LucaToys.Controls.LTRadioButton();
-            this.ltRadioButton1 = new LucaToys.Controls.LTRadioButton();
-            this.ltTextBox1 = new LucaToys.Controls.LTTextBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -188,6 +188,7 @@
             this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button5
             // 
@@ -324,6 +325,56 @@
             this.panel2.Size = new System.Drawing.Size(961, 60);
             this.panel2.TabIndex = 41;
             // 
+            // ltRadioButton3
+            // 
+            this.ltRadioButton3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.ltRadioButton3.AutoSize = true;
+            this.ltRadioButton3.CheckedColor = System.Drawing.Color.Plum;
+            this.ltRadioButton3.ForeColor = System.Drawing.Color.White;
+            this.ltRadioButton3.Location = new System.Drawing.Point(826, 19);
+            this.ltRadioButton3.MinimumSize = new System.Drawing.Size(0, 21);
+            this.ltRadioButton3.Name = "ltRadioButton3";
+            this.ltRadioButton3.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.ltRadioButton3.Size = new System.Drawing.Size(113, 24);
+            this.ltRadioButton3.TabIndex = 44;
+            this.ltRadioButton3.Text = "Usercode";
+            this.ltRadioButton3.UnCheckedColor = System.Drawing.Color.Gray;
+            this.ltRadioButton3.UseVisualStyleBackColor = true;
+            // 
+            // ltRadioButton2
+            // 
+            this.ltRadioButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.ltRadioButton2.AutoSize = true;
+            this.ltRadioButton2.CheckedColor = System.Drawing.Color.Plum;
+            this.ltRadioButton2.ForeColor = System.Drawing.Color.White;
+            this.ltRadioButton2.Location = new System.Drawing.Point(722, 19);
+            this.ltRadioButton2.MinimumSize = new System.Drawing.Size(0, 21);
+            this.ltRadioButton2.Name = "ltRadioButton2";
+            this.ltRadioButton2.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.ltRadioButton2.Size = new System.Drawing.Size(89, 24);
+            this.ltRadioButton2.TabIndex = 44;
+            this.ltRadioButton2.Text = "Family";
+            this.ltRadioButton2.UnCheckedColor = System.Drawing.Color.Gray;
+            this.ltRadioButton2.UseVisualStyleBackColor = true;
+            // 
+            // ltRadioButton1
+            // 
+            this.ltRadioButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.ltRadioButton1.AutoSize = true;
+            this.ltRadioButton1.Checked = true;
+            this.ltRadioButton1.CheckedColor = System.Drawing.Color.Plum;
+            this.ltRadioButton1.ForeColor = System.Drawing.Color.White;
+            this.ltRadioButton1.Location = new System.Drawing.Point(617, 19);
+            this.ltRadioButton1.MinimumSize = new System.Drawing.Size(0, 21);
+            this.ltRadioButton1.Name = "ltRadioButton1";
+            this.ltRadioButton1.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.ltRadioButton1.Size = new System.Drawing.Size(86, 24);
+            this.ltRadioButton1.TabIndex = 44;
+            this.ltRadioButton1.TabStop = true;
+            this.ltRadioButton1.Text = "Name";
+            this.ltRadioButton1.UnCheckedColor = System.Drawing.Color.Gray;
+            this.ltRadioButton1.UseVisualStyleBackColor = true;
+            // 
             // button1
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -339,6 +390,26 @@
             this.button1.Text = "Search";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button1.UseVisualStyleBackColor = true;
+            // 
+            // ltTextBox1
+            // 
+            this.ltTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.ltTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.ltTextBox1.BorderColor = System.Drawing.Color.Plum;
+            this.ltTextBox1.BorderDownColor = System.Drawing.Color.Orchid;
+            this.ltTextBox1.BorderHoverColor = System.Drawing.Color.Violet;
+            this.ltTextBox1.BorderSize = ((byte)(2));
+            this.ltTextBox1.EnableClearButton = true;
+            this.ltTextBox1.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ltTextBox1.ForeColor = System.Drawing.Color.White;
+            this.ltTextBox1.HolderTextColor = System.Drawing.Color.Gray;
+            this.ltTextBox1.HolderTextContent = "Search Users";
+            this.ltTextBox1.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ltTextBox1.Location = new System.Drawing.Point(16, 8);
+            this.ltTextBox1.Name = "ltTextBox1";
+            this.ltTextBox1.Size = new System.Drawing.Size(406, 45);
+            this.ltTextBox1.TabIndex = 0;
             // 
             // label3
             // 
@@ -531,76 +602,6 @@
             this.label1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.label1_MouseDown);
             this.label1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label1_MouseMove);
             this.label1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.label1_MouseUp);
-            // 
-            // ltRadioButton3
-            // 
-            this.ltRadioButton3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.ltRadioButton3.AutoSize = true;
-            this.ltRadioButton3.CheckedColor = System.Drawing.Color.Plum;
-            this.ltRadioButton3.ForeColor = System.Drawing.Color.White;
-            this.ltRadioButton3.Location = new System.Drawing.Point(826, 19);
-            this.ltRadioButton3.MinimumSize = new System.Drawing.Size(0, 21);
-            this.ltRadioButton3.Name = "ltRadioButton3";
-            this.ltRadioButton3.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.ltRadioButton3.Size = new System.Drawing.Size(113, 24);
-            this.ltRadioButton3.TabIndex = 44;
-            this.ltRadioButton3.Text = "Usercode";
-            this.ltRadioButton3.UnCheckedColor = System.Drawing.Color.Gray;
-            this.ltRadioButton3.UseVisualStyleBackColor = true;
-            // 
-            // ltRadioButton2
-            // 
-            this.ltRadioButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.ltRadioButton2.AutoSize = true;
-            this.ltRadioButton2.CheckedColor = System.Drawing.Color.Plum;
-            this.ltRadioButton2.ForeColor = System.Drawing.Color.White;
-            this.ltRadioButton2.Location = new System.Drawing.Point(722, 19);
-            this.ltRadioButton2.MinimumSize = new System.Drawing.Size(0, 21);
-            this.ltRadioButton2.Name = "ltRadioButton2";
-            this.ltRadioButton2.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.ltRadioButton2.Size = new System.Drawing.Size(89, 24);
-            this.ltRadioButton2.TabIndex = 44;
-            this.ltRadioButton2.Text = "Family";
-            this.ltRadioButton2.UnCheckedColor = System.Drawing.Color.Gray;
-            this.ltRadioButton2.UseVisualStyleBackColor = true;
-            // 
-            // ltRadioButton1
-            // 
-            this.ltRadioButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.ltRadioButton1.AutoSize = true;
-            this.ltRadioButton1.Checked = true;
-            this.ltRadioButton1.CheckedColor = System.Drawing.Color.Plum;
-            this.ltRadioButton1.ForeColor = System.Drawing.Color.White;
-            this.ltRadioButton1.Location = new System.Drawing.Point(617, 19);
-            this.ltRadioButton1.MinimumSize = new System.Drawing.Size(0, 21);
-            this.ltRadioButton1.Name = "ltRadioButton1";
-            this.ltRadioButton1.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.ltRadioButton1.Size = new System.Drawing.Size(86, 24);
-            this.ltRadioButton1.TabIndex = 44;
-            this.ltRadioButton1.TabStop = true;
-            this.ltRadioButton1.Text = "Name";
-            this.ltRadioButton1.UnCheckedColor = System.Drawing.Color.Gray;
-            this.ltRadioButton1.UseVisualStyleBackColor = true;
-            // 
-            // ltTextBox1
-            // 
-            this.ltTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.ltTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.ltTextBox1.BorderColor = System.Drawing.Color.Plum;
-            this.ltTextBox1.BorderDownColor = System.Drawing.Color.Orchid;
-            this.ltTextBox1.BorderHoverColor = System.Drawing.Color.Violet;
-            this.ltTextBox1.BorderSize = ((byte)(2));
-            this.ltTextBox1.EnableClearButton = true;
-            this.ltTextBox1.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltTextBox1.ForeColor = System.Drawing.Color.White;
-            this.ltTextBox1.HolderTextColor = System.Drawing.Color.Gray;
-            this.ltTextBox1.HolderTextContent = "Search Users";
-            this.ltTextBox1.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltTextBox1.Location = new System.Drawing.Point(16, 8);
-            this.ltTextBox1.Name = "ltTextBox1";
-            this.ltTextBox1.Size = new System.Drawing.Size(406, 45);
-            this.ltTextBox1.TabIndex = 0;
             // 
             // Users
             // 
