@@ -41,5 +41,11 @@ namespace LucaToys.Submenus
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            LucaToys.Forms.AddProduct addProduct = new Forms.AddProduct();
+            addProduct.Show();
+        }
     }
 }

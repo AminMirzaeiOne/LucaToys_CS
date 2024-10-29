@@ -533,6 +533,16 @@ namespace LucaToys.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_fidget_spinner_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-fidget-spinner-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_fidget_spinner_96 {
             get {
                 object obj = ResourceManager.GetObject("icons8-fidget-spinner-96", resourceCulture);
@@ -853,6 +863,16 @@ namespace LucaToys.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_playing_children_skin_type_3_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-playing-children-skin-type-3-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_playing_children_skin_type_3_96 {
             get {
                 object obj = ResourceManager.GetObject("icons8-playing-children-skin-type-3-96", resourceCulture);
@@ -986,6 +1006,16 @@ namespace LucaToys.Properties {
         internal static System.Drawing.Bitmap icons8_teddy_bear_48 {
             get {
                 object obj = ResourceManager.GetObject("icons8-teddy-bear-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_teddy_bear_48__1_ {
+            get {
+                object obj = ResourceManager.GetObject("icons8-teddy-bear-48 (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

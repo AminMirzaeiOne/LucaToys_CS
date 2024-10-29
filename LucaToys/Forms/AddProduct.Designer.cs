@@ -30,18 +30,18 @@
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.label2 = new System.Windows.Forms.Label();
             this.btnControl = new System.Windows.Forms.Button();
             this.btnMinimize = new System.Windows.Forms.Button();
             this.btnMaximize = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.label4 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -78,6 +78,42 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1024, 644);
             this.panel1.TabIndex = 0;
+            // 
+            // label4
+            // 
+            this.label4.BackColor = System.Drawing.Color.Plum;
+            this.label4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label4.Location = new System.Drawing.Point(0, 109);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(1024, 3);
+            this.label4.TabIndex = 51;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.panel2.Controls.Add(this.tableLayoutPanel2);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 36);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1024, 73);
+            this.panel2.TabIndex = 50;
+            // 
+            // tableLayoutPanel2
+            // 
+            this.tableLayoutPanel2.ColumnCount = 3;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel2.Controls.Add(this.radioButton2, 1, 0);
+            this.tableLayoutPanel2.Controls.Add(this.radioButton3, 2, 0);
+            this.tableLayoutPanel2.Controls.Add(this.radioButton1, 0, 0);
+            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 1;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1024, 73);
+            this.tableLayoutPanel2.TabIndex = 41;
             // 
             // label2
             // 
@@ -170,33 +206,9 @@
             this.label1.Size = new System.Drawing.Size(1024, 36);
             this.label1.TabIndex = 42;
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.panel2.Controls.Add(this.tableLayoutPanel2);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 36);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1024, 73);
-            this.panel2.TabIndex = 50;
-            // 
-            // tableLayoutPanel2
-            // 
-            this.tableLayoutPanel2.ColumnCount = 3;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel2.Controls.Add(this.radioButton2, 1, 0);
-            this.tableLayoutPanel2.Controls.Add(this.radioButton3, 2, 0);
-            this.tableLayoutPanel2.Controls.Add(this.radioButton1, 0, 0);
-            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 1;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1024, 73);
-            this.tableLayoutPanel2.TabIndex = 41;
+            this.label1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.label1_MouseDown);
+            this.label1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label1_MouseMove);
+            this.label1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.label1_MouseUp);
             // 
             // radioButton2
             // 
@@ -209,15 +221,16 @@
             this.radioButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.radioButton2.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton2.ForeColor = System.Drawing.Color.White;
+            this.radioButton2.Image = global::LucaToys.Properties.Resources.icons8_teddy_bear_48__1_;
             this.radioButton2.Location = new System.Drawing.Point(356, 10);
             this.radioButton2.Margin = new System.Windows.Forms.Padding(15, 10, 15, 10);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(311, 53);
             this.radioButton2.TabIndex = 40;
             this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Doll";
-            this.radioButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.radioButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.radioButton2.Text = " Doll";
+            this.radioButton2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.radioButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
             // radioButton3
@@ -230,14 +243,15 @@
             this.radioButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.radioButton3.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton3.ForeColor = System.Drawing.Color.White;
+            this.radioButton3.Image = global::LucaToys.Properties.Resources.icons8_playing_children_skin_type_3_48;
             this.radioButton3.Location = new System.Drawing.Point(697, 10);
             this.radioButton3.Margin = new System.Windows.Forms.Padding(15, 10, 15, 10);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(312, 53);
             this.radioButton3.TabIndex = 40;
-            this.radioButton3.Text = "Other";
-            this.radioButton3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.radioButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.radioButton3.Text = "  Other";
+            this.radioButton3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.radioButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.radioButton3.UseVisualStyleBackColor = true;
             // 
             // radioButton1
@@ -250,24 +264,16 @@
             this.radioButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.radioButton1.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton1.ForeColor = System.Drawing.Color.White;
+            this.radioButton1.Image = global::LucaToys.Properties.Resources.icons8_fidget_spinner_48;
             this.radioButton1.Location = new System.Drawing.Point(15, 10);
             this.radioButton1.Margin = new System.Windows.Forms.Padding(15, 10, 15, 10);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(311, 53);
             this.radioButton1.TabIndex = 40;
-            this.radioButton1.Text = "Toy";
-            this.radioButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.radioButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.radioButton1.Text = " Toy";
+            this.radioButton1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.radioButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // label4
-            // 
-            this.label4.BackColor = System.Drawing.Color.Plum;
-            this.label4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label4.Location = new System.Drawing.Point(0, 109);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(1024, 3);
-            this.label4.TabIndex = 51;
             // 
             // AddProduct
             // 

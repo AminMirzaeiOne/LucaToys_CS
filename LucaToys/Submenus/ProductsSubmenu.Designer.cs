@@ -30,14 +30,14 @@
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -79,24 +79,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(266, 591);
             this.panel1.TabIndex = 0;
-            // 
-            // label1
-            // 
-            this.label1.BackColor = System.Drawing.Color.PaleVioletRed;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label1.Location = new System.Drawing.Point(0, 195);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(266, 3);
-            this.label1.TabIndex = 10;
-            // 
-            // label2
-            // 
-            this.label2.BackColor = System.Drawing.Color.PaleVioletRed;
-            this.label2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label2.Location = new System.Drawing.Point(0, 393);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(266, 3);
-            this.label2.TabIndex = 14;
             // 
             // button7
             // 
@@ -170,6 +152,15 @@
             this.button9.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button9.UseVisualStyleBackColor = false;
             // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.label2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label2.Location = new System.Drawing.Point(0, 393);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(266, 3);
+            this.label2.TabIndex = 14;
+            // 
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.Transparent;
@@ -242,6 +233,15 @@
             this.button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button6.UseVisualStyleBackColor = false;
             // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label1.Location = new System.Drawing.Point(0, 195);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(266, 3);
+            this.label1.TabIndex = 10;
+            // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.Transparent;
@@ -313,6 +313,7 @@
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // ProductsSubmenu
             // 
