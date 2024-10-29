@@ -35,7 +35,6 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.ltTextBox9 = new LucaToys.Controls.LTTextBox();
             this.ltTextBox6 = new LucaToys.Controls.LTTextBox();
             this.ltTextBox8 = new LucaToys.Controls.LTTextBox();
@@ -43,6 +42,7 @@
             this.ltTextBox7 = new LucaToys.Controls.LTTextBox();
             this.ltTextBox5 = new LucaToys.Controls.LTTextBox();
             this.ltTextBox4 = new LucaToys.Controls.LTTextBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.ltTextBox3 = new LucaToys.Controls.LTTextBox();
             this.ltTextBox2 = new LucaToys.Controls.LTTextBox();
             this.ltTextBox1 = new LucaToys.Controls.LTTextBox();
@@ -147,22 +147,6 @@
             this.groupBox1.TabIndex = 64;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = " General ";
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox2.Controls.Add(this.ltTextBox3);
-            this.groupBox2.Controls.Add(this.ltTextBox2);
-            this.groupBox2.Controls.Add(this.ltTextBox1);
-            this.groupBox2.Font = new System.Drawing.Font("Segoe MDL2 Assets", 12F, System.Drawing.FontStyle.Bold);
-            this.groupBox2.ForeColor = System.Drawing.Color.Plum;
-            this.groupBox2.Location = new System.Drawing.Point(199, 11);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(809, 103);
-            this.groupBox2.TabIndex = 63;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = " Important";
             // 
             // ltTextBox9
             // 
@@ -285,6 +269,22 @@
             this.ltTextBox4.Name = "ltTextBox4";
             this.ltTextBox4.Size = new System.Drawing.Size(250, 37);
             this.ltTextBox4.TabIndex = 0;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox2.Controls.Add(this.ltTextBox3);
+            this.groupBox2.Controls.Add(this.ltTextBox2);
+            this.groupBox2.Controls.Add(this.ltTextBox1);
+            this.groupBox2.Font = new System.Drawing.Font("Segoe MDL2 Assets", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox2.ForeColor = System.Drawing.Color.Plum;
+            this.groupBox2.Location = new System.Drawing.Point(199, 11);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(809, 103);
+            this.groupBox2.TabIndex = 63;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = " Important";
             // 
             // ltTextBox3
             // 

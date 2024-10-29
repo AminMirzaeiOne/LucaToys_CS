@@ -37,10 +37,19 @@
             this.ltTextBox3 = new LucaToys.Controls.LTTextBox();
             this.ltTextBox2 = new LucaToys.Controls.LTTextBox();
             this.ltTextBox1 = new LucaToys.Controls.LTTextBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.ltTextBox9 = new LucaToys.Controls.LTTextBox();
+            this.ltTextBox6 = new LucaToys.Controls.LTTextBox();
+            this.ltTextBox8 = new LucaToys.Controls.LTTextBox();
+            this.ltTextBox10 = new LucaToys.Controls.LTTextBox();
+            this.ltTextBox7 = new LucaToys.Controls.LTTextBox();
+            this.ltTextBox5 = new LucaToys.Controls.LTTextBox();
+            this.ltTextBox4 = new LucaToys.Controls.LTTextBox();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBox2.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel4
@@ -175,11 +184,155 @@
             this.ltTextBox1.Size = new System.Drawing.Size(250, 37);
             this.ltTextBox1.TabIndex = 0;
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox1.Controls.Add(this.ltTextBox9);
+            this.groupBox1.Controls.Add(this.ltTextBox6);
+            this.groupBox1.Controls.Add(this.ltTextBox8);
+            this.groupBox1.Controls.Add(this.ltTextBox10);
+            this.groupBox1.Controls.Add(this.ltTextBox7);
+            this.groupBox1.Controls.Add(this.ltTextBox5);
+            this.groupBox1.Controls.Add(this.ltTextBox4);
+            this.groupBox1.Font = new System.Drawing.Font("Segoe MDL2 Assets", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox1.ForeColor = System.Drawing.Color.Plum;
+            this.groupBox1.Location = new System.Drawing.Point(199, 120);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(809, 340);
+            this.groupBox1.TabIndex = 65;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = " General ";
+            // 
+            // ltTextBox9
+            // 
+            this.ltTextBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.ltTextBox9.BorderColor = System.Drawing.Color.Plum;
+            this.ltTextBox9.BorderDownColor = System.Drawing.Color.Orchid;
+            this.ltTextBox9.BorderHoverColor = System.Drawing.Color.Violet;
+            this.ltTextBox9.BorderSize = ((byte)(2));
+            this.ltTextBox9.EnableClearButton = true;
+            this.ltTextBox9.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ltTextBox9.HolderTextColor = System.Drawing.Color.Gray;
+            this.ltTextBox9.HolderTextContent = "Enter Type";
+            this.ltTextBox9.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
+            this.ltTextBox9.Location = new System.Drawing.Point(544, 107);
+            this.ltTextBox9.Name = "ltTextBox9";
+            this.ltTextBox9.Size = new System.Drawing.Size(250, 37);
+            this.ltTextBox9.TabIndex = 0;
+            // 
+            // ltTextBox6
+            // 
+            this.ltTextBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.ltTextBox6.BorderColor = System.Drawing.Color.Plum;
+            this.ltTextBox6.BorderDownColor = System.Drawing.Color.Orchid;
+            this.ltTextBox6.BorderHoverColor = System.Drawing.Color.Violet;
+            this.ltTextBox6.BorderSize = ((byte)(2));
+            this.ltTextBox6.EnableClearButton = true;
+            this.ltTextBox6.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ltTextBox6.HolderTextColor = System.Drawing.Color.Gray;
+            this.ltTextBox6.HolderTextContent = "Enter Year";
+            this.ltTextBox6.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
+            this.ltTextBox6.Location = new System.Drawing.Point(544, 48);
+            this.ltTextBox6.Name = "ltTextBox6";
+            this.ltTextBox6.Size = new System.Drawing.Size(250, 37);
+            this.ltTextBox6.TabIndex = 0;
+            // 
+            // ltTextBox8
+            // 
+            this.ltTextBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.ltTextBox8.BorderColor = System.Drawing.Color.Plum;
+            this.ltTextBox8.BorderDownColor = System.Drawing.Color.Orchid;
+            this.ltTextBox8.BorderHoverColor = System.Drawing.Color.Violet;
+            this.ltTextBox8.BorderSize = ((byte)(2));
+            this.ltTextBox8.EnableClearButton = true;
+            this.ltTextBox8.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ltTextBox8.HolderTextColor = System.Drawing.Color.Gray;
+            this.ltTextBox8.HolderTextContent = "Enter Brand";
+            this.ltTextBox8.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
+            this.ltTextBox8.Location = new System.Drawing.Point(279, 107);
+            this.ltTextBox8.Name = "ltTextBox8";
+            this.ltTextBox8.Size = new System.Drawing.Size(250, 37);
+            this.ltTextBox8.TabIndex = 0;
+            // 
+            // ltTextBox10
+            // 
+            this.ltTextBox10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.ltTextBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.ltTextBox10.BorderColor = System.Drawing.Color.Plum;
+            this.ltTextBox10.BorderDownColor = System.Drawing.Color.Orchid;
+            this.ltTextBox10.BorderHoverColor = System.Drawing.Color.Violet;
+            this.ltTextBox10.BorderSize = ((byte)(2));
+            this.ltTextBox10.EnableClearButton = true;
+            this.ltTextBox10.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ltTextBox10.HolderTextColor = System.Drawing.Color.Gray;
+            this.ltTextBox10.HolderTextContent = "Enter More Details";
+            this.ltTextBox10.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
+            this.ltTextBox10.Location = new System.Drawing.Point(14, 165);
+            this.ltTextBox10.Name = "ltTextBox10";
+            this.ltTextBox10.Size = new System.Drawing.Size(780, 157);
+            this.ltTextBox10.TabIndex = 0;
+            // 
+            // ltTextBox7
+            // 
+            this.ltTextBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.ltTextBox7.BorderColor = System.Drawing.Color.Plum;
+            this.ltTextBox7.BorderDownColor = System.Drawing.Color.Orchid;
+            this.ltTextBox7.BorderHoverColor = System.Drawing.Color.Violet;
+            this.ltTextBox7.BorderSize = ((byte)(2));
+            this.ltTextBox7.EnableClearButton = true;
+            this.ltTextBox7.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ltTextBox7.HolderTextColor = System.Drawing.Color.Gray;
+            this.ltTextBox7.HolderTextContent = "Enter Country";
+            this.ltTextBox7.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
+            this.ltTextBox7.Location = new System.Drawing.Point(14, 107);
+            this.ltTextBox7.Name = "ltTextBox7";
+            this.ltTextBox7.Size = new System.Drawing.Size(250, 37);
+            this.ltTextBox7.TabIndex = 0;
+            // 
+            // ltTextBox5
+            // 
+            this.ltTextBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.ltTextBox5.BorderColor = System.Drawing.Color.Plum;
+            this.ltTextBox5.BorderDownColor = System.Drawing.Color.Orchid;
+            this.ltTextBox5.BorderHoverColor = System.Drawing.Color.Violet;
+            this.ltTextBox5.BorderSize = ((byte)(2));
+            this.ltTextBox5.EnableClearButton = true;
+            this.ltTextBox5.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ltTextBox5.HolderTextColor = System.Drawing.Color.Gray;
+            this.ltTextBox5.HolderTextContent = "Enter Barcode";
+            this.ltTextBox5.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
+            this.ltTextBox5.Location = new System.Drawing.Point(279, 48);
+            this.ltTextBox5.Name = "ltTextBox5";
+            this.ltTextBox5.Size = new System.Drawing.Size(250, 37);
+            this.ltTextBox5.TabIndex = 0;
+            // 
+            // ltTextBox4
+            // 
+            this.ltTextBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.ltTextBox4.BorderColor = System.Drawing.Color.Plum;
+            this.ltTextBox4.BorderDownColor = System.Drawing.Color.Orchid;
+            this.ltTextBox4.BorderHoverColor = System.Drawing.Color.Violet;
+            this.ltTextBox4.BorderSize = ((byte)(2));
+            this.ltTextBox4.EnableClearButton = true;
+            this.ltTextBox4.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ltTextBox4.HolderTextColor = System.Drawing.Color.Gray;
+            this.ltTextBox4.HolderTextContent = "Enter Code";
+            this.ltTextBox4.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
+            this.ltTextBox4.Location = new System.Drawing.Point(14, 48);
+            this.ltTextBox4.Name = "ltTextBox4";
+            this.ltTextBox4.Size = new System.Drawing.Size(250, 37);
+            this.ltTextBox4.TabIndex = 0;
+            // 
             // AddDoll
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.panel4);
             this.Name = "AddDoll";
@@ -188,6 +341,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.groupBox2.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -203,5 +357,13 @@
         private Controls.LTTextBox ltTextBox3;
         private Controls.LTTextBox ltTextBox2;
         private Controls.LTTextBox ltTextBox1;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private Controls.LTTextBox ltTextBox9;
+        private Controls.LTTextBox ltTextBox6;
+        private Controls.LTTextBox ltTextBox8;
+        private Controls.LTTextBox ltTextBox10;
+        private Controls.LTTextBox ltTextBox7;
+        private Controls.LTTextBox ltTextBox5;
+        private Controls.LTTextBox ltTextBox4;
     }
 }
