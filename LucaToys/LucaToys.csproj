@@ -218,6 +218,12 @@
     <Compile Include="Pages\AddCustomer.Designer.cs">
       <DependentUpon>AddCustomer.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\AddDoll.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\AddDoll.Designer.cs">
+      <DependentUpon>AddDoll.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pages\AddManager.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -413,6 +419,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\AddCustomer.resx">
       <DependentUpon>AddCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\AddDoll.resx">
+      <DependentUpon>AddDoll.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\AddManager.resx">
       <DependentUpon>AddManager.cs</DependentUpon>
