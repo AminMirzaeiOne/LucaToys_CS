@@ -16,5 +16,10 @@ namespace LucaToys.Forms
         {
             InitializeComponent();
         }
+
+        private void UpdateCustomer_Load(object sender, EventArgs e)
+        {
+            this.dataGridView1.DataSource = LucaToys.Data.Constants.LucaToysDB.Customers;
+        }
     }
 }
