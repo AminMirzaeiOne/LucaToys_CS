@@ -299,13 +299,13 @@
             this.ltRadioButton3.AutoSize = true;
             this.ltRadioButton3.CheckedColor = System.Drawing.Color.Plum;
             this.ltRadioButton3.ForeColor = System.Drawing.Color.White;
-            this.ltRadioButton3.Location = new System.Drawing.Point(818, 19);
+            this.ltRadioButton3.Location = new System.Drawing.Point(813, 16);
             this.ltRadioButton3.MinimumSize = new System.Drawing.Size(0, 21);
             this.ltRadioButton3.Name = "ltRadioButton3";
             this.ltRadioButton3.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.ltRadioButton3.Size = new System.Drawing.Size(121, 29);
+            this.ltRadioButton3.Size = new System.Drawing.Size(132, 29);
             this.ltRadioButton3.TabIndex = 44;
-            this.ltRadioButton3.Text = "Usercode";
+            this.ltRadioButton3.Text = "Product ID";
             this.ltRadioButton3.UnCheckedColor = System.Drawing.Color.Gray;
             this.ltRadioButton3.UseVisualStyleBackColor = true;
             // 
@@ -315,13 +315,13 @@
             this.ltRadioButton2.AutoSize = true;
             this.ltRadioButton2.CheckedColor = System.Drawing.Color.Plum;
             this.ltRadioButton2.ForeColor = System.Drawing.Color.White;
-            this.ltRadioButton2.Location = new System.Drawing.Point(714, 19);
+            this.ltRadioButton2.Location = new System.Drawing.Point(709, 16);
             this.ltRadioButton2.MinimumSize = new System.Drawing.Size(0, 21);
             this.ltRadioButton2.Name = "ltRadioButton2";
             this.ltRadioButton2.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.ltRadioButton2.Size = new System.Drawing.Size(97, 29);
+            this.ltRadioButton2.Size = new System.Drawing.Size(93, 29);
             this.ltRadioButton2.TabIndex = 44;
-            this.ltRadioButton2.Text = "Family";
+            this.ltRadioButton2.Text = "Brand";
             this.ltRadioButton2.UnCheckedColor = System.Drawing.Color.Gray;
             this.ltRadioButton2.UseVisualStyleBackColor = true;
             // 
@@ -332,7 +332,7 @@
             this.ltRadioButton1.Checked = true;
             this.ltRadioButton1.CheckedColor = System.Drawing.Color.Plum;
             this.ltRadioButton1.ForeColor = System.Drawing.Color.White;
-            this.ltRadioButton1.Location = new System.Drawing.Point(609, 19);
+            this.ltRadioButton1.Location = new System.Drawing.Point(605, 16);
             this.ltRadioButton1.MinimumSize = new System.Drawing.Size(0, 21);
             this.ltRadioButton1.Name = "ltRadioButton1";
             this.ltRadioButton1.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
