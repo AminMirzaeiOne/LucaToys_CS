@@ -592,6 +592,7 @@
             this.Name = "UpdateSeller";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UpdateSeller";
+            this.Load += new System.EventHandler(this.UpdateSeller_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

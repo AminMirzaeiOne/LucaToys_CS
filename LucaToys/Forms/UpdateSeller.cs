@@ -71,5 +71,10 @@ namespace LucaToys.Forms
         {
             this.mouseDown = false;
         }
+
+        private void UpdateSeller_Load(object sender, EventArgs e)
+        {
+            this.dataGridView1.DataSource = LucaToys.Data.Constants.LucaToysDB.Sellers;
+        }
     }
 }
