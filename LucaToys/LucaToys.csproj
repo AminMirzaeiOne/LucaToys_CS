@@ -360,6 +360,9 @@
     <EmbeddedResource Include="Forms\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Products.resx">
+      <DependentUpon>Products.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Startup.fa.resx">
       <DependentUpon>Startup.cs</DependentUpon>
     </EmbeddedResource>
