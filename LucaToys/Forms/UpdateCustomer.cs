@@ -21,5 +21,11 @@ namespace LucaToys.Forms
         {
             this.dataGridView1.DataSource = LucaToys.Data.Constants.LucaToysDB.Customers;
         }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            Messages.CloseMessage closeMessage = new Messages.CloseMessage(this);
+            closeMessage.ShowDialog();
+        }
     }
 }
