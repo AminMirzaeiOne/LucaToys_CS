@@ -1,6 +1,6 @@
 ﻿namespace LucaToys.Forms
 {
-    partial class AddDoll
+    partial class AddProduct
     {
         /// <summary>
         /// Required designer variable.
