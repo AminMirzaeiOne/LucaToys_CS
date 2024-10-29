@@ -826,6 +826,8 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>LucaToysData.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\icons8-admin-settings-male-48.png" />
+    <None Include="Resources\icons8-manager-48.png" />
     <None Include="Resources\icons8-playing-children-skin-type-3-48.png" />
     <None Include="Resources\icons8-teddy-bear-48 %281%29.png" />
     <None Include="Resources\icons8-fidget-spinner-48.png" />
