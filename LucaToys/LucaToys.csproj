@@ -817,6 +817,16 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>LucaToysData.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\icons8-playing-children-skin-type-3-96.png" />
+    <None Include="Resources\g10.png" />
+    <None Include="Resources\g9.png" />
+    <None Include="Resources\g8.png" />
+    <None Include="Resources\image4-4.png" />
+    <None Include="Resources\image3-8.png" />
+    <None Include="Resources\g7.png" />
+    <None Include="Resources\g6.png" />
+    <None Include="Resources\g5.png" />
+    <None Include="Resources\g4.png" />
     <None Include="Resources\icons8-other-96.png" />
     <None Include="Resources\icons8-fidget-spinner-96.png" />
     <None Include="Resources\icons8-teddy-bear-96.png" />
