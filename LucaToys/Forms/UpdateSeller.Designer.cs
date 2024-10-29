@@ -54,6 +54,12 @@
             this.ltTextBox1 = new LucaToys.Controls.LTTextBox();
             this.ltRadioButton2 = new LucaToys.Controls.LTRadioButton();
             this.ltRadioButton1 = new LucaToys.Controls.LTRadioButton();
+            this.ltTextBox6 = new LucaToys.Controls.LTTextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.ltTextBox7 = new LucaToys.Controls.LTTextBox();
+            this.ltTextBox8 = new LucaToys.Controls.LTTextBox();
+            this.ltTextBox9 = new LucaToys.Controls.LTTextBox();
+            this.ltTextBox10 = new LucaToys.Controls.LTTextBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -75,7 +81,7 @@
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(886, 650);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1017, 650);
             this.tableLayoutPanel1.TabIndex = 2;
             // 
             // panel1
@@ -96,7 +102,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(880, 644);
+            this.panel1.Size = new System.Drawing.Size(1011, 644);
             this.panel1.TabIndex = 0;
             // 
             // label3
@@ -105,7 +111,7 @@
             this.label3.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label3.Location = new System.Drawing.Point(0, 581);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(880, 3);
+            this.label3.Size = new System.Drawing.Size(1011, 3);
             this.label3.TabIndex = 58;
             // 
             // panel3
@@ -116,7 +122,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel3.Location = new System.Drawing.Point(0, 584);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(880, 60);
+            this.panel3.Size = new System.Drawing.Size(1011, 60);
             this.panel3.TabIndex = 57;
             // 
             // button3
@@ -127,7 +133,7 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(578, 8);
+            this.button3.Location = new System.Drawing.Point(709, 8);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(138, 45);
             this.button3.TabIndex = 47;
@@ -143,7 +149,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(730, 7);
+            this.button2.Location = new System.Drawing.Point(861, 7);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(138, 45);
             this.button2.TabIndex = 48;
@@ -155,6 +161,12 @@
             // 
             this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox2.Controls.Add(this.ltTextBox10);
+            this.groupBox2.Controls.Add(this.ltTextBox7);
+            this.groupBox2.Controls.Add(this.ltTextBox9);
+            this.groupBox2.Controls.Add(this.ltTextBox8);
+            this.groupBox2.Controls.Add(this.ltTextBox6);
+            this.groupBox2.Controls.Add(this.button1);
             this.groupBox2.Controls.Add(this.ltTextBox5);
             this.groupBox2.Controls.Add(this.ltTextBox4);
             this.groupBox2.Controls.Add(this.ltTextBox3);
@@ -162,9 +174,9 @@
             this.groupBox2.Controls.Add(this.pictureBox1);
             this.groupBox2.Font = new System.Drawing.Font("Segoe MDL2 Assets", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.Plum;
-            this.groupBox2.Location = new System.Drawing.Point(554, 139);
+            this.groupBox2.Location = new System.Drawing.Point(422, 139);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(301, 425);
+            this.groupBox2.Size = new System.Drawing.Size(564, 425);
             this.groupBox2.TabIndex = 56;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = " Information";
@@ -175,7 +187,7 @@
             this.pictureBox1.BackgroundImage = global::LucaToys.Properties.Resources.icons8_manager_96;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Location = new System.Drawing.Point(92, 44);
+            this.pictureBox1.Location = new System.Drawing.Point(29, 44);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(110, 110);
             this.pictureBox1.TabIndex = 0;
@@ -191,7 +203,7 @@
             this.groupBox1.ForeColor = System.Drawing.Color.Plum;
             this.groupBox1.Location = new System.Drawing.Point(24, 139);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(504, 425);
+            this.groupBox1.Size = new System.Drawing.Size(377, 425);
             this.groupBox1.TabIndex = 56;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = " Sellers";
@@ -205,7 +217,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(498, 395);
+            this.dataGridView1.Size = new System.Drawing.Size(371, 395);
             this.dataGridView1.TabIndex = 0;
             // 
             // label4
@@ -214,7 +226,7 @@
             this.label4.Dock = System.Windows.Forms.DockStyle.Top;
             this.label4.Location = new System.Drawing.Point(0, 120);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(880, 3);
+            this.label4.Size = new System.Drawing.Size(1011, 3);
             this.label4.TabIndex = 55;
             // 
             // panel2
@@ -227,7 +239,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 36);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(880, 84);
+            this.panel2.Size = new System.Drawing.Size(1011, 84);
             this.panel2.TabIndex = 54;
             // 
             // label2
@@ -267,7 +279,7 @@
             this.btnMinimize.Font = new System.Drawing.Font("Segoe MDL2 Assets", 6F, System.Drawing.FontStyle.Bold);
             this.btnMinimize.ForeColor = System.Drawing.Color.Plum;
             this.btnMinimize.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnMinimize.Location = new System.Drawing.Point(782, 5);
+            this.btnMinimize.Location = new System.Drawing.Point(913, 5);
             this.btnMinimize.Name = "btnMinimize";
             this.btnMinimize.Size = new System.Drawing.Size(25, 25);
             this.btnMinimize.TabIndex = 45;
@@ -284,7 +296,7 @@
             this.btnMaximize.Font = new System.Drawing.Font("Segoe MDL2 Assets", 6F, System.Drawing.FontStyle.Bold);
             this.btnMaximize.ForeColor = System.Drawing.Color.Plum;
             this.btnMaximize.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnMaximize.Location = new System.Drawing.Point(816, 5);
+            this.btnMaximize.Location = new System.Drawing.Point(947, 5);
             this.btnMaximize.Name = "btnMaximize";
             this.btnMaximize.Size = new System.Drawing.Size(25, 25);
             this.btnMaximize.TabIndex = 46;
@@ -301,7 +313,7 @@
             this.btnClose.Font = new System.Drawing.Font("Segoe MDL2 Assets", 6F, System.Drawing.FontStyle.Bold);
             this.btnClose.ForeColor = System.Drawing.Color.Plum;
             this.btnClose.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnClose.Location = new System.Drawing.Point(850, 5);
+            this.btnClose.Location = new System.Drawing.Point(981, 5);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(25, 25);
             this.btnClose.TabIndex = 47;
@@ -318,7 +330,7 @@
             this.label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(880, 36);
+            this.label1.Size = new System.Drawing.Size(1011, 36);
             this.label1.TabIndex = 43;
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.label1_MouseDown);
@@ -337,9 +349,9 @@
             this.ltTextBox5.HolderTextColor = System.Drawing.Color.Gray;
             this.ltTextBox5.HolderTextContent = "Phone";
             this.ltTextBox5.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
-            this.ltTextBox5.Location = new System.Drawing.Point(24, 349);
+            this.ltTextBox5.Location = new System.Drawing.Point(363, 96);
             this.ltTextBox5.Name = "ltTextBox5";
-            this.ltTextBox5.Size = new System.Drawing.Size(250, 37);
+            this.ltTextBox5.Size = new System.Drawing.Size(177, 37);
             this.ltTextBox5.TabIndex = 59;
             // 
             // ltTextBox4
@@ -354,9 +366,9 @@
             this.ltTextBox4.HolderTextColor = System.Drawing.Color.Gray;
             this.ltTextBox4.HolderTextContent = "Family";
             this.ltTextBox4.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
-            this.ltTextBox4.Location = new System.Drawing.Point(24, 289);
+            this.ltTextBox4.Location = new System.Drawing.Point(161, 96);
             this.ltTextBox4.Name = "ltTextBox4";
-            this.ltTextBox4.Size = new System.Drawing.Size(250, 37);
+            this.ltTextBox4.Size = new System.Drawing.Size(177, 37);
             this.ltTextBox4.TabIndex = 59;
             // 
             // ltTextBox3
@@ -371,9 +383,9 @@
             this.ltTextBox3.HolderTextColor = System.Drawing.Color.Gray;
             this.ltTextBox3.HolderTextContent = "Name";
             this.ltTextBox3.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
-            this.ltTextBox3.Location = new System.Drawing.Point(24, 231);
+            this.ltTextBox3.Location = new System.Drawing.Point(363, 41);
             this.ltTextBox3.Name = "ltTextBox3";
-            this.ltTextBox3.Size = new System.Drawing.Size(250, 37);
+            this.ltTextBox3.Size = new System.Drawing.Size(177, 37);
             this.ltTextBox3.TabIndex = 59;
             // 
             // ltTextBox2
@@ -388,9 +400,9 @@
             this.ltTextBox2.HolderTextColor = System.Drawing.Color.Gray;
             this.ltTextBox2.HolderTextContent = "Usercode";
             this.ltTextBox2.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
-            this.ltTextBox2.Location = new System.Drawing.Point(24, 174);
+            this.ltTextBox2.Location = new System.Drawing.Point(161, 41);
             this.ltTextBox2.Name = "ltTextBox2";
-            this.ltTextBox2.Size = new System.Drawing.Size(250, 37);
+            this.ltTextBox2.Size = new System.Drawing.Size(177, 37);
             this.ltTextBox2.TabIndex = 59;
             // 
             // ltRadioButton3
@@ -399,7 +411,7 @@
             this.ltRadioButton3.AutoSize = true;
             this.ltRadioButton3.CheckedColor = System.Drawing.Color.Plum;
             this.ltRadioButton3.ForeColor = System.Drawing.Color.White;
-            this.ltRadioButton3.Location = new System.Drawing.Point(748, 28);
+            this.ltRadioButton3.Location = new System.Drawing.Point(879, 28);
             this.ltRadioButton3.MinimumSize = new System.Drawing.Size(0, 21);
             this.ltRadioButton3.Name = "ltRadioButton3";
             this.ltRadioButton3.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
@@ -426,7 +438,7 @@
             this.ltTextBox1.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ltTextBox1.Location = new System.Drawing.Point(11, 23);
             this.ltTextBox1.Name = "ltTextBox1";
-            this.ltTextBox1.Size = new System.Drawing.Size(510, 39);
+            this.ltTextBox1.Size = new System.Drawing.Size(641, 39);
             this.ltTextBox1.TabIndex = 50;
             // 
             // ltRadioButton2
@@ -435,7 +447,7 @@
             this.ltRadioButton2.AutoSize = true;
             this.ltRadioButton2.CheckedColor = System.Drawing.Color.Plum;
             this.ltRadioButton2.ForeColor = System.Drawing.Color.White;
-            this.ltRadioButton2.Location = new System.Drawing.Point(644, 28);
+            this.ltRadioButton2.Location = new System.Drawing.Point(775, 28);
             this.ltRadioButton2.MinimumSize = new System.Drawing.Size(0, 21);
             this.ltRadioButton2.Name = "ltRadioButton2";
             this.ltRadioButton2.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
@@ -452,7 +464,7 @@
             this.ltRadioButton1.Checked = true;
             this.ltRadioButton1.CheckedColor = System.Drawing.Color.Plum;
             this.ltRadioButton1.ForeColor = System.Drawing.Color.White;
-            this.ltRadioButton1.Location = new System.Drawing.Point(539, 28);
+            this.ltRadioButton1.Location = new System.Drawing.Point(670, 28);
             this.ltRadioButton1.MinimumSize = new System.Drawing.Size(0, 21);
             this.ltRadioButton1.Name = "ltRadioButton1";
             this.ltRadioButton1.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
@@ -463,12 +475,116 @@
             this.ltRadioButton1.UnCheckedColor = System.Drawing.Color.Gray;
             this.ltRadioButton1.UseVisualStyleBackColor = true;
             // 
+            // ltTextBox6
+            // 
+            this.ltTextBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.ltTextBox6.BorderColor = System.Drawing.Color.Plum;
+            this.ltTextBox6.BorderDownColor = System.Drawing.Color.Orchid;
+            this.ltTextBox6.BorderHoverColor = System.Drawing.Color.Violet;
+            this.ltTextBox6.BorderSize = ((byte)(2));
+            this.ltTextBox6.EnableClearButton = true;
+            this.ltTextBox6.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ltTextBox6.HolderTextColor = System.Drawing.Color.Gray;
+            this.ltTextBox6.HolderTextContent = "Gmail";
+            this.ltTextBox6.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
+            this.ltTextBox6.Location = new System.Drawing.Point(161, 155);
+            this.ltTextBox6.Name = "ltTextBox6";
+            this.ltTextBox6.Size = new System.Drawing.Size(177, 37);
+            this.ltTextBox6.TabIndex = 59;
+            // 
+            // button1
+            // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.BackColor = System.Drawing.Color.Plum;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(29, 169);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(110, 45);
+            this.button1.TabIndex = 48;
+            this.button1.Text = "Change";
+            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // ltTextBox7
+            // 
+            this.ltTextBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.ltTextBox7.BorderColor = System.Drawing.Color.Plum;
+            this.ltTextBox7.BorderDownColor = System.Drawing.Color.Orchid;
+            this.ltTextBox7.BorderHoverColor = System.Drawing.Color.Violet;
+            this.ltTextBox7.BorderSize = ((byte)(2));
+            this.ltTextBox7.EnableClearButton = true;
+            this.ltTextBox7.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ltTextBox7.HolderTextColor = System.Drawing.Color.Gray;
+            this.ltTextBox7.HolderTextContent = "Country";
+            this.ltTextBox7.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
+            this.ltTextBox7.Location = new System.Drawing.Point(363, 155);
+            this.ltTextBox7.Name = "ltTextBox7";
+            this.ltTextBox7.Size = new System.Drawing.Size(177, 37);
+            this.ltTextBox7.TabIndex = 59;
+            // 
+            // ltTextBox8
+            // 
+            this.ltTextBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.ltTextBox8.BorderColor = System.Drawing.Color.Plum;
+            this.ltTextBox8.BorderDownColor = System.Drawing.Color.Orchid;
+            this.ltTextBox8.BorderHoverColor = System.Drawing.Color.Violet;
+            this.ltTextBox8.BorderSize = ((byte)(2));
+            this.ltTextBox8.EnableClearButton = true;
+            this.ltTextBox8.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ltTextBox8.HolderTextColor = System.Drawing.Color.Gray;
+            this.ltTextBox8.HolderTextContent = "Instagram";
+            this.ltTextBox8.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
+            this.ltTextBox8.Location = new System.Drawing.Point(161, 209);
+            this.ltTextBox8.Name = "ltTextBox8";
+            this.ltTextBox8.Size = new System.Drawing.Size(177, 37);
+            this.ltTextBox8.TabIndex = 59;
+            // 
+            // ltTextBox9
+            // 
+            this.ltTextBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.ltTextBox9.BorderColor = System.Drawing.Color.Plum;
+            this.ltTextBox9.BorderDownColor = System.Drawing.Color.Orchid;
+            this.ltTextBox9.BorderHoverColor = System.Drawing.Color.Violet;
+            this.ltTextBox9.BorderSize = ((byte)(2));
+            this.ltTextBox9.EnableClearButton = true;
+            this.ltTextBox9.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ltTextBox9.HolderTextColor = System.Drawing.Color.Gray;
+            this.ltTextBox9.HolderTextContent = "Instagram";
+            this.ltTextBox9.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
+            this.ltTextBox9.Location = new System.Drawing.Point(363, 209);
+            this.ltTextBox9.Name = "ltTextBox9";
+            this.ltTextBox9.Size = new System.Drawing.Size(177, 37);
+            this.ltTextBox9.TabIndex = 59;
+            // 
+            // ltTextBox10
+            // 
+            this.ltTextBox10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.ltTextBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.ltTextBox10.BorderColor = System.Drawing.Color.Plum;
+            this.ltTextBox10.BorderDownColor = System.Drawing.Color.Orchid;
+            this.ltTextBox10.BorderHoverColor = System.Drawing.Color.Violet;
+            this.ltTextBox10.BorderSize = ((byte)(2));
+            this.ltTextBox10.EnableClearButton = true;
+            this.ltTextBox10.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ltTextBox10.HolderTextColor = System.Drawing.Color.Gray;
+            this.ltTextBox10.HolderTextContent = "Address";
+            this.ltTextBox10.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F);
+            this.ltTextBox10.Location = new System.Drawing.Point(29, 268);
+            this.ltTextBox10.Name = "ltTextBox10";
+            this.ltTextBox10.Size = new System.Drawing.Size(511, 126);
+            this.ltTextBox10.TabIndex = 60;
+            // 
             // UpdateSeller
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.ClientSize = new System.Drawing.Size(886, 650);
+            this.ClientSize = new System.Drawing.Size(1017, 650);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -518,5 +634,11 @@
         private Controls.LTTextBox ltTextBox5;
         private Controls.LTTextBox ltTextBox4;
         private Controls.LTTextBox ltTextBox3;
+        private Controls.LTTextBox ltTextBox6;
+        private System.Windows.Forms.Button button1;
+        private Controls.LTTextBox ltTextBox7;
+        private Controls.LTTextBox ltTextBox9;
+        private Controls.LTTextBox ltTextBox8;
+        private Controls.LTTextBox ltTextBox10;
     }
 }
