@@ -48,10 +48,15 @@
             this.ltRadioButton1 = new LucaToys.Controls.LTRadioButton();
             this.button1 = new System.Windows.Forms.Button();
             this.ltTextBox1 = new LucaToys.Controls.LTTextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -71,6 +76,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.label3);
@@ -379,6 +386,58 @@
             this.ltTextBox1.Size = new System.Drawing.Size(406, 45);
             this.ltTextBox1.TabIndex = 0;
             // 
+            // label5
+            // 
+            this.label5.BackColor = System.Drawing.Color.Plum;
+            this.label5.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.label5.Location = new System.Drawing.Point(233, 631);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(961, 3);
+            this.label5.TabIndex = 47;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.panel3.Controls.Add(this.button3);
+            this.panel3.Controls.Add(this.button2);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel3.Location = new System.Drawing.Point(233, 634);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(961, 60);
+            this.panel3.TabIndex = 46;
+            // 
+            // button3
+            // 
+            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(661, 7);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(138, 45);
+            this.button3.TabIndex = 44;
+            this.button3.Text = "Cancel";
+            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button2.BackColor = System.Drawing.Color.Plum;
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(813, 7);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(138, 45);
+            this.button2.TabIndex = 44;
+            this.button2.Text = "Finish";
+            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button2.UseVisualStyleBackColor = false;
+            // 
             // Products
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
@@ -398,6 +457,7 @@
             this.tableLayoutPanel2.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -424,5 +484,9 @@
         private Controls.LTRadioButton ltRadioButton1;
         private System.Windows.Forms.Button button1;
         private Controls.LTTextBox ltTextBox1;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
     }
 }
