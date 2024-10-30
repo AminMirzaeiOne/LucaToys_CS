@@ -564,6 +564,9 @@
     <EmbeddedResource Include="Pages\VersionPage.resx">
       <DependentUpon>VersionPage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pages\ViewBarNotepad.resx">
+      <DependentUpon>ViewBarNotepad.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
