@@ -14,10 +14,17 @@ namespace LucaToys.Forms
     {
         private bool mouseDown;
         private Point lastLocation;
+        private LucaToys.Pages.AddDoll addDoll = new Pages.AddDoll();
+
 
         public AddProduct()
         {
             InitializeComponent();
+
+            this.panel4.Controls.Add(this.addDoll);
+
+            this.addDoll.Dock = DockStyle.Fill;
+
         }
 
         private void btnClose_Click(object sender, EventArgs e)

@@ -236,6 +236,12 @@
     <Compile Include="Pages\AddSeller.Designer.cs">
       <DependentUpon>AddSeller.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\AddToy.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\AddToy.Designer.cs">
+      <DependentUpon>AddToy.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pages\DeveloperPage.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -428,6 +434,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\AddSeller.resx">
       <DependentUpon>AddSeller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\AddToy.resx">
+      <DependentUpon>AddToy.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\DeveloperPage.fa.resx">
       <DependentUpon>DeveloperPage.cs</DependentUpon>
