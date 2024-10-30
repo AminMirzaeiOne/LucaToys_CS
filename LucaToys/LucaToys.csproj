@@ -943,6 +943,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>LucaToysData.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\icons8-edit-property-48.png" />
+    <None Include="Resources\icons8-list-48.png" />
+    <None Include="Resources\icons8-start-menu-48.png" />
+    <None Include="Resources\icons8-zoom-to-extents-48.png" />
+    <None Include="Resources\icons8-zoom-out-48.png" />
+    <None Include="Resources\icons8-zoom-in-48.png" />
     <None Include="Resources\icons8-time-48.png" />
     <None Include="Resources\icons8-linking-48.png" />
     <None Include="Resources\icons8-replace-48.png" />
