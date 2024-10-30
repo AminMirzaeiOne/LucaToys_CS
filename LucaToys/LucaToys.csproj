@@ -414,6 +414,9 @@
     <EmbeddedResource Include="Forms\UpdateCustomer.resx">
       <DependentUpon>UpdateCustomer.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UpdateDoll.resx">
+      <DependentUpon>UpdateDoll.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\UpdateSeller.resx">
       <DependentUpon>UpdateSeller.cs</DependentUpon>
     </EmbeddedResource>
