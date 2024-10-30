@@ -528,6 +528,9 @@
     <EmbeddedResource Include="Pages\DeveloperPage.resx">
       <DependentUpon>DeveloperPage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pages\EditBarNotepad.resx">
+      <DependentUpon>EditBarNotepad.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Pages\FeedbackPage.fa.resx">
       <DependentUpon>FeedbackPage.cs</DependentUpon>
     </EmbeddedResource>
@@ -931,6 +934,22 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>LucaToysData.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\icons8-time-48.png" />
+    <None Include="Resources\icons8-linking-48.png" />
+    <None Include="Resources\icons8-replace-48.png" />
+    <None Include="Resources\icons8-previous-48.png" />
+    <None Include="Resources\icons8-next-48.png" />
+    <None Include="Resources\icons8-view-48.png" />
+    <None Include="Resources\icons8-google-48.png" />
+    <None Include="Resources\icons8-fail-48.png" />
+    <None Include="Resources\icons8-select-all-48.png" />
+    <None Include="Resources\icons8-paste-48.png" />
+    <None Include="Resources\icons8-copy-48.png" />
+    <None Include="Resources\icons8-cut-48.png" />
+    <None Include="Resources\icons8-arrow-48.png" />
+    <None Include="Resources\icons8-back-48 %281%29.png" />
+    <None Include="Resources\icons8-forward-48.png" />
+    <None Include="Resources\icons8-back-48.png" />
     <None Include="Resources\icons8-exit-48.png" />
     <None Include="Resources\icons8-close-window-48.png" />
     <None Include="Resources\icons8-close-tab-48.png" />
