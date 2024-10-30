@@ -296,6 +296,12 @@
     <Compile Include="Pages\AddToy.Designer.cs">
       <DependentUpon>AddToy.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\DesignBarDrwing.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\DesignBarDrwing.Designer.cs">
+      <DependentUpon>DesignBarDrwing.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pages\DeveloperPage.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -560,6 +566,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\AddToy.resx">
       <DependentUpon>AddToy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\DesignBarDrwing.resx">
+      <DependentUpon>DesignBarDrwing.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\DeveloperPage.fa.resx">
       <DependentUpon>DeveloperPage.cs</DependentUpon>
