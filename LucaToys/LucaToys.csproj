@@ -117,6 +117,12 @@
     <Compile Include="Forms\Calculator.Designer.cs">
       <DependentUpon>Calculator.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Converter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Converter.Designer.cs">
+      <DependentUpon>Converter.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\DeleteCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -473,6 +479,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Calculator.resx">
       <DependentUpon>Calculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Converter.resx">
+      <DependentUpon>Converter.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\DeleteCustomer.resx">
       <DependentUpon>DeleteCustomer.cs</DependentUpon>
