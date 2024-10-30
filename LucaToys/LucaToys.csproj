@@ -952,6 +952,15 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>LucaToysData.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\icons8-underline-48.png" />
+    <None Include="Resources\icons8-italic-48.png" />
+    <None Include="Resources\icons8-font-48 %281%29.png" />
+    <None Include="Resources\icons8-decrease-font-48.png" />
+    <None Include="Resources\icons8-increase-font-48.png" />
+    <None Include="Resources\icons8-highlight-48.png" />
+    <None Include="Resources\icons8-text-color-48.png" />
+    <None Include="Resources\icons8-typography-48.png" />
+    <None Include="Resources\icons8-font-48.png" />
     <None Include="Resources\icons8-edit-property-48.png" />
     <None Include="Resources\icons8-list-48.png" />
     <None Include="Resources\icons8-start-menu-48.png" />
