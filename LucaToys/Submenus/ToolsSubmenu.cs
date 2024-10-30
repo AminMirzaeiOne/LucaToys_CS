@@ -48,5 +48,11 @@ namespace LucaToys.Submenus
             LucaToys.Forms.Notepad notepad = new Forms.Notepad();
             notepad.Show();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            LucaToys.Forms.Converter converter = new Forms.Converter();
+            converter.Show();
+        }
     }
 }

@@ -183,6 +183,12 @@
     <Compile Include="Forms\Products.Designer.cs">
       <DependentUpon>Products.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Screenshot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Screenshot.Designer.cs">
+      <DependentUpon>Screenshot.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Startup.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -515,6 +521,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Products.resx">
       <DependentUpon>Products.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Screenshot.resx">
+      <DependentUpon>Screenshot.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Startup.fa.resx">
       <DependentUpon>Startup.cs</DependentUpon>
@@ -1015,6 +1024,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>LucaToysData.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\icons8-music-96.png" />
+    <None Include="Resources\icons8-music-48.png" />
+    <None Include="Resources\icons8-adobe-acrobat-reader-96.png" />
+    <None Include="Resources\icons8-video-96.png" />
+    <None Include="Resources\icons8-image-96.png" />
+    <None Include="Resources\icons8-image-48.png" />
     <None Include="Resources\icons8-cube-48.png" />
     <None Include="Resources\icons8-squiggly-line-58.png" />
     <None Include="Resources\icons8-squiggly-line-48.png" />
