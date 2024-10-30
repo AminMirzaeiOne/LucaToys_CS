@@ -296,6 +296,12 @@
     <Compile Include="Pages\DeveloperPage.Designer.cs">
       <DependentUpon>DeveloperPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\EditBarNotepad.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\EditBarNotepad.Designer.cs">
+      <DependentUpon>EditBarNotepad.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pages\FeedbackPage.cs">
       <SubType>UserControl</SubType>
     </Compile>
