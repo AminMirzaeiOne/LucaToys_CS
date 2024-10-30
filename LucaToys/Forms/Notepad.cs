@@ -17,6 +17,7 @@ namespace LucaToys.Forms
         private LucaToys.Pages.FileBarNotepad fileBar = new Pages.FileBarNotepad();
         private LucaToys.Pages.EditBarNotepad editBar = new Pages.EditBarNotepad();
         private LucaToys.Pages.ViewBarNotepad viewBar = new Pages.ViewBarNotepad();
+        private LucaToys.Pages.FormatBarNotepad formatBar = new Pages.FormatBarNotepad();
 
         public Notepad()
         {
@@ -24,10 +25,12 @@ namespace LucaToys.Forms
             this.panel3.Controls.Add(this.fileBar);
             this.panel3.Controls.Add(this.editBar);
             this.panel3.Controls.Add(this.viewBar);
+            this.panel3.Controls.Add(this.formatBar);
 
             this.fileBar.Dock = DockStyle.Fill;
             this.editBar.Dock = DockStyle.Fill;
             this.viewBar.Dock = DockStyle.Fill;
+            this.formatBar.Dock = DockStyle.Fill;
         }
 
         private void btnClose_Click(object sender, EventArgs e)
@@ -93,6 +96,12 @@ namespace LucaToys.Forms
         {
             if (this.radioButton4.Checked)
                 this.viewBar.BringToFront();
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.radioButton2.Checked)
+                this.formatBar.BringToFront();
         }
     }
 }
