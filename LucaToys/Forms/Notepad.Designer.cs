@@ -45,6 +45,7 @@
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -73,6 +74,7 @@
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.panel4);
+            this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 3);
@@ -180,7 +182,7 @@
             // 
             this.label3.BackColor = System.Drawing.Color.Plum;
             this.label3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label3.Location = new System.Drawing.Point(0, 156);
+            this.label3.Location = new System.Drawing.Point(0, 166);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(1154, 3);
             this.label3.TabIndex = 7;
@@ -189,7 +191,7 @@
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(0, 76);
+            this.panel3.Location = new System.Drawing.Point(0, 86);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1154, 80);
             this.panel3.TabIndex = 6;
@@ -202,7 +204,7 @@
             this.panel4.Controls.Add(this.radioButton1);
             this.panel4.Controls.Add(this.radioButton3);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(0, 36);
+            this.panel4.Location = new System.Drawing.Point(0, 46);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(1154, 40);
             this.panel4.TabIndex = 5;
@@ -269,6 +271,7 @@
             this.radioButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.radioButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // radioButton3
             // 
@@ -298,19 +301,28 @@
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.panel5.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel5.Location = new System.Drawing.Point(0, 159);
+            this.panel5.Location = new System.Drawing.Point(0, 169);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(200, 510);
+            this.panel5.Size = new System.Drawing.Size(200, 500);
             this.panel5.TabIndex = 8;
             // 
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.Plum;
             this.label1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label1.Location = new System.Drawing.Point(200, 159);
+            this.label1.Location = new System.Drawing.Point(200, 169);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(3, 510);
+            this.label1.Size = new System.Drawing.Size(3, 500);
             this.label1.TabIndex = 9;
+            // 
+            // label4
+            // 
+            this.label4.BackColor = System.Drawing.Color.Sienna;
+            this.label4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label4.Location = new System.Drawing.Point(0, 36);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(1154, 10);
+            this.label4.TabIndex = 10;
             // 
             // Notepad
             // 
@@ -353,5 +365,6 @@
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Label label4;
     }
 }

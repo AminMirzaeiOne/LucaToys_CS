@@ -15,13 +15,16 @@ namespace LucaToys.Forms
         private bool mouseDown;
         private Point lastLocation;
         private LucaToys.Pages.FileBarNotepad fileBar = new Pages.FileBarNotepad();
+        private LucaToys.Pages.EditBarNotepad editBar = new Pages.EditBarNotepad();
 
         public Notepad()
         {
             InitializeComponent();
             this.panel3.Controls.Add(this.fileBar);
+            this.panel3.Controls.Add(this.editBar);
 
             this.fileBar.Dock = DockStyle.Fill;
+            this.editBar.Dock = DockStyle.Fill;
         }
 
         private void btnClose_Click(object sender, EventArgs e)
@@ -73,7 +76,14 @@ namespace LucaToys.Forms
 
         private void radioButton3_CheckedChanged(object sender, EventArgs e)
         {
-            this.fileBar.BringToFront();
+            if (this.radioButton3.Checked)
+                this.fileBar.BringToFront();
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.radioButton1.Checked)
+                this.editBar.BringToFront();
         }
     }
 }
