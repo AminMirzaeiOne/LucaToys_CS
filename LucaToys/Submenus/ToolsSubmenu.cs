@@ -66,5 +66,11 @@ namespace LucaToys.Submenus
             LucaToys.Forms.Player player = new Forms.Player();
             player.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            LucaToys.Forms.WebBrowser webBrowser = new Forms.WebBrowser();
+            webBrowser.Show();
+        }
     }
 }
