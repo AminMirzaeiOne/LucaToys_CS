@@ -314,6 +314,12 @@
     <Compile Include="Pages\FeedbackPage.Designer.cs">
       <DependentUpon>FeedbackPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\FileBarDrwing.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\FileBarDrwing.Designer.cs">
+      <DependentUpon>FileBarDrwing.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pages\FileBarNotepad.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -557,6 +563,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\FeedbackPage.resx">
       <DependentUpon>FeedbackPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\FileBarDrwing.resx">
+      <DependentUpon>FileBarDrwing.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\FileBarNotepad.resx">
       <DependentUpon>FileBarNotepad.cs</DependentUpon>
