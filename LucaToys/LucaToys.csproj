@@ -356,6 +356,12 @@
     <Compile Include="Pages\VersionPage.Designer.cs">
       <DependentUpon>VersionPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\ViewBarDrawing.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\ViewBarDrawing.Designer.cs">
+      <DependentUpon>ViewBarDrawing.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pages\ViewBarNotepad.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -599,6 +605,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\VersionPage.resx">
       <DependentUpon>VersionPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\ViewBarDrawing.resx">
+      <DependentUpon>ViewBarDrawing.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\ViewBarNotepad.resx">
       <DependentUpon>ViewBarNotepad.cs</DependentUpon>
