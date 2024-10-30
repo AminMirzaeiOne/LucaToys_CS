@@ -159,6 +159,12 @@
     <Compile Include="Forms\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Notepad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Notepad.Designer.cs">
+      <DependentUpon>Notepad.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Products.cs">
       <SubType>Form</SubType>
     </Compile>

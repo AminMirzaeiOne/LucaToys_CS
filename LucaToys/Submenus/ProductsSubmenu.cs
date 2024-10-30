@@ -44,7 +44,7 @@ namespace LucaToys.Submenus
 
         private void button1_Click(object sender, EventArgs e)
         {
-            LucaToys.Forms.AddProduct addProduct = new Forms.AddProduct();
+            LucaToys.Forms.AddProduct addProduct = new Forms.AddProduct(Forms.AddProduct.CheckedProductTypes.Doll);
             addProduct.Show();
         }
 
@@ -62,7 +62,7 @@ namespace LucaToys.Submenus
 
         private void button6_Click(object sender, EventArgs e)
         {
-            LucaToys.Forms.AddProduct addProduct = new Forms.AddProduct();
+            LucaToys.Forms.AddProduct addProduct = new Forms.AddProduct(Forms.AddProduct.CheckedProductTypes.Toy);
             addProduct.Show();
         }
 
@@ -80,7 +80,7 @@ namespace LucaToys.Submenus
 
         private void button9_Click(object sender, EventArgs e)
         {
-            LucaToys.Forms.AddProduct addProduct = new Forms.AddProduct();
+            LucaToys.Forms.AddProduct addProduct = new Forms.AddProduct(Forms.AddProduct.CheckedProductTypes.Other);
             addProduct.Show();
         }
 

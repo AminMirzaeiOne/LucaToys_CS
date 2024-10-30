@@ -67,10 +67,11 @@
             // 
             // panel3
             // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(0, 32);
+            this.panel3.Location = new System.Drawing.Point(0, 40);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(296, 264);
+            this.panel3.Size = new System.Drawing.Size(296, 256);
             this.panel3.TabIndex = 1;
             // 
             // panel2
@@ -80,7 +81,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(296, 32);
+            this.panel2.Size = new System.Drawing.Size(296, 40);
             this.panel2.TabIndex = 0;
             this.panel2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseDown);
             this.panel2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseMove);
@@ -95,7 +96,7 @@
             this.btnClose.Font = new System.Drawing.Font("Segoe MDL2 Assets", 6F, System.Drawing.FontStyle.Bold);
             this.btnClose.ForeColor = System.Drawing.Color.Plum;
             this.btnClose.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnClose.Location = new System.Drawing.Point(267, 3);
+            this.btnClose.Location = new System.Drawing.Point(264, 7);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(25, 25);
             this.btnClose.TabIndex = 19;
@@ -115,6 +116,7 @@
             this.ltSmallMenu1.LineColor = System.Drawing.Color.Plum;
             this.ltSmallMenu1.SymbolSize = ((byte)(10));
             this.ltSmallMenu1.SymbolWidth = ((byte)(40));
+            this.ltSmallMenu1.Width = ((byte)(200));
             // 
             // Widget
             // 

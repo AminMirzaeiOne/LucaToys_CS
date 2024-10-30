@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static LucaToys.Forms.AddUser;
 
 namespace LucaToys.Forms
 {
@@ -22,7 +23,7 @@ namespace LucaToys.Forms
             Doll, Toy, Other
         }
 
-        public AddProduct()
+        public AddProduct(CheckedProductTypes producttype = CheckedProductTypes.Doll)
         {
             InitializeComponent();
 
@@ -33,6 +34,20 @@ namespace LucaToys.Forms
             this.addDoll.Dock = DockStyle.Fill;
             this.addToy.Dock = DockStyle.Fill;
             this.addOther.Dock = DockStyle.Fill;
+
+            switch (producttype)
+            {
+                case CheckedProductTypes.Doll:
+                    this.radioButton2.Checked = true;
+                    break;
+                case CheckedProductTypes.Toy:
+                    this.radioButton1.Checked = true;
+                    break;
+                case CheckedProductTypes.Other:
+                    this.radioButton3.Checked = true;
+                    break;
+            }
+
 
         }
 
