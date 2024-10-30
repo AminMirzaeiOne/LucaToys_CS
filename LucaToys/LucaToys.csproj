@@ -356,6 +356,12 @@
     <Compile Include="Pages\LoginPage.Designer.cs">
       <DependentUpon>LoginPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\ToolsBarDrwing.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\ToolsBarDrwing.Designer.cs">
+      <DependentUpon>ToolsBarDrwing.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pages\VersionPage.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -608,6 +614,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\LoginPage.resx">
       <DependentUpon>LoginPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\ToolsBarDrwing.resx">
+      <DependentUpon>ToolsBarDrwing.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\VersionPage.fa.resx">
       <DependentUpon>VersionPage.cs</DependentUpon>
