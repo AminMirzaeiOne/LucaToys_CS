@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using LucaToys.Controls;
 
 namespace LucaToys.Forms
 {
@@ -31,6 +32,31 @@ namespace LucaToys.Forms
             this.editBar.Dock = DockStyle.Fill;
             this.viewBar.Dock = DockStyle.Fill;
             this.formatBar.Dock = DockStyle.Fill;
+
+            LTMenuItem itemUndo = new LTMenuItem();
+            LTMenuItem itemRedo = new LTMenuItem();
+            LTMenuItem itemCut = new LTMenuItem();
+            LTMenuItem itemCopy = new LTMenuItem();
+            LTMenuItem itemPaste = new LTMenuItem();
+            LTMenuItem itemSelectAll = new LTMenuItem();
+            LTMenuItem itemSearchGoogle = new LTMenuItem();
+            LTMenuItem itemDelete = new LTMenuItem();
+            itemUndo.SymbolIcon = "";
+            itemRedo.SymbolIcon = "";
+            itemCut.SymbolIcon = "";
+            itemCopy.SymbolIcon = "";
+            itemPaste.SymbolIcon = "";
+            itemUndo.Text = "Undo";
+            itemRedo.Text = "Redo";
+            itemCut.Text = "Cut";
+            itemCopy.Text = "Copy";
+            itemPaste.Text = "Paste";
+            this.ltSmallMenu1.Items.Add(itemUndo);
+            this.ltSmallMenu1.Items.Add(itemRedo);
+            this.ltSmallMenu1.Items.Add(itemCut);
+            this.ltSmallMenu1.Items.Add(itemCopy);
+            this.ltSmallMenu1.Items.Add(itemPaste);
+
         }
 
         private void btnClose_Click(object sender, EventArgs e)

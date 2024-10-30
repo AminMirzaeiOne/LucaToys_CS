@@ -56,6 +56,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.ltSmallMenu1 = new LucaToys.Controls.LTSmallMenu();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -446,6 +447,20 @@
             this.label10.Size = new System.Drawing.Size(2, 462);
             this.label10.TabIndex = 18;
             // 
+            // ltSmallMenu1
+            // 
+            this.ltSmallMenu1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.ltSmallMenu1.Control = this.richTextBox1;
+            this.ltSmallMenu1.DownBackColor = System.Drawing.Color.Plum;
+            this.ltSmallMenu1.DownForeColor = System.Drawing.Color.White;
+            this.ltSmallMenu1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.ltSmallMenu1.ForeColor = System.Drawing.Color.White;
+            this.ltSmallMenu1.HoverForeColor = System.Drawing.Color.Plum;
+            this.ltSmallMenu1.LineColor = System.Drawing.Color.Plum;
+            this.ltSmallMenu1.SymbolSize = ((byte)(8));
+            this.ltSmallMenu1.SymbolWidth = ((byte)(40));
+            this.ltSmallMenu1.Width = ((byte)(200));
+            // 
             // Notepad
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
@@ -500,5 +515,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Label label7;
+        private Controls.LTSmallMenu ltSmallMenu1;
     }
 }
