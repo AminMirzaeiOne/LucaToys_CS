@@ -15,6 +15,8 @@ namespace LucaToys.Forms
         private bool mouseDown;
         private Point lastLocation;
         private LucaToys.Pages.AddDoll addDoll = new Pages.AddDoll();
+        private LucaToys.Pages.AddToy addToy = new Pages.AddToy();
+        private LucaToys.Pages.AddOther addOther = new Pages.AddOther();
 
 
         public AddProduct()
@@ -22,8 +24,12 @@ namespace LucaToys.Forms
             InitializeComponent();
 
             this.panel4.Controls.Add(this.addDoll);
+            this.panel4.Controls.Add(this.addToy);
+            this.panel4.Controls.Add(this.addOther);
 
             this.addDoll.Dock = DockStyle.Fill;
+            this.addToy.Dock = DockStyle.Fill;
+            this.addOther.Dock = DockStyle.Fill;
 
         }
 
@@ -72,6 +78,24 @@ namespace LucaToys.Forms
         private void label1_MouseUp(object sender, MouseEventArgs e)
         {
             this.mouseDown = false;
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.radioButton2.Checked)
+                this.addDoll.BringToFront();
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.radioButton1.Checked)
+                this.addToy.BringToFront();
+        }
+
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.radioButton3.Checked)
+                this.addOther.BringToFront();
         }
     }
 }
