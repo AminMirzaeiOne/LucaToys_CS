@@ -46,16 +46,25 @@ namespace LucaToys.Forms
             itemCut.SymbolIcon = "";
             itemCopy.SymbolIcon = "";
             itemPaste.SymbolIcon = "";
+            itemSelectAll.SymbolIcon = "";
+            itemSearchGoogle.SymbolIcon = "";
+            itemDelete.SymbolIcon = "";
             itemUndo.Text = "Undo";
             itemRedo.Text = "Redo";
             itemCut.Text = "Cut";
             itemCopy.Text = "Copy";
             itemPaste.Text = "Paste";
+            itemSelectAll.Text = "Select All";
+            itemSearchGoogle.Text = "Search Text";
+            itemDelete.Text = "Delete Text";
             this.ltSmallMenu1.Items.Add(itemUndo);
             this.ltSmallMenu1.Items.Add(itemRedo);
             this.ltSmallMenu1.Items.Add(itemCut);
             this.ltSmallMenu1.Items.Add(itemCopy);
             this.ltSmallMenu1.Items.Add(itemPaste);
+            this.ltSmallMenu1.Items.Add(itemSelectAll);
+            this.ltSmallMenu1.Items.Add(itemSearchGoogle);
+            this.ltSmallMenu1.Items.Add(itemDelete);
 
         }
 
