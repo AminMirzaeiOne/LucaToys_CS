@@ -86,9 +86,9 @@
             this.label2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label2.Location = new System.Drawing.Point(44, 5);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(108, 25);
+            this.label2.Size = new System.Drawing.Size(120, 25);
             this.label2.TabIndex = 49;
-            this.label2.Text = "Delete Toys";
+            this.label2.Text = "Delete Other";
             // 
             // btnControl
             // 
@@ -373,7 +373,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImage = global::LucaToys.Properties.Resources.icons8_fidget_spinner_96;
+            this.pictureBox1.BackgroundImage = global::LucaToys.Properties.Resources.icons8_playing_children_skin_type_3_96;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox1.Location = new System.Drawing.Point(92, 44);
@@ -395,7 +395,7 @@
             this.groupBox1.Size = new System.Drawing.Size(504, 425);
             this.groupBox1.TabIndex = 56;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = " Toys";
+            this.groupBox1.Text = " Others";
             // 
             // dataGridView1
             // 
@@ -452,7 +452,7 @@
             this.ltTextBox1.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ltTextBox1.ForeColor = System.Drawing.Color.White;
             this.ltTextBox1.HolderTextColor = System.Drawing.Color.Gray;
-            this.ltTextBox1.HolderTextContent = "Search Toys";
+            this.ltTextBox1.HolderTextContent = "Search Others";
             this.ltTextBox1.HolderTextFont = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ltTextBox1.Location = new System.Drawing.Point(11, 23);
             this.ltTextBox1.Name = "ltTextBox1";

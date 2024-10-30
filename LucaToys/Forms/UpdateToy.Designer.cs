@@ -377,7 +377,7 @@
             this.groupBox1.Size = new System.Drawing.Size(377, 425);
             this.groupBox1.TabIndex = 56;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = " Toys";
+            this.groupBox1.Text = " Toys";
             // 
             // dataGridView1
             // 
