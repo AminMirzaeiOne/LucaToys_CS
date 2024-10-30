@@ -129,6 +129,12 @@
     <Compile Include="Forms\DeleteDoll.Designer.cs">
       <DependentUpon>DeleteDoll.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\DeleteOther.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DeleteOther.Designer.cs">
+      <DependentUpon>DeleteOther.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\DeleteSeller.cs">
       <SubType>Form</SubType>
     </Compile>
