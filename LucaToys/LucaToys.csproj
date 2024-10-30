@@ -302,6 +302,12 @@
     <Compile Include="Pages\FeedbackPage.Designer.cs">
       <DependentUpon>FeedbackPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\FileBarNotepad.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\FileBarNotepad.Designer.cs">
+      <DependentUpon>FileBarNotepad.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pages\ForgetPage.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -916,6 +922,18 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>LucaToysData.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\icons8-exit-48.png" />
+    <None Include="Resources\icons8-close-window-48.png" />
+    <None Include="Resources\icons8-close-tab-48.png" />
+    <None Include="Resources\icons8-print-48.png" />
+    <None Include="Resources\icons8-project-setup-48.png" />
+    <None Include="Resources\icons8-save-all-48.png" />
+    <None Include="Resources\icons8-save-as-52.png" />
+    <None Include="Resources\icons8-save-as-48.png" />
+    <None Include="Resources\icons8-save-48.png" />
+    <None Include="Resources\icons8-open-file-48.png" />
+    <None Include="Resources\icons8-new-window-48.png" />
+    <None Include="Resources\icons8-new-copy-48.png" />
     <None Include="Resources\icons8-admin-settings-male-48.png" />
     <None Include="Resources\icons8-manager-48.png" />
     <None Include="Resources\icons8-playing-children-skin-type-3-48.png" />
