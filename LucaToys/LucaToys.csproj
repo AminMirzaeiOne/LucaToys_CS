@@ -243,6 +243,12 @@
     <Compile Include="Forms\Users.Designer.cs">
       <DependentUpon>Users.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\WebBrowser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WebBrowser.Designer.cs">
+      <DependentUpon>WebBrowser.cs</DependentUpon>
+    </Compile>
     <Compile Include="LucaToysLinq.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -560,6 +566,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Users.resx">
       <DependentUpon>Users.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WebBrowser.resx">
+      <DependentUpon>WebBrowser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menus\ControlWindow.fa.resx">
       <DependentUpon>ControlWindow.cs</DependentUpon>

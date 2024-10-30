@@ -60,5 +60,11 @@ namespace LucaToys.Submenus
             LucaToys.Forms.Screenshot screenshot = new Forms.Screenshot();
             screenshot.Show();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            LucaToys.Forms.Player player = new Forms.Player();
+            player.Show();
+        }
     }
 }
