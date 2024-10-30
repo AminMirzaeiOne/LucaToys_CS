@@ -14,10 +14,15 @@ namespace LucaToys.Forms
     {
         private bool mouseDown;
         private Point lastLocation;
+        private LucaToys.Pages.FileBarDrwing fileBar = new Pages.FileBarDrwing();
 
         public Drawing()
         {
             InitializeComponent();
+
+            this.panel3.Controls.Add(this.fileBar);
+
+            this.fileBar.Dock = DockStyle.Fill;
         }
 
         private void btnClose_Click(object sender, EventArgs e)
@@ -65,6 +70,11 @@ namespace LucaToys.Forms
         private void panel2_MouseUp(object sender, MouseEventArgs e)
         {
             this.mouseDown = false;
+        }
+
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

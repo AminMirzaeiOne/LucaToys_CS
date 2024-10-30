@@ -302,6 +302,12 @@
     <Compile Include="Pages\DeveloperPage.Designer.cs">
       <DependentUpon>DeveloperPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\EditBarDrawing.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\EditBarDrawing.Designer.cs">
+      <DependentUpon>EditBarDrawing.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pages\EditBarNotepad.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -554,6 +560,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\DeveloperPage.resx">
       <DependentUpon>DeveloperPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\EditBarDrawing.resx">
+      <DependentUpon>EditBarDrawing.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\EditBarNotepad.resx">
       <DependentUpon>EditBarNotepad.cs</DependentUpon>
