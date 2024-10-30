@@ -48,10 +48,6 @@
             this.radioButton15 = new System.Windows.Forms.RadioButton();
             this.radioButton16 = new System.Windows.Forms.RadioButton();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.radioButton17 = new System.Windows.Forms.RadioButton();
-            this.radioButton18 = new System.Windows.Forms.RadioButton();
-            this.label1 = new System.Windows.Forms.Label();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
             this.radioButton19 = new System.Windows.Forms.RadioButton();
             this.radioButton20 = new System.Windows.Forms.RadioButton();
@@ -67,11 +63,14 @@
             this.radioButton30 = new System.Windows.Forms.RadioButton();
             this.radioButton31 = new System.Windows.Forms.RadioButton();
             this.radioButton32 = new System.Windows.Forms.RadioButton();
+            this.radioButton17 = new System.Windows.Forms.RadioButton();
+            this.radioButton18 = new System.Windows.Forms.RadioButton();
+            this.radioButton33 = new System.Windows.Forms.RadioButton();
+            this.radioButton34 = new System.Windows.Forms.RadioButton();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.tableLayoutPanel4.SuspendLayout();
             this.tableLayoutPanel5.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -418,82 +417,28 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.tableLayoutPanel5);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.tableLayoutPanel4);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(771, 3);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(380, 74);
             this.panel1.TabIndex = 2;
             // 
-            // tableLayoutPanel4
-            // 
-            this.tableLayoutPanel4.ColumnCount = 1;
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel4.Controls.Add(this.radioButton18, 0, 1);
-            this.tableLayoutPanel4.Controls.Add(this.radioButton17, 0, 0);
-            this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Left;
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
-            this.tableLayoutPanel4.RowCount = 2;
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(60, 74);
-            this.tableLayoutPanel4.TabIndex = 0;
-            // 
-            // radioButton17
-            // 
-            this.radioButton17.Appearance = System.Windows.Forms.Appearance.Button;
-            this.radioButton17.BackColor = System.Drawing.Color.Tomato;
-            this.radioButton17.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.radioButton17.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
-            this.radioButton17.FlatAppearance.BorderSize = 0;
-            this.radioButton17.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
-            this.radioButton17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.radioButton17.Location = new System.Drawing.Point(5, 5);
-            this.radioButton17.Margin = new System.Windows.Forms.Padding(5);
-            this.radioButton17.Name = "radioButton17";
-            this.radioButton17.Size = new System.Drawing.Size(50, 27);
-            this.radioButton17.TabIndex = 63;
-            this.radioButton17.TabStop = true;
-            this.radioButton17.UseVisualStyleBackColor = false;
-            // 
-            // radioButton18
-            // 
-            this.radioButton18.Appearance = System.Windows.Forms.Appearance.Button;
-            this.radioButton18.BackColor = System.Drawing.Color.White;
-            this.radioButton18.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.radioButton18.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
-            this.radioButton18.FlatAppearance.BorderSize = 0;
-            this.radioButton18.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
-            this.radioButton18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.radioButton18.Location = new System.Drawing.Point(5, 42);
-            this.radioButton18.Margin = new System.Windows.Forms.Padding(5);
-            this.radioButton18.Name = "radioButton18";
-            this.radioButton18.Size = new System.Drawing.Size(50, 27);
-            this.radioButton18.TabIndex = 64;
-            this.radioButton18.TabStop = true;
-            this.radioButton18.UseVisualStyleBackColor = false;
-            // 
-            // label1
-            // 
-            this.label1.BackColor = System.Drawing.Color.Plum;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label1.Location = new System.Drawing.Point(60, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(3, 74);
-            this.label1.TabIndex = 1;
-            // 
             // tableLayoutPanel5
             // 
-            this.tableLayoutPanel5.ColumnCount = 7;
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
+            this.tableLayoutPanel5.ColumnCount = 9;
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tableLayoutPanel5.Controls.Add(this.radioButton34, 8, 1);
+            this.tableLayoutPanel5.Controls.Add(this.radioButton33, 7, 1);
+            this.tableLayoutPanel5.Controls.Add(this.radioButton18, 8, 0);
+            this.tableLayoutPanel5.Controls.Add(this.radioButton17, 7, 0);
             this.tableLayoutPanel5.Controls.Add(this.radioButton32, 6, 1);
             this.tableLayoutPanel5.Controls.Add(this.radioButton31, 6, 0);
             this.tableLayoutPanel5.Controls.Add(this.radioButton19, 5, 1);
@@ -509,251 +454,283 @@
             this.tableLayoutPanel5.Controls.Add(this.radioButton29, 1, 0);
             this.tableLayoutPanel5.Controls.Add(this.radioButton30, 0, 0);
             this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(63, 0);
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 2;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(317, 74);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(380, 74);
             this.tableLayoutPanel5.TabIndex = 2;
             // 
             // radioButton19
             // 
             this.radioButton19.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton19.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.radioButton19.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.radioButton19.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
-            this.radioButton19.FlatAppearance.BorderSize = 2;
-            this.radioButton19.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
+            this.radioButton19.FlatAppearance.BorderSize = 0;
             this.radioButton19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.radioButton19.Image = global::LucaToys.Properties.Resources.icons8_squiggly_line_58;
-            this.radioButton19.Location = new System.Drawing.Point(230, 42);
+            this.radioButton19.Location = new System.Drawing.Point(215, 42);
             this.radioButton19.Margin = new System.Windows.Forms.Padding(5);
             this.radioButton19.Name = "radioButton19";
-            this.radioButton19.Size = new System.Drawing.Size(35, 27);
+            this.radioButton19.Size = new System.Drawing.Size(32, 27);
             this.radioButton19.TabIndex = 68;
             this.radioButton19.TabStop = true;
-            this.radioButton19.UseVisualStyleBackColor = true;
+            this.radioButton19.UseVisualStyleBackColor = false;
             // 
             // radioButton20
             // 
             this.radioButton20.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton20.BackColor = System.Drawing.Color.SlateBlue;
             this.radioButton20.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.radioButton20.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
-            this.radioButton20.FlatAppearance.BorderSize = 2;
-            this.radioButton20.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
+            this.radioButton20.FlatAppearance.BorderSize = 0;
             this.radioButton20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.radioButton20.Image = global::LucaToys.Properties.Resources.icons8_squiggly_line_58;
-            this.radioButton20.Location = new System.Drawing.Point(185, 42);
+            this.radioButton20.Location = new System.Drawing.Point(173, 42);
             this.radioButton20.Margin = new System.Windows.Forms.Padding(5);
             this.radioButton20.Name = "radioButton20";
-            this.radioButton20.Size = new System.Drawing.Size(35, 27);
+            this.radioButton20.Size = new System.Drawing.Size(32, 27);
             this.radioButton20.TabIndex = 67;
             this.radioButton20.TabStop = true;
-            this.radioButton20.UseVisualStyleBackColor = true;
+            this.radioButton20.UseVisualStyleBackColor = false;
             // 
             // radioButton21
             // 
             this.radioButton21.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton21.BackColor = System.Drawing.Color.Tomato;
             this.radioButton21.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.radioButton21.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
-            this.radioButton21.FlatAppearance.BorderSize = 2;
-            this.radioButton21.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
+            this.radioButton21.FlatAppearance.BorderSize = 0;
             this.radioButton21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.radioButton21.Image = global::LucaToys.Properties.Resources.icons8_squiggly_line_58;
-            this.radioButton21.Location = new System.Drawing.Point(140, 42);
+            this.radioButton21.Location = new System.Drawing.Point(131, 42);
             this.radioButton21.Margin = new System.Windows.Forms.Padding(5);
             this.radioButton21.Name = "radioButton21";
-            this.radioButton21.Size = new System.Drawing.Size(35, 27);
+            this.radioButton21.Size = new System.Drawing.Size(32, 27);
             this.radioButton21.TabIndex = 66;
             this.radioButton21.TabStop = true;
-            this.radioButton21.UseVisualStyleBackColor = true;
+            this.radioButton21.UseVisualStyleBackColor = false;
             // 
             // radioButton22
             // 
             this.radioButton22.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton22.BackColor = System.Drawing.Color.DodgerBlue;
             this.radioButton22.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.radioButton22.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
-            this.radioButton22.FlatAppearance.BorderSize = 2;
-            this.radioButton22.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
+            this.radioButton22.FlatAppearance.BorderSize = 0;
             this.radioButton22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.radioButton22.Image = global::LucaToys.Properties.Resources.icons8_squiggly_line_58;
-            this.radioButton22.Location = new System.Drawing.Point(95, 42);
+            this.radioButton22.Location = new System.Drawing.Point(89, 42);
             this.radioButton22.Margin = new System.Windows.Forms.Padding(5);
             this.radioButton22.Name = "radioButton22";
-            this.radioButton22.Size = new System.Drawing.Size(35, 27);
+            this.radioButton22.Size = new System.Drawing.Size(32, 27);
             this.radioButton22.TabIndex = 65;
             this.radioButton22.TabStop = true;
-            this.radioButton22.UseVisualStyleBackColor = true;
+            this.radioButton22.UseVisualStyleBackColor = false;
             // 
             // radioButton23
             // 
             this.radioButton23.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton23.BackColor = System.Drawing.Color.Blue;
             this.radioButton23.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.radioButton23.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
-            this.radioButton23.FlatAppearance.BorderSize = 2;
-            this.radioButton23.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
+            this.radioButton23.FlatAppearance.BorderSize = 0;
             this.radioButton23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.radioButton23.Image = global::LucaToys.Properties.Resources.icons8_squiggly_line_58;
-            this.radioButton23.Location = new System.Drawing.Point(50, 42);
+            this.radioButton23.Location = new System.Drawing.Point(47, 42);
             this.radioButton23.Margin = new System.Windows.Forms.Padding(5);
             this.radioButton23.Name = "radioButton23";
-            this.radioButton23.Size = new System.Drawing.Size(35, 27);
+            this.radioButton23.Size = new System.Drawing.Size(32, 27);
             this.radioButton23.TabIndex = 64;
             this.radioButton23.TabStop = true;
-            this.radioButton23.UseVisualStyleBackColor = true;
+            this.radioButton23.UseVisualStyleBackColor = false;
             // 
             // radioButton24
             // 
             this.radioButton24.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton24.BackColor = System.Drawing.Color.White;
             this.radioButton24.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.radioButton24.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
-            this.radioButton24.FlatAppearance.BorderSize = 2;
-            this.radioButton24.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
+            this.radioButton24.FlatAppearance.BorderSize = 0;
             this.radioButton24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.radioButton24.Image = global::LucaToys.Properties.Resources.icons8_squiggly_line_58;
             this.radioButton24.Location = new System.Drawing.Point(5, 42);
             this.radioButton24.Margin = new System.Windows.Forms.Padding(5);
             this.radioButton24.Name = "radioButton24";
-            this.radioButton24.Size = new System.Drawing.Size(35, 27);
+            this.radioButton24.Size = new System.Drawing.Size(32, 27);
             this.radioButton24.TabIndex = 63;
             this.radioButton24.TabStop = true;
-            this.radioButton24.UseVisualStyleBackColor = true;
+            this.radioButton24.UseVisualStyleBackColor = false;
             // 
             // radioButton25
             // 
             this.radioButton25.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton25.BackColor = System.Drawing.Color.Gold;
             this.radioButton25.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.radioButton25.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
-            this.radioButton25.FlatAppearance.BorderSize = 2;
-            this.radioButton25.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
+            this.radioButton25.FlatAppearance.BorderSize = 0;
             this.radioButton25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.radioButton25.Image = global::LucaToys.Properties.Resources.icons8_squiggly_line_58;
-            this.radioButton25.Location = new System.Drawing.Point(230, 5);
+            this.radioButton25.Location = new System.Drawing.Point(215, 5);
             this.radioButton25.Margin = new System.Windows.Forms.Padding(5);
             this.radioButton25.Name = "radioButton25";
-            this.radioButton25.Size = new System.Drawing.Size(35, 27);
+            this.radioButton25.Size = new System.Drawing.Size(32, 27);
             this.radioButton25.TabIndex = 62;
             this.radioButton25.TabStop = true;
-            this.radioButton25.UseVisualStyleBackColor = true;
+            this.radioButton25.UseVisualStyleBackColor = false;
             // 
             // radioButton26
             // 
             this.radioButton26.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton26.BackColor = System.Drawing.Color.Orange;
             this.radioButton26.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.radioButton26.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
-            this.radioButton26.FlatAppearance.BorderSize = 2;
-            this.radioButton26.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
+            this.radioButton26.FlatAppearance.BorderSize = 0;
             this.radioButton26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.radioButton26.Image = global::LucaToys.Properties.Resources.icons8_squiggly_line_58;
-            this.radioButton26.Location = new System.Drawing.Point(185, 5);
+            this.radioButton26.Location = new System.Drawing.Point(173, 5);
             this.radioButton26.Margin = new System.Windows.Forms.Padding(5);
             this.radioButton26.Name = "radioButton26";
-            this.radioButton26.Size = new System.Drawing.Size(35, 27);
+            this.radioButton26.Size = new System.Drawing.Size(32, 27);
             this.radioButton26.TabIndex = 61;
             this.radioButton26.TabStop = true;
-            this.radioButton26.UseVisualStyleBackColor = true;
+            this.radioButton26.UseVisualStyleBackColor = false;
             // 
             // radioButton27
             // 
             this.radioButton27.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton27.BackColor = System.Drawing.Color.LimeGreen;
             this.radioButton27.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.radioButton27.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
-            this.radioButton27.FlatAppearance.BorderSize = 2;
-            this.radioButton27.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
+            this.radioButton27.FlatAppearance.BorderSize = 0;
             this.radioButton27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.radioButton27.Image = global::LucaToys.Properties.Resources.icons8_squiggly_line_58;
-            this.radioButton27.Location = new System.Drawing.Point(140, 5);
+            this.radioButton27.Location = new System.Drawing.Point(131, 5);
             this.radioButton27.Margin = new System.Windows.Forms.Padding(5);
             this.radioButton27.Name = "radioButton27";
-            this.radioButton27.Size = new System.Drawing.Size(35, 27);
+            this.radioButton27.Size = new System.Drawing.Size(32, 27);
             this.radioButton27.TabIndex = 60;
             this.radioButton27.TabStop = true;
-            this.radioButton27.UseVisualStyleBackColor = true;
+            this.radioButton27.UseVisualStyleBackColor = false;
             // 
             // radioButton28
             // 
             this.radioButton28.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton28.BackColor = System.Drawing.Color.Crimson;
             this.radioButton28.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.radioButton28.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
-            this.radioButton28.FlatAppearance.BorderSize = 2;
-            this.radioButton28.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
+            this.radioButton28.FlatAppearance.BorderSize = 0;
             this.radioButton28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.radioButton28.Image = global::LucaToys.Properties.Resources.icons8_squiggly_line_58;
-            this.radioButton28.Location = new System.Drawing.Point(95, 5);
+            this.radioButton28.Location = new System.Drawing.Point(89, 5);
             this.radioButton28.Margin = new System.Windows.Forms.Padding(5);
             this.radioButton28.Name = "radioButton28";
-            this.radioButton28.Size = new System.Drawing.Size(35, 27);
+            this.radioButton28.Size = new System.Drawing.Size(32, 27);
             this.radioButton28.TabIndex = 59;
             this.radioButton28.TabStop = true;
-            this.radioButton28.UseVisualStyleBackColor = true;
+            this.radioButton28.UseVisualStyleBackColor = false;
             // 
             // radioButton29
             // 
             this.radioButton29.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton29.BackColor = System.Drawing.Color.Red;
             this.radioButton29.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.radioButton29.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
-            this.radioButton29.FlatAppearance.BorderSize = 2;
-            this.radioButton29.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
+            this.radioButton29.FlatAppearance.BorderSize = 0;
             this.radioButton29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.radioButton29.Image = global::LucaToys.Properties.Resources.icons8_squiggly_line_58;
-            this.radioButton29.Location = new System.Drawing.Point(50, 5);
+            this.radioButton29.Location = new System.Drawing.Point(47, 5);
             this.radioButton29.Margin = new System.Windows.Forms.Padding(5);
             this.radioButton29.Name = "radioButton29";
-            this.radioButton29.Size = new System.Drawing.Size(35, 27);
+            this.radioButton29.Size = new System.Drawing.Size(32, 27);
             this.radioButton29.TabIndex = 58;
             this.radioButton29.TabStop = true;
-            this.radioButton29.UseVisualStyleBackColor = true;
+            this.radioButton29.UseVisualStyleBackColor = false;
             // 
             // radioButton30
             // 
             this.radioButton30.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton30.BackColor = System.Drawing.Color.Black;
             this.radioButton30.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.radioButton30.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
-            this.radioButton30.FlatAppearance.BorderSize = 2;
-            this.radioButton30.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
+            this.radioButton30.FlatAppearance.BorderSize = 0;
             this.radioButton30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.radioButton30.Image = global::LucaToys.Properties.Resources.icons8_squiggly_line_58;
             this.radioButton30.Location = new System.Drawing.Point(5, 5);
             this.radioButton30.Margin = new System.Windows.Forms.Padding(5);
             this.radioButton30.Name = "radioButton30";
-            this.radioButton30.Size = new System.Drawing.Size(35, 27);
+            this.radioButton30.Size = new System.Drawing.Size(32, 27);
             this.radioButton30.TabIndex = 57;
             this.radioButton30.TabStop = true;
-            this.radioButton30.UseVisualStyleBackColor = true;
+            this.radioButton30.UseVisualStyleBackColor = false;
             // 
             // radioButton31
             // 
             this.radioButton31.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton31.BackColor = System.Drawing.Color.DeepPink;
             this.radioButton31.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.radioButton31.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
-            this.radioButton31.FlatAppearance.BorderSize = 2;
-            this.radioButton31.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
+            this.radioButton31.FlatAppearance.BorderSize = 0;
             this.radioButton31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.radioButton31.Image = global::LucaToys.Properties.Resources.icons8_squiggly_line_58;
-            this.radioButton31.Location = new System.Drawing.Point(275, 5);
+            this.radioButton31.Location = new System.Drawing.Point(257, 5);
             this.radioButton31.Margin = new System.Windows.Forms.Padding(5);
             this.radioButton31.Name = "radioButton31";
-            this.radioButton31.Size = new System.Drawing.Size(37, 27);
+            this.radioButton31.Size = new System.Drawing.Size(32, 27);
             this.radioButton31.TabIndex = 69;
             this.radioButton31.TabStop = true;
-            this.radioButton31.UseVisualStyleBackColor = true;
+            this.radioButton31.UseVisualStyleBackColor = false;
             // 
             // radioButton32
             // 
             this.radioButton32.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton32.BackColor = System.Drawing.Color.Pink;
             this.radioButton32.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.radioButton32.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
-            this.radioButton32.FlatAppearance.BorderSize = 2;
-            this.radioButton32.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
+            this.radioButton32.FlatAppearance.BorderSize = 0;
             this.radioButton32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.radioButton32.Image = global::LucaToys.Properties.Resources.icons8_squiggly_line_58;
-            this.radioButton32.Location = new System.Drawing.Point(275, 42);
+            this.radioButton32.Location = new System.Drawing.Point(257, 42);
             this.radioButton32.Margin = new System.Windows.Forms.Padding(5);
             this.radioButton32.Name = "radioButton32";
-            this.radioButton32.Size = new System.Drawing.Size(37, 27);
+            this.radioButton32.Size = new System.Drawing.Size(32, 27);
             this.radioButton32.TabIndex = 70;
             this.radioButton32.TabStop = true;
-            this.radioButton32.UseVisualStyleBackColor = true;
+            this.radioButton32.UseVisualStyleBackColor = false;
+            // 
+            // radioButton17
+            // 
+            this.radioButton17.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton17.BackColor = System.Drawing.Color.Cyan;
+            this.radioButton17.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.radioButton17.FlatAppearance.BorderSize = 0;
+            this.radioButton17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radioButton17.Location = new System.Drawing.Point(299, 5);
+            this.radioButton17.Margin = new System.Windows.Forms.Padding(5);
+            this.radioButton17.Name = "radioButton17";
+            this.radioButton17.Size = new System.Drawing.Size(32, 27);
+            this.radioButton17.TabIndex = 71;
+            this.radioButton17.TabStop = true;
+            this.radioButton17.UseVisualStyleBackColor = false;
+            // 
+            // radioButton18
+            // 
+            this.radioButton18.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton18.BackColor = System.Drawing.Color.Brown;
+            this.radioButton18.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.radioButton18.FlatAppearance.BorderSize = 0;
+            this.radioButton18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radioButton18.Location = new System.Drawing.Point(341, 5);
+            this.radioButton18.Margin = new System.Windows.Forms.Padding(5);
+            this.radioButton18.Name = "radioButton18";
+            this.radioButton18.Size = new System.Drawing.Size(34, 27);
+            this.radioButton18.TabIndex = 72;
+            this.radioButton18.TabStop = true;
+            this.radioButton18.UseVisualStyleBackColor = false;
+            // 
+            // radioButton33
+            // 
+            this.radioButton33.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton33.BackColor = System.Drawing.Color.Chartreuse;
+            this.radioButton33.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.radioButton33.FlatAppearance.BorderSize = 0;
+            this.radioButton33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radioButton33.Location = new System.Drawing.Point(299, 42);
+            this.radioButton33.Margin = new System.Windows.Forms.Padding(5);
+            this.radioButton33.Name = "radioButton33";
+            this.radioButton33.Size = new System.Drawing.Size(32, 27);
+            this.radioButton33.TabIndex = 73;
+            this.radioButton33.TabStop = true;
+            this.radioButton33.UseVisualStyleBackColor = false;
+            // 
+            // radioButton34
+            // 
+            this.radioButton34.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.radioButton34.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.radioButton34.FlatAppearance.BorderSize = 0;
+            this.radioButton34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radioButton34.Location = new System.Drawing.Point(341, 42);
+            this.radioButton34.Margin = new System.Windows.Forms.Padding(5);
+            this.radioButton34.Name = "radioButton34";
+            this.radioButton34.Size = new System.Drawing.Size(34, 27);
+            this.radioButton34.TabIndex = 74;
+            this.radioButton34.TabStop = true;
+            this.radioButton34.UseVisualStyleBackColor = false;
             // 
             // DesignBarDrwing
             // 
@@ -768,7 +745,6 @@
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel3.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
-            this.tableLayoutPanel4.ResumeLayout(false);
             this.tableLayoutPanel5.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -809,11 +785,11 @@
         private System.Windows.Forms.RadioButton radioButton28;
         private System.Windows.Forms.RadioButton radioButton29;
         private System.Windows.Forms.RadioButton radioButton30;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
-        private System.Windows.Forms.RadioButton radioButton18;
-        private System.Windows.Forms.RadioButton radioButton17;
         private System.Windows.Forms.RadioButton radioButton32;
         private System.Windows.Forms.RadioButton radioButton31;
+        private System.Windows.Forms.RadioButton radioButton34;
+        private System.Windows.Forms.RadioButton radioButton33;
+        private System.Windows.Forms.RadioButton radioButton18;
+        private System.Windows.Forms.RadioButton radioButton17;
     }
 }
