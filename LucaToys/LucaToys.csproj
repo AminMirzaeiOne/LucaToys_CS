@@ -230,6 +230,12 @@
     <Compile Include="Pages\AddManager.Designer.cs">
       <DependentUpon>AddManager.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\AddOther.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\AddOther.Designer.cs">
+      <DependentUpon>AddOther.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pages\AddSeller.cs">
       <SubType>UserControl</SubType>
     </Compile>
