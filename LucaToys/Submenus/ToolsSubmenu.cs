@@ -54,5 +54,11 @@ namespace LucaToys.Submenus
             LucaToys.Forms.Converter converter = new Forms.Converter();
             converter.Show();
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            LucaToys.Forms.Screenshot screenshot = new Forms.Screenshot();
+            screenshot.Show();
+        }
     }
 }
