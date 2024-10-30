@@ -1024,6 +1024,11 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>LucaToysData.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\icons8-fullscreen-50.png" />
+    <None Include="Resources\icons8-browse-page-50.png" />
+    <None Include="Resources\icons8-picture-in-picture-50.png" />
+    <None Include="Resources\icons8-camera-50.png" />
+    <None Include="Resources\icons8-camera-48.png" />
     <None Include="Resources\icons8-music-96.png" />
     <None Include="Resources\icons8-music-48.png" />
     <None Include="Resources\icons8-adobe-acrobat-reader-96.png" />
