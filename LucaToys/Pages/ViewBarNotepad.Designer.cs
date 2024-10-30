@@ -30,11 +30,11 @@
         {
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.button6 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.tableLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,8 +47,8 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9.090909F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9.090909F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9.090909F));
+            this.tableLayoutPanel2.Controls.Add(this.checkBox3, 5, 0);
             this.tableLayoutPanel2.Controls.Add(this.checkBox2, 4, 0);
-            this.tableLayoutPanel2.Controls.Add(this.button6, 5, 0);
             this.tableLayoutPanel2.Controls.Add(this.button2, 2, 0);
             this.tableLayoutPanel2.Controls.Add(this.button1, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.button3, 0, 0);
@@ -67,6 +67,8 @@
             this.checkBox2.Checked = true;
             this.checkBox2.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.checkBox2.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.checkBox2.FlatAppearance.BorderSize = 2;
             this.checkBox2.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
             this.checkBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBox2.Image = global::LucaToys.Properties.Resources.icons8_list_48;
@@ -76,23 +78,6 @@
             this.checkBox2.Size = new System.Drawing.Size(182, 70);
             this.checkBox2.TabIndex = 58;
             this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
-            this.button6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
-            this.button6.FlatAppearance.BorderSize = 2;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Image = global::LucaToys.Properties.Resources.icons8_edit_property_48;
-            this.button6.Location = new System.Drawing.Point(965, 5);
-            this.button6.Margin = new System.Windows.Forms.Padding(5);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(184, 70);
-            this.button6.TabIndex = 51;
-            this.button6.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
@@ -154,6 +139,8 @@
             this.checkBox1.Checked = true;
             this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.checkBox1.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.checkBox1.FlatAppearance.BorderSize = 2;
             this.checkBox1.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
             this.checkBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBox1.Image = global::LucaToys.Properties.Resources.icons8_start_menu_48;
@@ -163,6 +150,22 @@
             this.checkBox1.Size = new System.Drawing.Size(182, 70);
             this.checkBox1.TabIndex = 57;
             this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.Appearance = System.Windows.Forms.Appearance.Button;
+            this.checkBox3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.checkBox3.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.checkBox3.FlatAppearance.BorderSize = 2;
+            this.checkBox3.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
+            this.checkBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox3.Image = global::LucaToys.Properties.Resources.icons8_edit_property_48;
+            this.checkBox3.Location = new System.Drawing.Point(965, 5);
+            this.checkBox3.Margin = new System.Windows.Forms.Padding(5);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(184, 70);
+            this.checkBox3.TabIndex = 59;
+            this.checkBox3.UseVisualStyleBackColor = true;
             // 
             // ViewBarNotepad
             // 
@@ -181,11 +184,11 @@
         #endregion
 
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
-        private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox checkBox3;
     }
 }

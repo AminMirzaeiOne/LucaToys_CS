@@ -320,6 +320,12 @@
     <Compile Include="Pages\ForgetPage.Designer.cs">
       <DependentUpon>ForgetPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\FormatBarNotepad.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\FormatBarNotepad.Designer.cs">
+      <DependentUpon>FormatBarNotepad.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pages\LoginPage.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -551,6 +557,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\ForgetPage.resx">
       <DependentUpon>ForgetPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\FormatBarNotepad.resx">
+      <DependentUpon>FormatBarNotepad.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\LoginPage.fa.resx">
       <DependentUpon>LoginPage.cs</DependentUpon>
