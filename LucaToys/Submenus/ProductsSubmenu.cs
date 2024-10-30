@@ -47,5 +47,53 @@ namespace LucaToys.Submenus
             LucaToys.Forms.AddProduct addProduct = new Forms.AddProduct();
             addProduct.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            LucaToys.Forms.DeleteDoll deleteDoll = new Forms.DeleteDoll();
+            deleteDoll.Show();
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            LucaToys.Forms.UpdateDoll updateDoll = new Forms.UpdateDoll();
+            updateDoll.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            LucaToys.Forms.AddProduct addProduct = new Forms.AddProduct();
+            addProduct.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            LucaToys.Forms.DeleteToy deleteToy = new Forms.DeleteToy();
+            deleteToy.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            LucaToys.Forms.UpdateToy updateToy = new Forms.UpdateToy();
+            updateToy.Show();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            LucaToys.Forms.AddProduct addProduct = new Forms.AddProduct();
+            addProduct.Show();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            LucaToys.Forms.DeleteOther deleteOther = new Forms.DeleteOther();
+            deleteOther.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            LucaToys.Forms.UpdateOther updateOther = new Forms.UpdateOther();
+            updateOther.Show();
+        }
     }
 }

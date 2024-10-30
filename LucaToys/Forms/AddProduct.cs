@@ -17,7 +17,10 @@ namespace LucaToys.Forms
         private LucaToys.Pages.AddDoll addDoll = new Pages.AddDoll();
         private LucaToys.Pages.AddToy addToy = new Pages.AddToy();
         private LucaToys.Pages.AddOther addOther = new Pages.AddOther();
-
+        public enum CheckedProductTypes
+        {
+            Doll, Toy, Other
+        }
 
         public AddProduct()
         {
