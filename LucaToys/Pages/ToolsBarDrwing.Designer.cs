@@ -82,6 +82,7 @@
             this.radioButton6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.radioButton6.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
             this.radioButton6.FlatAppearance.BorderSize = 2;
+            this.radioButton6.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
             this.radioButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.radioButton6.Image = global::LucaToys.Properties.Resources.icons8_erase_48;
             this.radioButton6.Location = new System.Drawing.Point(1045, 5);
@@ -98,6 +99,7 @@
             this.radioButton5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.radioButton5.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
             this.radioButton5.FlatAppearance.BorderSize = 2;
+            this.radioButton5.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
             this.radioButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.radioButton5.Image = global::LucaToys.Properties.Resources.icons8_fill_color_48;
             this.radioButton5.Location = new System.Drawing.Point(941, 5);
@@ -114,6 +116,7 @@
             this.radioButton4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.radioButton4.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
             this.radioButton4.FlatAppearance.BorderSize = 2;
+            this.radioButton4.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
             this.radioButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.radioButton4.Image = global::LucaToys.Properties.Resources.icons8_text_481;
             this.radioButton4.Location = new System.Drawing.Point(837, 5);
@@ -130,6 +133,7 @@
             this.radioButton3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.radioButton3.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
             this.radioButton3.FlatAppearance.BorderSize = 2;
+            this.radioButton3.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
             this.radioButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.radioButton3.Image = global::LucaToys.Properties.Resources.icons8_pen_48;
             this.radioButton3.Location = new System.Drawing.Point(733, 5);
@@ -146,6 +150,7 @@
             this.radioButton2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.radioButton2.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
             this.radioButton2.FlatAppearance.BorderSize = 2;
+            this.radioButton2.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
             this.radioButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.radioButton2.Image = global::LucaToys.Properties.Resources.icons8_pen_48__1_;
             this.radioButton2.Location = new System.Drawing.Point(629, 5);
@@ -252,6 +257,7 @@
             this.radioButton1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.radioButton1.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
             this.radioButton1.FlatAppearance.BorderSize = 2;
+            this.radioButton1.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
             this.radioButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.radioButton1.Image = global::LucaToys.Properties.Resources.icons8_cursor_48;
             this.radioButton1.Location = new System.Drawing.Point(525, 5);

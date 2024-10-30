@@ -33,6 +33,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.radioButton5 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
@@ -100,6 +101,7 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.panel4.Controls.Add(this.radioButton5);
             this.panel4.Controls.Add(this.radioButton2);
             this.panel4.Controls.Add(this.radioButton4);
             this.panel4.Controls.Add(this.radioButton1);
@@ -110,6 +112,28 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(1154, 40);
             this.panel4.TabIndex = 11;
+            // 
+            // radioButton5
+            // 
+            this.radioButton5.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.radioButton5.Dock = System.Windows.Forms.DockStyle.Left;
+            this.radioButton5.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.radioButton5.FlatAppearance.BorderSize = 0;
+            this.radioButton5.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
+            this.radioButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radioButton5.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton5.ForeColor = System.Drawing.Color.White;
+            this.radioButton5.Location = new System.Drawing.Point(445, 0);
+            this.radioButton5.Margin = new System.Windows.Forms.Padding(15, 10, 15, 10);
+            this.radioButton5.Name = "radioButton5";
+            this.radioButton5.Size = new System.Drawing.Size(110, 40);
+            this.radioButton5.TabIndex = 46;
+            this.radioButton5.Text = "Design";
+            this.radioButton5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radioButton5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.radioButton5.UseVisualStyleBackColor = true;
+            this.radioButton5.CheckedChanged += new System.EventHandler(this.radioButton5_CheckedChanged);
             // 
             // radioButton2
             // 
@@ -127,10 +151,11 @@
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(110, 40);
             this.radioButton2.TabIndex = 43;
-            this.radioButton2.Text = "Design";
+            this.radioButton2.Text = "Tools";
             this.radioButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.radioButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // radioButton4
             // 
@@ -152,6 +177,7 @@
             this.radioButton4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.radioButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.radioButton4.UseVisualStyleBackColor = true;
+            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
             // radioButton1
             // 
@@ -354,5 +380,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.RadioButton radioButton5;
     }
 }

@@ -1006,6 +1006,10 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>LucaToysData.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\icons8-squiggly-line-58.png" />
+    <None Include="Resources\icons8-squiggly-line-48.png" />
+    <None Include="Resources\icons8-squiggly-line-38.png" />
+    <None Include="Resources\icons8-squiggly-line-28.png" />
     <None Include="Resources\icons8-fill-color-48.png" />
     <None Include="Resources\icons8-text-481.png" />
     <None Include="Resources\icons8-cursor-48.png" />
