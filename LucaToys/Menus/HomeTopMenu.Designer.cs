@@ -104,6 +104,7 @@
             // 
             // tableLayoutPanel1
             // 
+            this.tableLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.tableLayoutPanel1.ColumnCount = 10;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
@@ -161,7 +162,7 @@
             // 
             // button18
             // 
-            this.button18.BackColor = System.Drawing.Color.White;
+            this.button18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.button18.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.button18.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button18.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
@@ -170,7 +171,7 @@
             this.button18.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
             this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button18.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
-            this.button18.ForeColor = System.Drawing.Color.Black;
+            this.button18.ForeColor = System.Drawing.Color.White;
             this.button18.Image = global::LucaToys.Properties.Resources.icons8_about_50;
             this.button18.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.button18.Location = new System.Drawing.Point(0, 0);
@@ -183,7 +184,7 @@
             // 
             // button19
             // 
-            this.button19.BackColor = System.Drawing.Color.White;
+            this.button19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.button19.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.button19.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.button19.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
@@ -228,7 +229,7 @@
             // 
             // button16
             // 
-            this.button16.BackColor = System.Drawing.Color.White;
+            this.button16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.button16.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.button16.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button16.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
@@ -237,7 +238,7 @@
             this.button16.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
             this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button16.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
-            this.button16.ForeColor = System.Drawing.Color.Black;
+            this.button16.ForeColor = System.Drawing.Color.White;
             this.button16.Image = global::LucaToys.Properties.Resources.icons8_question_50;
             this.button16.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.button16.Location = new System.Drawing.Point(0, 0);
@@ -250,7 +251,7 @@
             // 
             // button17
             // 
-            this.button17.BackColor = System.Drawing.Color.White;
+            this.button17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.button17.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.button17.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.button17.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
@@ -295,7 +296,7 @@
             // 
             // button14
             // 
-            this.button14.BackColor = System.Drawing.Color.White;
+            this.button14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.button14.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.button14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button14.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
@@ -304,7 +305,7 @@
             this.button14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
             this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button14.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
-            this.button14.ForeColor = System.Drawing.Color.Black;
+            this.button14.ForeColor = System.Drawing.Color.White;
             this.button14.Image = global::LucaToys.Properties.Resources.icons8_settings_50;
             this.button14.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.button14.Location = new System.Drawing.Point(0, 0);
@@ -317,7 +318,7 @@
             // 
             // button15
             // 
-            this.button15.BackColor = System.Drawing.Color.White;
+            this.button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.button15.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.button15.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.button15.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
@@ -362,7 +363,7 @@
             // 
             // button12
             // 
-            this.button12.BackColor = System.Drawing.Color.White;
+            this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.button12.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.button12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button12.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
@@ -371,7 +372,7 @@
             this.button12.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button12.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
-            this.button12.ForeColor = System.Drawing.Color.Black;
+            this.button12.ForeColor = System.Drawing.Color.White;
             this.button12.Image = global::LucaToys.Properties.Resources.icons8_tools_50;
             this.button12.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.button12.Location = new System.Drawing.Point(0, 0);
@@ -384,7 +385,7 @@
             // 
             // button13
             // 
-            this.button13.BackColor = System.Drawing.Color.White;
+            this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.button13.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.button13.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.button13.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
@@ -429,7 +430,7 @@
             // 
             // button10
             // 
-            this.button10.BackColor = System.Drawing.Color.White;
+            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.button10.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.button10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button10.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
@@ -438,7 +439,7 @@
             this.button10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button10.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
-            this.button10.ForeColor = System.Drawing.Color.Black;
+            this.button10.ForeColor = System.Drawing.Color.White;
             this.button10.Image = global::LucaToys.Properties.Resources.icons8_widgets_50;
             this.button10.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.button10.Location = new System.Drawing.Point(0, 0);
@@ -451,7 +452,7 @@
             // 
             // button11
             // 
-            this.button11.BackColor = System.Drawing.Color.White;
+            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.button11.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.button11.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.button11.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
@@ -496,7 +497,7 @@
             // 
             // button8
             // 
-            this.button8.BackColor = System.Drawing.Color.White;
+            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.button8.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.button8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button8.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
@@ -505,7 +506,7 @@
             this.button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
-            this.button8.ForeColor = System.Drawing.Color.Black;
+            this.button8.ForeColor = System.Drawing.Color.White;
             this.button8.Image = global::LucaToys.Properties.Resources.icons8_open_box_50;
             this.button8.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.button8.Location = new System.Drawing.Point(0, 0);
@@ -518,7 +519,7 @@
             // 
             // button9
             // 
-            this.button9.BackColor = System.Drawing.Color.White;
+            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.button9.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.button9.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.button9.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
@@ -563,7 +564,7 @@
             // 
             // button6
             // 
-            this.button6.BackColor = System.Drawing.Color.White;
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.button6.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.button6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button6.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
@@ -572,7 +573,7 @@
             this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
-            this.button6.ForeColor = System.Drawing.Color.Black;
+            this.button6.ForeColor = System.Drawing.Color.White;
             this.button6.Image = global::LucaToys.Properties.Resources.icons8_budget_49;
             this.button6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.button6.Location = new System.Drawing.Point(0, 0);
@@ -585,7 +586,7 @@
             // 
             // button7
             // 
-            this.button7.BackColor = System.Drawing.Color.White;
+            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.button7.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.button7.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.button7.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
@@ -630,7 +631,7 @@
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.Color.White;
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.button4.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.button4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button4.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
@@ -639,7 +640,7 @@
             this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
-            this.button4.ForeColor = System.Drawing.Color.Black;
+            this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Image = global::LucaToys.Properties.Resources.icons8_accounting_50;
             this.button4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.button4.Location = new System.Drawing.Point(0, 0);
@@ -652,7 +653,7 @@
             // 
             // button5
             // 
-            this.button5.BackColor = System.Drawing.Color.White;
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.button5.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.button5.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.button5.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
@@ -697,7 +698,7 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.White;
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.button2.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.button2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
@@ -706,7 +707,7 @@
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
-            this.button2.ForeColor = System.Drawing.Color.Black;
+            this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Image = global::LucaToys.Properties.Resources.icons8_basket_50;
             this.button2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.button2.Location = new System.Drawing.Point(0, 0);
@@ -720,7 +721,7 @@
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.White;
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.button3.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.button3.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.button3.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
@@ -765,7 +766,7 @@
             // 
             // btnMaxRes
             // 
-            this.btnMaxRes.BackColor = System.Drawing.Color.White;
+            this.btnMaxRes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.btnMaxRes.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.btnMaxRes.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnMaxRes.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
@@ -774,7 +775,7 @@
             this.btnMaxRes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
             this.btnMaxRes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMaxRes.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
-            this.btnMaxRes.ForeColor = System.Drawing.Color.Black;
+            this.btnMaxRes.ForeColor = System.Drawing.Color.White;
             this.btnMaxRes.Image = global::LucaToys.Properties.Resources.icons8_customers_48;
             this.btnMaxRes.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.btnMaxRes.Location = new System.Drawing.Point(0, 0);
@@ -788,7 +789,7 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.button1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.button1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Violet;

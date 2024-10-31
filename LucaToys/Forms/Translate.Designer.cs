@@ -40,6 +40,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.ltComboBox1 = new LucaToys.Controls.LTComboBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -63,6 +64,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.panel1.Controls.Add(this.ltComboBox1);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.panel2);
@@ -213,6 +215,13 @@
             this.button1.Text = "Cancel";
             this.button1.UseVisualStyleBackColor = false;
             // 
+            // ltComboBox1
+            // 
+            this.ltComboBox1.Location = new System.Drawing.Point(180, 145);
+            this.ltComboBox1.Name = "ltComboBox1";
+            this.ltComboBox1.Size = new System.Drawing.Size(270, 40);
+            this.ltComboBox1.TabIndex = 10;
+            // 
             // Translate
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
@@ -249,5 +258,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
+        private Controls.LTComboBox ltComboBox1;
     }
 }

@@ -1075,6 +1075,13 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>LucaToysData.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\DarkModernWallpaper %283%291.jpg" />
+    <None Include="Resources\DarkModernWallpaper1.jpg" />
+    <None Include="Resources\DarkModernWallpaper %281%29.jpg" />
+    <None Include="Resources\DarkModernWallpaper %282%29.jpg" />
+    <None Include="Resources\DarkModernWallpaper %283%29.jpg" />
+    <None Include="Resources\DarkModernWallpaper %284%29.jpg" />
+    <None Include="Resources\DarkModernWallpaper.jpg" />
     <None Include="Resources\icons8-fullscreen-50.png" />
     <None Include="Resources\icons8-browse-page-50.png" />
     <None Include="Resources\icons8-picture-in-picture-50.png" />
