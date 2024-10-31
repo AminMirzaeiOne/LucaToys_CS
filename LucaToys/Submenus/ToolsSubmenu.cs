@@ -72,5 +72,11 @@ namespace LucaToys.Submenus
             LucaToys.Forms.WebBrowser webBrowser = new Forms.WebBrowser();
             webBrowser.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            LucaToys.Forms.Translate translate = new Forms.Translate();
+            translate.Show();
+        }
     }
 }
