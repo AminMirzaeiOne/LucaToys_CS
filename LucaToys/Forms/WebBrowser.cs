@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Xml.Linq;
 using CefSharp;
 using CefSharp.WinForms;
+using LucaToys.Controls;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace LucaToys.Forms
@@ -22,7 +23,9 @@ namespace LucaToys.Forms
         public WebBrowser()
         {
             InitializeComponent();
+           
             this.KeyPreview = true;
+
         }
 
         private void btnClose_Click(object sender, EventArgs e)
@@ -74,7 +77,6 @@ namespace LucaToys.Forms
 
         private void WebBrowser_Load(object sender, EventArgs e)
         {
-
             this.chromiumWebBrowser1.LoadUrl("https://www.google.com/");
 
         }
@@ -96,7 +98,7 @@ namespace LucaToys.Forms
 
         private void button3_Click(object sender, EventArgs e)
         {
-            this.chromiumWebBrowser1.Refresh();
+            this.chromiumWebBrowser1.LoadUrl(this.ltTextBox1.Text);
         }
 
         private void chromiumWebBrowser1_AddressChanged(object sender, AddressChangedEventArgs e)
@@ -124,5 +126,23 @@ namespace LucaToys.Forms
             if (e.KeyCode == Keys.Enter)
                 this.chromiumWebBrowser1.LoadUrl(this.ltTextBox1.Text);
         }
+
+        private void ltTextBox2_TabStopChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ltTextBox2_TextBoxKeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                this.chromiumWebBrowser1.LoadUrl($"https://www.google.com/search?q={this.ltTextBox2.Text}");
+                this.ltTextBox2.Clear();
+            }
+
+            
+        }
+
+        
     }
 }

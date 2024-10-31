@@ -36,6 +36,8 @@
             this.button6 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.ltTextBox2 = new LucaToys.Controls.LTTextBox();
+            this.ltTextBox1 = new LucaToys.Controls.LTTextBox();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -47,7 +49,6 @@
             this.btnMinimize = new System.Windows.Forms.Button();
             this.btnMaximize = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
-            this.ltTextBox1 = new LucaToys.Controls.LTTextBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -140,6 +141,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.panel3.Controls.Add(this.ltTextBox2);
             this.panel3.Controls.Add(this.ltTextBox1);
             this.panel3.Controls.Add(this.button5);
             this.panel3.Controls.Add(this.button4);
@@ -151,6 +153,47 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1024, 45);
             this.panel3.TabIndex = 2;
+            // 
+            // ltTextBox2
+            // 
+            this.ltTextBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.ltTextBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.ltTextBox2.BorderColor = System.Drawing.Color.Plum;
+            this.ltTextBox2.BorderDownColor = System.Drawing.Color.Orchid;
+            this.ltTextBox2.BorderHoverColor = System.Drawing.Color.Violet;
+            this.ltTextBox2.BorderSize = ((byte)(2));
+            this.ltTextBox2.EnableClearButton = true;
+            this.ltTextBox2.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ltTextBox2.ForeColor = System.Drawing.Color.White;
+            this.ltTextBox2.HolderTextColor = System.Drawing.Color.Gray;
+            this.ltTextBox2.HolderTextContent = "Search";
+            this.ltTextBox2.HolderTextFont = new System.Drawing.Font("Segoe UI", 9F);
+            this.ltTextBox2.Location = new System.Drawing.Point(706, 7);
+            this.ltTextBox2.Name = "ltTextBox2";
+            this.ltTextBox2.Size = new System.Drawing.Size(232, 30);
+            this.ltTextBox2.TabIndex = 48;
+            this.ltTextBox2.TextBoxKeyDown += new System.Windows.Forms.KeyEventHandler(this.ltTextBox2_TextBoxKeyDown);
+            // 
+            // ltTextBox1
+            // 
+            this.ltTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.ltTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.ltTextBox1.BorderColor = System.Drawing.Color.Plum;
+            this.ltTextBox1.BorderDownColor = System.Drawing.Color.Orchid;
+            this.ltTextBox1.BorderHoverColor = System.Drawing.Color.Violet;
+            this.ltTextBox1.BorderSize = ((byte)(2));
+            this.ltTextBox1.EnableClearButton = true;
+            this.ltTextBox1.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ltTextBox1.ForeColor = System.Drawing.Color.White;
+            this.ltTextBox1.HolderTextColor = System.Drawing.Color.Gray;
+            this.ltTextBox1.HolderTextContent = "Enter Address";
+            this.ltTextBox1.HolderTextFont = new System.Drawing.Font("Segoe UI", 9F);
+            this.ltTextBox1.Location = new System.Drawing.Point(126, 7);
+            this.ltTextBox1.Name = "ltTextBox1";
+            this.ltTextBox1.Size = new System.Drawing.Size(570, 30);
+            this.ltTextBox1.TabIndex = 48;
+            this.ltTextBox1.TextBoxKeyDown += new System.Windows.Forms.KeyEventHandler(this.ltTextBox1_TextBoxKeyDown);
             // 
             // button5
             // 
@@ -324,27 +367,6 @@
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
-            // ltTextBox1
-            // 
-            this.ltTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.ltTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
-            this.ltTextBox1.BorderColor = System.Drawing.Color.Plum;
-            this.ltTextBox1.BorderDownColor = System.Drawing.Color.Orchid;
-            this.ltTextBox1.BorderHoverColor = System.Drawing.Color.Violet;
-            this.ltTextBox1.BorderSize = ((byte)(2));
-            this.ltTextBox1.EnableClearButton = true;
-            this.ltTextBox1.FontOptions = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltTextBox1.ForeColor = System.Drawing.Color.White;
-            this.ltTextBox1.HolderTextColor = System.Drawing.Color.Gray;
-            this.ltTextBox1.HolderTextContent = "Enter Address";
-            this.ltTextBox1.HolderTextFont = new System.Drawing.Font("Segoe UI", 9F);
-            this.ltTextBox1.Location = new System.Drawing.Point(126, 7);
-            this.ltTextBox1.Name = "ltTextBox1";
-            this.ltTextBox1.Size = new System.Drawing.Size(812, 30);
-            this.ltTextBox1.TabIndex = 48;
-            this.ltTextBox1.TextBoxKeyDown += new System.Windows.Forms.KeyEventHandler(this.ltTextBox1_TextBoxKeyDown);
-            // 
             // WebBrowser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
@@ -391,5 +413,6 @@
         private System.Windows.Forms.Button button4;
         private CefSharp.WinForms.ChromiumWebBrowser chromiumWebBrowser1;
         private System.Windows.Forms.Button button6;
+        private Controls.LTTextBox ltTextBox2;
     }
 }

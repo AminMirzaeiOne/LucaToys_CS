@@ -215,6 +215,12 @@
     <Compile Include="Forms\Startup.Designer.cs">
       <DependentUpon>Startup.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Translate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Translate.Designer.cs">
+      <DependentUpon>Translate.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\UpdateCustomer.cs">
       <SubType>Form</SubType>
     </Compile>

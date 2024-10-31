@@ -154,7 +154,14 @@ namespace LucaToys.Controls
 
         private void textBox1_KeyDown(object sender, KeyEventArgs e)
         {
-            this.TextBoxKeyDown(sender, e);
+            if (this.TextBoxKeyDown != null)
+                this.TextBoxKeyDown(sender, e);
+        }
+
+        public void Clear()
+        {
+            this.btnClear_Click(null, null);
+            this.textBox1.Clear();
         }
     }
 }
