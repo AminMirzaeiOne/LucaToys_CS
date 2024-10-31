@@ -74,9 +74,9 @@ namespace LucaToys.Forms
 
         private void WebBrowser_Load(object sender, EventArgs e)
         {
-           
+
             this.chromiumWebBrowser1.LoadUrl("https://www.google.com/");
-            
+
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -101,26 +101,28 @@ namespace LucaToys.Forms
 
         private void chromiumWebBrowser1_AddressChanged(object sender, AddressChangedEventArgs e)
         {
-            this.Invoke(new MethodInvoker(()=>{
+            this.Invoke(new MethodInvoker(() =>
+            {
                 this.ltTextBox1.Text = e.Address;
             }));
 
-            
-            
+
+
         }
 
         private void ltTextBox1_KeyDown(object sender, KeyEventArgs e)
         {
-            
-            if (e.KeyCode == Keys.Enter) 
+
+            if (e.KeyCode == Keys.Enter)
             {
-                
+
             }
         }
 
-        private void textBox1_KeyDown(object sender, KeyEventArgs e)
+        private void ltTextBox1_TextBoxKeyDown(object sender, KeyEventArgs e)
         {
-           
+            if (e.KeyCode == Keys.Enter)
+                this.chromiumWebBrowser1.LoadUrl(this.ltTextBox1.Text);
         }
     }
 }
