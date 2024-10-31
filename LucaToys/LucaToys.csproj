@@ -88,6 +88,12 @@
     <Compile Include="Controls\LTCheckBox.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Controls\LTComboBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\LTComboBox.Designer.cs">
+      <DependentUpon>LTComboBox.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controls\LTMenuItem.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -497,6 +503,9 @@
     <Compile Include="Widgets\Widget.Designer.cs">
       <DependentUpon>Widget.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Controls\LTComboBox.resx">
+      <DependentUpon>LTComboBox.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Controls\LTMenuItem.resx">
       <DependentUpon>LTMenuItem.cs</DependentUpon>
     </EmbeddedResource>
