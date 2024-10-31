@@ -7,6 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
+using CefSharp;
+using CefSharp.WinForms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace LucaToys.Forms
 {
@@ -18,6 +22,7 @@ namespace LucaToys.Forms
         public WebBrowser()
         {
             InitializeComponent();
+            this.KeyPreview = true;
         }
 
         private void btnClose_Click(object sender, EventArgs e)
@@ -65,6 +70,57 @@ namespace LucaToys.Forms
         private void panel2_MouseUp(object sender, MouseEventArgs e)
         {
             this.mouseDown = false;
+        }
+
+        private void WebBrowser_Load(object sender, EventArgs e)
+        {
+           
+            this.chromiumWebBrowser1.LoadUrl("https://www.google.com/");
+            
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.chromiumWebBrowser1.LoadUrl("https://www.google.com/");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.chromiumWebBrowser1.Back();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.chromiumWebBrowser1.Forward();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.chromiumWebBrowser1.Refresh();
+        }
+
+        private void chromiumWebBrowser1_AddressChanged(object sender, AddressChangedEventArgs e)
+        {
+            this.Invoke(new MethodInvoker(()=>{
+                this.ltTextBox1.Text = e.Address;
+            }));
+
+            
+            
+        }
+
+        private void ltTextBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+            
+            if (e.KeyCode == Keys.Enter) 
+            {
+                
+            }
+        }
+
+        private void textBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+           
         }
     }
 }

@@ -20,9 +20,15 @@ namespace LucaToys.Controls
 
         private System.Drawing.Color borderColor = Color.Plum;
         private System.Boolean focused = false;
+        public event KeyEventHandler TextBoxKeyDown;
 
         public System.Boolean EnableClearButton { get; set; } = true;
 
+        public System.String Text
+        {
+            get { return this.textBox1.Text; }
+            set { this.textBox1.Text = value; }
+        }
         public Font FontOptions
         {
             get { return this.textBox1.Font; }
@@ -144,6 +150,11 @@ namespace LucaToys.Controls
         private void btnClear_Click(object sender, EventArgs e)
         {
             this.textBox1.Text = string.Empty;
+        }
+
+        private void textBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+            this.TextBoxKeyDown(sender, e);
         }
     }
 }
