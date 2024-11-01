@@ -893,6 +893,16 @@ namespace LucaToys.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_freebsd_26 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-freebsd-26", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_fullscreen_50 {
             get {
                 object obj = ResourceManager.GetObject("icons8-fullscreen-50", resourceCulture);
@@ -1306,6 +1316,16 @@ namespace LucaToys.Properties {
         internal static System.Drawing.Bitmap icons8_open_file_48 {
             get {
                 object obj = ResourceManager.GetObject("icons8-open-file-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_operating_system_22 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-operating-system-22", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

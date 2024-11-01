@@ -37,6 +37,8 @@ namespace LucaToys.Controls
 
         public System.Drawing.Image Icon { get; set; } = null;
 
+        public System.Byte IconY { get; set; } = 10;
+
 
         public event EventHandler<EventArgs> SelectedItemChanged;
 
@@ -88,6 +90,8 @@ namespace LucaToys.Controls
             sf.Alignment = StringAlignment.Far;
             sf.LineAlignment = StringAlignment.Center;
             e.Graphics.DrawString("", new Font("Segoe MDL2 Assets", 9, FontStyle.Bold), new SolidBrush(this.button6.ForeColor), new Point(e.ClipRectangle.Width - 10, e.ClipRectangle.Height / 2 + 2), sf);
+            Rectangle rectangle = new Rectangle(0, 20, 26, 26);
+            e.Graphics.DrawImage(this.Icon,rectangle);
         }
 
         private void button6_Click(object sender, EventArgs e)
