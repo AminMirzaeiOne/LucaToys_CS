@@ -35,6 +35,8 @@ namespace LucaToys.Controls
         private XDropDown.XToolStripDropDown xDrop;
         private System.Int32 height = 0;
         private System.Byte itemsHeight = 40;
+        private System.Drawing.Color itemsCheckedColor = Color.Plum;
+        private System.Drawing.Font itemsFont = new Font("Segoe UI Semibold", 9, FontStyle.Regular);
         public List<RadioButton> RadioItems = new List<RadioButton>();
 
         public override Color BackColor
@@ -73,7 +75,41 @@ namespace LucaToys.Controls
                 
             }
         }
-        
+
+        public System.Drawing.Font ItemsFont
+        {
+            get { return this.itemsFont; }
+            set
+            {
+                this.itemsFont = value;
+                if (this.RadioItems != null)
+                {
+                    foreach (RadioButton item in this.RadioItems)
+                    {
+                        item.Font = value;
+                    }
+                }
+
+            }
+        }
+
+        public System.Drawing.Color ItemsCheckedColor
+        {
+            get { return this.itemsCheckedColor; }
+            set
+            {
+                this.itemsCheckedColor = value;
+                if (this.RadioItems != null)
+                {
+                    foreach (RadioButton item in this.RadioItems)
+                    {
+                        item.FlatAppearance.CheckedBackColor = value;
+                    }
+                }
+
+            }
+        }
+
 
         public System.Drawing.Image Icon { get; set; }
 
