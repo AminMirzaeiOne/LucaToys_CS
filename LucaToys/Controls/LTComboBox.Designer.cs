@@ -75,6 +75,7 @@
             this.button6.Text = "ComboBox One";
             this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             this.button6.Paint += new System.Windows.Forms.PaintEventHandler(this.button6_Paint);
             // 
             // LTComboBox
