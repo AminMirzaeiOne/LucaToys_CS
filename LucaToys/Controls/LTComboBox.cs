@@ -40,6 +40,7 @@ namespace LucaToys.Controls
         private System.Drawing.Color itemsBackColor = Color.FromArgb(20,20,20);
         private System.Drawing.Font itemsFont = new Font("Segoe UI Semibold", 9, FontStyle.Regular);
         private System.Boolean imageStyle = false;
+        private System.Windows.Forms.ImageList imageList = new ImageList();
         public List<RadioButton> RadioItems = new List<RadioButton>();
 
         public System.Boolean ImageStyle
@@ -71,6 +72,22 @@ namespace LucaToys.Controls
                     
                 }
                 
+            }
+        }
+
+        public System.Windows.Forms.ImageList ImageList
+        {
+            get { return this.imageList; }
+            set
+            {
+                this.imageList = value;
+                if (this.RadioItems != null)
+                {
+                    for(int i = 0; i < this.RadioItems.Count; i++)
+                    {
+                        RadioItems[i].Image = value.Images[0];
+                    }
+                }
             }
         }
 
