@@ -34,6 +34,7 @@ namespace LucaToys.Controls
         Panel panel = new Panel();
         private XDropDown.XToolStripDropDown xDrop;
         private System.Int32 height = 0;
+        public List<RadioButton> RadioItems = new List<RadioButton>();
 
         public System.Drawing.Image Icon { get; set; } = null;
 
@@ -65,6 +66,10 @@ namespace LucaToys.Controls
         private void OnItemsChanged()
         {
             panel.Controls.Clear();
+            if (this.RadioItems != null) 
+            {
+                this.RadioItems.Clear();
+            }
             foreach (string item in Items)
             {
                 RadioButton rb = new RadioButton();
@@ -79,7 +84,9 @@ namespace LucaToys.Controls
                 rb.ForeColor = Color.White;
                 rb.CheckedChanged += Rb_CheckedChanged;
                 this.height += rb.Size.Height;
+                this.RadioItems.Add(rb);
                 panel.Controls.Add(rb);
+                
             }
         }
 
