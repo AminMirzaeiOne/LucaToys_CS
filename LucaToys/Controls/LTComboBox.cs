@@ -36,6 +36,8 @@ namespace LucaToys.Controls
         private System.Int32 height = 0;
         private System.Byte itemsHeight = 40;
         private System.Drawing.Color itemsCheckedColor = Color.Plum;
+        private System.Drawing.Color itemsForeColor = Color.Plum;
+        private System.Drawing.Color itemsBackColor = Color.Plum;
         private System.Drawing.Font itemsFont = new Font("Segoe UI Semibold", 9, FontStyle.Regular);
         public List<RadioButton> RadioItems = new List<RadioButton>();
 
@@ -109,6 +111,24 @@ namespace LucaToys.Controls
 
             }
         }
+
+        public System.Drawing.Color ItemsForeColor
+        {
+            get { return this.itemsForeColor; }
+            set
+            {
+                this.itemsForeColor = value;
+                if (this.RadioItems != null)
+                {
+                    foreach (RadioButton item in this.RadioItems)
+                    {
+                        item.ForeColor = value;
+                    }
+                }
+
+            }
+        }
+
 
 
         public System.Drawing.Image Icon { get; set; }
