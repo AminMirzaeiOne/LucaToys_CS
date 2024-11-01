@@ -15,7 +15,6 @@ namespace LucaToys.Forms
         public Translate()
         {
             InitializeComponent();
-            this.ltComboBox1.Icon = Properties.Resources.icons8_freebsd_26;
         }
     }
 }
