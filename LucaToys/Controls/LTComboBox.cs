@@ -34,6 +34,7 @@ namespace LucaToys.Controls
         Panel panel = new Panel();
         private XDropDown.XToolStripDropDown xDrop;
         private System.Int32 height = 0;
+        private System.Byte itemsHeight = 40;
         public List<RadioButton> RadioItems = new List<RadioButton>();
 
         public override Color BackColor
@@ -53,6 +54,23 @@ namespace LucaToys.Controls
             {
                 base.Font = value;
                 this.button6.Font = value;
+            }
+        }
+
+        public System.Byte ItemsHeight
+        {
+            get { return this.itemsHeight; }
+            set
+            {
+                this.itemsHeight = value;
+                if (this.RadioItems != null)
+                {
+                    foreach (RadioButton item in this.RadioItems)
+                    {
+                        item.Height = value;
+                    }
+                }
+                
             }
         }
         
