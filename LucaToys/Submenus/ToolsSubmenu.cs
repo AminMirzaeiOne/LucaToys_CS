@@ -78,5 +78,11 @@ namespace LucaToys.Submenus
             LucaToys.Forms.Translate translate = new Forms.Translate();
             translate.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            LucaToys.Forms.Calculator calculator = new Forms.Calculator();
+            calculator.Show();
+        }
     }
 }

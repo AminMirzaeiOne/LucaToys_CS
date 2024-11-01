@@ -85,7 +85,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.tableLayoutPanel2);
             this.panel1.Controls.Add(this.label3);
@@ -686,7 +686,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Dock = System.Windows.Forms.DockStyle.Top;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 26F);
-            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(0, 91);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(444, 79);
@@ -699,7 +699,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Dock = System.Windows.Forms.DockStyle.Top;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 18F);
-            this.label2.ForeColor = System.Drawing.Color.Gray;
+            this.label2.ForeColor = System.Drawing.Color.DarkGray;
             this.label2.Location = new System.Drawing.Point(0, 36);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(444, 55);
@@ -792,21 +792,23 @@
             // 
             // ltSmallMenu1
             // 
-            this.ltSmallMenu1.BackColor = System.Drawing.Color.White;
+            this.ltSmallMenu1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.ltSmallMenu1.Control = this.label3;
             this.ltSmallMenu1.DownBackColor = System.Drawing.Color.Plum;
             this.ltSmallMenu1.DownForeColor = System.Drawing.Color.White;
             this.ltSmallMenu1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ltSmallMenu1.ForeColor = System.Drawing.Color.Black;
-            this.ltSmallMenu1.HoverForeColor = System.Drawing.Color.PaleVioletRed;
+            this.ltSmallMenu1.ForeColor = System.Drawing.Color.White;
+            this.ltSmallMenu1.HoverForeColor = System.Drawing.Color.Plum;
             this.ltSmallMenu1.LineColor = System.Drawing.Color.Plum;
             this.ltSmallMenu1.SymbolSize = ((byte)(10));
             this.ltSmallMenu1.SymbolWidth = ((byte)(50));
+            this.ltSmallMenu1.Width = ((byte)(200));
             // 
             // Calculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
             this.ClientSize = new System.Drawing.Size(450, 675);
             this.ControlBox = false;
             this.Controls.Add(this.tableLayoutPanel1);
