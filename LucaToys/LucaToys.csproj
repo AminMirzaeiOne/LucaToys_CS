@@ -1078,6 +1078,19 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>LucaToysData.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\icons8-english-26.png" />
+    <None Include="Resources\icons8-spain-26.png" />
+    <None Include="Resources\icons8-germany-26.png" />
+    <None Include="Resources\icons8-south-korea-26.png" />
+    <None Include="Resources\icons8-saudi-arabia-26.png" />
+    <None Include="Resources\icons8-india-26.png" />
+    <None Include="Resources\icons8-bangladesh-26.png" />
+    <None Include="Resources\icons8-portugal-26.png" />
+    <None Include="Resources\icons8-iran-26.png" />
+    <None Include="Resources\icons8-russian-federation-26.png" />
+    <None Include="Resources\icons8-japan-26.png" />
+    <None Include="Resources\icons8-china-26.png" />
+    <None Include="Resources\icons8-france-26.png" />
     <None Include="Resources\icons8-operating-system-22.png" />
     <None Include="Resources\icons8-freebsd-26.png" />
     <None Include="Resources\DarkModernWallpaper %283%291.jpg" />
