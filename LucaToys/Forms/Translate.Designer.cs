@@ -30,6 +30,7 @@
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.ltComboBox1 = new LucaToys.Controls.LTComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
@@ -49,7 +50,6 @@
             this.radioButton7 = new System.Windows.Forms.RadioButton();
             this.radioButton8 = new System.Windows.Forms.RadioButton();
             this.radioButton9 = new System.Windows.Forms.RadioButton();
-            this.ltComboBox1 = new LucaToys.Controls.LTComboBox();
             this.radioButton10 = new System.Windows.Forms.RadioButton();
             this.radioButton11 = new System.Windows.Forms.RadioButton();
             this.radioButton12 = new System.Windows.Forms.RadioButton();
@@ -89,6 +89,20 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(814, 494);
             this.panel1.TabIndex = 0;
+            // 
+            // ltComboBox1
+            // 
+            this.ltComboBox1.Items = new string[] {
+        "Anroid",
+        "Microsoft",
+        "Google",
+        "Youtube",
+        "IOS",
+        "Apple"};
+            this.ltComboBox1.Location = new System.Drawing.Point(259, 135);
+            this.ltComboBox1.Name = "ltComboBox1";
+            this.ltComboBox1.Size = new System.Drawing.Size(270, 40);
+            this.ltComboBox1.TabIndex = 10;
             // 
             // label3
             // 
@@ -317,15 +331,6 @@
             this.radioButton9.TabStop = true;
             this.radioButton9.Text = "radioButton9";
             this.radioButton9.UseVisualStyleBackColor = true;
-            // 
-            // ltComboBox1
-            // 
-            this.ltComboBox1.items = null;
-            this.ltComboBox1.Items = null;
-            this.ltComboBox1.Location = new System.Drawing.Point(259, 135);
-            this.ltComboBox1.Name = "ltComboBox1";
-            this.ltComboBox1.Size = new System.Drawing.Size(270, 40);
-            this.ltComboBox1.TabIndex = 10;
             // 
             // radioButton10
             // 

@@ -31,13 +31,53 @@ namespace LucaToys.Controls
 
         TableLayoutPanel border = new TableLayoutPanel();
         Panel panel = new Panel();
-        public event EventHandler<EventArgs> SelectedItemChanged;
-        public List<RadioButton> items { get; set; }
-
         private XDropDown.XToolStripDropDown xDrop;
+        private System.Int32 height = 0;
 
-        public System.String[] Items { get; set; }
 
+        public event EventHandler<EventArgs> SelectedItemChanged;
+
+        private List<string> _items = new List<string>();
+        public string[] Items
+        {
+            get { return _items.ToArray(); }
+            set
+            {
+                _items = value.ToList();
+                OnItemsChanged();
+            }
+        }
+
+        private void OnItemsChanged()
+        {
+            // پاک کردن پنل کشویی و ایجاد مجدد RadioButtonها
+            panel.Controls.Clear();
+            foreach (string item in Items)
+            {
+                RadioButton rb = new RadioButton();
+                rb.Text = item;
+                rb.AutoSize = false;
+                rb.FlatStyle = FlatStyle.Flat;
+                rb.Appearance = Appearance.Button;
+                rb.Height = 40;
+                rb.Dock = DockStyle.Top;
+                rb.FlatAppearance.BorderSize = 0;
+                rb.FlatAppearance.CheckedBackColor = Color.Plum;
+                rb.ForeColor = Color.White;
+                rb.CheckedChanged += Rb_CheckedChanged;
+                this.height += rb.Size.Height;
+                panel.Controls.Add(rb);
+            }
+        }
+
+        private void Rb_CheckedChanged(object sender, EventArgs e)
+        {
+            RadioButton rb = (RadioButton)sender;
+            if (rb.Checked)
+            {
+                SelectedItemChanged?.Invoke(this, EventArgs.Empty);
+            }
+        }
 
 
         private void button6_Paint(object sender, PaintEventArgs e)
@@ -50,39 +90,9 @@ namespace LucaToys.Controls
 
         private void button6_Click(object sender, EventArgs e)
         {
+            this.border.Size = new Size(this.Width,height);
             xDrop.Show(this);
-            //int hight = 0;
-            //if (this.Items != null)
-            //{
-            //    for (int i = 0; i < this.Items.Length; i++)
-            //    {
-            //        RadioButton item = new RadioButton();
-            //        item.Appearance = Appearance.Button;
-            //        item.AutoSize = false;
-            //        item.TextAlign = ContentAlignment.MiddleCenter;
-            //        item.BackColor = Color.FromArgb(20, 20, 20);
-            //        item.Dock = DockStyle.Top;
-            //        item.FlatStyle = FlatStyle.Flat;
-            //        item.FlatAppearance.BorderColor = Color.Plum;
-            //        item.ForeColor = Color.White;
-            //        item.FlatAppearance.CheckedBackColor = Color.Plum;
-            //        item.Size = new Size(item.Width, 40);
-            //        item.Text = "radiobutton";
-            //        hight += item.Size.Height;
-
-            //    }
-            //}
-            this.border.Size = new Size(border.Width, 400);
-            items = new List<RadioButton>();
-            foreach(RadioButton rb in this.items)
-            {
-                rb.Appearance = Appearance.Button;
-                rb.BackColor = Color.Red;
-                rb.Dock = DockStyle.Top;
-                rb.Height = 40;
-            }
-            this.panel.Controls.AddRange(items.ToArray());
-
+            
         }
     }
 }
