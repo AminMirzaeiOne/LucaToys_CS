@@ -129,6 +129,23 @@ namespace LucaToys.Controls
             }
         }
 
+        public System.Drawing.Color ItemsBackColor
+        {
+            get { return this.itemsBackColor; }
+            set
+            {
+                this.itemsBackColor = value;
+                if (this.RadioItems != null)
+                {
+                    foreach (RadioButton item in this.RadioItems)
+                    {
+                        item.BackColor = value;
+                    }
+                }
+
+            }
+        }
+
 
 
         public System.Drawing.Image Icon { get; set; }
