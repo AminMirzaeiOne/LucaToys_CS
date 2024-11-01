@@ -278,10 +278,15 @@ namespace LucaToys.Controls
                     }
                 }
 
-                for (int i = 0; i < this.RadioItems.Count; i++)
+                if (this.RadioItems != null && this.ImageList !=null)
                 {
-                    this.RadioItems[i].Image = this.ImageList.Images[i];
+                    for (int i = 0; i < this.RadioItems.Count; i++)
+                    {
+                        this.RadioItems[i].Image = this.ImageList.Images[i];
+                    }
                 }
+
+                
 
                 foreach (RadioButton radio in this.RadioItems) 
                 {

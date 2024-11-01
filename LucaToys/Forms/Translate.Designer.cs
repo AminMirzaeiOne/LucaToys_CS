@@ -32,9 +32,24 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Translate));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button16 = new System.Windows.Forms.Button();
+            this.button17 = new System.Windows.Forms.Button();
+            this.button18 = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.ltComboBox1 = new LucaToys.Controls.LTComboBox();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
@@ -74,9 +89,17 @@
             this.radioButton14 = new System.Windows.Forms.RadioButton();
             this.radioButton15 = new System.Windows.Forms.RadioButton();
             this.radioButton16 = new System.Windows.Forms.RadioButton();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.button19 = new System.Windows.Forms.Button();
+            this.ltComboBox2 = new LucaToys.Controls.LTComboBox();
+            this.ltComboBox1 = new LucaToys.Controls.LTComboBox();
+            this.button20 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.tableLayoutPanel4.SuspendLayout();
+            this.tableLayoutPanel5.SuspendLayout();
+            this.panel5.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tableLayoutPanel3.SuspendLayout();
@@ -97,12 +120,13 @@
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1010, 700);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1065, 720);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.panel1.Controls.Add(this.groupBox2);
             this.panel1.Controls.Add(this.groupBox1);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.panel3);
@@ -110,8 +134,231 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1004, 694);
+            this.panel1.Size = new System.Drawing.Size(1059, 714);
             this.panel1.TabIndex = 0;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.pictureBox2);
+            this.groupBox2.Controls.Add(this.ltComboBox2);
+            this.groupBox2.Controls.Add(this.tableLayoutPanel4);
+            this.groupBox2.Controls.Add(this.tableLayoutPanel5);
+            this.groupBox2.Controls.Add(this.label4);
+            this.groupBox2.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.ForeColor = System.Drawing.Color.Plum;
+            this.groupBox2.Location = new System.Drawing.Point(18, 354);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(1026, 290);
+            this.groupBox2.TabIndex = 10;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "     Language Two";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::LucaToys.Properties.Resources.icons8_english_26;
+            this.pictureBox2.Location = new System.Drawing.Point(300, 32);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(40, 40);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 16;
+            this.pictureBox2.TabStop = false;
+            // 
+            // tableLayoutPanel4
+            // 
+            this.tableLayoutPanel4.BackColor = System.Drawing.Color.Plum;
+            this.tableLayoutPanel4.ColumnCount = 1;
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel4.Controls.Add(this.richTextBox2, 0, 0);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(11, 84);
+            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
+            this.tableLayoutPanel4.RowCount = 1;
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(1000, 192);
+            this.tableLayoutPanel4.TabIndex = 14;
+            // 
+            // richTextBox2
+            // 
+            this.richTextBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.richTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox2.ForeColor = System.Drawing.Color.White;
+            this.richTextBox2.Location = new System.Drawing.Point(2, 2);
+            this.richTextBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.Size = new System.Drawing.Size(996, 188);
+            this.richTextBox2.TabIndex = 0;
+            this.richTextBox2.Text = "";
+            // 
+            // tableLayoutPanel5
+            // 
+            this.tableLayoutPanel5.BackColor = System.Drawing.Color.Plum;
+            this.tableLayoutPanel5.ColumnCount = 1;
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel5.Controls.Add(this.panel5, 0, 0);
+            this.tableLayoutPanel5.ForeColor = System.Drawing.Color.Plum;
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(650, 25);
+            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
+            this.tableLayoutPanel5.RowCount = 1;
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(361, 52);
+            this.tableLayoutPanel5.TabIndex = 13;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.panel5.Controls.Add(this.button11);
+            this.panel5.Controls.Add(this.button12);
+            this.panel5.Controls.Add(this.button13);
+            this.panel5.Controls.Add(this.button14);
+            this.panel5.Controls.Add(this.button15);
+            this.panel5.Controls.Add(this.button16);
+            this.panel5.Controls.Add(this.button17);
+            this.panel5.Controls.Add(this.button18);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel5.Location = new System.Drawing.Point(2, 2);
+            this.panel5.Margin = new System.Windows.Forms.Padding(2);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(357, 48);
+            this.panel5.TabIndex = 12;
+            // 
+            // button11
+            // 
+            this.button11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button11.BackColor = System.Drawing.Color.Plum;
+            this.button11.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button11.ForeColor = System.Drawing.Color.White;
+            this.button11.Location = new System.Drawing.Point(8, 6);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(35, 35);
+            this.button11.TabIndex = 46;
+            this.button11.Text = "";
+            this.button11.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button11.UseVisualStyleBackColor = false;
+            // 
+            // button12
+            // 
+            this.button12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button12.BackColor = System.Drawing.Color.Plum;
+            this.button12.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button12.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button12.ForeColor = System.Drawing.Color.White;
+            this.button12.Location = new System.Drawing.Point(51, 6);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(35, 35);
+            this.button12.TabIndex = 46;
+            this.button12.Text = "";
+            this.button12.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button12.UseVisualStyleBackColor = false;
+            // 
+            // button13
+            // 
+            this.button13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button13.BackColor = System.Drawing.Color.Plum;
+            this.button13.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button13.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button13.ForeColor = System.Drawing.Color.White;
+            this.button13.Location = new System.Drawing.Point(95, 6);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(35, 35);
+            this.button13.TabIndex = 46;
+            this.button13.Text = "";
+            this.button13.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button13.UseVisualStyleBackColor = false;
+            // 
+            // button14
+            // 
+            this.button14.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button14.BackColor = System.Drawing.Color.Plum;
+            this.button14.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button14.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button14.ForeColor = System.Drawing.Color.White;
+            this.button14.Location = new System.Drawing.Point(139, 6);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(35, 35);
+            this.button14.TabIndex = 46;
+            this.button14.Text = "";
+            this.button14.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button14.UseVisualStyleBackColor = false;
+            // 
+            // button15
+            // 
+            this.button15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button15.BackColor = System.Drawing.Color.Plum;
+            this.button15.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button15.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button15.ForeColor = System.Drawing.Color.White;
+            this.button15.Location = new System.Drawing.Point(183, 6);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(35, 35);
+            this.button15.TabIndex = 46;
+            this.button15.Text = "";
+            this.button15.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button15.UseVisualStyleBackColor = false;
+            // 
+            // button16
+            // 
+            this.button16.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button16.BackColor = System.Drawing.Color.Plum;
+            this.button16.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button16.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button16.ForeColor = System.Drawing.Color.White;
+            this.button16.Location = new System.Drawing.Point(227, 6);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(35, 35);
+            this.button16.TabIndex = 46;
+            this.button16.Text = "";
+            this.button16.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button16.UseVisualStyleBackColor = false;
+            // 
+            // button17
+            // 
+            this.button17.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button17.BackColor = System.Drawing.Color.Plum;
+            this.button17.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button17.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button17.ForeColor = System.Drawing.Color.White;
+            this.button17.Location = new System.Drawing.Point(271, 6);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(35, 35);
+            this.button17.TabIndex = 46;
+            this.button17.Text = "";
+            this.button17.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button17.UseVisualStyleBackColor = false;
+            // 
+            // button18
+            // 
+            this.button18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button18.BackColor = System.Drawing.Color.Plum;
+            this.button18.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button18.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button18.ForeColor = System.Drawing.Color.White;
+            this.button18.Location = new System.Drawing.Point(314, 6);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(35, 35);
+            this.button18.TabIndex = 46;
+            this.button18.Text = "";
+            this.button18.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button18.UseVisualStyleBackColor = false;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Plum;
+            this.label4.Location = new System.Drawing.Point(7, 6);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(30, 20);
+            this.label4.TabIndex = 11;
+            this.label4.Text = "";
             // 
             // groupBox1
             // 
@@ -124,7 +371,7 @@
             this.groupBox1.ForeColor = System.Drawing.Color.Plum;
             this.groupBox1.Location = new System.Drawing.Point(18, 52);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(967, 290);
+            this.groupBox1.Size = new System.Drawing.Size(1026, 290);
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "     Language One";
@@ -132,46 +379,30 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::LucaToys.Properties.Resources.icons8_english_26;
-            this.pictureBox1.Location = new System.Drawing.Point(242, 32);
+            this.pictureBox1.Location = new System.Drawing.Point(297, 31);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(40, 40);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 16;
             this.pictureBox1.TabStop = false;
             // 
-            // ltComboBox1
+            // imageList1
             // 
-            this.ltComboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
-            this.ltComboBox1.BorderColor = System.Drawing.Color.Plum;
-            this.ltComboBox1.Content = "Select Language";
-            this.ltComboBox1.Icon = null;
-            this.ltComboBox1.IconY = ((byte)(10));
-            this.ltComboBox1.ImageList = this.imageList1;
-            this.ltComboBox1.ImageStyle = true;
-            this.ltComboBox1.Items = new string[] {
-        " English",
-        " Spanish",
-        " Germany",
-        " Arabic",
-        " Korean",
-        " Indian",
-        " Portuguese",
-        " Bengali",
-        " Persian",
-        " Chinese",
-        " Russian",
-        " Japanese",
-        " France"};
-            this.ltComboBox1.ItemsBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.ltComboBox1.ItemsCheckedColor = System.Drawing.Color.Plum;
-            this.ltComboBox1.ItemsFont = new System.Drawing.Font("Segoe UI Semibold", 9F);
-            this.ltComboBox1.ItemsForeColor = System.Drawing.Color.White;
-            this.ltComboBox1.ItemsHeight = ((byte)(45));
-            this.ltComboBox1.Location = new System.Drawing.Point(294, 26);
-            this.ltComboBox1.Name = "ltComboBox1";
-            this.ltComboBox1.Size = new System.Drawing.Size(288, 50);
-            this.ltComboBox1.TabIndex = 15;
-            this.ltComboBox1.SelectedItemChanged += new System.EventHandler<System.EventArgs>(this.ltComboBox1_SelectedItemChanged);
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "icons8-france-26.png");
+            this.imageList1.Images.SetKeyName(1, "icons8-china-26.png");
+            this.imageList1.Images.SetKeyName(2, "icons8-japan-26.png");
+            this.imageList1.Images.SetKeyName(3, "icons8-russian-federation-26.png");
+            this.imageList1.Images.SetKeyName(4, "icons8-iran-26.png");
+            this.imageList1.Images.SetKeyName(5, "icons8-portugal-26.png");
+            this.imageList1.Images.SetKeyName(6, "icons8-bangladesh-26.png");
+            this.imageList1.Images.SetKeyName(7, "icons8-india-26.png");
+            this.imageList1.Images.SetKeyName(8, "icons8-saudi-arabia-26.png");
+            this.imageList1.Images.SetKeyName(9, "icons8-south-korea-26.png");
+            this.imageList1.Images.SetKeyName(10, "icons8-germany-26.png");
+            this.imageList1.Images.SetKeyName(11, "icons8-spain-26.png");
+            this.imageList1.Images.SetKeyName(12, "icons8-english-26.png");
             // 
             // tableLayoutPanel3
             // 
@@ -183,7 +414,7 @@
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(941, 192);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(1000, 192);
             this.tableLayoutPanel3.TabIndex = 14;
             // 
             // richTextBox1
@@ -195,7 +426,7 @@
             this.richTextBox1.Location = new System.Drawing.Point(2, 2);
             this.richTextBox1.Margin = new System.Windows.Forms.Padding(2);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(937, 188);
+            this.richTextBox1.Size = new System.Drawing.Size(996, 188);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
             // 
@@ -206,7 +437,7 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.Controls.Add(this.panel4, 0, 0);
             this.tableLayoutPanel2.ForeColor = System.Drawing.Color.Plum;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(591, 25);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(648, 24);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -374,20 +605,22 @@
             // 
             this.label3.BackColor = System.Drawing.Color.Plum;
             this.label3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label3.Location = new System.Drawing.Point(0, 641);
+            this.label3.Location = new System.Drawing.Point(0, 661);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(1004, 3);
+            this.label3.Size = new System.Drawing.Size(1059, 3);
             this.label3.TabIndex = 9;
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.panel3.Controls.Add(this.button20);
+            this.panel3.Controls.Add(this.button19);
             this.panel3.Controls.Add(this.button1);
             this.panel3.Controls.Add(this.button2);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel3.Location = new System.Drawing.Point(0, 644);
+            this.panel3.Location = new System.Drawing.Point(0, 664);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1004, 50);
+            this.panel3.Size = new System.Drawing.Size(1059, 50);
             this.panel3.TabIndex = 3;
             // 
             // button1
@@ -398,7 +631,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(739, 5);
+            this.button1.Location = new System.Drawing.Point(794, 5);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(125, 40);
             this.button1.TabIndex = 46;
@@ -413,7 +646,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(872, 5);
+            this.button2.Location = new System.Drawing.Point(927, 5);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(125, 40);
             this.button2.TabIndex = 45;
@@ -432,7 +665,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1004, 36);
+            this.panel2.Size = new System.Drawing.Size(1059, 36);
             this.panel2.TabIndex = 2;
             // 
             // btnControl
@@ -472,7 +705,7 @@
             this.btnMinimize.Font = new System.Drawing.Font("Segoe MDL2 Assets", 6F, System.Drawing.FontStyle.Bold);
             this.btnMinimize.ForeColor = System.Drawing.Color.Plum;
             this.btnMinimize.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnMinimize.Location = new System.Drawing.Point(905, 5);
+            this.btnMinimize.Location = new System.Drawing.Point(960, 5);
             this.btnMinimize.Name = "btnMinimize";
             this.btnMinimize.Size = new System.Drawing.Size(25, 25);
             this.btnMinimize.TabIndex = 48;
@@ -488,7 +721,7 @@
             this.btnMaximize.Font = new System.Drawing.Font("Segoe MDL2 Assets", 6F, System.Drawing.FontStyle.Bold);
             this.btnMaximize.ForeColor = System.Drawing.Color.Plum;
             this.btnMaximize.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnMaximize.Location = new System.Drawing.Point(939, 5);
+            this.btnMaximize.Location = new System.Drawing.Point(994, 5);
             this.btnMaximize.Name = "btnMaximize";
             this.btnMaximize.Size = new System.Drawing.Size(25, 25);
             this.btnMaximize.TabIndex = 49;
@@ -504,7 +737,7 @@
             this.btnClose.Font = new System.Drawing.Font("Segoe MDL2 Assets", 6F, System.Drawing.FontStyle.Bold);
             this.btnClose.ForeColor = System.Drawing.Color.Plum;
             this.btnClose.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnClose.Location = new System.Drawing.Point(973, 5);
+            this.btnClose.Location = new System.Drawing.Point(1028, 5);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(25, 25);
             this.btnClose.TabIndex = 50;
@@ -668,30 +901,110 @@
             this.radioButton16.Text = "radioButton16";
             this.radioButton16.UseVisualStyleBackColor = true;
             // 
-            // imageList1
+            // button19
             // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "icons8-france-26.png");
-            this.imageList1.Images.SetKeyName(1, "icons8-china-26.png");
-            this.imageList1.Images.SetKeyName(2, "icons8-japan-26.png");
-            this.imageList1.Images.SetKeyName(3, "icons8-russian-federation-26.png");
-            this.imageList1.Images.SetKeyName(4, "icons8-iran-26.png");
-            this.imageList1.Images.SetKeyName(5, "icons8-portugal-26.png");
-            this.imageList1.Images.SetKeyName(6, "icons8-bangladesh-26.png");
-            this.imageList1.Images.SetKeyName(7, "icons8-india-26.png");
-            this.imageList1.Images.SetKeyName(8, "icons8-saudi-arabia-26.png");
-            this.imageList1.Images.SetKeyName(9, "icons8-south-korea-26.png");
-            this.imageList1.Images.SetKeyName(10, "icons8-germany-26.png");
-            this.imageList1.Images.SetKeyName(11, "icons8-spain-26.png");
-            this.imageList1.Images.SetKeyName(12, "icons8-english-26.png");
+            this.button19.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.button19.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button19.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button19.ForeColor = System.Drawing.Color.White;
+            this.button19.Location = new System.Drawing.Point(9, 5);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(45, 40);
+            this.button19.TabIndex = 46;
+            this.button19.Text = "";
+            this.button19.UseVisualStyleBackColor = false;
+            // 
+            // ltComboBox2
+            // 
+            this.ltComboBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.ltComboBox2.BorderColor = System.Drawing.Color.Plum;
+            this.ltComboBox2.Content = "Select Language";
+            this.ltComboBox2.Icon = null;
+            this.ltComboBox2.IconY = ((byte)(10));
+            this.ltComboBox2.ImageList = this.imageList1;
+            this.ltComboBox2.ImageStyle = true;
+            this.ltComboBox2.Items = new string[] {
+        " France",
+        " Chinese",
+        " Japanese",
+        " Russian",
+        " Persian",
+        " Portuguese",
+        " Bengali",
+        " Indian",
+        " Arabic",
+        " Korean",
+        " Germany",
+        " Spanish",
+        " English"};
+            this.ltComboBox2.ItemsBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.ltComboBox2.ItemsCheckedColor = System.Drawing.Color.Plum;
+            this.ltComboBox2.ItemsFont = new System.Drawing.Font("Segoe UI Semibold", 9F);
+            this.ltComboBox2.ItemsForeColor = System.Drawing.Color.White;
+            this.ltComboBox2.ItemsHeight = ((byte)(45));
+            this.ltComboBox2.Location = new System.Drawing.Point(352, 26);
+            this.ltComboBox2.Name = "ltComboBox2";
+            this.ltComboBox2.Size = new System.Drawing.Size(288, 50);
+            this.ltComboBox2.TabIndex = 15;
+            this.ltComboBox2.SelectedItemChanged += new System.EventHandler<System.EventArgs>(this.ltComboBox2_SelectedItemChanged);
+            // 
+            // ltComboBox1
+            // 
+            this.ltComboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.ltComboBox1.BorderColor = System.Drawing.Color.Plum;
+            this.ltComboBox1.Content = "Select Language";
+            this.ltComboBox1.Icon = null;
+            this.ltComboBox1.IconY = ((byte)(10));
+            this.ltComboBox1.ImageList = this.imageList1;
+            this.ltComboBox1.ImageStyle = true;
+            this.ltComboBox1.Items = new string[] {
+        " France",
+        " Chinese",
+        " Japanese",
+        " Russian",
+        " Persian",
+        " Portuguese",
+        " Bengali",
+        " Indian",
+        " Arabic",
+        " Korean",
+        " Germany",
+        " Spanish",
+        " English"};
+            this.ltComboBox1.ItemsBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.ltComboBox1.ItemsCheckedColor = System.Drawing.Color.Plum;
+            this.ltComboBox1.ItemsFont = new System.Drawing.Font("Segoe UI Semibold", 9F);
+            this.ltComboBox1.ItemsForeColor = System.Drawing.Color.White;
+            this.ltComboBox1.ItemsHeight = ((byte)(45));
+            this.ltComboBox1.Location = new System.Drawing.Point(349, 25);
+            this.ltComboBox1.Name = "ltComboBox1";
+            this.ltComboBox1.Size = new System.Drawing.Size(288, 50);
+            this.ltComboBox1.TabIndex = 15;
+            this.ltComboBox1.SelectedItemChanged += new System.EventHandler<System.EventArgs>(this.ltComboBox1_SelectedItemChanged);
+            // 
+            // button20
+            // 
+            this.button20.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.button20.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button20.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button20.ForeColor = System.Drawing.Color.White;
+            this.button20.Location = new System.Drawing.Point(63, 5);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(45, 40);
+            this.button20.TabIndex = 46;
+            this.button20.Text = "";
+            this.button20.UseVisualStyleBackColor = false;
             // 
             // Translate
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.ClientSize = new System.Drawing.Size(1010, 700);
+            this.ClientSize = new System.Drawing.Size(1065, 720);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -701,6 +1014,12 @@
             this.Text = "Translate";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.tableLayoutPanel4.ResumeLayout(false);
+            this.tableLayoutPanel5.ResumeLayout(false);
+            this.panel5.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -761,5 +1080,23 @@
         private Controls.LTComboBox ltComboBox1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ImageList imageList1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private Controls.LTComboBox ltComboBox2;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
+        private System.Windows.Forms.RichTextBox richTextBox2;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button button17;
+        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button19;
+        private System.Windows.Forms.Button button20;
     }
 }

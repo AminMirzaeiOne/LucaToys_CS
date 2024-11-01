@@ -24,5 +24,11 @@ namespace LucaToys.Forms
         {
             this.pictureBox1.Image = ((RadioButton)sender).Image;
         }
+
+        private void ltComboBox2_SelectedItemChanged(object sender, EventArgs e)
+        {
+            this.pictureBox2.Image = ((RadioButton)sender).Image;
+
+        }
     }
 }
