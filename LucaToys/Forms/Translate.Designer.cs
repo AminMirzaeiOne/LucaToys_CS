@@ -651,6 +651,11 @@
         "Russian",
         "Japanese",
         "France"};
+            this.ltComboBox1.ItemsBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.ltComboBox1.ItemsCheckedColor = System.Drawing.Color.SlateBlue;
+            this.ltComboBox1.ItemsFont = new System.Drawing.Font("Segoe UI Semibold", 9F);
+            this.ltComboBox1.ItemsForeColor = System.Drawing.Color.White;
+            this.ltComboBox1.ItemsHeight = ((byte)(40));
             this.ltComboBox1.Location = new System.Drawing.Point(294, 26);
             this.ltComboBox1.Name = "ltComboBox1";
             this.ltComboBox1.Size = new System.Drawing.Size(288, 50);
