@@ -39,7 +39,42 @@ namespace LucaToys.Controls
         private System.Drawing.Color itemsForeColor = Color.White;
         private System.Drawing.Color itemsBackColor = Color.FromArgb(20,20,20);
         private System.Drawing.Font itemsFont = new Font("Segoe UI Semibold", 9, FontStyle.Regular);
+        private System.Boolean imageStyle = false;
         public List<RadioButton> RadioItems = new List<RadioButton>();
+
+        public System.Boolean ImageStyle
+        {
+            get { return this.imageStyle; }
+            set
+            {
+                this.imageStyle = value;
+                if (this.RadioItems != null)
+                {
+                    if (value)
+                    {
+                        foreach (RadioButton radio in this.RadioItems)
+                        {
+                            radio.TextImageRelation = TextImageRelation.ImageBeforeText;
+                            radio.TextAlign = ContentAlignment.MiddleLeft;
+                            radio.ImageAlign = ContentAlignment.MiddleLeft;
+                        }
+                    }
+                    else
+                    {
+                        foreach (RadioButton radio in this.RadioItems)
+                        {
+                            radio.TextImageRelation = TextImageRelation.Overlay;
+                            radio.TextAlign = ContentAlignment.MiddleLeft;
+                            radio.ImageAlign = ContentAlignment.MiddleLeft;
+                        }
+                    }
+                    
+                }
+                
+            }
+        }
+
+
 
         public override Color BackColor
         {
