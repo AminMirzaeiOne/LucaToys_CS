@@ -16,7 +16,7 @@ namespace LucaToys.Controls
         public LTComboBox()
         {
             InitializeComponent();
-            
+
             border.ColumnCount = 1;
             border.RowCount = 1;
             border.BackColor = System.Drawing.Color.Plum;
@@ -31,10 +31,13 @@ namespace LucaToys.Controls
 
         TableLayoutPanel border = new TableLayoutPanel();
         Panel panel = new Panel();
+        public event EventHandler<EventArgs> SelectedItemChanged;
+        public List<RadioButton> items { get; set; }
 
         private XDropDown.XToolStripDropDown xDrop;
 
         public System.String[] Items { get; set; }
+
 
 
         private void button6_Paint(object sender, PaintEventArgs e)
@@ -42,35 +45,44 @@ namespace LucaToys.Controls
             StringFormat sf = new StringFormat();
             sf.Alignment = StringAlignment.Far;
             sf.LineAlignment = StringAlignment.Center;
-            e.Graphics.DrawString("", new Font("Segoe MDL2 Assets", 9, FontStyle.Bold), new SolidBrush(this.button6.ForeColor), new Point(e.ClipRectangle.Width-10,e.ClipRectangle.Height/2+2), sf);
+            e.Graphics.DrawString("", new Font("Segoe MDL2 Assets", 9, FontStyle.Bold), new SolidBrush(this.button6.ForeColor), new Point(e.ClipRectangle.Width - 10, e.ClipRectangle.Height / 2 + 2), sf);
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
             xDrop.Show(this);
-            int hight = 0;
-            if (this.Items != null)
-            {
-                for(int i = 0; i < this.Items.Length; i++)
-                {
-                    RadioButton item = new RadioButton();
-                    item.Appearance = Appearance.Button;
-                    item.AutoSize = false;
-                    item.TextAlign = ContentAlignment.MiddleCenter;
-                    item.BackColor = Color.FromArgb(20,20,20);
-                    item.Dock = DockStyle.Top;
-                    item.FlatStyle = FlatStyle.Flat;
-                    item.FlatAppearance.BorderColor = Color.Plum;
-                    item.ForeColor = Color.White;
-                    item.FlatAppearance.CheckedBackColor = Color.Plum;
-                    item.Size = new Size(item.Width, 40);
-                    item.Text = "radiobutton";
-                    hight += item.Size.Height;
-                    this.panel.Controls.Add(item);
+            //int hight = 0;
+            //if (this.Items != null)
+            //{
+            //    for (int i = 0; i < this.Items.Length; i++)
+            //    {
+            //        RadioButton item = new RadioButton();
+            //        item.Appearance = Appearance.Button;
+            //        item.AutoSize = false;
+            //        item.TextAlign = ContentAlignment.MiddleCenter;
+            //        item.BackColor = Color.FromArgb(20, 20, 20);
+            //        item.Dock = DockStyle.Top;
+            //        item.FlatStyle = FlatStyle.Flat;
+            //        item.FlatAppearance.BorderColor = Color.Plum;
+            //        item.ForeColor = Color.White;
+            //        item.FlatAppearance.CheckedBackColor = Color.Plum;
+            //        item.Size = new Size(item.Width, 40);
+            //        item.Text = "radiobutton";
+            //        hight += item.Size.Height;
 
-                }
+            //    }
+            //}
+            this.border.Size = new Size(border.Width, 400);
+            items = new List<RadioButton>();
+            foreach(RadioButton rb in this.items)
+            {
+                rb.Appearance = Appearance.Button;
+                rb.BackColor = Color.Red;
+                rb.Dock = DockStyle.Top;
+                rb.Height = 40;
             }
-            this.border.Size = new Size(border.Width, hight);
+            this.panel.Controls.AddRange(items.ToArray());
+
         }
     }
 }
