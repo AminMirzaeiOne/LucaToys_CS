@@ -15,10 +15,14 @@ namespace LucaToys.Forms
         public Translate()
         {
             InitializeComponent();
-            this.ltComboBox1.RadioItems[0].Image = Properties.Resources.icons8_germany_26;
-            this.ltComboBox1.RadioItems[0].TextImageRelation = TextImageRelation.ImageBeforeText;
-            this.ltComboBox1.RadioItems[0].TextAlign = ContentAlignment.MiddleLeft;
-            this.ltComboBox1.RadioItems[0].ImageAlign = ContentAlignment.MiddleLeft;
+            this.ltComboBox1.RadioItems[0].Image = imageList1.Images[0];
+            //this.ltComboBox1.RadioItems[0].ImageAlign = ContentAlignment.MiddleLeft;
+            //this.ltComboBox1.RadioItems[0].TextImageRelation = TextImageRelation.ImageBeforeText;
+        }
+
+        private void ltComboBox1_SelectedItemChanged(object sender, EventArgs e)
+        {
+            this.pictureBox1.Image = ((RadioButton)sender).Image;
         }
     }
 }

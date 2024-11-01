@@ -9,6 +9,7 @@ using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CefSharp.DevTools.CSS;
 
 namespace LucaToys.Controls
 {
@@ -20,8 +21,6 @@ namespace LucaToys.Controls
 
             border.ColumnCount = 1;
             border.RowCount = 1;
-            border.BackColor = System.Drawing.Color.Plum;
-            border.Size = new Size(this.Size.Width, 600);
             border.Controls.Add(panel);
             panel.Dock = DockStyle.Fill;
             panel.BackColor = Color.FromArgb(20, 20, 20);
@@ -37,10 +36,9 @@ namespace LucaToys.Controls
         private System.Byte itemsHeight = 40;
         private System.Drawing.Color itemsCheckedColor = Color.Plum;
         private System.Drawing.Color itemsForeColor = Color.White;
-        private System.Drawing.Color itemsBackColor = Color.FromArgb(20,20,20);
+        private System.Drawing.Color itemsBackColor = Color.FromArgb(20, 20, 20);
         private System.Drawing.Font itemsFont = new Font("Segoe UI Semibold", 9, FontStyle.Regular);
         private System.Boolean imageStyle = false;
-        private System.Windows.Forms.ImageList imageList = new ImageList();
         public List<RadioButton> RadioItems = new List<RadioButton>();
 
         public System.Boolean ImageStyle
@@ -49,49 +47,10 @@ namespace LucaToys.Controls
             set
             {
                 this.imageStyle = value;
-                if (this.RadioItems != null)
-                {
-                    if (value)
-                    {
-                        foreach (RadioButton radio in this.RadioItems)
-                        {
-                            radio.TextImageRelation = TextImageRelation.ImageBeforeText;
-                            radio.TextAlign = ContentAlignment.MiddleLeft;
-                            radio.ImageAlign = ContentAlignment.MiddleLeft;
-                        }
-                    }
-                    else
-                    {
-                        foreach (RadioButton radio in this.RadioItems)
-                        {
-                            radio.TextImageRelation = TextImageRelation.Overlay;
-                            radio.TextAlign = ContentAlignment.MiddleLeft;
-                            radio.ImageAlign = ContentAlignment.MiddleLeft;
-                        }
-                    }
-                    
-                }
-                
             }
         }
 
-        public System.Windows.Forms.ImageList ImageList
-        {
-            get { return this.imageList; }
-            set
-            {
-                this.imageList = value;
-                if (this.RadioItems != null)
-                {
-                    for(int i = 0; i < this.RadioItems.Count; i++)
-                    {
-                        RadioItems[i].Image = value.Images[0];
-                    }
-                }
-            }
-        }
-
-
+        public System.Windows.Forms.ImageList ImageList { get; set; }
 
         public override Color BackColor
         {
@@ -119,6 +78,8 @@ namespace LucaToys.Controls
             set
             {
                 this.tableLayoutPanel1.BackColor = value;
+                this.border.BackColor = value;
+                this.button6.FlatAppearance.BorderColor = value;
             }
         }
 
@@ -135,7 +96,7 @@ namespace LucaToys.Controls
                         item.Height = value;
                     }
                 }
-                
+
             }
         }
 
@@ -250,15 +211,14 @@ namespace LucaToys.Controls
                 rb.AutoSize = false;
                 rb.FlatStyle = FlatStyle.Flat;
                 rb.Appearance = Appearance.Button;
-                rb.Height = 40;
                 rb.Dock = DockStyle.Top;
                 rb.FlatAppearance.BorderSize = 0;
                 rb.FlatAppearance.CheckedBackColor = Color.Plum;
                 rb.ForeColor = Color.White;
                 rb.CheckedChanged += Rb_CheckedChanged;
-                this.height += rb.Size.Height;
                 this.RadioItems.Add(rb);
                 panel.Controls.Add(rb);
+                rb.BringToFront();
             }
         }
 
@@ -267,7 +227,8 @@ namespace LucaToys.Controls
             RadioButton rb = (RadioButton)sender;
             if (rb.Checked)
             {
-                SelectedItemChanged?.Invoke(this, EventArgs.Empty);
+                SelectedItemChanged?.Invoke(rb, EventArgs.Empty);
+                this.Content = rb.Text;
             }
         }
 
@@ -285,9 +246,50 @@ namespace LucaToys.Controls
 
         private void button6_Click(object sender, EventArgs e)
         {
-            this.border.Size = new Size(this.Width, height);
+            if (this.height == 0)
+            {
+                foreach (RadioButton radio in this.RadioItems)
+                {
+                    this.height += radio.Size.Height;
+                }
+            }
             
+            this.border.Size = new Size(this.Width, height+4);
             xDrop.Show(this);
+
+            if (this.RadioItems != null)
+            {
+                if (this.ImageStyle)
+                {
+                    foreach (RadioButton radio in this.RadioItems)
+                    {
+                        radio.TextImageRelation = TextImageRelation.ImageBeforeText;
+                        radio.TextAlign = ContentAlignment.MiddleLeft;
+                        radio.ImageAlign = ContentAlignment.MiddleLeft;
+                    }
+                }
+                else
+                {
+                    foreach (RadioButton radio in this.RadioItems)
+                    {
+                        radio.TextImageRelation = TextImageRelation.Overlay;
+                        radio.TextAlign = ContentAlignment.MiddleLeft;
+                        radio.ImageAlign = ContentAlignment.MiddleLeft;
+                    }
+                }
+
+                for (int i = 0; i < this.RadioItems.Count; i++)
+                {
+                    this.RadioItems[i].Image = this.ImageList.Images[i];
+                }
+
+                foreach (RadioButton radio in this.RadioItems) 
+                {
+                    radio.Padding = new Padding(2,0,0,0);
+                }
+            }
+
+
 
         }
     }

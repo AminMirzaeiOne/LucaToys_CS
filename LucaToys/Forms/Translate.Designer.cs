@@ -28,10 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Translate));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.ltComboBox1 = new LucaToys.Controls.LTComboBox();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
@@ -71,7 +74,7 @@
             this.radioButton14 = new System.Windows.Forms.RadioButton();
             this.radioButton15 = new System.Windows.Forms.RadioButton();
             this.radioButton16 = new System.Windows.Forms.RadioButton();
-            this.ltComboBox1 = new LucaToys.Controls.LTComboBox();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -135,6 +138,40 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 16;
             this.pictureBox1.TabStop = false;
+            // 
+            // ltComboBox1
+            // 
+            this.ltComboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.ltComboBox1.BorderColor = System.Drawing.Color.Plum;
+            this.ltComboBox1.Content = "Select Language";
+            this.ltComboBox1.Icon = null;
+            this.ltComboBox1.IconY = ((byte)(10));
+            this.ltComboBox1.ImageList = this.imageList1;
+            this.ltComboBox1.ImageStyle = true;
+            this.ltComboBox1.Items = new string[] {
+        " English",
+        " Spanish",
+        " Germany",
+        " Arabic",
+        " Korean",
+        " Indian",
+        " Portuguese",
+        " Bengali",
+        " Persian",
+        " Chinese",
+        " Russian",
+        " Japanese",
+        " France"};
+            this.ltComboBox1.ItemsBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.ltComboBox1.ItemsCheckedColor = System.Drawing.Color.Plum;
+            this.ltComboBox1.ItemsFont = new System.Drawing.Font("Segoe UI Semibold", 9F);
+            this.ltComboBox1.ItemsForeColor = System.Drawing.Color.White;
+            this.ltComboBox1.ItemsHeight = ((byte)(45));
+            this.ltComboBox1.Location = new System.Drawing.Point(294, 26);
+            this.ltComboBox1.Name = "ltComboBox1";
+            this.ltComboBox1.Size = new System.Drawing.Size(288, 50);
+            this.ltComboBox1.TabIndex = 15;
+            this.ltComboBox1.SelectedItemChanged += new System.EventHandler<System.EventArgs>(this.ltComboBox1_SelectedItemChanged);
             // 
             // tableLayoutPanel3
             // 
@@ -631,35 +668,23 @@
             this.radioButton16.Text = "radioButton16";
             this.radioButton16.UseVisualStyleBackColor = true;
             // 
-            // ltComboBox1
+            // imageList1
             // 
-            this.ltComboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
-            this.ltComboBox1.Content = "Select Language";
-            this.ltComboBox1.Icon = null;
-            this.ltComboBox1.IconY = ((byte)(10));
-            this.ltComboBox1.Items = new string[] {
-        "English",
-        "Spanish",
-        "Germany",
-        "Arabic",
-        "Korean",
-        "Indian",
-        "Portuguese",
-        "Bengali",
-        "Persian",
-        "Chinese",
-        "Russian",
-        "Japanese",
-        "France"};
-            this.ltComboBox1.ItemsBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.ltComboBox1.ItemsCheckedColor = System.Drawing.Color.SlateBlue;
-            this.ltComboBox1.ItemsFont = new System.Drawing.Font("Segoe UI Semibold", 9F);
-            this.ltComboBox1.ItemsForeColor = System.Drawing.Color.White;
-            this.ltComboBox1.ItemsHeight = ((byte)(40));
-            this.ltComboBox1.Location = new System.Drawing.Point(294, 26);
-            this.ltComboBox1.Name = "ltComboBox1";
-            this.ltComboBox1.Size = new System.Drawing.Size(288, 50);
-            this.ltComboBox1.TabIndex = 15;
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "icons8-france-26.png");
+            this.imageList1.Images.SetKeyName(1, "icons8-china-26.png");
+            this.imageList1.Images.SetKeyName(2, "icons8-japan-26.png");
+            this.imageList1.Images.SetKeyName(3, "icons8-russian-federation-26.png");
+            this.imageList1.Images.SetKeyName(4, "icons8-iran-26.png");
+            this.imageList1.Images.SetKeyName(5, "icons8-portugal-26.png");
+            this.imageList1.Images.SetKeyName(6, "icons8-bangladesh-26.png");
+            this.imageList1.Images.SetKeyName(7, "icons8-india-26.png");
+            this.imageList1.Images.SetKeyName(8, "icons8-saudi-arabia-26.png");
+            this.imageList1.Images.SetKeyName(9, "icons8-south-korea-26.png");
+            this.imageList1.Images.SetKeyName(10, "icons8-germany-26.png");
+            this.imageList1.Images.SetKeyName(11, "icons8-spain-26.png");
+            this.imageList1.Images.SetKeyName(12, "icons8-english-26.png");
             // 
             // Translate
             // 
@@ -735,5 +760,6 @@
         private System.Windows.Forms.Button button4;
         private Controls.LTComboBox ltComboBox1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ImageList imageList1;
     }
 }
