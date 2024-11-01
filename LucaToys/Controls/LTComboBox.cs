@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Drawing.Imaging;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -34,6 +35,8 @@ namespace LucaToys.Controls
         private XDropDown.XToolStripDropDown xDrop;
         private System.Int32 height = 0;
 
+        public System.Drawing.Image Icon { get; set; } = null;
+
 
         public event EventHandler<EventArgs> SelectedItemChanged;
 
@@ -50,7 +53,6 @@ namespace LucaToys.Controls
 
         private void OnItemsChanged()
         {
-            // پاک کردن پنل کشویی و ایجاد مجدد RadioButtonها
             panel.Controls.Clear();
             foreach (string item in Items)
             {

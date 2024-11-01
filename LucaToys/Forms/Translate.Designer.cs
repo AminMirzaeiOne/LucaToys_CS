@@ -101,7 +101,7 @@
         "Apple"};
             this.ltComboBox1.Location = new System.Drawing.Point(259, 135);
             this.ltComboBox1.Name = "ltComboBox1";
-            this.ltComboBox1.Size = new System.Drawing.Size(270, 40);
+            this.ltComboBox1.Size = new System.Drawing.Size(262, 49);
             this.ltComboBox1.TabIndex = 10;
             // 
             // label3
