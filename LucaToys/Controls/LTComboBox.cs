@@ -41,6 +41,8 @@ namespace LucaToys.Controls
         private System.Boolean imageStyle = false;
         public List<RadioButton> RadioItems = new List<RadioButton>();
 
+        public System.Boolean TopDirection { get; set; } = false;
+
         public System.Boolean ImageStyle
         {
             get { return this.imageStyle; }
