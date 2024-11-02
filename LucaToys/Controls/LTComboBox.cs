@@ -39,9 +39,22 @@ namespace LucaToys.Controls
         private System.Drawing.Color itemsBackColor = Color.FromArgb(20, 20, 20);
         private System.Drawing.Font itemsFont = new Font("Segoe UI Semibold", 9, FontStyle.Regular);
         private System.Boolean imageStyle = false;
+        private System.Boolean topDirection = false;
+        private System.String arrow = "";
         public List<RadioButton> RadioItems = new List<RadioButton>();
 
-        public System.Boolean TopDirection { get; set; } = false;
+        public System.Boolean TopDirection
+        {
+            get { return this.topDirection; }
+            set 
+            { 
+                this.topDirection = value;
+                if (value)
+                    this.arrow = "";
+                else
+                    this.arrow = "";
+            }
+        }
 
         public System.Boolean ImageStyle
         {
@@ -255,9 +268,13 @@ namespace LucaToys.Controls
                     this.height += radio.Size.Height;
                 }
             }
-            
-            this.border.Size = new Size(this.Width, height+4);
-            xDrop.Show(this);
+
+            this.border.Size = new Size(this.Width, height + 4);
+
+            if (!this.TopDirection)
+                xDrop.Show(this);
+            else
+                xDrop.Show(this, new Point(0,0-this.border.Bottom));
 
             if (this.RadioItems != null)
             {
@@ -280,7 +297,7 @@ namespace LucaToys.Controls
                     }
                 }
 
-                if (this.RadioItems != null && this.ImageList !=null)
+                if (this.RadioItems != null && this.ImageList != null)
                 {
                     for (int i = 0; i < this.RadioItems.Count; i++)
                     {
@@ -288,11 +305,11 @@ namespace LucaToys.Controls
                     }
                 }
 
-                
 
-                foreach (RadioButton radio in this.RadioItems) 
+
+                foreach (RadioButton radio in this.RadioItems)
                 {
-                    radio.Padding = new Padding(2,0,0,0);
+                    radio.Padding = new Padding(2, 0, 0, 0);
                 }
             }
 

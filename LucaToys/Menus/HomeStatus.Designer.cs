@@ -128,6 +128,7 @@
             this.ltComboBox1.Name = "ltComboBox1";
             this.ltComboBox1.Size = new System.Drawing.Size(270, 45);
             this.ltComboBox1.TabIndex = 2;
+            this.ltComboBox1.TopDirection = true;
             // 
             // HomeStatus
             // 
