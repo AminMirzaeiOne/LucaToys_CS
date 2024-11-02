@@ -31,17 +31,19 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.homeStatus1 = new LucaToys.Menus.HomeStatus();
             this.label2 = new System.Windows.Forms.Label();
-            this.homeTopMenu1 = new LucaToys.Menus.HomeTopMenu();
             this.btnControl = new System.Windows.Forms.Button();
             this.btnMinimize = new System.Windows.Forms.Button();
             this.btnMaximize = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.homeStatus1 = new LucaToys.Menus.HomeStatus();
+            this.homeTopMenu1 = new LucaToys.Menus.HomeTopMenu();
             this.ltSmallMenu1 = new LucaToys.Controls.LTSmallMenu();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -61,7 +63,6 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.panel1.BackgroundImage = global::LucaToys.Properties.Resources.DarkModernWallpaper__3_;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.homeStatus1);
@@ -82,20 +83,13 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Transparent;
+            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel2.Controls.Add(this.label3);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 164);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1344, 480);
+            this.panel2.Size = new System.Drawing.Size(1344, 460);
             this.panel2.TabIndex = 28;
-            // 
-            // homeStatus1
-            // 
-            this.homeStatus1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.homeStatus1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.homeStatus1.Location = new System.Drawing.Point(0, 644);
-            this.homeStatus1.Name = "homeStatus1";
-            this.homeStatus1.Size = new System.Drawing.Size(1344, 50);
-            this.homeStatus1.TabIndex = 27;
             // 
             // label2
             // 
@@ -110,15 +104,6 @@
             this.label2.TabIndex = 26;
             this.label2.Text = "Home Window";
             this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // homeTopMenu1
-            // 
-            this.homeTopMenu1.BackColor = System.Drawing.Color.White;
-            this.homeTopMenu1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.homeTopMenu1.Location = new System.Drawing.Point(0, 36);
-            this.homeTopMenu1.Name = "homeTopMenu1";
-            this.homeTopMenu1.Size = new System.Drawing.Size(1344, 128);
-            this.homeTopMenu1.TabIndex = 19;
             // 
             // btnControl
             // 
@@ -204,6 +189,35 @@
             this.label1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label1_MouseMove);
             this.label1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.label1_MouseUp);
             // 
+            // label3
+            // 
+            this.label3.BackColor = System.Drawing.Color.Plum;
+            this.label3.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(0, 457);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(1344, 3);
+            this.label3.TabIndex = 3;
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // homeStatus1
+            // 
+            this.homeStatus1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.homeStatus1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.homeStatus1.Location = new System.Drawing.Point(0, 624);
+            this.homeStatus1.Name = "homeStatus1";
+            this.homeStatus1.Size = new System.Drawing.Size(1344, 70);
+            this.homeStatus1.TabIndex = 27;
+            // 
+            // homeTopMenu1
+            // 
+            this.homeTopMenu1.BackColor = System.Drawing.Color.White;
+            this.homeTopMenu1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.homeTopMenu1.Location = new System.Drawing.Point(0, 36);
+            this.homeTopMenu1.Name = "homeTopMenu1";
+            this.homeTopMenu1.Size = new System.Drawing.Size(1344, 128);
+            this.homeTopMenu1.TabIndex = 19;
+            // 
             // ltSmallMenu1
             // 
             this.ltSmallMenu1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
@@ -232,6 +246,7 @@
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -250,5 +265,6 @@
         private System.Windows.Forms.Label label2;
         private Menus.HomeStatus homeStatus1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label3;
     }
 }

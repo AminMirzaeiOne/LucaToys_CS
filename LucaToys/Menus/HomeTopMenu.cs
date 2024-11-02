@@ -44,5 +44,11 @@ namespace LucaToys.Menus
             LucaToys.Forms.Products products = new Forms.Products();
             products.Show();
         }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            LucaToys.Forms.About about = new Forms.About();
+            about.Show();
+        }
     }
 }
