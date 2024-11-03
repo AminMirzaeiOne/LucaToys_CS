@@ -12,6 +12,9 @@ namespace LucaToys.Widgets
 {
     public partial class PuzzleGame : UserControl
     {
+        private bool mouseDown;
+        private Point lastLocation;
+
         public PuzzleGame()
         {
             InitializeComponent();
@@ -20,6 +23,28 @@ namespace LucaToys.Widgets
         private void btnClose_Click(object sender, EventArgs e)
         {
             this.Hide();
+        }
+
+        private void panel2_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (this.mouseDown == true)
+            {
+                this.Location = new Point(
+                (this.Location.X - this.lastLocation.X) + e.X, (this.Location.Y - this.lastLocation.Y) + e.Y);
+
+                this.Update();
+            }
+        }
+
+        private void panel2_MouseDown(object sender, MouseEventArgs e)
+        {
+            this.mouseDown = true;
+            this.lastLocation = e.Location;
+        }
+
+        private void panel2_MouseUp(object sender, MouseEventArgs e)
+        {
+            this.mouseDown = false;
         }
     }
 }
