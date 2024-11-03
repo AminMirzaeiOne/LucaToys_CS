@@ -253,7 +253,7 @@ namespace LucaToys.Controls
             StringFormat sf = new StringFormat();
             sf.Alignment = StringAlignment.Far;
             sf.LineAlignment = StringAlignment.Center;
-            e.Graphics.DrawString("", new Font("Segoe MDL2 Assets", 9, FontStyle.Bold), new SolidBrush(this.button6.ForeColor), new Point(e.ClipRectangle.Width - 10, e.ClipRectangle.Height / 2 + 2), sf);
+            e.Graphics.DrawString(this.arrow, new Font("Segoe MDL2 Assets", 9, FontStyle.Bold), new SolidBrush(this.button6.ForeColor), new Point(e.ClipRectangle.Width - 10, e.ClipRectangle.Height / 2 + 2), sf);
             Rectangle rectangle = new Rectangle(0, this.IconY, 26, 26);
             if (this.Icon != null)
                 e.Graphics.DrawImage(this.Icon, rectangle);

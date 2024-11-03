@@ -34,6 +34,16 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.ltComboBox1 = new LucaToys.Controls.LTComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -107,8 +117,160 @@
             this.label5.TabIndex = 1;
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // label6
+            // 
+            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.label6.BackColor = System.Drawing.Color.Plum;
+            this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(1085, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(3, 71);
+            this.label6.TabIndex = 3;
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.Appearance = System.Windows.Forms.Appearance.Button;
+            this.checkBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.checkBox1.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.checkBox1.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
+            this.checkBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox1.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox1.ForeColor = System.Drawing.Color.White;
+            this.checkBox1.Location = new System.Drawing.Point(572, 14);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(40, 40);
+            this.checkBox1.TabIndex = 4;
+            this.checkBox1.Text = "";
+            this.checkBox1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.checkBox1.UseVisualStyleBackColor = false;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.Appearance = System.Windows.Forms.Appearance.Button;
+            this.checkBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.checkBox2.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.checkBox2.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
+            this.checkBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox2.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10F);
+            this.checkBox2.ForeColor = System.Drawing.Color.White;
+            this.checkBox2.Location = new System.Drawing.Point(625, 14);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(40, 40);
+            this.checkBox2.TabIndex = 4;
+            this.checkBox2.Text = "";
+            this.checkBox2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.checkBox2.UseVisualStyleBackColor = false;
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.Appearance = System.Windows.Forms.Appearance.Button;
+            this.checkBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.checkBox3.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.checkBox3.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
+            this.checkBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox3.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10F);
+            this.checkBox3.ForeColor = System.Drawing.Color.White;
+            this.checkBox3.Location = new System.Drawing.Point(677, 14);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(40, 40);
+            this.checkBox3.TabIndex = 4;
+            this.checkBox3.Text = "";
+            this.checkBox3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.checkBox3.UseVisualStyleBackColor = false;
+            // 
+            // checkBox4
+            // 
+            this.checkBox4.Appearance = System.Windows.Forms.Appearance.Button;
+            this.checkBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.checkBox4.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.checkBox4.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
+            this.checkBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox4.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10F);
+            this.checkBox4.ForeColor = System.Drawing.Color.White;
+            this.checkBox4.Location = new System.Drawing.Point(730, 14);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(40, 40);
+            this.checkBox4.TabIndex = 4;
+            this.checkBox4.Text = "";
+            this.checkBox4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.checkBox4.UseVisualStyleBackColor = false;
+            // 
+            // label7
+            // 
+            this.label7.BackColor = System.Drawing.Color.Plum;
+            this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(783, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(3, 71);
+            this.label7.TabIndex = 5;
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Plum;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10F);
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(797, 14);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(60, 40);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Plum;
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10F);
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(867, 14);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(60, 40);
+            this.button2.TabIndex = 6;
+            this.button2.Text = "";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Plum;
+            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Segoe MDL2 Assets", 12F);
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(937, 14);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(60, 40);
+            this.button3.TabIndex = 6;
+            this.button3.Text = "";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Plum;
+            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Segoe MDL2 Assets", 10F);
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Location = new System.Drawing.Point(1007, 14);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(60, 40);
+            this.button4.TabIndex = 6;
+            this.button4.Text = "";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
             // ltComboBox1
             // 
+            this.ltComboBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.ltComboBox1.BorderColor = System.Drawing.Color.Plum;
             this.ltComboBox1.Content = "Select Page";
             this.ltComboBox1.Icon = null;
@@ -124,9 +286,9 @@
             this.ltComboBox1.ItemsFont = new System.Drawing.Font("Segoe UI Semibold", 9F);
             this.ltComboBox1.ItemsForeColor = System.Drawing.Color.White;
             this.ltComboBox1.ItemsHeight = ((byte)(40));
-            this.ltComboBox1.Location = new System.Drawing.Point(1068, 13);
+            this.ltComboBox1.Location = new System.Drawing.Point(1107, 13);
             this.ltComboBox1.Name = "ltComboBox1";
-            this.ltComboBox1.Size = new System.Drawing.Size(270, 45);
+            this.ltComboBox1.Size = new System.Drawing.Size(226, 45);
             this.ltComboBox1.TabIndex = 2;
             this.ltComboBox1.TopDirection = true;
             // 
@@ -135,6 +297,16 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.checkBox4);
+            this.Controls.Add(this.checkBox3);
+            this.Controls.Add(this.checkBox2);
+            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.ltComboBox1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
@@ -158,5 +330,15 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private Controls.LTComboBox ltComboBox1;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
     }
 }
