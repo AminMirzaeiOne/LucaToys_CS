@@ -61,6 +61,9 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(346, 40);
             this.panel2.TabIndex = 0;
+            this.panel2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseDown);
+            this.panel2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseMove);
+            this.panel2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseUp);
             // 
             // label2
             // 
@@ -105,6 +108,7 @@
             this.btnClose.TabIndex = 48;
             this.btnClose.Text = "";
             this.btnClose.UseVisualStyleBackColor = false;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // tableLayoutPanel1
             // 
