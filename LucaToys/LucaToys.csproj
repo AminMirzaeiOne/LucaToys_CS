@@ -518,6 +518,12 @@
     <Compile Include="Widgets\MiniCalculator.Designer.cs">
       <DependentUpon>MiniCalculator.cs</DependentUpon>
     </Compile>
+    <Compile Include="Widgets\Weather.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Widgets\Weather.Designer.cs">
+      <DependentUpon>Weather.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Controls\LTComboBox.resx">
       <DependentUpon>LTComboBox.cs</DependentUpon>
     </EmbeddedResource>
@@ -765,6 +771,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Widgets\MiniCalculator.resx">
       <DependentUpon>MiniCalculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\Weather.resx">
+      <DependentUpon>Weather.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="LucaToysLinq.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>
