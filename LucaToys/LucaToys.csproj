@@ -548,6 +548,12 @@
     <Compile Include="Widgets\Weather.Designer.cs">
       <DependentUpon>Weather.cs</DependentUpon>
     </Compile>
+    <Compile Include="Widgets\WhiteBoard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Widgets\WhiteBoard.Designer.cs">
+      <DependentUpon>WhiteBoard.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Controls\LTComboBox.resx">
       <DependentUpon>LTComboBox.cs</DependentUpon>
     </EmbeddedResource>
@@ -810,6 +816,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Widgets\Weather.resx">
       <DependentUpon>Weather.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\WhiteBoard.resx">
+      <DependentUpon>WhiteBoard.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="LucaToysLinq.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>
