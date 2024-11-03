@@ -31,19 +31,20 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.miniCalculator1 = new LucaToys.Widgets.MiniCalculator();
+            this.analogClock1 = new LucaToys.Widgets.AnalogClock();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.homeStatus1 = new LucaToys.Menus.HomeStatus();
             this.label2 = new System.Windows.Forms.Label();
+            this.homeTopMenu1 = new LucaToys.Menus.HomeTopMenu();
             this.btnControl = new System.Windows.Forms.Button();
             this.btnMinimize = new System.Windows.Forms.Button();
             this.btnMaximize = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.analogClock1 = new LucaToys.Widgets.AnalogClock();
-            this.homeStatus1 = new LucaToys.Menus.HomeStatus();
-            this.homeTopMenu1 = new LucaToys.Menus.HomeTopMenu();
             this.ltSmallMenu1 = new LucaToys.Controls.LTSmallMenu();
-            this.miniCalculator1 = new LucaToys.Widgets.MiniCalculator();
+            this.digitalClock1 = new LucaToys.Widgets.DigitalClock();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -87,6 +88,7 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.Transparent;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel2.Controls.Add(this.digitalClock1);
             this.panel2.Controls.Add(this.miniCalculator1);
             this.panel2.Controls.Add(this.analogClock1);
             this.panel2.Controls.Add(this.label4);
@@ -96,6 +98,21 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1344, 460);
             this.panel2.TabIndex = 28;
+            // 
+            // miniCalculator1
+            // 
+            this.miniCalculator1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.miniCalculator1.Location = new System.Drawing.Point(410, 22);
+            this.miniCalculator1.Name = "miniCalculator1";
+            this.miniCalculator1.Size = new System.Drawing.Size(350, 350);
+            this.miniCalculator1.TabIndex = 6;
+            // 
+            // analogClock1
+            // 
+            this.analogClock1.Location = new System.Drawing.Point(5, 22);
+            this.analogClock1.Name = "analogClock1";
+            this.analogClock1.Size = new System.Drawing.Size(350, 350);
+            this.analogClock1.TabIndex = 5;
             // 
             // label4
             // 
@@ -119,6 +136,15 @@
             this.label3.TabIndex = 3;
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // homeStatus1
+            // 
+            this.homeStatus1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.homeStatus1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.homeStatus1.Location = new System.Drawing.Point(0, 624);
+            this.homeStatus1.Name = "homeStatus1";
+            this.homeStatus1.Size = new System.Drawing.Size(1344, 70);
+            this.homeStatus1.TabIndex = 27;
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -132,6 +158,15 @@
             this.label2.TabIndex = 26;
             this.label2.Text = "Home Window";
             this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // homeTopMenu1
+            // 
+            this.homeTopMenu1.BackColor = System.Drawing.Color.White;
+            this.homeTopMenu1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.homeTopMenu1.Location = new System.Drawing.Point(0, 36);
+            this.homeTopMenu1.Name = "homeTopMenu1";
+            this.homeTopMenu1.Size = new System.Drawing.Size(1344, 128);
+            this.homeTopMenu1.TabIndex = 19;
             // 
             // btnControl
             // 
@@ -217,31 +252,6 @@
             this.label1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label1_MouseMove);
             this.label1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.label1_MouseUp);
             // 
-            // analogClock1
-            // 
-            this.analogClock1.Location = new System.Drawing.Point(126, 38);
-            this.analogClock1.Name = "analogClock1";
-            this.analogClock1.Size = new System.Drawing.Size(350, 350);
-            this.analogClock1.TabIndex = 5;
-            // 
-            // homeStatus1
-            // 
-            this.homeStatus1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.homeStatus1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.homeStatus1.Location = new System.Drawing.Point(0, 624);
-            this.homeStatus1.Name = "homeStatus1";
-            this.homeStatus1.Size = new System.Drawing.Size(1344, 70);
-            this.homeStatus1.TabIndex = 27;
-            // 
-            // homeTopMenu1
-            // 
-            this.homeTopMenu1.BackColor = System.Drawing.Color.White;
-            this.homeTopMenu1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.homeTopMenu1.Location = new System.Drawing.Point(0, 36);
-            this.homeTopMenu1.Name = "homeTopMenu1";
-            this.homeTopMenu1.Size = new System.Drawing.Size(1344, 128);
-            this.homeTopMenu1.TabIndex = 19;
-            // 
             // ltSmallMenu1
             // 
             this.ltSmallMenu1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
@@ -256,13 +266,13 @@
             this.ltSmallMenu1.SymbolWidth = ((byte)(40));
             this.ltSmallMenu1.Width = ((byte)(230));
             // 
-            // miniCalculator1
+            // digitalClock1
             // 
-            this.miniCalculator1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.miniCalculator1.Location = new System.Drawing.Point(700, 48);
-            this.miniCalculator1.Name = "miniCalculator1";
-            this.miniCalculator1.Size = new System.Drawing.Size(350, 350);
-            this.miniCalculator1.TabIndex = 6;
+            this.digitalClock1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.digitalClock1.Location = new System.Drawing.Point(842, 22);
+            this.digitalClock1.Name = "digitalClock1";
+            this.digitalClock1.Size = new System.Drawing.Size(350, 200);
+            this.digitalClock1.TabIndex = 7;
             // 
             // Home
             // 
@@ -301,5 +311,6 @@
         private System.Windows.Forms.Label label4;
         private Widgets.AnalogClock analogClock1;
         private Widgets.MiniCalculator miniCalculator1;
+        private Widgets.DigitalClock digitalClock1;
     }
 }
