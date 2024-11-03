@@ -31,15 +31,6 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pcPower1 = new LucaToys.Widgets.PCPower();
-            this.currency1 = new LucaToys.Widgets.Currency();
-            this.puzzleGame1 = new LucaToys.Widgets.PuzzleGame();
-            this.hardwareInfo1 = new LucaToys.Widgets.HardwareInfo();
-            this.weather1 = new LucaToys.Widgets.Weather();
-            this.calender1 = new LucaToys.Widgets.Calender();
-            this.digitalClock1 = new LucaToys.Widgets.DigitalClock();
-            this.miniCalculator1 = new LucaToys.Widgets.MiniCalculator();
-            this.analogClock1 = new LucaToys.Widgets.AnalogClock();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.homeStatus1 = new LucaToys.Menus.HomeStatus();
@@ -51,7 +42,6 @@
             this.btnClose = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.ltSmallMenu1 = new LucaToys.Controls.LTSmallMenu();
-            this.whiteBoard1 = new LucaToys.Widgets.WhiteBoard();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -95,16 +85,6 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.Transparent;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel2.Controls.Add(this.whiteBoard1);
-            this.panel2.Controls.Add(this.pcPower1);
-            this.panel2.Controls.Add(this.currency1);
-            this.panel2.Controls.Add(this.puzzleGame1);
-            this.panel2.Controls.Add(this.hardwareInfo1);
-            this.panel2.Controls.Add(this.weather1);
-            this.panel2.Controls.Add(this.calender1);
-            this.panel2.Controls.Add(this.digitalClock1);
-            this.panel2.Controls.Add(this.miniCalculator1);
-            this.panel2.Controls.Add(this.analogClock1);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -112,76 +92,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1344, 460);
             this.panel2.TabIndex = 28;
-            // 
-            // pcPower1
-            // 
-            this.pcPower1.Location = new System.Drawing.Point(885, 174);
-            this.pcPower1.Name = "pcPower1";
-            this.pcPower1.Size = new System.Drawing.Size(350, 350);
-            this.pcPower1.TabIndex = 13;
-            // 
-            // currency1
-            // 
-            this.currency1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.currency1.Location = new System.Drawing.Point(961, 174);
-            this.currency1.Name = "currency1";
-            this.currency1.Size = new System.Drawing.Size(350, 350);
-            this.currency1.TabIndex = 12;
-            // 
-            // puzzleGame1
-            // 
-            this.puzzleGame1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.puzzleGame1.Location = new System.Drawing.Point(793, 58);
-            this.puzzleGame1.Name = "puzzleGame1";
-            this.puzzleGame1.Size = new System.Drawing.Size(350, 350);
-            this.puzzleGame1.TabIndex = 11;
-            // 
-            // hardwareInfo1
-            // 
-            this.hardwareInfo1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hardwareInfo1.Location = new System.Drawing.Point(779, 218);
-            this.hardwareInfo1.Name = "hardwareInfo1";
-            this.hardwareInfo1.Size = new System.Drawing.Size(350, 350);
-            this.hardwareInfo1.TabIndex = 10;
-            // 
-            // weather1
-            // 
-            this.weather1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.weather1.Location = new System.Drawing.Point(1212, 69);
-            this.weather1.Name = "weather1";
-            this.weather1.Size = new System.Drawing.Size(350, 350);
-            this.weather1.TabIndex = 9;
-            // 
-            // calender1
-            // 
-            this.calender1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.calender1.Location = new System.Drawing.Point(842, 122);
-            this.calender1.Name = "calender1";
-            this.calender1.Size = new System.Drawing.Size(350, 350);
-            this.calender1.TabIndex = 8;
-            // 
-            // digitalClock1
-            // 
-            this.digitalClock1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.digitalClock1.Location = new System.Drawing.Point(842, 22);
-            this.digitalClock1.Name = "digitalClock1";
-            this.digitalClock1.Size = new System.Drawing.Size(350, 200);
-            this.digitalClock1.TabIndex = 7;
-            // 
-            // miniCalculator1
-            // 
-            this.miniCalculator1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.miniCalculator1.Location = new System.Drawing.Point(410, 22);
-            this.miniCalculator1.Name = "miniCalculator1";
-            this.miniCalculator1.Size = new System.Drawing.Size(350, 350);
-            this.miniCalculator1.TabIndex = 6;
-            // 
-            // analogClock1
-            // 
-            this.analogClock1.Location = new System.Drawing.Point(5, 22);
-            this.analogClock1.Name = "analogClock1";
-            this.analogClock1.Size = new System.Drawing.Size(350, 350);
-            this.analogClock1.TabIndex = 5;
             // 
             // label4
             // 
@@ -335,14 +245,6 @@
             this.ltSmallMenu1.SymbolWidth = ((byte)(40));
             this.ltSmallMenu1.Width = ((byte)(230));
             // 
-            // whiteBoard1
-            // 
-            this.whiteBoard1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.whiteBoard1.Location = new System.Drawing.Point(793, 122);
-            this.whiteBoard1.Name = "whiteBoard1";
-            this.whiteBoard1.Size = new System.Drawing.Size(350, 350);
-            this.whiteBoard1.TabIndex = 14;
-            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
@@ -378,15 +280,5 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private Widgets.AnalogClock analogClock1;
-        private Widgets.MiniCalculator miniCalculator1;
-        private Widgets.DigitalClock digitalClock1;
-        private Widgets.Calender calender1;
-        private Widgets.Weather weather1;
-        private Widgets.HardwareInfo hardwareInfo1;
-        private Widgets.PuzzleGame puzzleGame1;
-        private Widgets.Currency currency1;
-        private Widgets.PCPower pcPower1;
-        private Widgets.WhiteBoard whiteBoard1;
     }
 }
