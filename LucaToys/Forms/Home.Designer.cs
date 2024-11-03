@@ -39,6 +39,7 @@
             this.btnMaximize = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.currency1 = new LucaToys.Widgets.Currency();
             this.puzzleGame1 = new LucaToys.Widgets.PuzzleGame();
             this.hardwareInfo1 = new LucaToys.Widgets.HardwareInfo();
             this.weather1 = new LucaToys.Widgets.Weather();
@@ -49,7 +50,7 @@
             this.homeStatus1 = new LucaToys.Menus.HomeStatus();
             this.homeTopMenu1 = new LucaToys.Menus.HomeTopMenu();
             this.ltSmallMenu1 = new LucaToys.Controls.LTSmallMenu();
-            this.currency1 = new LucaToys.Widgets.Currency();
+            this.pcPower1 = new LucaToys.Widgets.PCPower();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -93,6 +94,7 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.Transparent;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel2.Controls.Add(this.pcPower1);
             this.panel2.Controls.Add(this.currency1);
             this.panel2.Controls.Add(this.puzzleGame1);
             this.panel2.Controls.Add(this.hardwareInfo1);
@@ -229,6 +231,14 @@
             this.label1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label1_MouseMove);
             this.label1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.label1_MouseUp);
             // 
+            // currency1
+            // 
+            this.currency1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.currency1.Location = new System.Drawing.Point(961, 174);
+            this.currency1.Name = "currency1";
+            this.currency1.Size = new System.Drawing.Size(350, 350);
+            this.currency1.TabIndex = 12;
+            // 
             // puzzleGame1
             // 
             this.puzzleGame1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -316,13 +326,12 @@
             this.ltSmallMenu1.SymbolWidth = ((byte)(40));
             this.ltSmallMenu1.Width = ((byte)(230));
             // 
-            // currency1
+            // pcPower1
             // 
-            this.currency1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.currency1.Location = new System.Drawing.Point(961, 174);
-            this.currency1.Name = "currency1";
-            this.currency1.Size = new System.Drawing.Size(350, 350);
-            this.currency1.TabIndex = 12;
+            this.pcPower1.Location = new System.Drawing.Point(885, 174);
+            this.pcPower1.Name = "pcPower1";
+            this.pcPower1.Size = new System.Drawing.Size(350, 350);
+            this.pcPower1.TabIndex = 13;
             // 
             // Home
             // 
@@ -367,5 +376,6 @@
         private Widgets.HardwareInfo hardwareInfo1;
         private Widgets.PuzzleGame puzzleGame1;
         private Widgets.Currency currency1;
+        private Widgets.PCPower pcPower1;
     }
 }
