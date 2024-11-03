@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace LucaToys.Widgets
 {
-    public partial class AnalogClock : Widgets.Widget
+    public partial class AnalogClock : System.Windows.Forms.UserControl 
     {
         public AnalogClock()
         {
