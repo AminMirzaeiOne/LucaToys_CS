@@ -751,6 +751,9 @@
     <EmbeddedResource Include="Widgets\AnalogClock.resx">
       <DependentUpon>AnalogClock.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\DigitalClock.resx">
+      <DependentUpon>DigitalClock.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Widgets\MiniCalculator.resx">
       <DependentUpon>MiniCalculator.cs</DependentUpon>
     </EmbeddedResource>
