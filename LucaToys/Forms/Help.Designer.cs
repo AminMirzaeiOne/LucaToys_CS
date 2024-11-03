@@ -122,6 +122,7 @@
             this.btnMinimize.TabIndex = 48;
             this.btnMinimize.Text = "";
             this.btnMinimize.UseVisualStyleBackColor = false;
+            this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
             // 
             // btnMaximize
             // 
@@ -138,6 +139,7 @@
             this.btnMaximize.TabIndex = 49;
             this.btnMaximize.Text = "";
             this.btnMaximize.UseVisualStyleBackColor = false;
+            this.btnMaximize.Click += new System.EventHandler(this.btnMaximize_Click);
             // 
             // btnClose
             // 
@@ -154,6 +156,7 @@
             this.btnClose.TabIndex = 50;
             this.btnClose.Text = "";
             this.btnClose.UseVisualStyleBackColor = false;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // Help
             // 
