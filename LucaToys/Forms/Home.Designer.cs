@@ -39,13 +39,14 @@
             this.btnMaximize = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.calender1 = new LucaToys.Widgets.Calender();
             this.digitalClock1 = new LucaToys.Widgets.DigitalClock();
             this.miniCalculator1 = new LucaToys.Widgets.MiniCalculator();
             this.analogClock1 = new LucaToys.Widgets.AnalogClock();
             this.homeStatus1 = new LucaToys.Menus.HomeStatus();
             this.homeTopMenu1 = new LucaToys.Menus.HomeTopMenu();
             this.ltSmallMenu1 = new LucaToys.Controls.LTSmallMenu();
-            this.calender1 = new LucaToys.Widgets.Calender();
+            this.weather1 = new LucaToys.Widgets.Weather();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -89,6 +90,7 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.Transparent;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel2.Controls.Add(this.weather1);
             this.panel2.Controls.Add(this.calender1);
             this.panel2.Controls.Add(this.digitalClock1);
             this.panel2.Controls.Add(this.miniCalculator1);
@@ -221,6 +223,14 @@
             this.label1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label1_MouseMove);
             this.label1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.label1_MouseUp);
             // 
+            // calender1
+            // 
+            this.calender1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.calender1.Location = new System.Drawing.Point(842, 122);
+            this.calender1.Name = "calender1";
+            this.calender1.Size = new System.Drawing.Size(350, 350);
+            this.calender1.TabIndex = 8;
+            // 
             // digitalClock1
             // 
             this.digitalClock1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -276,13 +286,13 @@
             this.ltSmallMenu1.SymbolWidth = ((byte)(40));
             this.ltSmallMenu1.Width = ((byte)(230));
             // 
-            // calender1
+            // weather1
             // 
-            this.calender1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.calender1.Location = new System.Drawing.Point(842, 122);
-            this.calender1.Name = "calender1";
-            this.calender1.Size = new System.Drawing.Size(350, 350);
-            this.calender1.TabIndex = 8;
+            this.weather1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.weather1.Location = new System.Drawing.Point(1212, 69);
+            this.weather1.Name = "weather1";
+            this.weather1.Size = new System.Drawing.Size(350, 350);
+            this.weather1.TabIndex = 9;
             // 
             // Home
             // 
@@ -323,5 +333,6 @@
         private Widgets.MiniCalculator miniCalculator1;
         private Widgets.DigitalClock digitalClock1;
         private Widgets.Calender calender1;
+        private Widgets.Weather weather1;
     }
 }

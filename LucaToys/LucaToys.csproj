@@ -512,6 +512,12 @@
     <Compile Include="Widgets\DigitalClock.Designer.cs">
       <DependentUpon>DigitalClock.cs</DependentUpon>
     </Compile>
+    <Compile Include="Widgets\HardwareInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Widgets\HardwareInfo.Designer.cs">
+      <DependentUpon>HardwareInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Widgets\MiniCalculator.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -768,6 +774,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Widgets\DigitalClock.resx">
       <DependentUpon>DigitalClock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\HardwareInfo.resx">
+      <DependentUpon>HardwareInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Widgets\MiniCalculator.resx">
       <DependentUpon>MiniCalculator.cs</DependentUpon>
