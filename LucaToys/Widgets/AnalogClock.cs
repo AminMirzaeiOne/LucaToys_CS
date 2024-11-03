@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Drawing2D;
+using System.Drawing.Text;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,7 +12,7 @@ using System.Windows.Forms;
 
 namespace LucaToys.Widgets
 {
-    public partial class AnalogClock : System.Windows.Forms.UserControl 
+    public partial class AnalogClock : System.Windows.Forms.UserControl
     {
         private bool mouseDown;
         private Point lastLocation;
@@ -41,6 +43,16 @@ namespace LucaToys.Widgets
         private void panel1_MouseUp(object sender, MouseEventArgs e)
         {
             this.mouseDown = false;
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+           
+        }
+
+        private void AnalogMouseDown(object sender, MouseEventArgs e)
+        {
+            
         }
     }
 }

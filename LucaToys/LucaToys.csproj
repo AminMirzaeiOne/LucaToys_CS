@@ -500,6 +500,12 @@
     <Compile Include="Widgets\AnalogClock.Designer.cs">
       <DependentUpon>AnalogClock.cs</DependentUpon>
     </Compile>
+    <Compile Include="Widgets\MiniCalculator.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Widgets\MiniCalculator.Designer.cs">
+      <DependentUpon>MiniCalculator.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Controls\LTComboBox.resx">
       <DependentUpon>LTComboBox.cs</DependentUpon>
     </EmbeddedResource>
@@ -738,6 +744,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Widgets\AnalogClock.resx">
       <DependentUpon>AnalogClock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\MiniCalculator.resx">
+      <DependentUpon>MiniCalculator.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="LucaToysLinq.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>
@@ -1069,6 +1078,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>LucaToysData.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\icons8-to-do-list-48.png" />
     <None Include="Resources\icons8-view-48 %281%29.png" />
     <None Include="Resources\icons8-screensharing-48.png" />
     <None Include="Resources\icons8-change-theme-48.png" />

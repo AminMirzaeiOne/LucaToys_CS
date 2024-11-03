@@ -31,8 +31,8 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btnClose = new System.Windows.Forms.Button();
             this.btnControl = new System.Windows.Forms.Button();
+            this.btnClose = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -62,9 +62,8 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(346, 346);
             this.panel1.TabIndex = 0;
-            this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
-            this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
-            this.panel1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseUp);
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.AnalogMouseDown);
             // 
             // panel2
             // 
@@ -79,6 +78,21 @@
             this.panel2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             this.panel2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
             this.panel2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseUp);
+            // 
+            // btnControl
+            // 
+            this.btnControl.BackColor = System.Drawing.Color.White;
+            this.btnControl.FlatAppearance.BorderSize = 0;
+            this.btnControl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnControl.Font = new System.Drawing.Font("Segoe MDL2 Assets", 7F, System.Drawing.FontStyle.Bold);
+            this.btnControl.ForeColor = System.Drawing.Color.Plum;
+            this.btnControl.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.btnControl.Location = new System.Drawing.Point(8, 7);
+            this.btnControl.Name = "btnControl";
+            this.btnControl.Size = new System.Drawing.Size(25, 25);
+            this.btnControl.TabIndex = 49;
+            this.btnControl.Text = "";
+            this.btnControl.UseVisualStyleBackColor = false;
             // 
             // btnClose
             // 
@@ -95,21 +109,6 @@
             this.btnClose.TabIndex = 48;
             this.btnClose.Text = "";
             this.btnClose.UseVisualStyleBackColor = false;
-            // 
-            // btnControl
-            // 
-            this.btnControl.BackColor = System.Drawing.Color.White;
-            this.btnControl.FlatAppearance.BorderSize = 0;
-            this.btnControl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnControl.Font = new System.Drawing.Font("Segoe MDL2 Assets", 7F, System.Drawing.FontStyle.Bold);
-            this.btnControl.ForeColor = System.Drawing.Color.Plum;
-            this.btnControl.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnControl.Location = new System.Drawing.Point(8, 7);
-            this.btnControl.Name = "btnControl";
-            this.btnControl.Size = new System.Drawing.Size(25, 25);
-            this.btnControl.TabIndex = 49;
-            this.btnControl.Text = "";
-            this.btnControl.UseVisualStyleBackColor = false;
             // 
             // AnalogClock
             // 
