@@ -1078,6 +1078,8 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>LucaToysData.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\icons8-view-48 %281%29.png" />
+    <None Include="Resources\icons8-screensharing-48.png" />
     <None Include="Resources\icons8-change-theme-48.png" />
     <None Include="Resources\icons8-language-48.png" />
     <None Include="Resources\icons8-english-26.png" />
