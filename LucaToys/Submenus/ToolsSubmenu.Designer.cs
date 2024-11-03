@@ -39,6 +39,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -54,7 +55,7 @@
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(270, 590);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(270, 660);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // panel1
@@ -63,6 +64,7 @@
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.button7);
+            this.panel1.Controls.Add(this.button10);
             this.panel1.Controls.Add(this.button8);
             this.panel1.Controls.Add(this.button9);
             this.panel1.Controls.Add(this.button6);
@@ -73,7 +75,7 @@
             this.panel1.Location = new System.Drawing.Point(2, 2);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(266, 586);
+            this.panel1.Size = new System.Drawing.Size(266, 656);
             this.panel1.TabIndex = 0;
             // 
             // button4
@@ -91,7 +93,7 @@
             this.button4.Image = global::LucaToys.Properties.Resources.icons8_translate_48;
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button4.Location = new System.Drawing.Point(0, 520);
+            this.button4.Location = new System.Drawing.Point(0, 585);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(266, 65);
             this.button4.TabIndex = 9;
@@ -116,7 +118,7 @@
             this.button5.Image = global::LucaToys.Properties.Resources.icons8_web_design_48;
             this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button5.Location = new System.Drawing.Point(0, 455);
+            this.button5.Location = new System.Drawing.Point(0, 520);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(266, 65);
             this.button5.TabIndex = 10;
@@ -141,7 +143,7 @@
             this.button7.Image = global::LucaToys.Properties.Resources.icons8_start_48;
             this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button7.Location = new System.Drawing.Point(0, 390);
+            this.button7.Location = new System.Drawing.Point(0, 455);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(266, 65);
             this.button7.TabIndex = 12;
@@ -300,6 +302,30 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.Transparent;
+            this.button10.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.button10.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button10.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
+            this.button10.FlatAppearance.BorderSize = 0;
+            this.button10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Orchid;
+            this.button10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button10.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
+            this.button10.ForeColor = System.Drawing.Color.White;
+            this.button10.Image = global::LucaToys.Properties.Resources.icons8_note_48__1_;
+            this.button10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button10.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button10.Location = new System.Drawing.Point(0, 390);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(266, 65);
+            this.button10.TabIndex = 15;
+            this.button10.Text = " Sticky Note";
+            this.button10.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button10.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button10.UseVisualStyleBackColor = false;
+            // 
             // ToolsSubmenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
@@ -307,7 +333,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "ToolsSubmenu";
-            this.Size = new System.Drawing.Size(270, 590);
+            this.Size = new System.Drawing.Size(270, 660);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -327,5 +353,6 @@
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button10;
     }
 }
