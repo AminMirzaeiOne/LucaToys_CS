@@ -16,5 +16,10 @@ namespace LucaToys.Widgets
         {
             InitializeComponent();
         }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }

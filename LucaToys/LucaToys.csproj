@@ -802,6 +802,9 @@
     <EmbeddedResource Include="Widgets\MiniCalculator.resx">
       <DependentUpon>MiniCalculator.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\PCPower.resx">
+      <DependentUpon>PCPower.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Widgets\PuzzleGame.resx">
       <DependentUpon>PuzzleGame.cs</DependentUpon>
     </EmbeddedResource>
