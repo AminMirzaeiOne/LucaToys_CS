@@ -41,5 +41,10 @@ namespace LucaToys.Widgets
         {
             this.mouseDown = false;
         }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }
