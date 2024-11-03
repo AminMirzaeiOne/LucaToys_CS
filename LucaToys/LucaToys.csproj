@@ -524,6 +524,12 @@
     <Compile Include="Widgets\HardwareInfo.Designer.cs">
       <DependentUpon>HardwareInfo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Widgets\ManagerProfile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Widgets\ManagerProfile.Designer.cs">
+      <DependentUpon>ManagerProfile.cs</DependentUpon>
+    </Compile>
     <Compile Include="Widgets\MiniCalculator.cs">
       <SubType>UserControl</SubType>
     </Compile>
