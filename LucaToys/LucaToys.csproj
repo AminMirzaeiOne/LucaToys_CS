@@ -530,6 +530,12 @@
     <Compile Include="Widgets\MiniCalculator.Designer.cs">
       <DependentUpon>MiniCalculator.cs</DependentUpon>
     </Compile>
+    <Compile Include="Widgets\PCPower.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Widgets\PCPower.Designer.cs">
+      <DependentUpon>PCPower.cs</DependentUpon>
+    </Compile>
     <Compile Include="Widgets\PuzzleGame.cs">
       <SubType>UserControl</SubType>
     </Compile>
