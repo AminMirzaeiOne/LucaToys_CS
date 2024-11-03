@@ -157,7 +157,7 @@
             // 
             // label2
             // 
-            this.label2.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.label2.BackColor = System.Drawing.Color.Plum;
             this.label2.Dock = System.Windows.Forms.DockStyle.Top;
             this.label2.Location = new System.Drawing.Point(0, 393);
             this.label2.Name = "label2";
@@ -241,7 +241,7 @@
             // 
             // label1
             // 
-            this.label1.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.label1.BackColor = System.Drawing.Color.Plum;
             this.label1.Dock = System.Windows.Forms.DockStyle.Top;
             this.label1.Location = new System.Drawing.Point(0, 195);
             this.label1.Name = "label1";
