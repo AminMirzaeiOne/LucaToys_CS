@@ -15,6 +15,7 @@ namespace LucaToys.Widgets
         private bool mouseDown;
         private Point lastLocation;
 
+
         public AnalogClock()
         {
             InitializeComponent();
@@ -39,7 +40,7 @@ namespace LucaToys.Widgets
 
         private void panel1_MouseUp(object sender, MouseEventArgs e)
         {
-            this.mouseDown = false; 
+            this.mouseDown = false;
         }
     }
 }
