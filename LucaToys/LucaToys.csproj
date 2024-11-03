@@ -629,6 +629,9 @@
     <EmbeddedResource Include="Forms\Drawing.resx">
       <DependentUpon>Drawing.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Export.resx">
+      <DependentUpon>Export.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Help.resx">
       <DependentUpon>Help.cs</DependentUpon>
     </EmbeddedResource>
