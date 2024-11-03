@@ -542,6 +542,12 @@
     <Compile Include="Widgets\PuzzleGame.Designer.cs">
       <DependentUpon>PuzzleGame.cs</DependentUpon>
     </Compile>
+    <Compile Include="Widgets\SalesChart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Widgets\SalesChart.Designer.cs">
+      <DependentUpon>SalesChart.cs</DependentUpon>
+    </Compile>
     <Compile Include="Widgets\Weather.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -813,6 +819,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Widgets\PuzzleGame.resx">
       <DependentUpon>PuzzleGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\SalesChart.resx">
+      <DependentUpon>SalesChart.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Widgets\Weather.resx">
       <DependentUpon>Weather.cs</DependentUpon>
