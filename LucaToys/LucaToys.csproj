@@ -524,6 +524,12 @@
     <Compile Include="Widgets\MiniCalculator.Designer.cs">
       <DependentUpon>MiniCalculator.cs</DependentUpon>
     </Compile>
+    <Compile Include="Widgets\PuzzleGame.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Widgets\PuzzleGame.Designer.cs">
+      <DependentUpon>PuzzleGame.cs</DependentUpon>
+    </Compile>
     <Compile Include="Widgets\Weather.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -780,6 +786,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Widgets\MiniCalculator.resx">
       <DependentUpon>MiniCalculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\PuzzleGame.resx">
+      <DependentUpon>PuzzleGame.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Widgets\Weather.resx">
       <DependentUpon>Weather.cs</DependentUpon>
