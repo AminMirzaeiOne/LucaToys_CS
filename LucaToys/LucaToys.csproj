@@ -823,6 +823,9 @@
     <EmbeddedResource Include="Widgets\HardwareInfo.resx">
       <DependentUpon>HardwareInfo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\ManagerProfile.resx">
+      <DependentUpon>ManagerProfile.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Widgets\MiniCalculator.resx">
       <DependentUpon>MiniCalculator.cs</DependentUpon>
     </EmbeddedResource>
