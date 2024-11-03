@@ -30,22 +30,22 @@
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.CheckBox();
+            this.button13 = new System.Windows.Forms.CheckBox();
+            this.button12 = new System.Windows.Forms.CheckBox();
+            this.button10 = new System.Windows.Forms.CheckBox();
+            this.button9 = new System.Windows.Forms.CheckBox();
+            this.button8 = new System.Windows.Forms.CheckBox();
+            this.button7 = new System.Windows.Forms.CheckBox();
+            this.button6 = new System.Windows.Forms.CheckBox();
+            this.button5 = new System.Windows.Forms.CheckBox();
+            this.button4 = new System.Windows.Forms.CheckBox();
+            this.button3 = new System.Windows.Forms.CheckBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.CheckBox();
+            this.button2 = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.button11 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.CheckBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -93,11 +93,13 @@
             // 
             // button14
             // 
+            this.button14.Appearance = System.Windows.Forms.Appearance.Button;
             this.button14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.button14.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button14.Dock = System.Windows.Forms.DockStyle.Top;
             this.button14.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
             this.button14.FlatAppearance.BorderSize = 0;
+            this.button14.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
             this.button14.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Orchid;
             this.button14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
             this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -117,11 +119,13 @@
             // 
             // button13
             // 
+            this.button13.Appearance = System.Windows.Forms.Appearance.Button;
             this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.button13.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button13.Dock = System.Windows.Forms.DockStyle.Top;
             this.button13.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
             this.button13.FlatAppearance.BorderSize = 0;
+            this.button13.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
             this.button13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Orchid;
             this.button13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -141,11 +145,13 @@
             // 
             // button12
             // 
+            this.button12.Appearance = System.Windows.Forms.Appearance.Button;
             this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.button12.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button12.Dock = System.Windows.Forms.DockStyle.Top;
             this.button12.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
             this.button12.FlatAppearance.BorderSize = 0;
+            this.button12.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
             this.button12.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Orchid;
             this.button12.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -165,11 +171,13 @@
             // 
             // button10
             // 
+            this.button10.Appearance = System.Windows.Forms.Appearance.Button;
             this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.button10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button10.Dock = System.Windows.Forms.DockStyle.Top;
             this.button10.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
             this.button10.FlatAppearance.BorderSize = 0;
+            this.button10.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
             this.button10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Orchid;
             this.button10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -189,11 +197,13 @@
             // 
             // button9
             // 
+            this.button9.Appearance = System.Windows.Forms.Appearance.Button;
             this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button9.Dock = System.Windows.Forms.DockStyle.Top;
             this.button9.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
             this.button9.FlatAppearance.BorderSize = 0;
+            this.button9.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
             this.button9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Orchid;
             this.button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -213,11 +223,13 @@
             // 
             // button8
             // 
+            this.button8.Appearance = System.Windows.Forms.Appearance.Button;
             this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button8.Dock = System.Windows.Forms.DockStyle.Top;
             this.button8.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
             this.button8.FlatAppearance.BorderSize = 0;
+            this.button8.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
             this.button8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Orchid;
             this.button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -237,11 +249,13 @@
             // 
             // button7
             // 
+            this.button7.Appearance = System.Windows.Forms.Appearance.Button;
             this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button7.Dock = System.Windows.Forms.DockStyle.Top;
             this.button7.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
             this.button7.FlatAppearance.BorderSize = 0;
+            this.button7.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
             this.button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Orchid;
             this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -261,11 +275,13 @@
             // 
             // button6
             // 
+            this.button6.Appearance = System.Windows.Forms.Appearance.Button;
             this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button6.Dock = System.Windows.Forms.DockStyle.Top;
             this.button6.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
             this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
             this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Orchid;
             this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -285,11 +301,13 @@
             // 
             // button5
             // 
+            this.button5.Appearance = System.Windows.Forms.Appearance.Button;
             this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button5.Dock = System.Windows.Forms.DockStyle.Top;
             this.button5.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
             this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
             this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Orchid;
             this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -309,11 +327,13 @@
             // 
             // button4
             // 
+            this.button4.Appearance = System.Windows.Forms.Appearance.Button;
             this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.Dock = System.Windows.Forms.DockStyle.Top;
             this.button4.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
             this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
             this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Orchid;
             this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -333,11 +353,13 @@
             // 
             // button3
             // 
+            this.button3.Appearance = System.Windows.Forms.Appearance.Button;
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.Dock = System.Windows.Forms.DockStyle.Top;
             this.button3.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
             this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
             this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Orchid;
             this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -366,11 +388,13 @@
             // 
             // button1
             // 
+            this.button1.Appearance = System.Windows.Forms.Appearance.Button;
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Dock = System.Windows.Forms.DockStyle.Top;
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
             this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
             this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Orchid;
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -390,11 +414,13 @@
             // 
             // button2
             // 
+            this.button2.Appearance = System.Windows.Forms.Appearance.Button;
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Dock = System.Windows.Forms.DockStyle.Top;
             this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
             this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
             this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Orchid;
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -423,11 +449,13 @@
             // 
             // button11
             // 
+            this.button11.Appearance = System.Windows.Forms.Appearance.Button;
             this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.button11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button11.Dock = System.Windows.Forms.DockStyle.Top;
             this.button11.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
             this.button11.FlatAppearance.BorderSize = 0;
+            this.button11.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
             this.button11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Orchid;
             this.button11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -463,21 +491,21 @@
 
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.CheckBox button1;
+        private System.Windows.Forms.CheckBox button2;
+        private System.Windows.Forms.CheckBox button3;
+        private System.Windows.Forms.CheckBox button4;
+        private System.Windows.Forms.CheckBox button5;
+        private System.Windows.Forms.CheckBox button6;
+        private System.Windows.Forms.CheckBox button7;
+        private System.Windows.Forms.CheckBox button8;
+        private System.Windows.Forms.CheckBox button9;
+        private System.Windows.Forms.CheckBox button10;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.CheckBox button11;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.CheckBox button12;
+        private System.Windows.Forms.CheckBox button13;
+        private System.Windows.Forms.CheckBox button14;
     }
 }
