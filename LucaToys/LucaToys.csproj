@@ -500,6 +500,12 @@
     <Compile Include="Widgets\AnalogClock.Designer.cs">
       <DependentUpon>AnalogClock.cs</DependentUpon>
     </Compile>
+    <Compile Include="Widgets\DigitalClock.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Widgets\DigitalClock.Designer.cs">
+      <DependentUpon>DigitalClock.cs</DependentUpon>
+    </Compile>
     <Compile Include="Widgets\MiniCalculator.cs">
       <SubType>UserControl</SubType>
     </Compile>
