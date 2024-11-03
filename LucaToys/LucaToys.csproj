@@ -506,6 +506,12 @@
     <Compile Include="Widgets\Calender.Designer.cs">
       <DependentUpon>Calender.cs</DependentUpon>
     </Compile>
+    <Compile Include="Widgets\Currency.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Widgets\Currency.Designer.cs">
+      <DependentUpon>Currency.cs</DependentUpon>
+    </Compile>
     <Compile Include="Widgets\DigitalClock.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -777,6 +783,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Widgets\Calender.resx">
       <DependentUpon>Calender.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\Currency.resx">
+      <DependentUpon>Currency.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Widgets\DigitalClock.resx">
       <DependentUpon>DigitalClock.cs</DependentUpon>
