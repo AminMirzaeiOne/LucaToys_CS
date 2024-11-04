@@ -77,5 +77,10 @@ namespace LucaToys.Forms
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

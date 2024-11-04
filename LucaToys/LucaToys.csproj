@@ -1195,6 +1195,8 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>LucaToysData.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\icons8-usb-connected-48.png" />
+    <None Include="Resources\icons8-ssd-48.png" />
     <None Include="Resources\icons8-disconnect-48.png" />
     <None Include="Resources\icons8-connect-48.png" />
     <None Include="Resources\icons8-to-do-list-48.png" />

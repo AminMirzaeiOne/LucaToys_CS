@@ -36,9 +36,32 @@
             this.btnMinimize = new System.Windows.Forms.Button();
             this.btnMaximize = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.label3 = new System.Windows.Forms.Label();
+            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.radioButton5 = new System.Windows.Forms.RadioButton();
+            this.radioButton6 = new System.Windows.Forms.RadioButton();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.tableLayoutPanel3.SuspendLayout();
+            this.panel4.SuspendLayout();
+            this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -52,17 +75,22 @@
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(794, 495);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1093, 656);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.panel5);
+            this.panel1.Controls.Add(this.tableLayoutPanel3);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.tableLayoutPanel2);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(788, 489);
+            this.panel1.Size = new System.Drawing.Size(1087, 650);
             this.panel1.TabIndex = 0;
             // 
             // panel2
@@ -76,7 +104,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(788, 36);
+            this.panel2.Size = new System.Drawing.Size(1087, 36);
             this.panel2.TabIndex = 3;
             this.panel2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseDown);
             this.panel2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseMove);
@@ -119,7 +147,7 @@
             this.btnMinimize.Font = new System.Drawing.Font("Segoe MDL2 Assets", 6F, System.Drawing.FontStyle.Bold);
             this.btnMinimize.ForeColor = System.Drawing.Color.Plum;
             this.btnMinimize.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnMinimize.Location = new System.Drawing.Point(689, 5);
+            this.btnMinimize.Location = new System.Drawing.Point(988, 5);
             this.btnMinimize.Name = "btnMinimize";
             this.btnMinimize.Size = new System.Drawing.Size(25, 25);
             this.btnMinimize.TabIndex = 48;
@@ -136,7 +164,7 @@
             this.btnMaximize.Font = new System.Drawing.Font("Segoe MDL2 Assets", 6F, System.Drawing.FontStyle.Bold);
             this.btnMaximize.ForeColor = System.Drawing.Color.Plum;
             this.btnMaximize.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnMaximize.Location = new System.Drawing.Point(723, 5);
+            this.btnMaximize.Location = new System.Drawing.Point(1022, 5);
             this.btnMaximize.Name = "btnMaximize";
             this.btnMaximize.Size = new System.Drawing.Size(25, 25);
             this.btnMaximize.TabIndex = 49;
@@ -153,7 +181,7 @@
             this.btnClose.Font = new System.Drawing.Font("Segoe MDL2 Assets", 6F, System.Drawing.FontStyle.Bold);
             this.btnClose.ForeColor = System.Drawing.Color.Plum;
             this.btnClose.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnClose.Location = new System.Drawing.Point(757, 5);
+            this.btnClose.Location = new System.Drawing.Point(1056, 5);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(25, 25);
             this.btnClose.TabIndex = 50;
@@ -161,12 +189,302 @@
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click_1);
             // 
+            // tableLayoutPanel2
+            // 
+            this.tableLayoutPanel2.ColumnCount = 1;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel2.Controls.Add(this.radioButton6, 0, 5);
+            this.tableLayoutPanel2.Controls.Add(this.radioButton5, 0, 4);
+            this.tableLayoutPanel2.Controls.Add(this.radioButton4, 0, 3);
+            this.tableLayoutPanel2.Controls.Add(this.radioButton3, 0, 2);
+            this.tableLayoutPanel2.Controls.Add(this.radioButton2, 0, 1);
+            this.tableLayoutPanel2.Controls.Add(this.radioButton1, 0, 0);
+            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(0, 36);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 6;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(226, 614);
+            this.tableLayoutPanel2.TabIndex = 4;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.radioButton2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.radioButton2.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.radioButton2.FlatAppearance.BorderSize = 0;
+            this.radioButton2.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
+            this.radioButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radioButton2.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton2.ForeColor = System.Drawing.Color.White;
+            this.radioButton2.Image = global::LucaToys.Properties.Resources.icons8_usb_connected_48;
+            this.radioButton2.Location = new System.Drawing.Point(3, 105);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(220, 96);
+            this.radioButton2.TabIndex = 41;
+            this.radioButton2.Text = "Import Data";
+            this.radioButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radioButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton1.Checked = true;
+            this.radioButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.radioButton1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.radioButton1.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.radioButton1.FlatAppearance.BorderSize = 0;
+            this.radioButton1.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
+            this.radioButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radioButton1.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton1.ForeColor = System.Drawing.Color.White;
+            this.radioButton1.Image = global::LucaToys.Properties.Resources.icons8_ssd_48;
+            this.radioButton1.Location = new System.Drawing.Point(3, 3);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(220, 96);
+            this.radioButton1.TabIndex = 40;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Backup Data";
+            this.radioButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radioButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // radioButton3
+            // 
+            this.radioButton3.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.radioButton3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.radioButton3.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.radioButton3.FlatAppearance.BorderSize = 0;
+            this.radioButton3.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
+            this.radioButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radioButton3.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton3.ForeColor = System.Drawing.Color.White;
+            this.radioButton3.Image = global::LucaToys.Properties.Resources.icons8_export_csv_50;
+            this.radioButton3.Location = new System.Drawing.Point(3, 207);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(220, 96);
+            this.radioButton3.TabIndex = 42;
+            this.radioButton3.Text = "Export CSV File";
+            this.radioButton3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radioButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.radioButton3.UseVisualStyleBackColor = true;
+            // 
+            // label3
+            // 
+            this.label3.BackColor = System.Drawing.Color.Plum;
+            this.label3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label3.Location = new System.Drawing.Point(226, 36);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(3, 614);
+            this.label3.TabIndex = 41;
+            // 
+            // radioButton4
+            // 
+            this.radioButton4.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.radioButton4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.radioButton4.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.radioButton4.FlatAppearance.BorderSize = 0;
+            this.radioButton4.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
+            this.radioButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radioButton4.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton4.ForeColor = System.Drawing.Color.White;
+            this.radioButton4.Image = global::LucaToys.Properties.Resources.icons8_export_excel_50;
+            this.radioButton4.Location = new System.Drawing.Point(3, 309);
+            this.radioButton4.Name = "radioButton4";
+            this.radioButton4.Size = new System.Drawing.Size(220, 96);
+            this.radioButton4.TabIndex = 43;
+            this.radioButton4.Text = "Export Exel File";
+            this.radioButton4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radioButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.radioButton4.UseVisualStyleBackColor = true;
+            // 
+            // radioButton5
+            // 
+            this.radioButton5.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.radioButton5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.radioButton5.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.radioButton5.FlatAppearance.BorderSize = 0;
+            this.radioButton5.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
+            this.radioButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radioButton5.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton5.ForeColor = System.Drawing.Color.White;
+            this.radioButton5.Image = global::LucaToys.Properties.Resources.icons8_export_pdf_48;
+            this.radioButton5.Location = new System.Drawing.Point(3, 411);
+            this.radioButton5.Name = "radioButton5";
+            this.radioButton5.Size = new System.Drawing.Size(220, 96);
+            this.radioButton5.TabIndex = 44;
+            this.radioButton5.Text = "Export PDF File";
+            this.radioButton5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radioButton5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.radioButton5.UseVisualStyleBackColor = true;
+            // 
+            // radioButton6
+            // 
+            this.radioButton6.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.radioButton6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.radioButton6.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.radioButton6.FlatAppearance.BorderSize = 0;
+            this.radioButton6.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
+            this.radioButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radioButton6.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton6.ForeColor = System.Drawing.Color.White;
+            this.radioButton6.Image = global::LucaToys.Properties.Resources.icons8_txt_48;
+            this.radioButton6.Location = new System.Drawing.Point(3, 513);
+            this.radioButton6.Name = "radioButton6";
+            this.radioButton6.Size = new System.Drawing.Size(220, 98);
+            this.radioButton6.TabIndex = 45;
+            this.radioButton6.Text = "Export Text File";
+            this.radioButton6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radioButton6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.radioButton6.UseVisualStyleBackColor = true;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.panel3.Controls.Add(this.checkBox1);
+            this.panel3.Controls.Add(this.label4);
+            this.panel3.Controls.Add(this.label1);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(810, 50);
+            this.panel3.TabIndex = 42;
+            // 
+            // label1
+            // 
+            this.label1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label1.Font = new System.Drawing.Font("Segoe MDL2 Assets", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Plum;
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(51, 50);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label4
+            // 
+            this.label4.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
+            this.label4.ForeColor = System.Drawing.Color.Plum;
+            this.label4.Location = new System.Drawing.Point(51, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(141, 50);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "Select Table";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.checkBox1.Appearance = System.Windows.Forms.Appearance.Button;
+            this.checkBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.checkBox1.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.checkBox1.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
+            this.checkBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox1.ForeColor = System.Drawing.Color.White;
+            this.checkBox1.Location = new System.Drawing.Point(684, 8);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(114, 34);
+            this.checkBox1.TabIndex = 2;
+            this.checkBox1.Text = "All Tables\r\n";
+            this.checkBox1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.checkBox1.UseVisualStyleBackColor = false;
+            // 
+            // tableLayoutPanel3
+            // 
+            this.tableLayoutPanel3.BackColor = System.Drawing.Color.Plum;
+            this.tableLayoutPanel3.ColumnCount = 1;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.Controls.Add(this.panel4, 0, 0);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(249, 52);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 1;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(814, 370);
+            this.tableLayoutPanel3.TabIndex = 43;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.panel4.Controls.Add(this.panel3);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel4.Location = new System.Drawing.Point(2, 2);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(810, 366);
+            this.panel4.TabIndex = 0;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.panel5.Controls.Add(this.button3);
+            this.panel5.Controls.Add(this.button2);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel5.Location = new System.Drawing.Point(229, 590);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(858, 60);
+            this.panel5.TabIndex = 45;
+            // 
+            // button3
+            // 
+            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(558, 7);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(138, 45);
+            this.button3.TabIndex = 44;
+            this.button3.Text = "Cancel";
+            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button2.BackColor = System.Drawing.Color.Plum;
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(710, 7);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(138, 45);
+            this.button2.TabIndex = 44;
+            this.button2.Text = "Backup";
+            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // label5
+            // 
+            this.label5.BackColor = System.Drawing.Color.Plum;
+            this.label5.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.label5.Location = new System.Drawing.Point(229, 587);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(858, 3);
+            this.label5.TabIndex = 46;
+            // 
             // Export
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.ClientSize = new System.Drawing.Size(794, 495);
+            this.ClientSize = new System.Drawing.Size(1093, 656);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -176,6 +494,11 @@
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.tableLayoutPanel2.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            this.tableLayoutPanel3.ResumeLayout(false);
+            this.panel4.ResumeLayout(false);
+            this.panel5.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -190,5 +513,23 @@
         private System.Windows.Forms.Button btnMinimize;
         private System.Windows.Forms.Button btnMaximize;
         private System.Windows.Forms.Button btnClose;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.RadioButton radioButton6;
+        private System.Windows.Forms.RadioButton radioButton5;
+        private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label5;
     }
 }
