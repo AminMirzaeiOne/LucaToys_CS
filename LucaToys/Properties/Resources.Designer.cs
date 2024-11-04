@@ -103,6 +103,16 @@ namespace LucaToys.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap business_unit_manager {
+            get {
+                object obj = ResourceManager.GetObject("business-unit-manager", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap DarkModernWallpaper {
             get {
                 object obj = ResourceManager.GetObject("DarkModernWallpaper", resourceCulture);
@@ -166,6 +176,16 @@ namespace LucaToys.Properties {
         internal static System.Drawing.Bitmap DarkModernWallpaper1 {
             get {
                 object obj = ResourceManager.GetObject("DarkModernWallpaper1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap download_17 {
+            get {
+                object obj = ResourceManager.GetObject("download-17", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2386,6 +2406,16 @@ namespace LucaToys.Properties {
         internal static System.Drawing.Bitmap NewProfile {
             get {
                 object obj = ResourceManager.GetObject("NewProfile", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PatrickBateman {
+            get {
+                object obj = ResourceManager.GetObject("PatrickBateman", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
