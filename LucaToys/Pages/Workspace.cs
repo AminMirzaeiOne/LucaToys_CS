@@ -113,5 +113,10 @@ namespace LucaToys.Pages
         {
 
         }
+
+        private void chromiumWebBrowser1_LoadingStateChanged(object sender, LoadingStateChangedEventArgs e)
+        {
+
+        }
     }
 }
