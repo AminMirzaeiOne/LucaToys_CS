@@ -36,5 +36,10 @@ namespace LucaToys.Forms
                 this.btnMaximize.Text = "";
             }
         }
+
+        private void btnMinimize_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }
