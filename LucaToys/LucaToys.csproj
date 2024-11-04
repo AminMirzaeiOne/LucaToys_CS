@@ -677,6 +677,9 @@
     <EmbeddedResource Include="Forms\Notepad.resx">
       <DependentUpon>Notepad.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PhoneBook.resx">
+      <DependentUpon>PhoneBook.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Player.resx">
       <DependentUpon>Player.cs</DependentUpon>
     </EmbeddedResource>
