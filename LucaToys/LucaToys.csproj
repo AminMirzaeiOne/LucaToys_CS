@@ -1213,6 +1213,11 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>LucaToysData.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\icons8-spotify-48.png" />
+    <None Include="Resources\icons8-whatsapp-48.png" />
+    <None Include="Resources\icons8-telegram-app-48.png" />
+    <None Include="Resources\icons8-google-48 %281%29.png" />
+    <None Include="Resources\icons8-instagram-old-48.png" />
     <None Include="Resources\icons8-usb-connected-48.png" />
     <None Include="Resources\icons8-ssd-48.png" />
     <None Include="Resources\icons8-disconnect-48.png" />
