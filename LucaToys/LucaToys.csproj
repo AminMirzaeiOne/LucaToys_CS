@@ -1237,6 +1237,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>LucaToysData.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\icons8-phone-48.png" />
     <None Include="Resources\icons8-windows-update-48.png" />
     <None Include="Resources\icons8-version-48 %281%291.png" />
     <None Include="Resources\icons8-version-481.png" />

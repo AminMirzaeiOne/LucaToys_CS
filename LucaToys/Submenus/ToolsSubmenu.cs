@@ -84,5 +84,11 @@ namespace LucaToys.Submenus
             LucaToys.Forms.Calculator calculator = new Forms.Calculator();
             calculator.Show();
         }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            LucaToys.Forms.PhoneBook phoneBook = new Forms.PhoneBook();
+            phoneBook.Show();
+        }
     }
 }
