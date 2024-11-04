@@ -92,5 +92,24 @@ namespace LucaToys.Forms
         {
 
         }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            foreach (CheckBox item in this.panel4.Controls.OfType<CheckBox>())
+            {
+                if (item == this.checkBox1)
+                    continue;
+
+                if (this.checkBox1.Checked)
+                    item.Checked = true;
+                else
+                {
+                    item.Checked = false;
+                    this.checkBox2.Checked = true;
+                }
+                    
+
+            }
+        }
     }
 }
