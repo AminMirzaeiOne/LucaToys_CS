@@ -427,6 +427,12 @@
     <Compile Include="Pages\FormatBarNotepad.Designer.cs">
       <DependentUpon>FormatBarNotepad.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\ListPhone.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\ListPhone.Designer.cs">
+      <DependentUpon>ListPhone.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pages\LoginPage.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -799,6 +805,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\FormatBarNotepad.resx">
       <DependentUpon>FormatBarNotepad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\ListPhone.resx">
+      <DependentUpon>ListPhone.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\LoginPage.fa.resx">
       <DependentUpon>LoginPage.cs</DependentUpon>
