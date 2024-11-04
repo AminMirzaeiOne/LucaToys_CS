@@ -1219,6 +1219,8 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>LucaToysData.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\icons8-barcode-reader-48.png" />
+    <None Include="Resources\icons8-qr-code-48.png" />
     <None Include="Resources\download-17.jpg" />
     <None Include="Resources\business-unit-manager.jpg" />
     <None Include="Resources\PatrickBateman.jpg" />
