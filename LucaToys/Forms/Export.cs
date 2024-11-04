@@ -12,6 +12,9 @@ namespace LucaToys.Forms
 {
     public partial class Export : Form
     {
+        private bool mouseDown;
+        private Point lastLocation;
+
         public Export()
         {
             InitializeComponent();
@@ -26,6 +29,28 @@ namespace LucaToys.Forms
         {
             Messages.CloseMessage closeMessage = new Messages.CloseMessage(this);
             closeMessage.ShowDialog();
+        }
+
+        private void panel2_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (this.mouseDown == true)
+            {
+                this.Location = new Point(
+                (this.Location.X - this.lastLocation.X) + e.X, (this.Location.Y - this.lastLocation.Y) + e.Y);
+
+                this.Update();
+            }
+        }
+
+        private void panel2_MouseDown(object sender, MouseEventArgs e)
+        {
+            this.mouseDown = true;
+            this.lastLocation = e.Location;
+        }
+
+        private void panel2_MouseUp(object sender, MouseEventArgs e)
+        {
+            this.mouseDown = false;
         }
     }
 }
