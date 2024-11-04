@@ -212,6 +212,12 @@
     <Compile Include="Forms\Notepad.Designer.cs">
       <DependentUpon>Notepad.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\PhoneBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PhoneBook.Designer.cs">
+      <DependentUpon>PhoneBook.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Player.cs">
       <SubType>Form</SubType>
     </Compile>
