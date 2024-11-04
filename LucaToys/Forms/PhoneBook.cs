@@ -15,12 +15,16 @@ namespace LucaToys.Forms
         private bool mouseDown;
         private Point lastLocation;
         private LucaToys.Pages.ListPhone listPhone = new Pages.ListPhone();
+        private LucaToys.Pages.AddPhone addPhone = new Pages.AddPhone();
 
         public PhoneBook()
         {
             InitializeComponent();
             this.panel5.Controls.Add(this.listPhone);
+            this.panel5.Controls.Add(this.addPhone);
+
             this.listPhone.Dock = DockStyle.Fill;
+            this.addPhone.Dock = DockStyle.Fill;
         }
 
         private void btnClose_Click(object sender, EventArgs e)
@@ -74,6 +78,12 @@ namespace LucaToys.Forms
         {
             if (this.radioButton1.Checked)
                 this.listPhone.BringToFront();
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            if(this.radioButton2.Checked)
+                this.addPhone.BringToFront();
         }
     }
 }

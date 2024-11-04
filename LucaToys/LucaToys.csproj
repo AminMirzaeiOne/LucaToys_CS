@@ -457,6 +457,12 @@
     <Compile Include="Pages\ToolsBarDrwing.Designer.cs">
       <DependentUpon>ToolsBarDrwing.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\UpdatePhone.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\UpdatePhone.Designer.cs">
+      <DependentUpon>UpdatePhone.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pages\VersionPage.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -826,6 +832,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\ToolsBarDrwing.resx">
       <DependentUpon>ToolsBarDrwing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\UpdatePhone.resx">
+      <DependentUpon>UpdatePhone.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\VersionPage.fa.resx">
       <DependentUpon>VersionPage.cs</DependentUpon>
