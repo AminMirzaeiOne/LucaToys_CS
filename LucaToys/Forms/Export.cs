@@ -58,5 +58,19 @@ namespace LucaToys.Forms
             Messages.CloseMessage closeMessage = new Messages.CloseMessage(this);
             closeMessage.ShowDialog();
         }
+
+        private void btnMaximize_Click(object sender, EventArgs e)
+        {
+            if (this.WindowState == FormWindowState.Normal)
+            {
+                this.WindowState = FormWindowState.Maximized;
+                this.btnMaximize.Text = "";
+            }
+            else if (this.WindowState == FormWindowState.Maximized)
+            {
+                this.WindowState = FormWindowState.Normal;
+                this.btnMaximize.Text = "";
+            }
+        }
     }
 }
