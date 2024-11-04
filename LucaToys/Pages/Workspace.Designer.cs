@@ -29,11 +29,6 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.radioSpotify = new System.Windows.Forms.RadioButton();
-            this.radioWhatsapp = new System.Windows.Forms.RadioButton();
-            this.radioTelegram = new System.Windows.Forms.RadioButton();
-            this.radioInstagram = new System.Windows.Forms.RadioButton();
-            this.radioGoogle = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -42,7 +37,18 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioSpotify = new System.Windows.Forms.RadioButton();
+            this.radioWhatsapp = new System.Windows.Forms.RadioButton();
+            this.radioTelegram = new System.Windows.Forms.RadioButton();
+            this.radioInstagram = new System.Windows.Forms.RadioButton();
+            this.radioGoogle = new System.Windows.Forms.RadioButton();
             this.ltComboBox1 = new LucaToys.Controls.LTComboBox();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -51,6 +57,10 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.panel1.Controls.Add(this.radioButton4);
+            this.panel1.Controls.Add(this.radioButton3);
+            this.panel1.Controls.Add(this.radioButton2);
+            this.panel1.Controls.Add(this.radioButton1);
             this.panel1.Controls.Add(this.radioSpotify);
             this.panel1.Controls.Add(this.radioWhatsapp);
             this.panel1.Controls.Add(this.radioTelegram);
@@ -61,97 +71,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(100, 460);
             this.panel1.TabIndex = 0;
-            // 
-            // radioSpotify
-            // 
-            this.radioSpotify.Appearance = System.Windows.Forms.Appearance.Button;
-            this.radioSpotify.BackColor = System.Drawing.Color.Transparent;
-            this.radioSpotify.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
-            this.radioSpotify.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
-            this.radioSpotify.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.radioSpotify.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioSpotify.ForeColor = System.Drawing.Color.White;
-            this.radioSpotify.Image = global::LucaToys.Properties.Resources.icons8_spotify_48;
-            this.radioSpotify.Location = new System.Drawing.Point(9, 350);
-            this.radioSpotify.Name = "radioSpotify";
-            this.radioSpotify.Size = new System.Drawing.Size(82, 69);
-            this.radioSpotify.TabIndex = 48;
-            this.radioSpotify.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.radioSpotify.UseVisualStyleBackColor = false;
-            this.radioSpotify.CheckedChanged += new System.EventHandler(this.radioSpotify_CheckedChanged);
-            // 
-            // radioWhatsapp
-            // 
-            this.radioWhatsapp.Appearance = System.Windows.Forms.Appearance.Button;
-            this.radioWhatsapp.BackColor = System.Drawing.Color.Transparent;
-            this.radioWhatsapp.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
-            this.radioWhatsapp.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
-            this.radioWhatsapp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.radioWhatsapp.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioWhatsapp.ForeColor = System.Drawing.Color.White;
-            this.radioWhatsapp.Image = global::LucaToys.Properties.Resources.icons8_whatsapp_48;
-            this.radioWhatsapp.Location = new System.Drawing.Point(9, 266);
-            this.radioWhatsapp.Name = "radioWhatsapp";
-            this.radioWhatsapp.Size = new System.Drawing.Size(82, 69);
-            this.radioWhatsapp.TabIndex = 48;
-            this.radioWhatsapp.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.radioWhatsapp.UseVisualStyleBackColor = false;
-            this.radioWhatsapp.CheckedChanged += new System.EventHandler(this.radioWhatsapp_CheckedChanged);
-            // 
-            // radioTelegram
-            // 
-            this.radioTelegram.Appearance = System.Windows.Forms.Appearance.Button;
-            this.radioTelegram.BackColor = System.Drawing.Color.Transparent;
-            this.radioTelegram.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
-            this.radioTelegram.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
-            this.radioTelegram.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.radioTelegram.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioTelegram.ForeColor = System.Drawing.Color.White;
-            this.radioTelegram.Image = global::LucaToys.Properties.Resources.icons8_telegram_app_48;
-            this.radioTelegram.Location = new System.Drawing.Point(9, 181);
-            this.radioTelegram.Name = "radioTelegram";
-            this.radioTelegram.Size = new System.Drawing.Size(82, 69);
-            this.radioTelegram.TabIndex = 48;
-            this.radioTelegram.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.radioTelegram.UseVisualStyleBackColor = false;
-            this.radioTelegram.CheckedChanged += new System.EventHandler(this.radioTelegram_CheckedChanged);
-            // 
-            // radioInstagram
-            // 
-            this.radioInstagram.Appearance = System.Windows.Forms.Appearance.Button;
-            this.radioInstagram.BackColor = System.Drawing.Color.Transparent;
-            this.radioInstagram.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
-            this.radioInstagram.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
-            this.radioInstagram.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.radioInstagram.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioInstagram.ForeColor = System.Drawing.Color.White;
-            this.radioInstagram.Image = global::LucaToys.Properties.Resources.icons8_instagram_old_48;
-            this.radioInstagram.Location = new System.Drawing.Point(9, 97);
-            this.radioInstagram.Name = "radioInstagram";
-            this.radioInstagram.Size = new System.Drawing.Size(82, 69);
-            this.radioInstagram.TabIndex = 48;
-            this.radioInstagram.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.radioInstagram.UseVisualStyleBackColor = false;
-            this.radioInstagram.CheckedChanged += new System.EventHandler(this.radioInstagram_CheckedChanged);
-            // 
-            // radioGoogle
-            // 
-            this.radioGoogle.Appearance = System.Windows.Forms.Appearance.Button;
-            this.radioGoogle.BackColor = System.Drawing.Color.Transparent;
-            this.radioGoogle.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
-            this.radioGoogle.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
-            this.radioGoogle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.radioGoogle.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioGoogle.ForeColor = System.Drawing.Color.White;
-            this.radioGoogle.Image = global::LucaToys.Properties.Resources.icons8_google_48__1_;
-            this.radioGoogle.Location = new System.Drawing.Point(9, 12);
-            this.radioGoogle.Name = "radioGoogle";
-            this.radioGoogle.Size = new System.Drawing.Size(82, 69);
-            this.radioGoogle.TabIndex = 47;
-            this.radioGoogle.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.radioGoogle.UseVisualStyleBackColor = false;
-            this.radioGoogle.CheckedChanged += new System.EventHandler(this.radioGoogle_CheckedChanged);
-            this.radioGoogle.Click += new System.EventHandler(this.button4_Click);
             // 
             // label1
             // 
@@ -254,6 +173,165 @@
             this.button3.Text = "";
             this.button3.UseVisualStyleBackColor = false;
             // 
+            // radioButton4
+            // 
+            this.radioButton4.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton4.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton4.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.radioButton4.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
+            this.radioButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radioButton4.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton4.ForeColor = System.Drawing.Color.White;
+            this.radioButton4.Image = global::LucaToys.Properties.Resources.icons8_wikipedia_48;
+            this.radioButton4.Location = new System.Drawing.Point(9, 683);
+            this.radioButton4.Name = "radioButton4";
+            this.radioButton4.Size = new System.Drawing.Size(82, 69);
+            this.radioButton4.TabIndex = 48;
+            this.radioButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.radioButton4.UseVisualStyleBackColor = false;
+            // 
+            // radioButton3
+            // 
+            this.radioButton3.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton3.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton3.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.radioButton3.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
+            this.radioButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radioButton3.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton3.ForeColor = System.Drawing.Color.White;
+            this.radioButton3.Image = global::LucaToys.Properties.Resources.icons8_twitter_48;
+            this.radioButton3.Location = new System.Drawing.Point(9, 598);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(82, 69);
+            this.radioButton3.TabIndex = 48;
+            this.radioButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.radioButton3.UseVisualStyleBackColor = false;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton2.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton2.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.radioButton2.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
+            this.radioButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radioButton2.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton2.ForeColor = System.Drawing.Color.White;
+            this.radioButton2.Image = global::LucaToys.Properties.Resources.icons8_youtube_48;
+            this.radioButton2.Location = new System.Drawing.Point(9, 513);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(82, 69);
+            this.radioButton2.TabIndex = 48;
+            this.radioButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.radioButton2.UseVisualStyleBackColor = false;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton1.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton1.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.radioButton1.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
+            this.radioButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radioButton1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton1.ForeColor = System.Drawing.Color.White;
+            this.radioButton1.Image = global::LucaToys.Properties.Resources.icons8_tik_tok_48;
+            this.radioButton1.Location = new System.Drawing.Point(9, 429);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(82, 69);
+            this.radioButton1.TabIndex = 48;
+            this.radioButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.radioButton1.UseVisualStyleBackColor = false;
+            // 
+            // radioSpotify
+            // 
+            this.radioSpotify.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioSpotify.BackColor = System.Drawing.Color.Transparent;
+            this.radioSpotify.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.radioSpotify.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
+            this.radioSpotify.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radioSpotify.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioSpotify.ForeColor = System.Drawing.Color.White;
+            this.radioSpotify.Image = global::LucaToys.Properties.Resources.icons8_spotify_48;
+            this.radioSpotify.Location = new System.Drawing.Point(9, 347);
+            this.radioSpotify.Name = "radioSpotify";
+            this.radioSpotify.Size = new System.Drawing.Size(82, 69);
+            this.radioSpotify.TabIndex = 48;
+            this.radioSpotify.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.radioSpotify.UseVisualStyleBackColor = false;
+            this.radioSpotify.CheckedChanged += new System.EventHandler(this.radioSpotify_CheckedChanged);
+            // 
+            // radioWhatsapp
+            // 
+            this.radioWhatsapp.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioWhatsapp.BackColor = System.Drawing.Color.Transparent;
+            this.radioWhatsapp.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.radioWhatsapp.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
+            this.radioWhatsapp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radioWhatsapp.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioWhatsapp.ForeColor = System.Drawing.Color.White;
+            this.radioWhatsapp.Image = global::LucaToys.Properties.Resources.icons8_whatsapp_48;
+            this.radioWhatsapp.Location = new System.Drawing.Point(9, 263);
+            this.radioWhatsapp.Name = "radioWhatsapp";
+            this.radioWhatsapp.Size = new System.Drawing.Size(82, 69);
+            this.radioWhatsapp.TabIndex = 48;
+            this.radioWhatsapp.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.radioWhatsapp.UseVisualStyleBackColor = false;
+            this.radioWhatsapp.CheckedChanged += new System.EventHandler(this.radioWhatsapp_CheckedChanged);
+            // 
+            // radioTelegram
+            // 
+            this.radioTelegram.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioTelegram.BackColor = System.Drawing.Color.Transparent;
+            this.radioTelegram.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.radioTelegram.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
+            this.radioTelegram.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radioTelegram.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioTelegram.ForeColor = System.Drawing.Color.White;
+            this.radioTelegram.Image = global::LucaToys.Properties.Resources.icons8_telegram_app_48;
+            this.radioTelegram.Location = new System.Drawing.Point(9, 178);
+            this.radioTelegram.Name = "radioTelegram";
+            this.radioTelegram.Size = new System.Drawing.Size(82, 69);
+            this.radioTelegram.TabIndex = 48;
+            this.radioTelegram.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.radioTelegram.UseVisualStyleBackColor = false;
+            this.radioTelegram.CheckedChanged += new System.EventHandler(this.radioTelegram_CheckedChanged);
+            // 
+            // radioInstagram
+            // 
+            this.radioInstagram.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioInstagram.BackColor = System.Drawing.Color.Transparent;
+            this.radioInstagram.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.radioInstagram.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
+            this.radioInstagram.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radioInstagram.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioInstagram.ForeColor = System.Drawing.Color.White;
+            this.radioInstagram.Image = global::LucaToys.Properties.Resources.icons8_instagram_old_48;
+            this.radioInstagram.Location = new System.Drawing.Point(9, 94);
+            this.radioInstagram.Name = "radioInstagram";
+            this.radioInstagram.Size = new System.Drawing.Size(82, 69);
+            this.radioInstagram.TabIndex = 48;
+            this.radioInstagram.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.radioInstagram.UseVisualStyleBackColor = false;
+            this.radioInstagram.CheckedChanged += new System.EventHandler(this.radioInstagram_CheckedChanged);
+            // 
+            // radioGoogle
+            // 
+            this.radioGoogle.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioGoogle.BackColor = System.Drawing.Color.Transparent;
+            this.radioGoogle.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.radioGoogle.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
+            this.radioGoogle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radioGoogle.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioGoogle.ForeColor = System.Drawing.Color.White;
+            this.radioGoogle.Image = global::LucaToys.Properties.Resources.icons8_google_48__1_;
+            this.radioGoogle.Location = new System.Drawing.Point(9, 9);
+            this.radioGoogle.Name = "radioGoogle";
+            this.radioGoogle.Size = new System.Drawing.Size(82, 69);
+            this.radioGoogle.TabIndex = 47;
+            this.radioGoogle.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.radioGoogle.UseVisualStyleBackColor = false;
+            this.radioGoogle.CheckedChanged += new System.EventHandler(this.radioGoogle_CheckedChanged);
+            this.radioGoogle.Click += new System.EventHandler(this.button4_Click);
+            // 
             // ltComboBox1
             // 
             this.ltComboBox1.BorderColor = System.Drawing.Color.Plum;
@@ -279,11 +357,34 @@
             this.ltComboBox1.TabIndex = 50;
             this.ltComboBox1.TopDirection = false;
             // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(300, 460);
+            this.panel4.TabIndex = 10;
+            // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.Color.Plum;
+            this.label2.Cursor = System.Windows.Forms.Cursors.SizeWE;
+            this.label2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(300, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(3, 460);
+            this.label2.TabIndex = 11;
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
             // Workspace
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.panel4);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.label1);
@@ -316,5 +417,11 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button3;
         private Controls.LTComboBox ltComboBox1;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Label label2;
     }
 }

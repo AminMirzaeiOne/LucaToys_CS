@@ -1213,6 +1213,10 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>LucaToysData.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\icons8-wikipedia-48.png" />
+    <None Include="Resources\icons8-twitter-48.png" />
+    <None Include="Resources\icons8-youtube-48.png" />
+    <None Include="Resources\icons8-tik-tok-48.png" />
     <None Include="Resources\icons8-spotify-48.png" />
     <None Include="Resources\icons8-whatsapp-48.png" />
     <None Include="Resources\icons8-telegram-app-48.png" />

@@ -2023,6 +2023,16 @@ namespace LucaToys.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_tik_tok_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-tik-tok-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_time_48 {
             get {
                 object obj = ResourceManager.GetObject("icons8-time-48", resourceCulture);
@@ -2066,6 +2076,16 @@ namespace LucaToys.Properties {
         internal static System.Drawing.Bitmap icons8_translate_48 {
             get {
                 object obj = ResourceManager.GetObject("icons8-translate-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_twitter_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-twitter-48", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2253,9 +2273,29 @@ namespace LucaToys.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_wikipedia_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-wikipedia-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_working_with_a_laptop_48 {
             get {
                 object obj = ResourceManager.GetObject("icons8-working-with-a-laptop-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_youtube_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-youtube-48", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
