@@ -451,6 +451,12 @@
     <Compile Include="Pages\WidgetsPage.Designer.cs">
       <DependentUpon>WidgetsPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Workspace.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\Workspace.Designer.cs">
+      <DependentUpon>Workspace.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Sounds.Designer.cs">
