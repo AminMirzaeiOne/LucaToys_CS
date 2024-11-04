@@ -356,6 +356,7 @@
             this.radioButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.radioButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // PhoneBook
             // 
