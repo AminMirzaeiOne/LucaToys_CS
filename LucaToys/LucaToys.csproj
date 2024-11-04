@@ -361,6 +361,12 @@
     <Compile Include="Pages\AddOther.Designer.cs">
       <DependentUpon>AddOther.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\AddPhone.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\AddPhone.Designer.cs">
+      <DependentUpon>AddPhone.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pages\AddSeller.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -763,6 +769,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\AddOther.resx">
       <DependentUpon>AddOther.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\AddPhone.resx">
+      <DependentUpon>AddPhone.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\AddSeller.resx">
       <DependentUpon>AddSeller.cs</DependentUpon>
