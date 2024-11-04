@@ -138,6 +138,7 @@
             this.btnMaximize.TabIndex = 49;
             this.btnMaximize.Text = "";
             this.btnMaximize.UseVisualStyleBackColor = false;
+            this.btnMaximize.Click += new System.EventHandler(this.btnMaximize_Click);
             // 
             // btnClose
             // 
