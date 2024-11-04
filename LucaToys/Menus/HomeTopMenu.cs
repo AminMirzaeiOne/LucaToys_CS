@@ -23,6 +23,7 @@ namespace LucaToys.Menus
             this.exportSubmenu = new Submenus.ExportSubmenu(this.button9);
             this.toolsSubmenu = new Submenus.ToolsSubmenu(this.button13);
             this.settingsSubmenu = new Submenus.SettingsSubmenu(this.button15);
+            this.accountingSubmenu = new Submenus.AccountingSubmenu(this.button5);
         }
         private LucaToys.Submenus.UsersSubmenu usersSubmenu;
         private LucaToys.Submenus.ProductsSubmenu productsSubmenu;
@@ -32,6 +33,7 @@ namespace LucaToys.Menus
         private LucaToys.Submenus.HelpSubmenu helpSubmenu;
         private LucaToys.Submenus.ToolsSubmenu toolsSubmenu;
         private LucaToys.Submenus.SettingsSubmenu settingsSubmenu;
+        private LucaToys.Submenus.AccountingSubmenu accountingSubmenu;
 
         private void btnMaxRes_Click(object sender, EventArgs e)
         {
