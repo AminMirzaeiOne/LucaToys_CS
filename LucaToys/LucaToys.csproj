@@ -800,6 +800,9 @@
     <EmbeddedResource Include="Pages\WidgetsPage.resx">
       <DependentUpon>WidgetsPage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Workspace.resx">
+      <DependentUpon>Workspace.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
