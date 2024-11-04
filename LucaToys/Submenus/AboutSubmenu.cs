@@ -41,5 +41,11 @@ namespace LucaToys.Submenus
         {
 
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            LucaToys.Forms.Update update = new Forms.Update();
+            update.Show();
+        }
     }
 }
