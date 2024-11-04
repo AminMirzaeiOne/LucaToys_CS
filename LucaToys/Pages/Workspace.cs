@@ -118,5 +118,13 @@ namespace LucaToys.Pages
         {
 
         }
+
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.radioButton4.Checked) 
+            {
+                this.chromiumWebBrowser1.LoadUrl("https://www.wikipedia.org/");
+            }
+        }
     }
 }

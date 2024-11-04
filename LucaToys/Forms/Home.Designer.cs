@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -39,10 +40,10 @@
             this.btnMaximize = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.workspace1 = new LucaToys.Pages.Workspace();
             this.homeStatus1 = new LucaToys.Menus.HomeStatus();
             this.homeTopMenu1 = new LucaToys.Menus.HomeTopMenu();
             this.ltSmallMenu1 = new LucaToys.Controls.LTSmallMenu();
-            this.workspace1 = new LucaToys.Pages.Workspace();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -215,6 +216,16 @@
             this.label1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label1_MouseMove);
             this.label1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.label1_MouseUp);
             // 
+            // workspace1
+            // 
+            this.workspace1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.workspace1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.workspace1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.workspace1.Location = new System.Drawing.Point(0, 3);
+            this.workspace1.Name = "workspace1";
+            this.workspace1.Size = new System.Drawing.Size(1344, 454);
+            this.workspace1.TabIndex = 5;
+            // 
             // homeStatus1
             // 
             this.homeStatus1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
@@ -247,16 +258,6 @@
             this.ltSmallMenu1.SymbolWidth = ((byte)(40));
             this.ltSmallMenu1.Width = ((byte)(230));
             // 
-            // workspace1
-            // 
-            this.workspace1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.workspace1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.workspace1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.workspace1.Location = new System.Drawing.Point(0, 3);
-            this.workspace1.Name = "workspace1";
-            this.workspace1.Size = new System.Drawing.Size(1344, 454);
-            this.workspace1.TabIndex = 5;
-            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
@@ -265,6 +266,7 @@
             this.ClientSize = new System.Drawing.Size(1350, 700);
             this.Controls.Add(this.tableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Home";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home";

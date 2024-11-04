@@ -292,6 +292,7 @@
             this.radioButton4.TabIndex = 48;
             this.radioButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.radioButton4.UseVisualStyleBackColor = false;
+            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
             // radioButton3
             // 

@@ -421,6 +421,12 @@
     <Compile Include="Pages\LoginPage.Designer.cs">
       <DependentUpon>LoginPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Main.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pages\ToolsBarDrwing.cs">
       <SubType>UserControl</SubType>
     </Compile>
