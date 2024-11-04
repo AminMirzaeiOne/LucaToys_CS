@@ -2353,6 +2353,16 @@ namespace LucaToys.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_windows_update_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-windows-update-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_working_with_a_laptop_48 {
             get {
                 object obj = ResourceManager.GetObject("icons8-working-with-a-laptop-48", resourceCulture);
