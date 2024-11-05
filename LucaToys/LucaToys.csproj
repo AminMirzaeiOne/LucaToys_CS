@@ -892,6 +892,9 @@
     <EmbeddedResource Include="Submenus\ExportSubmenu.resx">
       <DependentUpon>ExportSubmenu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Submenus\FinanceSubmenu.resx">
+      <DependentUpon>FinanceSubmenu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Submenus\HelpSubmenu.resx">
       <DependentUpon>HelpSubmenu.cs</DependentUpon>
     </EmbeddedResource>
@@ -1279,6 +1282,8 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>LucaToysData.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\icons8-receipt-48.png" />
+    <None Include="Resources\icons8-invoice-48.png" />
     <None Include="Resources\icons8-phone-48.png" />
     <None Include="Resources\icons8-windows-update-48.png" />
     <None Include="Resources\icons8-version-48 %281%291.png" />
