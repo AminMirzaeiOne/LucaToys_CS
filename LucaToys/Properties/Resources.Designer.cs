@@ -693,6 +693,16 @@ namespace LucaToys.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_data_quality_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-data-quality-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_date_48 {
             get {
                 object obj = ResourceManager.GetObject("icons8-date-48", resourceCulture);
@@ -1476,6 +1486,26 @@ namespace LucaToys.Properties {
         internal static System.Drawing.Bitmap icons8_note_50 {
             get {
                 object obj = ResourceManager.GetObject("icons8-note-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_online_money_transfer_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-online-money-transfer-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_online_payment_with_a_credit_card_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-online-payment-with-a-credit-card-48", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

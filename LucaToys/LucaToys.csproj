@@ -518,6 +518,12 @@
     <Compile Include="Submenus\AccountingSubmenu.Designer.cs">
       <DependentUpon>AccountingSubmenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Submenus\Documents.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Submenus\Documents.Designer.cs">
+      <DependentUpon>Documents.cs</DependentUpon>
+    </Compile>
     <Compile Include="Submenus\ExportSubmenu.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -888,6 +894,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Submenus\AccountingSubmenu.resx">
       <DependentUpon>AccountingSubmenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Submenus\Documents.resx">
+      <DependentUpon>Documents.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Submenus\ExportSubmenu.resx">
       <DependentUpon>ExportSubmenu.cs</DependentUpon>
@@ -1282,6 +1291,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>LucaToysData.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\icons8-data-quality-48.png" />
+    <None Include="Resources\icons8-online-money-transfer-48.png" />
+    <None Include="Resources\icons8-online-payment-with-a-credit-card-48.png" />
     <None Include="Resources\icons8-documents-48.png" />
     <None Include="Resources\icons8-receipt-48.png" />
     <None Include="Resources\icons8-invoice-48.png" />
