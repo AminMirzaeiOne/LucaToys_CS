@@ -1282,6 +1282,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>LucaToysData.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\icons8-documents-48.png" />
     <None Include="Resources\icons8-receipt-48.png" />
     <None Include="Resources\icons8-invoice-48.png" />
     <None Include="Resources\icons8-phone-48.png" />
