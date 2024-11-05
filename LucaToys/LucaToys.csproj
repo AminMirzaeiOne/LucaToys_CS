@@ -1300,6 +1300,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>LucaToysData.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\icons8-pos-terminal-48.png" />
     <None Include="Resources\icons8-performance-48.png" />
     <None Include="Resources\icons8-ledger-48.png" />
     <None Include="Resources\icons8-initiate-money-transfer-48.png" />
