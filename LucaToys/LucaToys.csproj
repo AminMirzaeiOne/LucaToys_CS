@@ -1300,6 +1300,17 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>LucaToysData.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\icons8-performance-48.png" />
+    <None Include="Resources\icons8-ledger-48.png" />
+    <None Include="Resources\icons8-initiate-money-transfer-48.png" />
+    <None Include="Resources\icons8-cash-48.png" />
+    <None Include="Resources\icons8-money-48.png" />
+    <None Include="Resources\icons8-money-48 %281%29.png" />
+    <None Include="Resources\icons8-card-verification-value-48.png" />
+    <None Include="Resources\icons8-invoice-48 %281%29.png" />
+    <None Include="Resources\icons8-transaction-48.png" />
+    <None Include="Resources\icons8-return-purchase-48.png" />
+    <None Include="Resources\icons8-profit-48.png" />
     <None Include="Resources\icons8-data-quality-48.png" />
     <None Include="Resources\icons8-online-money-transfer-48.png" />
     <None Include="Resources\icons8-online-payment-with-a-credit-card-48.png" />
