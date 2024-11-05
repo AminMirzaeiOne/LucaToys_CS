@@ -542,6 +542,12 @@
     <Compile Include="Submenus\HelpSubmenu.Designer.cs">
       <DependentUpon>HelpSubmenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Submenus\Invoice.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Submenus\Invoice.Designer.cs">
+      <DependentUpon>Invoice.cs</DependentUpon>
+    </Compile>
     <Compile Include="Submenus\ProductsSubmenu.cs">
       <SubType>UserControl</SubType>
     </Compile>
