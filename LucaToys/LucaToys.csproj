@@ -65,7 +65,9 @@
     <Reference Include="ResizeImage">
       <HintPath>C:\Users\Amin\Downloads\ResizeImage.dll</HintPath>
     </Reference>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.2\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Data.Linq" />
     <Reference Include="System.Xml.Linq" />
@@ -229,6 +231,12 @@
     </Compile>
     <Compile Include="Forms\Products.Designer.cs">
       <DependentUpon>Products.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PurchaseMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PurchaseMode.Designer.cs">
+      <DependentUpon>PurchaseMode.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Screenshot.cs">
       <SubType>Form</SubType>
@@ -727,6 +735,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Products.resx">
       <DependentUpon>Products.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PurchaseMode.resx">
+      <DependentUpon>PurchaseMode.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Screenshot.resx">
       <DependentUpon>Screenshot.cs</DependentUpon>
