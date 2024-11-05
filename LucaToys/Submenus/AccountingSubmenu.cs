@@ -32,5 +32,10 @@ namespace LucaToys.Submenus
             this.ShowSubmenu(this.ParentControl);
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            LucaToys.Forms.PurchaseMode purchaseMode = new Forms.PurchaseMode();
+            purchaseMode.Show();
+        }
     }
 }
