@@ -379,6 +379,12 @@
     <Compile Include="Pages\AddToy.Designer.cs">
       <DependentUpon>AddToy.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\DeletePhone.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\DeletePhone.Designer.cs">
+      <DependentUpon>DeletePhone.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pages\DesignBarDrwing.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -784,6 +790,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\AddToy.resx">
       <DependentUpon>AddToy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\DeletePhone.resx">
+      <DependentUpon>DeletePhone.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\DesignBarDrwing.resx">
       <DependentUpon>DesignBarDrwing.cs</DependentUpon>
