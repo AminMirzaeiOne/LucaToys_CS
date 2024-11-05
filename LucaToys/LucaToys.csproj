@@ -913,6 +913,9 @@
     <EmbeddedResource Include="Submenus\HelpSubmenu.resx">
       <DependentUpon>HelpSubmenu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Submenus\Invoice.resx">
+      <DependentUpon>Invoice.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Submenus\ProductsSubmenu.resx">
       <DependentUpon>ProductsSubmenu.cs</DependentUpon>
     </EmbeddedResource>
