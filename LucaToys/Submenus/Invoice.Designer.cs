@@ -57,7 +57,7 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(266, 65);
             this.button4.TabIndex = 22;
-            this.button4.Text = " Payment";
+            this.button4.Text = " Sales Invoice";
             this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button4.UseVisualStyleBackColor = false;
@@ -142,7 +142,7 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(266, 65);
             this.button5.TabIndex = 23;
-            this.button5.Text = " Received";
+            this.button5.Text = " Purchase Invoice";
             this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button5.UseVisualStyleBackColor = false;
