@@ -17,6 +17,7 @@ namespace LucaToys.Forms
         private LucaToys.Pages.ListPhone listPhone = new Pages.ListPhone();
         private LucaToys.Pages.AddPhone addPhone = new Pages.AddPhone();
         private LucaToys.Pages.UpdatePhone updatePhone = new Pages.UpdatePhone();
+        private LucaToys.Pages.DeletePhone deletePhone = new Pages.DeletePhone();
 
         public PhoneBook()
         {
@@ -24,10 +25,12 @@ namespace LucaToys.Forms
             this.panel5.Controls.Add(this.listPhone);
             this.panel5.Controls.Add(this.addPhone);
             this.panel5.Controls.Add(this.updatePhone);
+            this.panel5.Controls.Add(this.deletePhone);
 
             this.listPhone.Dock = DockStyle.Fill;
             this.addPhone.Dock = DockStyle.Fill;
             this.updatePhone.Dock = DockStyle.Fill;
+            this.deletePhone.Dock = DockStyle.Fill;
         }
 
         private void btnClose_Click(object sender, EventArgs e)
@@ -93,6 +96,12 @@ namespace LucaToys.Forms
         {
             if (this.radioButton3.Checked)
                 this.updatePhone.BringToFront();
+        }
+
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.radioButton4.Checked)
+                this.deletePhone.BringToFront();
         }
     }
 }

@@ -35,14 +35,14 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.ltRadioButton3 = new LucaToys.Controls.LTRadioButton();
             this.ltRadioButton2 = new LucaToys.Controls.LTRadioButton();
             this.ltRadioButton1 = new LucaToys.Controls.LTRadioButton();
-            this.button1 = new System.Windows.Forms.Button();
             this.ltTextBox1 = new LucaToys.Controls.LTTextBox();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -126,7 +126,7 @@
             this.panel1.Controls.Add(this.textBox5);
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel1.Location = new System.Drawing.Point(612, 63);
+            this.panel1.Location = new System.Drawing.Point(615, 63);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(280, 489);
             this.panel1.TabIndex = 54;
@@ -143,15 +143,6 @@
             this.textBox1.Size = new System.Drawing.Size(246, 40);
             this.textBox1.TabIndex = 0;
             this.textBox1.Text = "0912435657";
-            // 
-            // label3
-            // 
-            this.label3.BackColor = System.Drawing.Color.Plum;
-            this.label3.Dock = System.Windows.Forms.DockStyle.Right;
-            this.label3.Location = new System.Drawing.Point(892, 63);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(3, 489);
-            this.label3.TabIndex = 55;
             // 
             // label1
             // 
@@ -175,6 +166,22 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(895, 60);
             this.panel4.TabIndex = 56;
+            // 
+            // button1
+            // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Image = global::LucaToys.Properties.Resources.icons8_search_32;
+            this.button1.Location = new System.Drawing.Point(459, 8);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(114, 45);
+            this.button1.TabIndex = 43;
+            this.button1.Text = "Search";
+            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // ltRadioButton3
             // 
@@ -229,22 +236,6 @@
             this.ltRadioButton1.UnCheckedColor = System.Drawing.Color.Gray;
             this.ltRadioButton1.UseVisualStyleBackColor = true;
             // 
-            // button1
-            // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = global::LucaToys.Properties.Resources.icons8_search_32;
-            this.button1.Location = new System.Drawing.Point(459, 8);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(114, 45);
-            this.button1.TabIndex = 43;
-            this.button1.Text = "Search";
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // ltTextBox1
             // 
             this.ltTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -265,14 +256,23 @@
             this.ltTextBox1.Size = new System.Drawing.Size(437, 45);
             this.ltTextBox1.TabIndex = 0;
             // 
+            // label3
+            // 
+            this.label3.BackColor = System.Drawing.Color.Plum;
+            this.label3.Dock = System.Windows.Forms.DockStyle.Right;
+            this.label3.Location = new System.Drawing.Point(612, 63);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(3, 489);
+            this.label3.TabIndex = 58;
+            // 
             // UpdatePhone
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel4);
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -296,7 +296,6 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel4;
         private Controls.LTRadioButton ltRadioButton3;
@@ -304,5 +303,6 @@
         private Controls.LTRadioButton ltRadioButton1;
         private System.Windows.Forms.Button button1;
         private Controls.LTTextBox ltTextBox1;
+        private System.Windows.Forms.Label label3;
     }
 }
