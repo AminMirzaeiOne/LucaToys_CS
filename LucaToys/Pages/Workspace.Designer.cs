@@ -60,8 +60,6 @@
             this.radioTelegram = new System.Windows.Forms.RadioButton();
             this.radioInstagram = new System.Windows.Forms.RadioButton();
             this.radioGoogle = new System.Windows.Forms.RadioButton();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.radioButton6 = new System.Windows.Forms.RadioButton();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -134,6 +132,8 @@
             // 
             // label6
             // 
+            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label6.BackColor = System.Drawing.Color.Plum;
             this.label6.Cursor = System.Windows.Forms.Cursors.SizeWE;
             this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -206,8 +206,6 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
-            this.panel6.Controls.Add(this.radioButton6);
-            this.panel6.Controls.Add(this.radioButton5);
             this.panel6.Controls.Add(this.label8);
             this.panel6.Controls.Add(this.label7);
             this.panel6.Location = new System.Drawing.Point(2, 2);
@@ -215,6 +213,7 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(572, 450);
             this.panel6.TabIndex = 0;
+            this.panel6.Paint += new System.Windows.Forms.PaintEventHandler(this.panel6_Paint);
             // 
             // label8
             // 
@@ -533,28 +532,6 @@
             this.radioGoogle.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.radioGoogle.UseVisualStyleBackColor = false;
             // 
-            // radioButton5
-            // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(358, 136);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(141, 29);
-            this.radioButton5.TabIndex = 15;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "radioButton5";
-            this.radioButton5.UseVisualStyleBackColor = true;
-            // 
-            // radioButton6
-            // 
-            this.radioButton6.AutoSize = true;
-            this.radioButton6.Location = new System.Drawing.Point(201, 233);
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(141, 29);
-            this.radioButton6.TabIndex = 15;
-            this.radioButton6.TabStop = true;
-            this.radioButton6.Text = "radioButton5";
-            this.radioButton6.UseVisualStyleBackColor = true;
-            // 
             // Workspace
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
@@ -573,7 +550,6 @@
             this.panel5.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
             this.panel7.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
@@ -615,7 +591,5 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.RadioButton radioButton5;
-        private System.Windows.Forms.RadioButton radioButton6;
     }
 }

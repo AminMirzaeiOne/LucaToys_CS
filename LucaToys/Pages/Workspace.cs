@@ -126,5 +126,10 @@ namespace LucaToys.Pages
                 this.chromiumWebBrowser1.LoadUrl("https://www.wikipedia.org/");
             }
         }
+
+        private void panel6_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
