@@ -53,14 +53,14 @@ namespace LucaToys.Pages
 
         private void label4_MouseMove(object sender, MouseEventArgs e)
         {
-            if (this.mouseDown)
-            {
-                this.panel2.Size = new Size((this.panel2.Location.X - this.width) + e.X, this.panel2.Size.Height);
+            //if (this.mouseDown)
+            //{
+            //    this.panel2.Size = new Size((this.panel2.Location.X - this.width) + e.X, this.panel2.Size.Height);
                
-                //this.chromiumWebBrowser1.Location = new Point((this.chromiumWebBrowser1.Location.X - this.lastLocation.X) + e.X, this.chromiumWebBrowser1.Location.Y);
+            //    //this.chromiumWebBrowser1.Location = new Point((this.chromiumWebBrowser1.Location.X - this.lastLocation.X) + e.X, this.chromiumWebBrowser1.Location.Y);
 
-                this.Update();
-            }
+            //    this.Update();
+            //}
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -69,44 +69,44 @@ namespace LucaToys.Pages
 
         private void radioGoogle_CheckedChanged(object sender, EventArgs e)
         {
-            if (this.radioGoogle.Checked) 
-            {
-                this.chromiumWebBrowser1.LoadUrl("https://www.google.com");
-                this.chromiumWebBrowser1.ShowDevTools();
+            //if (this.radioGoogle.Checked) 
+            //{
+            //    this.chromiumWebBrowser1.LoadUrl("https://www.google.com");
+            //    this.chromiumWebBrowser1.ShowDevTools();
 
-            }
+            //}
         }
 
         private void radioInstagram_CheckedChanged(object sender, EventArgs e)
         {
-            if (this.radioInstagram.Checked)
-            {
-                this.chromiumWebBrowser1.LoadUrl("https://www.instagram.com");
-            }
+            //if (this.radioInstagram.Checked)
+            //{
+            //    this.chromiumWebBrowser1.LoadUrl("https://www.instagram.com");
+            //}
         }
 
         private void radioTelegram_CheckedChanged(object sender, EventArgs e)
         {
-            if (this.radioTelegram.Checked)
-            {
-                this.chromiumWebBrowser1.LoadUrl("https://web.telegram.org/");
-            }
+            //if (this.radioTelegram.Checked)
+            //{
+            //    this.chromiumWebBrowser1.LoadUrl("https://web.telegram.org/");
+            //}
         }
 
         private void radioWhatsapp_CheckedChanged(object sender, EventArgs e)
         {
-            if (this.radioWhatsapp.Checked)
-            {
-                this.chromiumWebBrowser1.LoadUrl("https://web.whatsapp.com/");
-            }
+            //if (this.radioWhatsapp.Checked)
+            //{
+            //    this.chromiumWebBrowser1.LoadUrl("https://web.whatsapp.com/");
+            //}
         }
 
         private void radioSpotify_CheckedChanged(object sender, EventArgs e)
         {
-            if (this.radioSpotify.Checked)
-            {
-                this.chromiumWebBrowser1.LoadUrl("https://open.spotify.com/");
-            }
+            //if (this.radioSpotify.Checked)
+            //{
+            //    this.chromiumWebBrowser1.LoadUrl("https://open.spotify.com/");
+            //}
         }
 
         private void panel3_Paint(object sender, PaintEventArgs e)
@@ -121,10 +121,10 @@ namespace LucaToys.Pages
 
         private void radioButton4_CheckedChanged(object sender, EventArgs e)
         {
-            if (this.radioButton4.Checked) 
-            {
-                this.chromiumWebBrowser1.LoadUrl("https://www.wikipedia.org/");
-            }
+            //if (this.radioButton4.Checked) 
+            //{
+            //    this.chromiumWebBrowser1.LoadUrl("https://www.wikipedia.org/");
+            //}
         }
 
         private void panel6_Paint(object sender, PaintEventArgs e)
