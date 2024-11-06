@@ -35,7 +35,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Name = "LTClock";
-            this.Size = new System.Drawing.Size(220, 238);
+            this.Size = new System.Drawing.Size(220, 274);
             this.ResumeLayout(false);
 
         }
