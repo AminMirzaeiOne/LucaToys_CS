@@ -32,21 +32,22 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.workspace1 = new LucaToys.Pages.Workspace();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.homeStatus1 = new LucaToys.Menus.HomeStatus();
             this.label2 = new System.Windows.Forms.Label();
+            this.homeTopMenu1 = new LucaToys.Menus.HomeTopMenu();
             this.btnControl = new System.Windows.Forms.Button();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.btnMinimize = new System.Windows.Forms.Button();
             this.btnMaximize = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.workspace1 = new LucaToys.Pages.Workspace();
-            this.homeStatus1 = new LucaToys.Menus.HomeStatus();
-            this.homeTopMenu1 = new LucaToys.Menus.HomeTopMenu();
             this.ltSmallMenu1 = new LucaToys.Controls.LTSmallMenu();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -72,10 +73,7 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.homeTopMenu1);
             this.panel1.Controls.Add(this.btnControl);
-            this.panel1.Controls.Add(this.btnMinimize);
-            this.panel1.Controls.Add(this.btnMaximize);
-            this.panel1.Controls.Add(this.btnClose);
-            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.panel5);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
@@ -95,6 +93,17 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1344, 460);
             this.panel2.TabIndex = 28;
+            // 
+            // workspace1
+            // 
+            this.workspace1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.workspace1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.workspace1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.workspace1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.workspace1.Location = new System.Drawing.Point(0, 3);
+            this.workspace1.Name = "workspace1";
+            this.workspace1.Size = new System.Drawing.Size(1344, 454);
+            this.workspace1.TabIndex = 5;
             // 
             // label4
             // 
@@ -118,6 +127,15 @@
             this.label3.TabIndex = 3;
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // homeStatus1
+            // 
+            this.homeStatus1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.homeStatus1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.homeStatus1.Location = new System.Drawing.Point(0, 624);
+            this.homeStatus1.Name = "homeStatus1";
+            this.homeStatus1.Size = new System.Drawing.Size(1344, 70);
+            this.homeStatus1.TabIndex = 27;
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -131,6 +149,15 @@
             this.label2.TabIndex = 26;
             this.label2.Text = "Home Window";
             this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // homeTopMenu1
+            // 
+            this.homeTopMenu1.BackColor = System.Drawing.Color.White;
+            this.homeTopMenu1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.homeTopMenu1.Location = new System.Drawing.Point(0, 36);
+            this.homeTopMenu1.Name = "homeTopMenu1";
+            this.homeTopMenu1.Size = new System.Drawing.Size(1344, 128);
+            this.homeTopMenu1.TabIndex = 19;
             // 
             // btnControl
             // 
@@ -149,18 +176,36 @@
             this.btnControl.Click += new System.EventHandler(this.btnControl_Click);
             this.btnControl.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btnControl_MouseDown);
             // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.Plum;
+            this.panel5.Controls.Add(this.btnMinimize);
+            this.panel5.Controls.Add(this.btnMaximize);
+            this.panel5.Controls.Add(this.btnClose);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel5.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.panel5.ForeColor = System.Drawing.Color.White;
+            this.panel5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.panel5.Location = new System.Drawing.Point(0, 0);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(1344, 36);
+            this.panel5.TabIndex = 13;
+            this.panel5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.label1_MouseDown);
+            this.panel5.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label1_MouseMove);
+            this.panel5.MouseUp += new System.Windows.Forms.MouseEventHandler(this.label1_MouseUp);
+            // 
             // btnMinimize
             // 
-            this.btnMinimize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnMinimize.BackColor = System.Drawing.Color.Black;
+            this.btnMinimize.BackColor = System.Drawing.Color.Plum;
+            this.btnMinimize.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnMinimize.FlatAppearance.BorderSize = 0;
             this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMinimize.Font = new System.Drawing.Font("Segoe MDL2 Assets", 6F, System.Drawing.FontStyle.Bold);
-            this.btnMinimize.ForeColor = System.Drawing.Color.Plum;
+            this.btnMinimize.ForeColor = System.Drawing.Color.White;
             this.btnMinimize.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnMinimize.Location = new System.Drawing.Point(1247, 4);
+            this.btnMinimize.Location = new System.Drawing.Point(1214, 0);
             this.btnMinimize.Name = "btnMinimize";
-            this.btnMinimize.Size = new System.Drawing.Size(25, 25);
+            this.btnMinimize.Size = new System.Drawing.Size(41, 36);
             this.btnMinimize.TabIndex = 17;
             this.btnMinimize.Text = "";
             this.btnMinimize.UseVisualStyleBackColor = false;
@@ -168,16 +213,16 @@
             // 
             // btnMaximize
             // 
-            this.btnMaximize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnMaximize.BackColor = System.Drawing.Color.Black;
+            this.btnMaximize.BackColor = System.Drawing.Color.Plum;
+            this.btnMaximize.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnMaximize.FlatAppearance.BorderSize = 0;
             this.btnMaximize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMaximize.Font = new System.Drawing.Font("Segoe MDL2 Assets", 6F, System.Drawing.FontStyle.Bold);
-            this.btnMaximize.ForeColor = System.Drawing.Color.Plum;
+            this.btnMaximize.ForeColor = System.Drawing.Color.White;
             this.btnMaximize.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnMaximize.Location = new System.Drawing.Point(1281, 4);
+            this.btnMaximize.Location = new System.Drawing.Point(1255, 0);
             this.btnMaximize.Name = "btnMaximize";
-            this.btnMaximize.Size = new System.Drawing.Size(25, 25);
+            this.btnMaximize.Size = new System.Drawing.Size(44, 36);
             this.btnMaximize.TabIndex = 17;
             this.btnMaximize.Text = "";
             this.btnMaximize.UseVisualStyleBackColor = false;
@@ -185,64 +230,20 @@
             // 
             // btnClose
             // 
-            this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnClose.BackColor = System.Drawing.Color.Black;
+            this.btnClose.BackColor = System.Drawing.Color.Plum;
+            this.btnClose.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnClose.FlatAppearance.BorderSize = 0;
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClose.Font = new System.Drawing.Font("Segoe MDL2 Assets", 6F, System.Drawing.FontStyle.Bold);
-            this.btnClose.ForeColor = System.Drawing.Color.Plum;
+            this.btnClose.ForeColor = System.Drawing.Color.White;
             this.btnClose.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnClose.Location = new System.Drawing.Point(1315, 4);
+            this.btnClose.Location = new System.Drawing.Point(1299, 0);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(25, 25);
+            this.btnClose.Size = new System.Drawing.Size(45, 36);
             this.btnClose.TabIndex = 18;
             this.btnClose.Text = "";
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
-            // 
-            // label1
-            // 
-            this.label1.BackColor = System.Drawing.Color.Plum;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1344, 36);
-            this.label1.TabIndex = 13;
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.label1_MouseDown);
-            this.label1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label1_MouseMove);
-            this.label1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.label1_MouseUp);
-            // 
-            // workspace1
-            // 
-            this.workspace1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.workspace1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.workspace1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.workspace1.Location = new System.Drawing.Point(0, 3);
-            this.workspace1.Name = "workspace1";
-            this.workspace1.Size = new System.Drawing.Size(1344, 454);
-            this.workspace1.TabIndex = 5;
-            // 
-            // homeStatus1
-            // 
-            this.homeStatus1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.homeStatus1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.homeStatus1.Location = new System.Drawing.Point(0, 624);
-            this.homeStatus1.Name = "homeStatus1";
-            this.homeStatus1.Size = new System.Drawing.Size(1344, 70);
-            this.homeStatus1.TabIndex = 27;
-            // 
-            // homeTopMenu1
-            // 
-            this.homeTopMenu1.BackColor = System.Drawing.Color.White;
-            this.homeTopMenu1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.homeTopMenu1.Location = new System.Drawing.Point(0, 36);
-            this.homeTopMenu1.Name = "homeTopMenu1";
-            this.homeTopMenu1.Size = new System.Drawing.Size(1344, 128);
-            this.homeTopMenu1.TabIndex = 19;
             // 
             // ltSmallMenu1
             // 
@@ -274,6 +275,7 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
+            this.panel5.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -282,7 +284,7 @@
 
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Button btnControl;
         private System.Windows.Forms.Button btnMinimize;
         private System.Windows.Forms.Button btnMaximize;
