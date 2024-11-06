@@ -179,5 +179,44 @@ namespace LucaToys.Pages
             if (this.radioButton7.Checked)
                 this.chromiumWebBrowser1.LoadUrl("https://twitter.com/login");
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.chromiumWebBrowser1.Back();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.chromiumWebBrowser1.Forward();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.chromiumWebBrowser1.LoadUrl(this.chromiumWebBrowser1.Address);
+        }
+
+        private void radioButton8_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.radioButton8.Checked)
+                this.chromiumWebBrowser1.LoadUrl("https://www.wikipedia.org/");
+        }
+
+        private void radioButton10_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.radioButton10.Checked)
+                this.chromiumWebBrowser1.LoadUrl("https://www.pinterest.com/");
+        }
+
+        private void radioButton11_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.radioButton11.Checked)
+                this.chromiumWebBrowser1.LoadUrl("https://www.reddit.com/");
+        }
+
+        private void radioButton12_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.radioButton12.Checked)
+                this.chromiumWebBrowser1.LoadUrl("https://www.facebook.com/");
+        }
     }
 }
