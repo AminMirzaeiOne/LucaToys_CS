@@ -32,18 +32,18 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.workspace1 = new LucaToys.Pages.Workspace();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.homeStatus1 = new LucaToys.Menus.HomeStatus();
             this.label2 = new System.Windows.Forms.Label();
-            this.btnControl = new System.Windows.Forms.Button();
+            this.homeTopMenu1 = new LucaToys.Menus.HomeTopMenu();
             this.panel5 = new System.Windows.Forms.Panel();
             this.btnMinimize = new System.Windows.Forms.Button();
             this.btnMaximize = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
-            this.homeStatus1 = new LucaToys.Menus.HomeStatus();
-            this.homeTopMenu1 = new LucaToys.Menus.HomeTopMenu();
+            this.btnControl = new System.Windows.Forms.Button();
             this.ltSmallMenu1 = new LucaToys.Controls.LTSmallMenu();
-            this.workspace1 = new LucaToys.Pages.Workspace();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -93,6 +93,17 @@
             this.panel2.Size = new System.Drawing.Size(1344, 460);
             this.panel2.TabIndex = 28;
             // 
+            // workspace1
+            // 
+            this.workspace1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.workspace1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.workspace1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.workspace1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.workspace1.Location = new System.Drawing.Point(0, 3);
+            this.workspace1.Name = "workspace1";
+            this.workspace1.Size = new System.Drawing.Size(1344, 454);
+            this.workspace1.TabIndex = 5;
+            // 
             // label4
             // 
             this.label4.BackColor = System.Drawing.Color.Plum;
@@ -115,6 +126,15 @@
             this.label3.TabIndex = 3;
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // homeStatus1
+            // 
+            this.homeStatus1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.homeStatus1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.homeStatus1.Location = new System.Drawing.Point(0, 624);
+            this.homeStatus1.Name = "homeStatus1";
+            this.homeStatus1.Size = new System.Drawing.Size(1344, 70);
+            this.homeStatus1.TabIndex = 27;
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -129,23 +149,14 @@
             this.label2.Text = "Home Window";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // btnControl
+            // homeTopMenu1
             // 
-            this.btnControl.BackColor = System.Drawing.Color.Plum;
-            this.btnControl.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnControl.FlatAppearance.BorderSize = 0;
-            this.btnControl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnControl.Font = new System.Drawing.Font("Segoe MDL2 Assets", 7F, System.Drawing.FontStyle.Bold);
-            this.btnControl.ForeColor = System.Drawing.Color.White;
-            this.btnControl.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnControl.Location = new System.Drawing.Point(0, 0);
-            this.btnControl.Name = "btnControl";
-            this.btnControl.Size = new System.Drawing.Size(45, 36);
-            this.btnControl.TabIndex = 16;
-            this.btnControl.Text = "";
-            this.btnControl.UseVisualStyleBackColor = false;
-            this.btnControl.Click += new System.EventHandler(this.btnControl_Click);
-            this.btnControl.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btnControl_MouseDown);
+            this.homeTopMenu1.BackColor = System.Drawing.Color.White;
+            this.homeTopMenu1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.homeTopMenu1.Location = new System.Drawing.Point(0, 36);
+            this.homeTopMenu1.Name = "homeTopMenu1";
+            this.homeTopMenu1.Size = new System.Drawing.Size(1344, 128);
+            this.homeTopMenu1.TabIndex = 19;
             // 
             // panel5
             // 
@@ -217,23 +228,23 @@
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
-            // homeStatus1
+            // btnControl
             // 
-            this.homeStatus1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.homeStatus1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.homeStatus1.Location = new System.Drawing.Point(0, 624);
-            this.homeStatus1.Name = "homeStatus1";
-            this.homeStatus1.Size = new System.Drawing.Size(1344, 70);
-            this.homeStatus1.TabIndex = 27;
-            // 
-            // homeTopMenu1
-            // 
-            this.homeTopMenu1.BackColor = System.Drawing.Color.White;
-            this.homeTopMenu1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.homeTopMenu1.Location = new System.Drawing.Point(0, 36);
-            this.homeTopMenu1.Name = "homeTopMenu1";
-            this.homeTopMenu1.Size = new System.Drawing.Size(1344, 128);
-            this.homeTopMenu1.TabIndex = 19;
+            this.btnControl.BackColor = System.Drawing.Color.Plum;
+            this.btnControl.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnControl.FlatAppearance.BorderSize = 0;
+            this.btnControl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnControl.Font = new System.Drawing.Font("Segoe MDL2 Assets", 9F, System.Drawing.FontStyle.Bold);
+            this.btnControl.ForeColor = System.Drawing.Color.White;
+            this.btnControl.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.btnControl.Location = new System.Drawing.Point(0, 0);
+            this.btnControl.Name = "btnControl";
+            this.btnControl.Size = new System.Drawing.Size(45, 36);
+            this.btnControl.TabIndex = 16;
+            this.btnControl.Text = "";
+            this.btnControl.UseVisualStyleBackColor = false;
+            this.btnControl.Click += new System.EventHandler(this.btnControl_Click);
+            this.btnControl.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btnControl_MouseDown);
             // 
             // ltSmallMenu1
             // 
@@ -248,17 +259,6 @@
             this.ltSmallMenu1.SymbolSize = ((byte)(10));
             this.ltSmallMenu1.SymbolWidth = ((byte)(40));
             this.ltSmallMenu1.Width = ((byte)(230));
-            // 
-            // workspace1
-            // 
-            this.workspace1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.workspace1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.workspace1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.workspace1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.workspace1.Location = new System.Drawing.Point(0, 3);
-            this.workspace1.Name = "workspace1";
-            this.workspace1.Size = new System.Drawing.Size(1344, 454);
-            this.workspace1.TabIndex = 5;
             // 
             // Home
             // 

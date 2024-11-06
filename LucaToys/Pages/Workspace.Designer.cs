@@ -130,7 +130,7 @@
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.BackColor = System.Drawing.Color.Plum;
-            this.label2.Location = new System.Drawing.Point(0, 261);
+            this.label2.Location = new System.Drawing.Point(0, 267);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(310, 3);
             this.label2.TabIndex = 11;
@@ -140,7 +140,7 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Plum;
-            this.label5.Location = new System.Drawing.Point(92, 205);
+            this.label5.Location = new System.Drawing.Point(92, 211);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(120, 40);
             this.label5.TabIndex = 11;
@@ -152,7 +152,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(60, 163);
+            this.label3.Location = new System.Drawing.Point(60, 169);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(190, 40);
             this.label3.TabIndex = 11;
@@ -163,7 +163,7 @@
             // 
             this.pictureBox1.BackgroundImage = global::LucaToys.Properties.Resources.download_17;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(89, 16);
+            this.pictureBox1.Location = new System.Drawing.Point(89, 22);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(130, 130);
             this.pictureBox1.TabIndex = 0;
@@ -584,9 +584,9 @@
             this.groupBox6.Controls.Add(this.button21);
             this.groupBox6.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox6.ForeColor = System.Drawing.Color.Plum;
-            this.groupBox6.Location = new System.Drawing.Point(28, 489);
+            this.groupBox6.Location = new System.Drawing.Point(28, 504);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(514, 291);
+            this.groupBox6.Size = new System.Drawing.Size(514, 303);
             this.groupBox6.TabIndex = 13;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Invoice";
@@ -618,7 +618,7 @@
             this.groupBox4.Controls.Add(this.button15);
             this.groupBox4.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox4.ForeColor = System.Drawing.Color.Plum;
-            this.groupBox4.Location = new System.Drawing.Point(561, 277);
+            this.groupBox4.Location = new System.Drawing.Point(561, 294);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(514, 180);
             this.groupBox4.TabIndex = 13;
@@ -693,9 +693,9 @@
             this.groupBox5.Controls.Add(this.button18);
             this.groupBox5.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox5.ForeColor = System.Drawing.Color.Plum;
-            this.groupBox5.Location = new System.Drawing.Point(561, 489);
+            this.groupBox5.Location = new System.Drawing.Point(561, 504);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(514, 291);
+            this.groupBox5.Size = new System.Drawing.Size(514, 303);
             this.groupBox5.TabIndex = 13;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Accounting";
@@ -787,7 +787,7 @@
             this.groupBox2.Controls.Add(this.button9);
             this.groupBox2.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.Plum;
-            this.groupBox2.Location = new System.Drawing.Point(561, 74);
+            this.groupBox2.Location = new System.Drawing.Point(561, 91);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(514, 180);
             this.groupBox2.TabIndex = 13;
@@ -861,7 +861,7 @@
             this.groupBox3.Controls.Add(this.button12);
             this.groupBox3.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.ForeColor = System.Drawing.Color.Plum;
-            this.groupBox3.Location = new System.Drawing.Point(28, 277);
+            this.groupBox3.Location = new System.Drawing.Point(28, 294);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(514, 180);
             this.groupBox3.TabIndex = 13;
@@ -935,7 +935,7 @@
             this.groupBox1.Controls.Add(this.button4);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.Plum;
-            this.groupBox1.Location = new System.Drawing.Point(28, 74);
+            this.groupBox1.Location = new System.Drawing.Point(28, 91);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(514, 180);
             this.groupBox1.TabIndex = 13;
@@ -1194,20 +1194,20 @@
             // ltMiniCalender1
             // 
             this.ltMiniCalender1.BackColor = System.Drawing.Color.White;
-            this.ltMiniCalender1.Location = new System.Drawing.Point(24, 500);
+            this.ltMiniCalender1.Location = new System.Drawing.Point(23, 528);
             this.ltMiniCalender1.Name = "ltMiniCalender1";
-            this.ltMiniCalender1.Size = new System.Drawing.Size(260, 338);
-            this.ltMiniCalender1.TabIndex = 11;
+            this.ltMiniCalender1.Size = new System.Drawing.Size(260, 279);
+            this.ltMiniCalender1.TabIndex = 12;
             // 
             // ltClock1
             // 
             this.ltClock1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
-            this.ltClock1.Location = new System.Drawing.Point(54, 281);
+            this.ltClock1.Location = new System.Drawing.Point(54, 297);
             this.ltClock1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.ltClock1.Name = "ltClock1";
             this.ltClock1.Size = new System.Drawing.Size(200, 200);
             this.ltClock1.TabIndex = 11;
-            this.ltClock1.ThemeColor = System.Drawing.Color.Plum;
+            this.ltClock1.ThemeColor = System.Drawing.Color.Salmon;
             // 
             // Workspace
             // 
@@ -1249,7 +1249,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
         private Controls.LTClock ltClock1;
-        private Controls.LTMiniCalender ltMiniCalender1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label4;
@@ -1307,5 +1306,6 @@
         private System.Windows.Forms.Button button19;
         private System.Windows.Forms.Button button23;
         private System.Windows.Forms.Button button20;
+        private Controls.LTMiniCalender ltMiniCalender1;
     }
 }

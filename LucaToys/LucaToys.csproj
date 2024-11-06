@@ -1013,7 +1013,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Logic\" />
+    <Folder Include="Components\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\LucaLogo.png" />
