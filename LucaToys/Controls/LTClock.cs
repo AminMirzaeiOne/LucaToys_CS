@@ -31,7 +31,7 @@ namespace LucaToys.Controls
         {
             
             // Draw.
-            using (Pen thick_pen = new Pen(Color.Plum, 4))
+            using (Pen thick_pen = new Pen(this.ThemeColor, 4))
             {
                 // Outline.
                 gr.DrawEllipse(thick_pen,
@@ -68,7 +68,7 @@ namespace LucaToys.Controls
                         PointF inner_pt = new PointF(
                             inner_x_factor * cos_angle,
                             inner_y_factor * sin_angle);
-                        gr.DrawLine(Pens.Plum, inner_pt, outer_pt);
+                        gr.DrawLine(new Pen(this.ThemeColor), inner_pt, outer_pt);
                     }
                 }
             }
@@ -98,7 +98,7 @@ namespace LucaToys.Controls
         // Draw the clock's hands.
         private void DrawClockHands(Graphics gr)
         {
-            using (Pen thick_pen = new Pen(Color.Plum, 4))
+            using (Pen thick_pen = new Pen(this.ThemeColor, 4))
             {
                 // Get the hour and minute plus any fraction that has elapsed.
                 DateTime now = DateTime.Now;
@@ -116,7 +116,7 @@ namespace LucaToys.Controls
                 PointF hour_pt = new PointF(
                     (float)(hour_x_factor * Math.Cos(hour_angle)),
                     (float)(hour_y_factor * Math.Sin(hour_angle)));
-                thick_pen.Color = Color.Plum;
+                thick_pen.Color = this.ThemeColor;
                 gr.DrawLine(thick_pen, hour_pt, center);
 
                 // Draw the minute hand.
@@ -137,7 +137,7 @@ namespace LucaToys.Controls
                 PointF second_pt = new PointF(
                     (float)(second_x_factor * Math.Cos(second_angle)),
                     (float)(second_y_factor * Math.Sin(second_angle)));
-                gr.DrawLine(Pens.Plum, second_pt, center);
+                gr.DrawLine(new Pen(this.ThemeColor), second_pt, center);
             }
         }
 
@@ -260,7 +260,7 @@ namespace LucaToys.Controls
             DrawClockHands(e.Graphics);
 
             // Draw the center.
-            e.Graphics.FillEllipse(Brushes.Plum, -5, -5, 10, 10);
+            e.Graphics.FillEllipse(new SolidBrush(this.ThemeColor), -5, -5, 10, 10);
         }
     }
 }
