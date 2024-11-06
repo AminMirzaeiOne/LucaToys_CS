@@ -90,6 +90,12 @@
     <Compile Include="Controls\LTButton.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Controls\LTClock.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\LTClock.Designer.cs">
+      <DependentUpon>LTClock.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controls\LTMiniCalender.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -98,12 +104,6 @@
     </Compile>
     <Compile Include="Controls\LTCheckBox.cs">
       <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Controls\LTClock.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Controls\LTClock.Designer.cs">
-      <DependentUpon>LTClock.cs</DependentUpon>
     </Compile>
     <Compile Include="Controls\LTComboBox.cs">
       <SubType>UserControl</SubType>
@@ -670,11 +670,11 @@
     <Compile Include="Widgets\WhiteBoard.Designer.cs">
       <DependentUpon>WhiteBoard.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Controls\LTMiniCalender.resx">
-      <DependentUpon>LTMiniCalender.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Controls\LTClock.resx">
       <DependentUpon>LTClock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\LTMiniCalender.resx">
+      <DependentUpon>LTMiniCalender.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\LTComboBox.resx">
       <DependentUpon>LTComboBox.cs</DependentUpon>
