@@ -50,6 +50,9 @@
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.button2 = new System.Windows.Forms.Button();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.radioButton6 = new System.Windows.Forms.RadioButton();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -68,14 +71,17 @@
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(280, 320);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(260, 320);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.panel1.Controls.Add(this.radioButton6);
             this.panel1.Controls.Add(this.radioButton2);
+            this.panel1.Controls.Add(this.radioButton4);
             this.panel1.Controls.Add(this.radioButton1);
+            this.panel1.Controls.Add(this.radioButton3);
             this.panel1.Controls.Add(this.radioButton5);
             this.panel1.Controls.Add(this.label11);
             this.panel1.Controls.Add(this.tableLayoutPanel2);
@@ -87,7 +93,7 @@
             this.panel1.Location = new System.Drawing.Point(2, 2);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(276, 316);
+            this.panel1.Size = new System.Drawing.Size(256, 316);
             this.panel1.TabIndex = 0;
             // 
             // label11
@@ -96,7 +102,7 @@
             this.label11.Dock = System.Windows.Forms.DockStyle.Top;
             this.label11.Location = new System.Drawing.Point(0, 88);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(276, 3);
+            this.label11.Size = new System.Drawing.Size(256, 3);
             this.label11.TabIndex = 64;
             // 
             // tableLayoutPanel2
@@ -122,7 +128,7 @@
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(276, 40);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(256, 40);
             this.tableLayoutPanel2.TabIndex = 63;
             // 
             // label10
@@ -131,9 +137,9 @@
             this.label10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label10.Font = new System.Drawing.Font("Segoe UI Semibold", 9.5F, System.Drawing.FontStyle.Bold);
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(237, 0);
+            this.label10.Location = new System.Drawing.Point(219, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(36, 40);
+            this.label10.Size = new System.Drawing.Size(34, 40);
             this.label10.TabIndex = 70;
             this.label10.Text = "ش";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -144,9 +150,9 @@
             this.label9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label9.Font = new System.Drawing.Font("Segoe UI Semibold", 9.5F, System.Drawing.FontStyle.Bold);
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(198, 0);
+            this.label9.Location = new System.Drawing.Point(183, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(33, 40);
+            this.label9.Size = new System.Drawing.Size(30, 40);
             this.label9.TabIndex = 69;
             this.label9.Text = "ی";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -157,9 +163,9 @@
             this.label8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label8.Font = new System.Drawing.Font("Segoe UI Semibold", 9.5F, System.Drawing.FontStyle.Bold);
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(159, 0);
+            this.label8.Location = new System.Drawing.Point(147, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(33, 40);
+            this.label8.Size = new System.Drawing.Size(30, 40);
             this.label8.TabIndex = 68;
             this.label8.Text = "د";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -170,9 +176,9 @@
             this.label7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 9.5F, System.Drawing.FontStyle.Bold);
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(120, 0);
+            this.label7.Location = new System.Drawing.Point(111, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(33, 40);
+            this.label7.Size = new System.Drawing.Size(30, 40);
             this.label7.TabIndex = 67;
             this.label7.Text = "س";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -183,9 +189,9 @@
             this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 9.5F, System.Drawing.FontStyle.Bold);
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(81, 0);
+            this.label6.Location = new System.Drawing.Point(75, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(33, 40);
+            this.label6.Size = new System.Drawing.Size(30, 40);
             this.label6.TabIndex = 66;
             this.label6.Text = "چ";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -196,9 +202,9 @@
             this.label5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 9.5F, System.Drawing.FontStyle.Bold);
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(42, 0);
+            this.label5.Location = new System.Drawing.Point(39, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(33, 40);
+            this.label5.Size = new System.Drawing.Size(30, 40);
             this.label5.TabIndex = 65;
             this.label5.Text = "پ";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -211,7 +217,7 @@
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(3, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(33, 40);
+            this.label4.Size = new System.Drawing.Size(30, 40);
             this.label4.TabIndex = 64;
             this.label4.Text = "ج";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -222,7 +228,7 @@
             this.label1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label1.Location = new System.Drawing.Point(0, 273);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(276, 3);
+            this.label1.Size = new System.Drawing.Size(256, 3);
             this.label1.TabIndex = 62;
             // 
             // panel3
@@ -232,7 +238,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel3.Location = new System.Drawing.Point(0, 276);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(276, 40);
+            this.panel3.Size = new System.Drawing.Size(256, 40);
             this.panel3.TabIndex = 61;
             // 
             // label2
@@ -243,7 +249,7 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(0, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(276, 40);
+            this.label2.Size = new System.Drawing.Size(256, 40);
             this.label2.TabIndex = 63;
             this.label2.Text = "امروز : 1403/8/16";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -254,7 +260,7 @@
             this.label3.Dock = System.Windows.Forms.DockStyle.Top;
             this.label3.Location = new System.Drawing.Point(0, 45);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(276, 3);
+            this.label3.Size = new System.Drawing.Size(256, 3);
             this.label3.TabIndex = 60;
             // 
             // panel2
@@ -266,7 +272,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(276, 45);
+            this.panel2.Size = new System.Drawing.Size(256, 45);
             this.panel2.TabIndex = 0;
             // 
             // button1
@@ -278,9 +284,9 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(8, 4);
+            this.button1.Location = new System.Drawing.Point(3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(69, 35);
+            this.button1.Size = new System.Drawing.Size(57, 35);
             this.button1.TabIndex = 52;
             this.button1.Text = "1403";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -295,7 +301,7 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(158, 4);
+            this.button3.Location = new System.Drawing.Point(141, 4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(110, 35);
             this.button3.TabIndex = 52;
@@ -310,15 +316,15 @@
             this.radioButton5.FlatAppearance.BorderSize = 2;
             this.radioButton5.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
             this.radioButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.radioButton5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton5.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton5.ForeColor = System.Drawing.Color.White;
-            this.radioButton5.Location = new System.Drawing.Point(196, 98);
+            this.radioButton5.Location = new System.Drawing.Point(175, 104);
             this.radioButton5.Margin = new System.Windows.Forms.Padding(0, 20, 0, 20);
             this.radioButton5.Name = "radioButton5";
             this.radioButton5.Size = new System.Drawing.Size(70, 66);
             this.radioButton5.TabIndex = 65;
             this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "3";
+            this.radioButton5.Text = "1";
             this.radioButton5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.radioButton5.UseVisualStyleBackColor = true;
             // 
@@ -329,15 +335,15 @@
             this.radioButton1.FlatAppearance.BorderSize = 2;
             this.radioButton1.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
             this.radioButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.radioButton1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton1.ForeColor = System.Drawing.Color.White;
-            this.radioButton1.Location = new System.Drawing.Point(114, 98);
+            this.radioButton1.Location = new System.Drawing.Point(93, 104);
             this.radioButton1.Margin = new System.Windows.Forms.Padding(0, 20, 0, 20);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(70, 66);
             this.radioButton1.TabIndex = 65;
             this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "3";
+            this.radioButton1.Text = "2";
             this.radioButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.radioButton1.UseVisualStyleBackColor = true;
             // 
@@ -348,9 +354,9 @@
             this.radioButton2.FlatAppearance.BorderSize = 2;
             this.radioButton2.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
             this.radioButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.radioButton2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton2.ForeColor = System.Drawing.Color.White;
-            this.radioButton2.Location = new System.Drawing.Point(31, 98);
+            this.radioButton2.Location = new System.Drawing.Point(10, 104);
             this.radioButton2.Margin = new System.Windows.Forms.Padding(0, 20, 0, 20);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(70, 66);
@@ -369,13 +375,70 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(83, 4);
+            this.button2.Location = new System.Drawing.Point(66, 4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(69, 35);
             this.button2.TabIndex = 52;
             this.button2.Text = "شنبه";
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button2.UseVisualStyleBackColor = false;
+            // 
+            // radioButton3
+            // 
+            this.radioButton3.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton3.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.radioButton3.FlatAppearance.BorderSize = 2;
+            this.radioButton3.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
+            this.radioButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radioButton3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton3.ForeColor = System.Drawing.Color.White;
+            this.radioButton3.Location = new System.Drawing.Point(175, 187);
+            this.radioButton3.Margin = new System.Windows.Forms.Padding(0, 20, 0, 20);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(70, 66);
+            this.radioButton3.TabIndex = 65;
+            this.radioButton3.TabStop = true;
+            this.radioButton3.Text = "4";
+            this.radioButton3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radioButton3.UseVisualStyleBackColor = true;
+            // 
+            // radioButton4
+            // 
+            this.radioButton4.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton4.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.radioButton4.FlatAppearance.BorderSize = 2;
+            this.radioButton4.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
+            this.radioButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radioButton4.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton4.ForeColor = System.Drawing.Color.White;
+            this.radioButton4.Location = new System.Drawing.Point(93, 187);
+            this.radioButton4.Margin = new System.Windows.Forms.Padding(0, 20, 0, 20);
+            this.radioButton4.Name = "radioButton4";
+            this.radioButton4.Size = new System.Drawing.Size(70, 66);
+            this.radioButton4.TabIndex = 65;
+            this.radioButton4.TabStop = true;
+            this.radioButton4.Text = "5";
+            this.radioButton4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radioButton4.UseVisualStyleBackColor = true;
+            // 
+            // radioButton6
+            // 
+            this.radioButton6.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton6.FlatAppearance.BorderColor = System.Drawing.Color.Plum;
+            this.radioButton6.FlatAppearance.BorderSize = 2;
+            this.radioButton6.FlatAppearance.CheckedBackColor = System.Drawing.Color.Plum;
+            this.radioButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radioButton6.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton6.ForeColor = System.Drawing.Color.White;
+            this.radioButton6.Location = new System.Drawing.Point(10, 187);
+            this.radioButton6.Margin = new System.Windows.Forms.Padding(0, 20, 0, 20);
+            this.radioButton6.Name = "radioButton6";
+            this.radioButton6.Size = new System.Drawing.Size(70, 66);
+            this.radioButton6.TabIndex = 65;
+            this.radioButton6.TabStop = true;
+            this.radioButton6.Text = "6";
+            this.radioButton6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radioButton6.UseVisualStyleBackColor = true;
             // 
             // LTMiniCalender
             // 
@@ -384,7 +447,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "LTMiniCalender";
-            this.Size = new System.Drawing.Size(280, 320);
+            this.Size = new System.Drawing.Size(260, 320);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
@@ -418,5 +481,8 @@
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton5;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.RadioButton radioButton6;
+        private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.RadioButton radioButton3;
     }
 }
