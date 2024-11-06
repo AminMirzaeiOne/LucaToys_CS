@@ -19,6 +19,8 @@ namespace LucaToys.Controls
             InitializeComponent();
         }
 
+        public System.Drawing.Color ThemeColor { get; set; } = System.Drawing.Color.Plum;
+
         // True to show the digital time.
         private bool ShowDigital = false;
 
