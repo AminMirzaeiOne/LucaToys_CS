@@ -139,7 +139,7 @@ namespace LucaToys.Controls
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "LTClock";
             this.Size = new System.Drawing.Size(300, 308);

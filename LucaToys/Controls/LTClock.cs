@@ -20,15 +20,16 @@ namespace LucaToys.Controls
         }
 
         // True to show the digital time.
-        private bool ShowDigital = false;
+        private bool ShowDigital = true;
 
         // Prepare the form.
 
         // Draw
         private void DrawClockFace(Graphics gr)
         {
+            
             // Draw.
-            using (Pen thick_pen = new Pen(Color.Blue, 4))
+            using (Pen thick_pen = new Pen(Color.Green, 4))
             {
                 // Outline.
                 gr.DrawEllipse(thick_pen,
@@ -65,7 +66,7 @@ namespace LucaToys.Controls
                         PointF inner_pt = new PointF(
                             inner_x_factor * cos_angle,
                             inner_y_factor * sin_angle);
-                        gr.DrawLine(Pens.Blue, inner_pt, outer_pt);
+                        gr.DrawLine(Pens.Red, inner_pt, outer_pt);
                     }
                 }
             }
@@ -85,7 +86,7 @@ namespace LucaToys.Controls
                         string_format.Alignment = StringAlignment.Center;
                         string_format.LineAlignment = StringAlignment.Center;
                         gr.DrawString(DateTime.Now.ToLongTimeString(),
-                            font, Brushes.Blue, 0, -font.Height,
+                            font, Brushes.Tomato, 0, -font.Height,
                             string_format);
                     }
                 }
@@ -95,7 +96,7 @@ namespace LucaToys.Controls
         // Draw the clock's hands.
         private void DrawClockHands(Graphics gr)
         {
-            using (Pen thick_pen = new Pen(Color.Red, 4))
+            using (Pen thick_pen = new Pen(Color.Magenta, 4))
             {
                 // Get the hour and minute plus any fraction that has elapsed.
                 DateTime now = DateTime.Now;
@@ -113,7 +114,7 @@ namespace LucaToys.Controls
                 PointF hour_pt = new PointF(
                     (float)(hour_x_factor * Math.Cos(hour_angle)),
                     (float)(hour_y_factor * Math.Sin(hour_angle)));
-                thick_pen.Color = Color.Red;
+                thick_pen.Color = Color.Magenta;
                 gr.DrawLine(thick_pen, hour_pt, center);
 
                 // Draw the minute hand.
@@ -134,7 +135,7 @@ namespace LucaToys.Controls
                 PointF second_pt = new PointF(
                     (float)(second_x_factor * Math.Cos(second_angle)),
                     (float)(second_y_factor * Math.Sin(second_angle)));
-                gr.DrawLine(Pens.Red, second_pt, center);
+                gr.DrawLine(Pens.SlateBlue, second_pt, center);
             }
         }
 
@@ -257,7 +258,7 @@ namespace LucaToys.Controls
             DrawClockHands(e.Graphics);
 
             // Draw the center.
-            e.Graphics.FillEllipse(Brushes.Blue, -5, -5, 10, 10);
+            e.Graphics.FillEllipse(Brushes.Cyan, -5, -5, 10, 10);
         }
     }
 }
