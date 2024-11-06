@@ -45,8 +45,8 @@ namespace LucaToys.Submenus
 
         private void button2_Click(object sender, EventArgs e)
         {
-            LucaToys.Forms.Notepad notepad = new Forms.Notepad();
-            notepad.Show();
+            //LucaToys.Forms.Notepad notepad = new Forms.Notepad();
+            //notepad.Show();
         }
 
         private void button6_Click(object sender, EventArgs e)
