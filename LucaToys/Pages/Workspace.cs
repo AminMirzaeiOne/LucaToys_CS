@@ -55,8 +55,8 @@ namespace LucaToys.Pages
         {
             if (this.mouseDown)
             {
-                this.panel2.Size = new Size((this.panel2.Location.X - this.width) + e.X, this.panel2.Size.Height);
-               
+                this.panel3.Size = new Size((this.panel3.Location.X - this.width) + e.X, this.panel3.Size.Height);
+
                 //this.chromiumWebBrowser1.Location = new Point((this.chromiumWebBrowser1.Location.X - this.lastLocation.X) + e.X, this.chromiumWebBrowser1.Location.Y);
 
                 this.Update();
@@ -69,44 +69,44 @@ namespace LucaToys.Pages
 
         private void radioGoogle_CheckedChanged(object sender, EventArgs e)
         {
-            if (this.radioGoogle.Checked) 
-            {
-                this.chromiumWebBrowser1.LoadUrl("https://www.google.com");
-                this.chromiumWebBrowser1.ShowDevTools();
+            //if (this.radioGoogle.Checked) 
+            //{
+            //    this.chromiumWebBrowser1.LoadUrl("https://www.google.com");
+            //    this.chromiumWebBrowser1.ShowDevTools();
 
-            }
+            //}
         }
 
         private void radioInstagram_CheckedChanged(object sender, EventArgs e)
         {
-            if (this.radioInstagram.Checked)
-            {
-                this.chromiumWebBrowser1.LoadUrl("https://www.instagram.com");
-            }
+            //if (this.radioInstagram.Checked)
+            //{
+            //    this.chromiumWebBrowser1.LoadUrl("https://www.instagram.com");
+            //}
         }
 
         private void radioTelegram_CheckedChanged(object sender, EventArgs e)
         {
-            if (this.radioTelegram.Checked)
-            {
-                this.chromiumWebBrowser1.LoadUrl("https://web.telegram.org/");
-            }
+            //if (this.radioTelegram.Checked)
+            //{
+            //    this.chromiumWebBrowser1.LoadUrl("https://web.telegram.org/");
+            //}
         }
 
         private void radioWhatsapp_CheckedChanged(object sender, EventArgs e)
         {
-            if (this.radioWhatsapp.Checked)
-            {
-                this.chromiumWebBrowser1.LoadUrl("https://web.whatsapp.com/");
-            }
+            //if (this.radioWhatsapp.Checked)
+            //{
+            //    this.chromiumWebBrowser1.LoadUrl("https://web.whatsapp.com/");
+            //}
         }
 
         private void radioSpotify_CheckedChanged(object sender, EventArgs e)
         {
-            if (this.radioSpotify.Checked)
-            {
-                this.chromiumWebBrowser1.LoadUrl("https://open.spotify.com/");
-            }
+            //if (this.radioSpotify.Checked)
+            //{
+            //    this.chromiumWebBrowser1.LoadUrl("https://open.spotify.com/");
+            //}
         }
 
         private void panel3_Paint(object sender, PaintEventArgs e)
@@ -121,10 +121,102 @@ namespace LucaToys.Pages
 
         private void radioButton4_CheckedChanged(object sender, EventArgs e)
         {
-            if (this.radioButton4.Checked) 
-            {
+            //if (this.radioButton4.Checked) 
+            //{
+            //    this.chromiumWebBrowser1.LoadUrl("https://www.wikipedia.org/");
+            //}
+        }
+
+        private void panel6_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void radioButton9_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.radioButton9.Checked)
+                this.chromiumWebBrowser1.LoadUrl("https://www.google.com/");
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.radioButton1.Checked)
+                this.chromiumWebBrowser1.LoadUrl("https://www.instagram.com/");
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.radioButton2.Checked)
+                this.chromiumWebBrowser1.LoadUrl("https://www.tiktok.com/");
+        }
+
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.radioButton3.Checked)
+                this.chromiumWebBrowser1.LoadUrl("https://web.whatsapp.com/");
+        }
+
+        private void radioButton4_CheckedChanged_1(object sender, EventArgs e)
+        {
+            if (this.radioButton4.Checked)
+                this.chromiumWebBrowser1.LoadUrl("https://web.telegram.org/");
+        }
+
+        private void radioButton5_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.radioButton5.Checked)
+                this.chromiumWebBrowser1.LoadUrl("https://www.youtube.com/");
+        }
+
+        private void radioButton6_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.radioButton6.Checked)
+                this.chromiumWebBrowser1.LoadUrl("https://open.spotify.com/");
+        }
+
+        private void radioButton7_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.radioButton7.Checked)
+                this.chromiumWebBrowser1.LoadUrl("https://twitter.com/login");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.chromiumWebBrowser1.Back();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.chromiumWebBrowser1.Forward();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.chromiumWebBrowser1.LoadUrl(this.chromiumWebBrowser1.Address);
+        }
+
+        private void radioButton8_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.radioButton8.Checked)
                 this.chromiumWebBrowser1.LoadUrl("https://www.wikipedia.org/");
-            }
+        }
+
+        private void radioButton10_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.radioButton10.Checked)
+                this.chromiumWebBrowser1.LoadUrl("https://www.pinterest.com/");
+        }
+
+        private void radioButton11_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.radioButton11.Checked)
+                this.chromiumWebBrowser1.LoadUrl("https://www.reddit.com/");
+        }
+
+        private void radioButton12_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.radioButton12.Checked)
+                this.chromiumWebBrowser1.LoadUrl("https://www.facebook.com/");
         }
     }
 }

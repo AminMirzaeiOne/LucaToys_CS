@@ -10,9 +10,14 @@ using System.Windows.Forms;
 
 namespace LucaToys.Submenus
 {
-    public partial class AccountingSubmenu : UserControl
+    public partial class Invoice : UserControl
     {
-        public AccountingSubmenu(Control parent)
+        public Invoice()
+        {
+            InitializeComponent();
+        }
+
+        public Invoice(Control parent)
         {
             InitializeComponent();
             xTool = new XDropDown.XToolStripDropDown(this);
@@ -32,10 +37,6 @@ namespace LucaToys.Submenus
             this.ShowSubmenu(this.ParentControl);
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            LucaToys.Forms.PurchaseMode purchaseMode = new Forms.PurchaseMode();
-            purchaseMode.Show();
-        }
+
     }
 }

@@ -15,6 +15,9 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -27,11 +30,8 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
-    <NuGetPackageImportStamp>
-    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -65,7 +65,9 @@
     <Reference Include="ResizeImage">
       <HintPath>C:\Users\Amin\Downloads\ResizeImage.dll</HintPath>
     </Reference>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.2\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Data.Linq" />
     <Reference Include="System.Xml.Linq" />
@@ -87,6 +89,18 @@
   <ItemGroup>
     <Compile Include="Controls\LTButton.cs">
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\LTClock.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\LTClock.Designer.cs">
+      <DependentUpon>LTClock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LTMiniCalender.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\LTMiniCalender.Designer.cs">
+      <DependentUpon>LTMiniCalender.cs</DependentUpon>
     </Compile>
     <Compile Include="Controls\LTCheckBox.cs">
       <SubType>Component</SubType>
@@ -206,11 +220,11 @@
     <Compile Include="Forms\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Notepad.cs">
+    <Compile Include="Forms\PhoneBook.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Notepad.Designer.cs">
-      <DependentUpon>Notepad.cs</DependentUpon>
+    <Compile Include="Forms\PhoneBook.Designer.cs">
+      <DependentUpon>PhoneBook.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Player.cs">
       <SubType>Form</SubType>
@@ -223,6 +237,12 @@
     </Compile>
     <Compile Include="Forms\Products.Designer.cs">
       <DependentUpon>Products.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PurchaseMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PurchaseMode.Designer.cs">
+      <DependentUpon>PurchaseMode.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Screenshot.cs">
       <SubType>Form</SubType>
@@ -241,6 +261,12 @@
     </Compile>
     <Compile Include="Forms\Translate.Designer.cs">
       <DependentUpon>Translate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Update.Designer.cs">
+      <DependentUpon>Update.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\UpdateCustomer.cs">
       <SubType>Form</SubType>
@@ -349,6 +375,12 @@
     <Compile Include="Pages\AddOther.Designer.cs">
       <DependentUpon>AddOther.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\AddPhone.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\AddPhone.Designer.cs">
+      <DependentUpon>AddPhone.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pages\AddSeller.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -360,6 +392,12 @@
     </Compile>
     <Compile Include="Pages\AddToy.Designer.cs">
       <DependentUpon>AddToy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\DeletePhone.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\DeletePhone.Designer.cs">
+      <DependentUpon>DeletePhone.cs</DependentUpon>
     </Compile>
     <Compile Include="Pages\DesignBarDrwing.cs">
       <SubType>UserControl</SubType>
@@ -415,6 +453,12 @@
     <Compile Include="Pages\FormatBarNotepad.Designer.cs">
       <DependentUpon>FormatBarNotepad.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\ListPhone.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\ListPhone.Designer.cs">
+      <DependentUpon>ListPhone.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pages\LoginPage.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -432,6 +476,12 @@
     </Compile>
     <Compile Include="Pages\ToolsBarDrwing.Designer.cs">
       <DependentUpon>ToolsBarDrwing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\UpdatePhone.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\UpdatePhone.Designer.cs">
+      <DependentUpon>UpdatePhone.cs</DependentUpon>
     </Compile>
     <Compile Include="Pages\VersionPage.cs">
       <SubType>UserControl</SubType>
@@ -482,17 +532,35 @@
     <Compile Include="Submenus\AccountingSubmenu.Designer.cs">
       <DependentUpon>AccountingSubmenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Submenus\Documents.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Submenus\Documents.Designer.cs">
+      <DependentUpon>Documents.cs</DependentUpon>
+    </Compile>
     <Compile Include="Submenus\ExportSubmenu.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Submenus\ExportSubmenu.Designer.cs">
       <DependentUpon>ExportSubmenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Submenus\FinanceSubmenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Submenus\FinanceSubmenu.Designer.cs">
+      <DependentUpon>FinanceSubmenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Submenus\HelpSubmenu.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Submenus\HelpSubmenu.Designer.cs">
       <DependentUpon>HelpSubmenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Submenus\Invoice.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Submenus\Invoice.Designer.cs">
+      <DependentUpon>Invoice.cs</DependentUpon>
     </Compile>
     <Compile Include="Submenus\ProductsSubmenu.cs">
       <SubType>UserControl</SubType>
@@ -602,6 +670,12 @@
     <Compile Include="Widgets\WhiteBoard.Designer.cs">
       <DependentUpon>WhiteBoard.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Controls\LTClock.resx">
+      <DependentUpon>LTClock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\LTMiniCalender.resx">
+      <DependentUpon>LTMiniCalender.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Controls\LTComboBox.resx">
       <DependentUpon>LTComboBox.cs</DependentUpon>
     </EmbeddedResource>
@@ -662,14 +736,17 @@
     <EmbeddedResource Include="Forms\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Notepad.resx">
-      <DependentUpon>Notepad.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\PhoneBook.resx">
+      <DependentUpon>PhoneBook.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Player.resx">
       <DependentUpon>Player.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Products.resx">
       <DependentUpon>Products.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PurchaseMode.resx">
+      <DependentUpon>PurchaseMode.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Screenshot.resx">
       <DependentUpon>Screenshot.cs</DependentUpon>
@@ -682,6 +759,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Translate.resx">
       <DependentUpon>Translate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Update.resx">
+      <DependentUpon>Update.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\UpdateCustomer.resx">
       <DependentUpon>UpdateCustomer.cs</DependentUpon>
@@ -740,11 +820,17 @@
     <EmbeddedResource Include="Pages\AddOther.resx">
       <DependentUpon>AddOther.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pages\AddPhone.resx">
+      <DependentUpon>AddPhone.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Pages\AddSeller.resx">
       <DependentUpon>AddSeller.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\AddToy.resx">
       <DependentUpon>AddToy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\DeletePhone.resx">
+      <DependentUpon>DeletePhone.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\DesignBarDrwing.resx">
       <DependentUpon>DesignBarDrwing.cs</DependentUpon>
@@ -782,6 +868,9 @@
     <EmbeddedResource Include="Pages\FormatBarNotepad.resx">
       <DependentUpon>FormatBarNotepad.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pages\ListPhone.resx">
+      <DependentUpon>ListPhone.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Pages\LoginPage.fa.resx">
       <DependentUpon>LoginPage.cs</DependentUpon>
     </EmbeddedResource>
@@ -790,6 +879,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\ToolsBarDrwing.resx">
       <DependentUpon>ToolsBarDrwing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\UpdatePhone.resx">
+      <DependentUpon>UpdatePhone.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\VersionPage.fa.resx">
       <DependentUpon>VersionPage.cs</DependentUpon>
@@ -829,11 +921,20 @@
     <EmbeddedResource Include="Submenus\AccountingSubmenu.resx">
       <DependentUpon>AccountingSubmenu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Submenus\Documents.resx">
+      <DependentUpon>Documents.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Submenus\ExportSubmenu.resx">
       <DependentUpon>ExportSubmenu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Submenus\FinanceSubmenu.resx">
+      <DependentUpon>FinanceSubmenu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Submenus\HelpSubmenu.resx">
       <DependentUpon>HelpSubmenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Submenus\Invoice.resx">
+      <DependentUpon>Invoice.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Submenus\ProductsSubmenu.resx">
       <DependentUpon>ProductsSubmenu.cs</DependentUpon>
@@ -1219,6 +1320,34 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>LucaToysData.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\icons8-facebook-48 %281%29.png" />
+    <None Include="Resources\icons8-reddit-48.png" />
+    <None Include="Resources\icons8-pinterest-48 %281%29.png" />
+    <None Include="Resources\g3.png" />
+    <None Include="Resources\g2.png" />
+    <None Include="Resources\icons8-bank-cards-48.png" />
+    <None Include="Resources\icons8-pos-terminal-48.png" />
+    <None Include="Resources\icons8-performance-48.png" />
+    <None Include="Resources\icons8-ledger-48.png" />
+    <None Include="Resources\icons8-initiate-money-transfer-48.png" />
+    <None Include="Resources\icons8-cash-48.png" />
+    <None Include="Resources\icons8-money-48.png" />
+    <None Include="Resources\icons8-money-48 %281%29.png" />
+    <None Include="Resources\icons8-card-verification-value-48.png" />
+    <None Include="Resources\icons8-invoice-48 %281%29.png" />
+    <None Include="Resources\icons8-transaction-48.png" />
+    <None Include="Resources\icons8-return-purchase-48.png" />
+    <None Include="Resources\icons8-profit-48.png" />
+    <None Include="Resources\icons8-data-quality-48.png" />
+    <None Include="Resources\icons8-online-money-transfer-48.png" />
+    <None Include="Resources\icons8-online-payment-with-a-credit-card-48.png" />
+    <None Include="Resources\icons8-documents-48.png" />
+    <None Include="Resources\icons8-receipt-48.png" />
+    <None Include="Resources\icons8-invoice-48.png" />
+    <None Include="Resources\icons8-phone-48.png" />
+    <None Include="Resources\icons8-windows-update-48.png" />
+    <None Include="Resources\icons8-version-48 %281%291.png" />
+    <None Include="Resources\icons8-version-481.png" />
     <None Include="Resources\icons8-phone-book-48.png" />
     <None Include="Resources\icons8-barcode-reader-48.png" />
     <None Include="Resources\icons8-qr-code-48.png" />
