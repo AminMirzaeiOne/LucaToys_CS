@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace LucaToys.Controls
 {
-    public partial class LTCalender : UserControl
+    public partial class LTMiniCalender : UserControl
     {
-        public LTCalender()
+        public LTMiniCalender()
         {
             InitializeComponent();
         }
