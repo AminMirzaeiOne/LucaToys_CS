@@ -60,6 +60,7 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Controls.Add(this.ltClock1);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label3);
@@ -125,10 +126,10 @@
             // ltClock1
             // 
             this.ltClock1.BackColor = System.Drawing.Color.White;
-            this.ltClock1.Location = new System.Drawing.Point(429, 131);
+            this.ltClock1.Location = new System.Drawing.Point(47, 287);
             this.ltClock1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.ltClock1.Name = "ltClock1";
-            this.ltClock1.Size = new System.Drawing.Size(300, 308);
+            this.ltClock1.Size = new System.Drawing.Size(200, 200);
             this.ltClock1.TabIndex = 11;
             // 
             // Workspace
@@ -136,7 +137,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.White;
-            this.Controls.Add(this.ltClock1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label4);

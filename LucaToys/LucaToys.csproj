@@ -90,6 +90,12 @@
     <Compile Include="Controls\LTButton.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Controls\LTCalender.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\LTCalender.Designer.cs">
+      <DependentUpon>LTCalender.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controls\LTCheckBox.cs">
       <SubType>Component</SubType>
     </Compile>
