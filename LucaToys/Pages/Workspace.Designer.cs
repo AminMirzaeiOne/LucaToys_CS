@@ -78,6 +78,14 @@
             this.button13 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
             this.button15 = new System.Windows.Forms.Button();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.button16 = new System.Windows.Forms.Button();
+            this.button17 = new System.Windows.Forms.Button();
+            this.button18 = new System.Windows.Forms.Button();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.button19 = new System.Windows.Forms.Button();
+            this.button20 = new System.Windows.Forms.Button();
+            this.button21 = new System.Windows.Forms.Button();
             this.ltTextBox1 = new LucaToys.Controls.LTTextBox();
             this.ltMiniCalender1 = new LucaToys.Controls.LTMiniCalender();
             this.ltClock1 = new LucaToys.Controls.LTClock();
@@ -92,6 +100,8 @@
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
+            this.groupBox5.SuspendLayout();
+            this.groupBox6.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -169,8 +179,11 @@
             // 
             // panel2
             // 
+            this.panel2.AutoScroll = true;
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.panel2.Controls.Add(this.groupBox6);
             this.panel2.Controls.Add(this.groupBox4);
+            this.panel2.Controls.Add(this.groupBox5);
             this.panel2.Controls.Add(this.groupBox2);
             this.panel2.Controls.Add(this.groupBox3);
             this.panel2.Controls.Add(this.groupBox1);
@@ -579,7 +592,7 @@
             this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel6.Location = new System.Drawing.Point(0, 0);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(528, 40);
+            this.panel6.Size = new System.Drawing.Size(1071, 40);
             this.panel6.TabIndex = 0;
             // 
             // label8
@@ -588,7 +601,7 @@
             this.label8.Dock = System.Windows.Forms.DockStyle.Top;
             this.label8.Location = new System.Drawing.Point(0, 40);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(528, 3);
+            this.label8.Size = new System.Drawing.Size(1071, 3);
             this.label8.TabIndex = 12;
             // 
             // label9
@@ -624,7 +637,7 @@
             this.groupBox1.Controls.Add(this.button4);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.Plum;
-            this.groupBox1.Location = new System.Drawing.Point(17, 65);
+            this.groupBox1.Location = new System.Drawing.Point(17, 318);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(514, 180);
             this.groupBox1.TabIndex = 13;
@@ -698,7 +711,7 @@
             this.groupBox2.Controls.Add(this.button9);
             this.groupBox2.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.Plum;
-            this.groupBox2.Location = new System.Drawing.Point(557, 65);
+            this.groupBox2.Location = new System.Drawing.Point(557, 318);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(514, 180);
             this.groupBox2.TabIndex = 13;
@@ -772,7 +785,7 @@
             this.groupBox3.Controls.Add(this.button12);
             this.groupBox3.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.ForeColor = System.Drawing.Color.Plum;
-            this.groupBox3.Location = new System.Drawing.Point(17, 280);
+            this.groupBox3.Location = new System.Drawing.Point(17, 533);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(514, 180);
             this.groupBox3.TabIndex = 13;
@@ -846,7 +859,7 @@
             this.groupBox4.Controls.Add(this.button15);
             this.groupBox4.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox4.ForeColor = System.Drawing.Color.Plum;
-            this.groupBox4.Location = new System.Drawing.Point(557, 280);
+            this.groupBox4.Location = new System.Drawing.Point(557, 533);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(514, 180);
             this.groupBox4.TabIndex = 13;
@@ -863,13 +876,13 @@
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button13.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
             this.button13.ForeColor = System.Drawing.Color.White;
-            this.button13.Image = global::LucaToys.Properties.Resources.Asset_2;
+            this.button13.Image = global::LucaToys.Properties.Resources.image3_8;
             this.button13.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.button13.Location = new System.Drawing.Point(183, 52);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(150, 100);
             this.button13.TabIndex = 6;
-            this.button13.Text = " Delete Seller";
+            this.button13.Text = " Delete Toy";
             this.button13.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button13.UseVisualStyleBackColor = false;
             // 
@@ -883,13 +896,13 @@
             this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button14.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
             this.button14.ForeColor = System.Drawing.Color.White;
-            this.button14.Image = global::LucaToys.Properties.Resources.icons8_female_user_update_48;
+            this.button14.Image = global::LucaToys.Properties.Resources.image4_4;
             this.button14.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.button14.Location = new System.Drawing.Point(349, 52);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(150, 100);
             this.button14.TabIndex = 5;
-            this.button14.Text = " Update Seller";
+            this.button14.Text = " Update Toy";
             this.button14.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button14.UseVisualStyleBackColor = false;
             // 
@@ -903,15 +916,163 @@
             this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button15.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
             this.button15.ForeColor = System.Drawing.Color.White;
-            this.button15.Image = global::LucaToys.Properties.Resources.icons8_add_user_group_woman_man_skin_type_7_50;
+            this.button15.Image = global::LucaToys.Properties.Resources.g7;
             this.button15.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.button15.Location = new System.Drawing.Point(16, 52);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(150, 100);
             this.button15.TabIndex = 5;
-            this.button15.Text = " Add Seller";
+            this.button15.Text = " Add Toy";
             this.button15.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button15.UseVisualStyleBackColor = false;
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.button16);
+            this.groupBox5.Controls.Add(this.button17);
+            this.groupBox5.Controls.Add(this.button18);
+            this.groupBox5.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox5.ForeColor = System.Drawing.Color.Plum;
+            this.groupBox5.Location = new System.Drawing.Point(17, 754);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(514, 180);
+            this.groupBox5.TabIndex = 13;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "Accounting";
+            // 
+            // button16
+            // 
+            this.button16.BackColor = System.Drawing.Color.Transparent;
+            this.button16.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.button16.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
+            this.button16.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Orchid;
+            this.button16.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
+            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button16.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.button16.ForeColor = System.Drawing.Color.White;
+            this.button16.Image = global::LucaToys.Properties.Resources.g5;
+            this.button16.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button16.Location = new System.Drawing.Point(183, 52);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(150, 100);
+            this.button16.TabIndex = 6;
+            this.button16.Text = " Delete Doll";
+            this.button16.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.button16.UseVisualStyleBackColor = false;
+            // 
+            // button17
+            // 
+            this.button17.BackColor = System.Drawing.Color.Transparent;
+            this.button17.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.button17.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
+            this.button17.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Orchid;
+            this.button17.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
+            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button17.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.button17.ForeColor = System.Drawing.Color.White;
+            this.button17.Image = global::LucaToys.Properties.Resources.g6;
+            this.button17.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button17.Location = new System.Drawing.Point(349, 52);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(150, 100);
+            this.button17.TabIndex = 5;
+            this.button17.Text = " Update Doll";
+            this.button17.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.button17.UseVisualStyleBackColor = false;
+            // 
+            // button18
+            // 
+            this.button18.BackColor = System.Drawing.Color.Transparent;
+            this.button18.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.button18.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
+            this.button18.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Orchid;
+            this.button18.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
+            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button18.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.button18.ForeColor = System.Drawing.Color.White;
+            this.button18.Image = global::LucaToys.Properties.Resources.g4;
+            this.button18.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button18.Location = new System.Drawing.Point(16, 52);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(150, 100);
+            this.button18.TabIndex = 5;
+            this.button18.Text = " Add Doll";
+            this.button18.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.button18.UseVisualStyleBackColor = false;
+            // 
+            // groupBox6
+            // 
+            this.groupBox6.Controls.Add(this.button19);
+            this.groupBox6.Controls.Add(this.button20);
+            this.groupBox6.Controls.Add(this.button21);
+            this.groupBox6.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox6.ForeColor = System.Drawing.Color.Plum;
+            this.groupBox6.Location = new System.Drawing.Point(557, 754);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(514, 180);
+            this.groupBox6.TabIndex = 13;
+            this.groupBox6.TabStop = false;
+            this.groupBox6.Text = "Toys";
+            // 
+            // button19
+            // 
+            this.button19.BackColor = System.Drawing.Color.Transparent;
+            this.button19.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.button19.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
+            this.button19.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Orchid;
+            this.button19.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
+            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button19.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.button19.ForeColor = System.Drawing.Color.White;
+            this.button19.Image = global::LucaToys.Properties.Resources.image3_8;
+            this.button19.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button19.Location = new System.Drawing.Point(183, 52);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(150, 100);
+            this.button19.TabIndex = 6;
+            this.button19.Text = " Delete Toy";
+            this.button19.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.button19.UseVisualStyleBackColor = false;
+            // 
+            // button20
+            // 
+            this.button20.BackColor = System.Drawing.Color.Transparent;
+            this.button20.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.button20.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
+            this.button20.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Orchid;
+            this.button20.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
+            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button20.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.button20.ForeColor = System.Drawing.Color.White;
+            this.button20.Image = global::LucaToys.Properties.Resources.image4_4;
+            this.button20.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button20.Location = new System.Drawing.Point(349, 52);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(150, 100);
+            this.button20.TabIndex = 5;
+            this.button20.Text = " Update Toy";
+            this.button20.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.button20.UseVisualStyleBackColor = false;
+            // 
+            // button21
+            // 
+            this.button21.BackColor = System.Drawing.Color.Transparent;
+            this.button21.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.button21.FlatAppearance.BorderColor = System.Drawing.Color.Violet;
+            this.button21.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Orchid;
+            this.button21.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Violet;
+            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button21.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.button21.ForeColor = System.Drawing.Color.White;
+            this.button21.Image = global::LucaToys.Properties.Resources.g7;
+            this.button21.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button21.Location = new System.Drawing.Point(16, 52);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(150, 100);
+            this.button21.TabIndex = 5;
+            this.button21.Text = " Add Toy";
+            this.button21.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.button21.UseVisualStyleBackColor = false;
             // 
             // ltTextBox1
             // 
@@ -976,6 +1137,8 @@
             this.groupBox2.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox6.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1033,5 +1196,13 @@
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.GroupBox groupBox6;
+        private System.Windows.Forms.Button button19;
+        private System.Windows.Forms.Button button20;
+        private System.Windows.Forms.Button button21;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button button17;
+        private System.Windows.Forms.Button button18;
     }
 }
