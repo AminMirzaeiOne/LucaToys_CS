@@ -87,6 +87,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Components\ThemeManager.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Components\ThemeManager.Designer.cs">
+      <DependentUpon>ThemeManager.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controls\LTButton.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -1012,9 +1018,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Components\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\LucaLogo.png" />
   </ItemGroup>
