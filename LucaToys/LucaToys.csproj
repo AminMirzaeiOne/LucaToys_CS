@@ -1320,6 +1320,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>LucaToysData.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\icons8-facebook-48 %281%29.png" />
+    <None Include="Resources\icons8-reddit-48.png" />
+    <None Include="Resources\icons8-pinterest-48 %281%29.png" />
     <None Include="Resources\g3.png" />
     <None Include="Resources\g2.png" />
     <None Include="Resources\icons8-bank-cards-48.png" />
