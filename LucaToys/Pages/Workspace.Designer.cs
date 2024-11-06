@@ -1196,7 +1196,7 @@
             this.ltMiniCalender1.BackColor = System.Drawing.Color.White;
             this.ltMiniCalender1.Location = new System.Drawing.Point(24, 500);
             this.ltMiniCalender1.Name = "ltMiniCalender1";
-            this.ltMiniCalender1.Size = new System.Drawing.Size(260, 340);
+            this.ltMiniCalender1.Size = new System.Drawing.Size(260, 338);
             this.ltMiniCalender1.TabIndex = 11;
             // 
             // ltClock1
